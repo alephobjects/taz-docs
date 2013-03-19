@@ -1,0 +1,1372 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.9.18)  20 NOV 2012 09:29
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Manual-thumbs.tex
+(./Manual-thumbs.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/minimal.cls
+Document Class: minimal 2001/05/25 Standard LaTeX minimal class
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count79
+\Gm@cntv=\count80
+\c@Gm@tempcnt=\count81
+\Gm@bindingoffset=\dimen102
+\Gm@wd@mp=\dimen103
+\Gm@odd@mp=\dimen104
+\Gm@even@mp=\dimen105
+\Gm@layoutwidth=\dimen106
+\Gm@layoutheight=\dimen107
+\Gm@layouthoffset=\dimen108
+\Gm@layoutvoffset=\dimen109
+\Gm@dimlist=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2012/04/03 v0.4s Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count82
+\calc@Bcount=\count83
+\calc@Adimen=\dimen110
+\calc@Bdimen=\dimen111
+\calc@Askip=\skip41
+\calc@Bskip=\skip42
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count84
+\calc@Cskip=\skip43
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count85
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2012/04/03 v0.4s Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box26
+\AM@toc@title=\toks16
+\c@AM@survey=\count86
+\AM@templatesizebox=\box27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/thumbpdf/thumbpdf.sty
+Package: thumbpdf 2012/04/18 v3.15 Inclusion of thumbnails (HO)
+
+
+Package thumbpdf Warning: Compressed PDF objects of PDF 1.5 are not supported.
+
+
+Package thumbpdf Warning: Thumbnail data file `Manual-thumbs.tpt' not found.
+
+) (./Manual-thumbs.aux)
+\openout1 = `Manual-thumbs.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(78.0524pt, 455.29901pt, 117.0786pt)
+* v-part:(T,H,B)=(104.06982pt, 607.06525pt, 156.1048pt)
+* \paperwidth=650.43001pt
+* \paperheight=867.23987pt
+* \textwidth=455.29901pt
+* \textheight=607.06525pt
+* \oddsidemargin=5.78241pt
+* \evensidemargin=44.80861pt
+* \topmargin=31.79984pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=10.0pt
+* \footskip=0.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=0.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 4.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box28
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count87
+\scratchdimen=\dimen114
+\scratchbox=\box29
+\nofMPsegments=\count88
+\nofMParguments=\count89
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count90
+\MPscratchDim=\dimen115
+\MPnumerator=\count91
+\makeMPintoPDFobject=\count92
+\everyMPtoPDFconversion=\toks18
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+<Manual.pdf, id=4, page=1, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 1>
+Package pdftex.def Info: Manual.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 537.75572pt x 699.36711pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 1>
+Package pdftex.def Info: Manual.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 1>
+Package pdftex.def Info: Manual.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 1>
+Package pdftex.def Info: Manual.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 1>
+Package pdftex.def Info: Manual.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 1>
+Package pdftex.def Info: Manual.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=5, page=2, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 2>
+Package pdftex.def Info: Manual.pdf, page2 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 2>
+Package pdftex.def Info: Manual.pdf, page2 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+ <Manual.pdf, id=6, page=3, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 3>
+Package pdftex.def Info: Manual.pdf, page3 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 3>
+Package pdftex.def Info: Manual.pdf, page3 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=7, page=4, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 4>
+Package pdftex.def Info: Manual.pdf, page4 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 4>
+Package pdftex.def Info: Manual.pdf, page4 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+ <Manual.pdf, id=8, page=5, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 5>
+Package pdftex.def Info: Manual.pdf, page5 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 5>
+Package pdftex.def Info: Manual.pdf, page5 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=9, page=6, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 6>
+Package pdftex.def Info: Manual.pdf, page6 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 6>
+Package pdftex.def Info: Manual.pdf, page6 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=10, page=7, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 7>
+Package pdftex.def Info: Manual.pdf, page7 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 7>
+Package pdftex.def Info: Manual.pdf, page7 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 1>
+Package pdftex.def Info: Manual.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 2>
+Package pdftex.def Info: Manual.pdf, page2 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 3>
+Package pdftex.def Info: Manual.pdf, page3 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 4>
+Package pdftex.def Info: Manual.pdf, page4 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 5>
+Package pdftex.def Info: Manual.pdf, page5 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 6>
+Package pdftex.def Info: Manual.pdf, page6 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 7>
+Package pdftex.def Info: Manual.pdf, page7 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+[1 <./Manual.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}> <./Manual.
+pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf>
+] <Manual.pdf, id=81, page=8, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 8>
+Package pdftex.def Info: Manual.pdf, page8 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 8>
+Package pdftex.def Info: Manual.pdf, page8 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=82, page=9, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 9>
+Package pdftex.def Info: Manual.pdf, page9 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 9>
+Package pdftex.def Info: Manual.pdf, page9 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=83, page=10, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 10>
+Package pdftex.def Info: Manual.pdf, page10 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 10>
+Package pdftex.def Info: Manual.pdf, page10 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=84, page=11, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 11>
+Package pdftex.def Info: Manual.pdf, page11 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 11>
+Package pdftex.def Info: Manual.pdf, page11 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=85, page=12, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 12>
+Package pdftex.def Info: Manual.pdf, page12 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 12>
+Package pdftex.def Info: Manual.pdf, page12 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=86, page=13, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 13>
+Package pdftex.def Info: Manual.pdf, page13 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 13>
+Package pdftex.def Info: Manual.pdf, page13 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=87, page=14, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 14>
+Package pdftex.def Info: Manual.pdf, page14 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 14>
+Package pdftex.def Info: Manual.pdf, page14 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=88, page=15, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 15>
+Package pdftex.def Info: Manual.pdf, page15 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 15>
+Package pdftex.def Info: Manual.pdf, page15 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 8>
+Package pdftex.def Info: Manual.pdf, page8 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 9>
+Package pdftex.def Info: Manual.pdf, page9 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 10>
+Package pdftex.def Info: Manual.pdf, page10 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 11>
+Package pdftex.def Info: Manual.pdf, page11 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 12>
+Package pdftex.def Info: Manual.pdf, page12 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 13>
+Package pdftex.def Info: Manual.pdf, page13 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 14>
+Package pdftex.def Info: Manual.pdf, page14 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 15>
+Package pdftex.def Info: Manual.pdf, page15 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+ [2 <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> 
+<./Manual.pdf> <./Manual.pdf> <./Manual.pdf>]
+<Manual.pdf, id=95, page=16, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 16>
+Package pdftex.def Info: Manual.pdf, page16 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 16>
+Package pdftex.def Info: Manual.pdf, page16 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=96, page=17, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 17>
+Package pdftex.def Info: Manual.pdf, page17 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 17>
+Package pdftex.def Info: Manual.pdf, page17 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=97, page=18, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 18>
+Package pdftex.def Info: Manual.pdf, page18 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 18>
+Package pdftex.def Info: Manual.pdf, page18 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=98, page=19, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 19>
+Package pdftex.def Info: Manual.pdf, page19 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 19>
+Package pdftex.def Info: Manual.pdf, page19 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=99, page=20, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 20>
+Package pdftex.def Info: Manual.pdf, page20 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 20>
+Package pdftex.def Info: Manual.pdf, page20 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=100, page=21, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 21>
+Package pdftex.def Info: Manual.pdf, page21 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 21>
+Package pdftex.def Info: Manual.pdf, page21 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=101, page=22, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 22>
+Package pdftex.def Info: Manual.pdf, page22 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 22>
+Package pdftex.def Info: Manual.pdf, page22 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=102, page=23, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 23>
+Package pdftex.def Info: Manual.pdf, page23 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 23>
+Package pdftex.def Info: Manual.pdf, page23 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 16>
+Package pdftex.def Info: Manual.pdf, page16 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 17>
+Package pdftex.def Info: Manual.pdf, page17 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 18>
+Package pdftex.def Info: Manual.pdf, page18 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 19>
+Package pdftex.def Info: Manual.pdf, page19 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 20>
+Package pdftex.def Info: Manual.pdf, page20 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 21>
+Package pdftex.def Info: Manual.pdf, page21 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 22>
+Package pdftex.def Info: Manual.pdf, page22 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 23>
+Package pdftex.def Info: Manual.pdf, page23 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+ [3 <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> 
+<./Manual.pdf> <./Manual.pdf> <./Manual.pdf>]
+<Manual.pdf, id=118, page=24, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 24>
+Package pdftex.def Info: Manual.pdf, page24 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 24>
+Package pdftex.def Info: Manual.pdf, page24 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=119, page=25, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 25>
+Package pdftex.def Info: Manual.pdf, page25 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 25>
+Package pdftex.def Info: Manual.pdf, page25 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=120, page=26, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 26>
+Package pdftex.def Info: Manual.pdf, page26 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 26>
+Package pdftex.def Info: Manual.pdf, page26 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=121, page=27, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 27>
+Package pdftex.def Info: Manual.pdf, page27 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 27>
+Package pdftex.def Info: Manual.pdf, page27 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=122, page=28, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 28>
+Package pdftex.def Info: Manual.pdf, page28 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 28>
+Package pdftex.def Info: Manual.pdf, page28 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=123, page=29, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 29>
+Package pdftex.def Info: Manual.pdf, page29 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 29>
+Package pdftex.def Info: Manual.pdf, page29 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=124, page=30, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 30>
+Package pdftex.def Info: Manual.pdf, page30 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 30>
+Package pdftex.def Info: Manual.pdf, page30 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=125, page=31, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 31>
+Package pdftex.def Info: Manual.pdf, page31 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 31>
+Package pdftex.def Info: Manual.pdf, page31 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 24>
+Package pdftex.def Info: Manual.pdf, page24 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 25>
+Package pdftex.def Info: Manual.pdf, page25 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 26>
+Package pdftex.def Info: Manual.pdf, page26 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 27>
+Package pdftex.def Info: Manual.pdf, page27 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 28>
+Package pdftex.def Info: Manual.pdf, page28 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 29>
+Package pdftex.def Info: Manual.pdf, page29 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 30>
+Package pdftex.def Info: Manual.pdf, page30 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 31>
+Package pdftex.def Info: Manual.pdf, page31 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+ [4 <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> 
+<./Manual.pdf> <./Manual.pdf> <./Manual.pdf>]
+<Manual.pdf, id=140, page=32, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 32>
+Package pdftex.def Info: Manual.pdf, page32 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 32>
+Package pdftex.def Info: Manual.pdf, page32 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=141, page=33, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 33>
+Package pdftex.def Info: Manual.pdf, page33 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 33>
+Package pdftex.def Info: Manual.pdf, page33 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=142, page=34, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 34>
+Package pdftex.def Info: Manual.pdf, page34 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 34>
+Package pdftex.def Info: Manual.pdf, page34 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=143, page=35, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 35>
+Package pdftex.def Info: Manual.pdf, page35 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 35>
+Package pdftex.def Info: Manual.pdf, page35 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=144, page=36, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 36>
+Package pdftex.def Info: Manual.pdf, page36 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 36>
+Package pdftex.def Info: Manual.pdf, page36 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=145, page=37, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 37>
+Package pdftex.def Info: Manual.pdf, page37 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 37>
+Package pdftex.def Info: Manual.pdf, page37 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=146, page=38, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 38>
+Package pdftex.def Info: Manual.pdf, page38 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 38>
+Package pdftex.def Info: Manual.pdf, page38 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=147, page=39, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 39>
+Package pdftex.def Info: Manual.pdf, page39 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 39>
+Package pdftex.def Info: Manual.pdf, page39 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 32>
+Package pdftex.def Info: Manual.pdf, page32 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 33>
+Package pdftex.def Info: Manual.pdf, page33 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 34>
+Package pdftex.def Info: Manual.pdf, page34 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 35>
+Package pdftex.def Info: Manual.pdf, page35 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 36>
+Package pdftex.def Info: Manual.pdf, page36 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 37>
+Package pdftex.def Info: Manual.pdf, page37 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 38>
+Package pdftex.def Info: Manual.pdf, page38 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 39>
+Package pdftex.def Info: Manual.pdf, page39 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+ [5 <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> 
+<./Manual.pdf> <./Manual.pdf> <./Manual.pdf>]
+<Manual.pdf, id=160, page=40, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 40>
+Package pdftex.def Info: Manual.pdf, page40 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 40>
+Package pdftex.def Info: Manual.pdf, page40 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=161, page=41, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 41>
+Package pdftex.def Info: Manual.pdf, page41 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 41>
+Package pdftex.def Info: Manual.pdf, page41 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=162, page=42, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 42>
+Package pdftex.def Info: Manual.pdf, page42 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 42>
+Package pdftex.def Info: Manual.pdf, page42 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=163, page=43, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 43>
+Package pdftex.def Info: Manual.pdf, page43 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 43>
+Package pdftex.def Info: Manual.pdf, page43 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=164, page=44, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 44>
+Package pdftex.def Info: Manual.pdf, page44 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 44>
+Package pdftex.def Info: Manual.pdf, page44 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=165, page=45, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 45>
+Package pdftex.def Info: Manual.pdf, page45 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 45>
+Package pdftex.def Info: Manual.pdf, page45 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=166, page=46, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 46>
+Package pdftex.def Info: Manual.pdf, page46 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 46>
+Package pdftex.def Info: Manual.pdf, page46 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=167, page=47, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 47>
+Package pdftex.def Info: Manual.pdf, page47 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 47>
+Package pdftex.def Info: Manual.pdf, page47 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 40>
+Package pdftex.def Info: Manual.pdf, page40 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 41>
+Package pdftex.def Info: Manual.pdf, page41 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 42>
+Package pdftex.def Info: Manual.pdf, page42 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 43>
+Package pdftex.def Info: Manual.pdf, page43 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 44>
+Package pdftex.def Info: Manual.pdf, page44 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 45>
+Package pdftex.def Info: Manual.pdf, page45 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 46>
+Package pdftex.def Info: Manual.pdf, page46 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 47>
+Package pdftex.def Info: Manual.pdf, page47 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+ [6 <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> 
+<./Manual.pdf> <./Manual.pdf> <./Manual.pdf>]
+<Manual.pdf, id=174, page=48, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 48>
+Package pdftex.def Info: Manual.pdf, page48 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 48>
+Package pdftex.def Info: Manual.pdf, page48 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=175, page=49, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 49>
+Package pdftex.def Info: Manual.pdf, page49 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 49>
+Package pdftex.def Info: Manual.pdf, page49 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=176, page=50, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 50>
+Package pdftex.def Info: Manual.pdf, page50 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 50>
+Package pdftex.def Info: Manual.pdf, page50 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=177, page=51, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 51>
+Package pdftex.def Info: Manual.pdf, page51 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 51>
+Package pdftex.def Info: Manual.pdf, page51 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=178, page=52, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 52>
+Package pdftex.def Info: Manual.pdf, page52 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 52>
+Package pdftex.def Info: Manual.pdf, page52 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=179, page=53, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 53>
+Package pdftex.def Info: Manual.pdf, page53 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 53>
+Package pdftex.def Info: Manual.pdf, page53 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=180, page=54, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 54>
+Package pdftex.def Info: Manual.pdf, page54 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 54>
+Package pdftex.def Info: Manual.pdf, page54 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=181, page=55, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 55>
+Package pdftex.def Info: Manual.pdf, page55 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 55>
+Package pdftex.def Info: Manual.pdf, page55 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 48>
+Package pdftex.def Info: Manual.pdf, page48 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 49>
+Package pdftex.def Info: Manual.pdf, page49 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 50>
+Package pdftex.def Info: Manual.pdf, page50 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 51>
+Package pdftex.def Info: Manual.pdf, page51 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 52>
+Package pdftex.def Info: Manual.pdf, page52 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 53>
+Package pdftex.def Info: Manual.pdf, page53 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 54>
+Package pdftex.def Info: Manual.pdf, page54 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 55>
+Package pdftex.def Info: Manual.pdf, page55 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+ [7 <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> 
+<./Manual.pdf> <./Manual.pdf> <./Manual.pdf>]
+<Manual.pdf, id=196, page=56, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 56>
+Package pdftex.def Info: Manual.pdf, page56 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 56>
+Package pdftex.def Info: Manual.pdf, page56 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=197, page=57, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 57>
+Package pdftex.def Info: Manual.pdf, page57 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 57>
+Package pdftex.def Info: Manual.pdf, page57 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=198, page=58, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 58>
+Package pdftex.def Info: Manual.pdf, page58 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 58>
+Package pdftex.def Info: Manual.pdf, page58 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=199, page=59, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 59>
+Package pdftex.def Info: Manual.pdf, page59 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 59>
+Package pdftex.def Info: Manual.pdf, page59 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=200, page=60, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 60>
+Package pdftex.def Info: Manual.pdf, page60 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 60>
+Package pdftex.def Info: Manual.pdf, page60 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=201, page=61, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 61>
+Package pdftex.def Info: Manual.pdf, page61 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 61>
+Package pdftex.def Info: Manual.pdf, page61 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=202, page=62, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 62>
+Package pdftex.def Info: Manual.pdf, page62 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 62>
+Package pdftex.def Info: Manual.pdf, page62 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=203, page=63, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 63>
+Package pdftex.def Info: Manual.pdf, page63 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 63>
+Package pdftex.def Info: Manual.pdf, page63 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 56>
+Package pdftex.def Info: Manual.pdf, page56 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 57>
+Package pdftex.def Info: Manual.pdf, page57 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 58>
+Package pdftex.def Info: Manual.pdf, page58 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 59>
+Package pdftex.def Info: Manual.pdf, page59 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 60>
+Package pdftex.def Info: Manual.pdf, page60 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 61>
+Package pdftex.def Info: Manual.pdf, page61 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 62>
+Package pdftex.def Info: Manual.pdf, page62 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 63>
+Package pdftex.def Info: Manual.pdf, page63 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+ [8 <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> 
+<./Manual.pdf> <./Manual.pdf> <./Manual.pdf>]
+<Manual.pdf, id=207, page=64, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 64>
+Package pdftex.def Info: Manual.pdf, page64 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 64>
+Package pdftex.def Info: Manual.pdf, page64 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=208, page=65, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 65>
+Package pdftex.def Info: Manual.pdf, page65 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 65>
+Package pdftex.def Info: Manual.pdf, page65 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=209, page=66, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 66>
+Package pdftex.def Info: Manual.pdf, page66 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 66>
+Package pdftex.def Info: Manual.pdf, page66 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=210, page=67, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 67>
+Package pdftex.def Info: Manual.pdf, page67 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 67>
+Package pdftex.def Info: Manual.pdf, page67 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+
+<Manual.pdf, id=211, page=68, 537.75703pt x 699.36882pt>
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 68>
+Package pdftex.def Info: Manual.pdf, page68 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 68>
+Package pdftex.def Info: Manual.pdf, page68 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 1>
+Package pdftex.def Info: Manual.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 1>
+Package pdftex.def Info: Manual.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 1>
+Package pdftex.def Info: Manual.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 1>
+Package pdftex.def Info: Manual.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 1>
+Package pdftex.def Info: Manual.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 1>
+Package pdftex.def Info: Manual.pdf, page1 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 64>
+Package pdftex.def Info: Manual.pdf, page64 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 65>
+Package pdftex.def Info: Manual.pdf, page65 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 66>
+Package pdftex.def Info: Manual.pdf, page66 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+ <use Manual.pdf, page 67>
+Package pdftex.def Info: Manual.pdf, page67 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+File: Manual.pdf Graphic file (type pdf)
+
+<use Manual.pdf, page 68>
+Package pdftex.def Info: Manual.pdf, page68 used on input line 7.
+(pdftex.def)             Requested size: 216.80574pt x 281.96223pt.
+ [9 <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf> <./Manual.pdf>]
+ (./Manual-thumbs.aux) ) 
+Here is how much of TeX's memory you used:
+ 3242 strings out of 495059
+ 48623 string characters out of 3182030
+ 111963 words of memory out of 3000000
+ 6399 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 40i,18n,46p,252b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+tt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.p
+fb>
+Output written on Manual-thumbs.pdf (9 pages, 88016871 bytes).
+PDF statistics:
+ 235 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 356 words of extra memory for PDF output out of 10000 (max. 10000000)
+

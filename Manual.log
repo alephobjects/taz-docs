@@ -1,0 +1,1386 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.2.16)  19 MAR 2013 16:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Manual.tex
+(./Manual.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2011/03/06 v3.6j configurable book, report, article docu
+ment class
+\onelineskip=\skip41
+\lxvchars=\skip42
+\xlvchars=\skip43
+\@memcnta=\count79
+\c@@memmarkcntra=\count80
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Class memoir Info: An `ifetex' package is being emulated on input line 251.
+
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+\stockheight=\skip44
+\stockwidth=\skip45
+\trimtop=\skip46
+\trimedge=\skip47
+
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count81
+)
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/mem12.clo
+File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
+)
+\binding=\skip48
+\spinemargin=\skip49
+\foremargin=\skip50
+\uppermargin=\skip51
+\lowermargin=\skip52
+\headdrop=\skip53
+\normalrulethickness=\skip54
+\mem@maxheadheight=\skip55
+\mem@maxfootheight=\skip56
+\headwidth=\skip57
+\c@storedpagenumber=\count82
+\memPD=\dimen102
+\m@mabparskip=\skip58
+\thanksmarkwidth=\skip59
+\thanksmarksep=\skip60
+\droptitle=\skip61
+\c@book=\count83
+\c@part=\count84
+\c@chapter=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\beforechapskip=\skip62
+\midchapskip=\skip63
+\afterchapskip=\skip64
+\chapindent=\skip65
+\bottomsectionskip=\skip66
+\secindent=\skip67
+\beforesecskip=\skip68
+\aftersecskip=\skip69
+\subsecindent=\skip70
+\beforesubsecskip=\skip71
+\aftersubsecskip=\skip72
+\subsubsecindent=\skip73
+\beforesubsubsecskip=\skip74
+\aftersubsubsecskip=\skip75
+\paraindent=\skip76
+\beforeparaskip=\skip77
+\afterparaskip=\skip78
+\subparaindent=\skip79
+\beforesubparaskip=\skip80
+\aftersubparaskip=\skip81
+\pfbreakskip=\skip82
+\c@@ppsavesec=\count91
+\c@@ppsaveapp=\count92
+\ragrparindent=\dimen103
+\everylistparindent=\dimen104
+\parsepi=\skip83
+\topsepi=\skip84
+\itemsepi=\skip85
+\parsepii=\skip86
+\topsepii=\skip87
+\topsepiii=\skip88
+\itemsepii=\skip89
+\itemsepiii=\skip90
+\partopsepii=\skip91
+\partopsepiii=\skip92
+\m@msavetopsep=\skip93
+\m@msavepartopsep=\skip94
+\@enLab=\toks14
+\abstitleskip=\skip95
+\absleftindent=\skip96
+\abs@leftindent=\dimen105
+\absrightindent=\skip97
+\absparindent=\skip98
+\absparsep=\skip99
+\c@vslineno=\count93
+\c@poemline=\count94
+\c@modulo@vs=\count95
+\c@memfvsline=\count96
+\vleftskip=\skip100
+\vrightskip=\skip101
+\stanzaskip=\skip102
+\versewidth=\skip103
+\vgap=\skip104
+\vindent=\skip105
+\vleftmargin=\dimen106
+\c@verse=\count97
+\c@chrsinstr=\count98
+\beforepoemtitleskip=\skip106
+\afterpoemtitleskip=\skip107
+\c@poem=\count99
+\beforePoemTitleskip=\skip108
+\midPoemTitleskip=\skip109
+\afterPoemTitleskip=\skip110
+\col@sep=\dimen107
+\extrarowheight=\dimen108
+\NC@list=\toks15
+\extratabsurround=\skip111
+\backup@length=\skip112
+\TX@col@width=\dimen109
+\TX@old@table=\dimen110
+\TX@old@col=\dimen111
+\TX@target=\dimen112
+\TX@delta=\dimen113
+\TX@cols=\count100
+\TX@ftn=\toks16
+\heavyrulewidth=\dimen114
+\lightrulewidth=\dimen115
+\cmidrulewidth=\dimen116
+\belowrulesep=\dimen117
+\belowbottomsep=\dimen118
+\aboverulesep=\dimen119
+\abovetopsep=\dimen120
+\cmidrulesep=\dimen121
+\cmidrulekern=\dimen122
+\defaultaddspace=\dimen123
+\@cmidla=\count101
+\@cmidlb=\count102
+\@aboverulesep=\dimen124
+\@belowrulesep=\dimen125
+\@thisruleclass=\count103
+\@lastruleclass=\count104
+\@thisrulewidth=\dimen126
+\ctableftskip=\skip113
+\ctabrightskip=\skip114
+\abovecolumnspenalty=\count105
+\@linestogo=\count106
+\@cellstogo=\count107
+\@cellsincolumn=\count108
+\crtok=\toks17
+\@mincolumnwidth=\dimen127
+\c@newflo@tctr=\count109
+\mem@margin@floatbox=\box26
+\@contcwidth=\skip115
+\@contindw=\skip116
+\abovecaptionskip=\skip117
+\belowcaptionskip=\skip118
+\subfloattopskip=\skip119
+\subfloatcapskip=\skip120
+\subfloatcaptopadj=\skip121
+\subfloatbottomskip=\skip122
+\subfloatlabelskip=\skip123
+\subfloatcapmargin=\dimen128
+\c@@contsubnum=\count110
+\m@mscap@capbox=\box27
+\m@mscap@fbox=\box28
+\sidecapsep=\dimen129
+\sidecapwidth=\dimen130
+\m@m@tempdima=\dimen131
+\m@mscapraise=\dimen132
+\sidecapraise=\dimen133
+\m@mscapmainwidth=\dimen134
+\m@mscaplkern=\dimen135
+\beforeepigraphskip=\skip124
+\afterepigraphskip=\skip125
+\epigraphwidth=\skip126
+\epigraphrule=\skip127
+LaTeX Info: Redefining \em on input line 7377.
+LaTeX Info: Redefining \emph on input line 7385.
+\tocentryskip=\skip128
+\tocbaseline=\skip129
+\cftparskip=\skip130
+\cftbeforebookskip=\skip131
+\cftbookindent=\dimen136
+\cftbooknumwidth=\dimen137
+\cftbeforepartskip=\skip132
+\cftpartindent=\skip133
+\cftpartnumwidth=\skip134
+\cftbeforechapterskip=\skip135
+\cftchapterindent=\skip136
+\cftchapternumwidth=\skip137
+\cftbeforesectionskip=\skip138
+\cftsectionindent=\skip139
+\cftsectionnumwidth=\skip140
+\cftbeforesubsectionskip=\skip141
+\cftsubsectionindent=\skip142
+\cftsubsectionnumwidth=\skip143
+\cftbeforesubsubsectionskip=\skip144
+\cftsubsubsectionindent=\skip145
+\cftsubsubsectionnumwidth=\skip146
+\cftbeforeparagraphskip=\skip147
+\cftparagraphindent=\skip148
+\cftparagraphnumwidth=\skip149
+\cftbeforesubparagraphskip=\skip150
+\cftsubparagraphindent=\skip151
+\cftsubparagraphnumwidth=\skip152
+\prechapterprecisshift=\dimen138
+\c@maxsecnumdepth=\count111
+\bibindent=\dimen139
+\bibitemsep=\skip153
+\indexcolsep=\skip154
+\indexrule=\skip155
+\indexmarkstyle=\toks18
+\@indexbox=\insert233
+\glossarycolsep=\dimen140
+\glossaryrule=\dimen141
+\sideparvshift=\skip156
+\sideins=\insert232
+\sidebartopsep=\skip157
+\sidebarhsep=\skip158
+\sidebarvsep=\skip159
+\sidebarwidth=\skip160
+\footmarkwidth=\skip161
+\footmarksep=\skip162
+\footparindent=\skip163
+\footinsdim=\skip164
+\footinsv@r=\insert231
+\@mpfootinsv@r=\insert230
+\m@m@k=\count112
+\m@m@h=\dimen142
+\m@mipn@skip=\skip165
+\sidefootins=\insert229
+\sidefootadjust=\skip166
+\sidefootheight=\skip167
+\sidefoothsep=\skip168
+\sidefootvsep=\skip169
+\sidefootwidth=\skip170
+\m@mdownsf=\skip171
+\c@sidefootnote=\count113
+\sidefootmarkwidth=\skip172
+\sidefootmarksep=\skip173
+\sidefootparindent=\skip174
+\c@pagenote=\count114
+\c@pagenoteshadow=\count115
+\mem@pn@lastkern=\skip175
+\every@verbatim=\toks19
+\afterevery@verbatim=\toks20
+\verbatim@line=\toks21
+\tab@position=\count116
+\verbatim@in@stream=\read1
+\verbatimindent=\skip176
+\verbatim@out=\write3
+\bvboxsep=\skip177
+\c@memfbvline=\count117
+\c@bvlinectr=\count118
+\bvnumlength=\skip178
+\fb@frw=\dimen143
+\fb@frh=\dimen144
+\FrameRule=\dimen145
+\FrameSep=\dimen146
+\c@cp@cntr=\count119
+LaTeX Info: Redefining \: on input line 11807.
+LaTeX Info: Redefining \! on input line 11809.
+\c@ism@mctr=\count120
+\c@xsm@mctr=\count121
+\c@csm@mctr=\count122
+\c@ksm@mctr=\count123
+\c@xksm@mctr=\count124
+\c@cksm@mctr=\count125
+\c@msm@mctr=\count126
+\c@xmsm@mctr=\count127
+\c@cmsm@mctr=\count128
+\c@bsm@mctr=\count129
+\c@workm@mctr=\count130
+\c@sheetsequence=\count131
+\c@lastsheet=\count132
+\c@lastpage=\count133
+\c@figure=\count134
+\c@lofdepth=\count135
+\cftbeforefigureskip=\skip179
+\cftfigureindent=\skip180
+\cftfigurenumwidth=\skip181
+\c@table=\count136
+\c@lotdepth=\count137
+\cftbeforetableskip=\skip182
+\cfttableindent=\skip183
+\cfttablenumwidth=\skip184
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package array [2008/07/23] emulated by memoir.
+Package booktabs [2008/07/23] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package dcolumn [2008/07/23] emulated by memoir.
+Package delarray [2008/07/23] emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package ifetex [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package mparhack [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package tabularx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/mempatch.sty
+Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count138
+))
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+)
+\Manual@idxfile=\write4
+\openout4 = `Manual.idx'.
+
+
+Writing index file Manual.idx 
+\Manualmemglofile=\write5
+\openout5 = `Manual.glo'.
+
+Writing glossary file Manual.glo 
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks23
+\minrowclearance=\skip185
+)
+LaTeX Info: Redefining \color on input line 702.
+\rownum=\count139
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+(/usr/share/texmf/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
+))
+
+******************************************************
+Stock height and width: 699.36879pt by 537.75691pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 699.36879pt by 537.75691pt
+Text height and width: 540.60236pt by 381pt
+Spine and edge margins: 85.35803pt and 71.13188pt
+Upper and lower margins: 56.9055pt and 101.86093pt
+Headheight and headsep: 12pt and 19.8738pt
+Footskip: 56.9055pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 102pt
+Sidecapsep and sidecapwidth: 7pt and 102pt
+Sidebarhsep and sidebarwidth: 7pt and 102pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 546.64995pt
+Sidefoothsep and sidefootwidth: 7pt and 102pt
+Sidefootvsep and sidefootheight: 14.5pt and 546.64995pt
+******************************************************
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count140
+\U@D=\dimen149
+)
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2004/10/17 UCS: Unicode input support
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2012/04/20 UCS: Unicode global data
+)
+\uc@secondtry=\count141
+\uc@combtoks=\toks24
+\uc@combtoksb=\toks25
+\uc@temptokena=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2010/01/10 v2.4 Micro-typography with pdfTeX (RS)
+\MT@toks=\toks27
+\MT@count=\count142
+LaTeX Info: Redefining \lsstyle on input line 1597.
+LaTeX Info: Redefining \lslig on input line 1597.
+\MT@outer@space=\skip186
+LaTeX Info: Redefining \textls on input line 1605.
+\MT@outer@kern=\dimen150
+LaTeX Info: Redefining \textmicrotypecontext on input line 2156.
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2010/01/10 v2.4 microtype main configuration file (RS)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks28
+\inpenc@posthook=\toks29
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ledmac/ledmac.sty
+Package: ledmac 2012/04/04 v0.14 LaTeX port of EDMAC
+\@l@dtempcnta=\count143
+\@l@dtempcntb=\count144
+\section@num=\count145
+\l@dnumpstartsL=\count146
+\line@margin=\count147
+\c@firstlinenum=\count148
+\c@linenumincrement=\count149
+\c@firstsublinenum=\count150
+\c@sublinenumincrement=\count151
+\lock@disp=\count152
+\sublock@disp=\count153
+\linenumsep=\skip187
+\@toksa=\toks30
+\@toksb=\toks31
+\line@num=\count154
+\subline@num=\count155
+\absline@num=\count156
+\@lock=\count157
+\sub@lock=\count158
+\page@num=\count159
+\endpage@num=\count160
+\endline@num=\count161
+\endsubline@num=\count162
+\@inputcheck=\read2
+\last@page@num=\count163
+\insert@count=\count164
+\linenum@out=\write6
+\raw@text=\box29
+\num@lines=\count165
+\one@line=\box30
+\par@line=\count166
+\c@pstart=\count167
+\ballast@count=\count168
+\c@ballast=\count169
+\mpAfootins=\insert228
+\mpBfootins=\insert227
+\mpCfootins=\insert226
+\mpDfootins=\insert225
+\mpEfootins=\insert224
+\Afootins=\insert223
+\Bfootins=\insert222
+\Cfootins=\insert221
+\Dfootins=\insert220
+\Efootins=\insert219
+\ipn@skip=\skip188
+\@k=\count170
+\@h=\dimen151
+\l@d@end=\write7
+\sidenote@margin=\count171
+\l@dlp@rbox=\box31
+\l@drp@rbox=\box32
+\ledlsnotewidth=\dimen152
+\ledrsnotewidth=\dimen153
+\ledlsnotesep=\dimen154
+\ledrsnotesep=\dimen155
+\footinsA=\insert218
+\c@footnoteA=\count172
+\mpfootinsA=\insert217
+\c@footnoteB=\count173
+\footinsB=\insert216
+\mpfootinsB=\insert215
+\c@footnoteC=\count174
+\footinsC=\insert214
+\mpfootinsC=\insert213
+\c@labidx=\count175
+\@emptytoks=\toks32
+\l@denvbody=\toks33
+\c@hbox=\count176
+\c@hboxmodulo=\count177
+\stanza@count=\count178
+\stanzaindentbase=\skip189
+\c@stanzaindentsrepetition=\count179
+\stanza@modulo=\count180
+\l@dampcount=\count181
+\l@dcolcount=\count182
+\hilfsbox=\box33
+\hilfsskip=\skip190
+\Hilfsbox=\box34
+\hilfscount=\count183
+\dcoli=\dimen156
+\dcolii=\dimen157
+\dcoliii=\dimen158
+\dcoliv=\dimen159
+\dcolv=\dimen160
+\dcolvi=\dimen161
+\dcolvii=\dimen162
+\dcolviii=\dimen163
+\dcolix=\dimen164
+\dcolx=\dimen165
+\dcolxi=\dimen166
+\dcolxii=\dimen167
+\dcolxiii=\dimen168
+\dcolxiv=\dimen169
+\dcolxv=\dimen170
+\dcolxvi=\dimen171
+\dcolxvii=\dimen172
+\dcolxviii=\dimen173
+\dcolxix=\dimen174
+\dcolxx=\dimen175
+\dcolxxi=\dimen176
+\dcolxxii=\dimen177
+\dcolxxiii=\dimen178
+\dcolxxiv=\dimen179
+\dcolxxv=\dimen180
+\dcolxxvi=\dimen181
+\dcolxxvii=\dimen182
+\dcolxxviii=\dimen183
+\dcolxxix=\dimen184
+\dcolxxx=\dimen185
+\dcolerr=\dimen186
+\@hilfs@count=\count184
+\edtabcolsep=\skip191
+\edfilldimen=\dimen187
+\c@addcolcount=\count185
+\HILFSskip=\skip192
+\Hilfsskip=\skip193
+\tabhilfbox=\box35
+\tabHilfbox=\box36
+)
+
+******************************************************
+Stock height and width: 699.36879pt by 537.75691pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 699.36879pt by 537.75691pt
+Text height and width: 555.70007pt by 381pt
+Spine and edge margins: 85.35803pt and 71.13188pt
+Upper and lower margins: 56.9055pt and 86.76321pt
+Headheight and headsep: 12pt and 19.8738pt
+Footskip: 56.9055pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 102pt
+Sidecapsep and sidecapwidth: 7pt and 102pt
+Sidebarhsep and sidebarwidth: 7pt and 102pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 546.64995pt
+Sidefoothsep and sidefootwidth: 7pt and 102pt
+Sidefootvsep and sidefootheight: 14.5pt and 546.64995pt
+******************************************************
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) (./Manual.aux
+(./Title.aux) (./Copyright.aux) (./Warnings.aux) (./Unpacking.aux) (./Setup.aux
+) (./Software.aux) (./Filament.aux) (./Firstprint.aux) (./Maintenance.aux)
+(./Advanced.aux) (./Source.aux) (./Support.aux) (./Contact.aux) (./Colophon.aux
+))
+\openout1 = `Manual.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count186
+\scratchdimen=\dimen188
+\scratchbox=\box37
+\nofMPsegments=\count187
+\nofMParguments=\count188
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count189
+\MPscratchDim=\dimen189
+\MPnumerator=\count190
+\makeMPintoPDFobject=\count191
+\everyMPtoPDFconversion=\toks35
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+Package microtype Info: Patching ledmac to enable character protrusion.
+\MT@led@kern=\dimen190
+LaTeX Info: Redefining \microtypecontext on input line 146.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No tracking.
+Package microtype Info: Adjustment of interword spacing enabled.
+Package microtype Info: Using default spacing set `basictext'.
+Package microtype Info: Adjustment of character kerning enabled.
+Package microtype Info: Using default kerning set `alltext'.
+Package microtype Info: Redefining babel's language switching commands.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman 
+(RS)
+)
+\openout2 = `Title.aux'.
+
+ (./Title.tex
+<./images-1600x1200/ao-101.jpg, id=1, 299.6796pt x 289.08pt>
+File: ./images-1600x1200/ao-101.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/ao-101.jpg>
+Package pdftex.def Info: ./images-1600x1200/ao-101.jpg used on input line 18.
+(pdftex.def)             Requested size: 299.67885pt x 289.07928pt.
+
+Overfull \hbox (38.13243pt too wide) in paragraph at lines 18--19
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <./images-1600x1200/Lulzbot_LogoTM_4c.eps>
+(epstopdf)                    date: 2012-11-16 12:07:46
+(epstopdf)                    size: 665174 bytes
+(epstopdf)             Output file: <./images-1600x1200/Lulzbot_LogoTM_4c-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2012-11-16 12:07:49
+(epstopdf)                    size: 42744 bytes
+(epstopdf)             Command: <repstopdf --outfile=./images-1600x1200/Lulzbot
+_LogoTM_4c-eps-converted-to.pdf ./images-1600x1200/Lulzbot_LogoTM_4c.eps>
+(epstopdf)             \includegraphics on input line 24.
+Package epstopdf Info: Output file is already uptodate.
+
+<./images-1600x1200/Lulzbot_LogoTM_4c-eps-converted-to.pdf, id=2, 290.08376pt x
+ 289.08pt>
+File: ./images-1600x1200/Lulzbot_LogoTM_4c-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use ./images-1600x1200/Lulzbot_LogoTM_4c-eps-converted-to.pdf>
+Package pdftex.def Info: ./images-1600x1200/Lulzbot_LogoTM_4c-eps-converted-to.
+pdf used on input line 24.
+(pdftex.def)             Requested size: 290.08304pt x 289.07928pt.
+)
+[1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images-1600x1200/ao-101.
+jpg> <./images-1600x1200/Lulzbot_LogoTM_4c-eps-converted-to.pdf>]
+\openout2 = `Copyright.aux'.
+
+
+(./Copyright.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 8.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
+)
+[2
+
+
+
+] (./Manual.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+
+
+Class memoir Warning: The material used in the headers is too large
+(14.49998pt) for the given head height (12.0pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 43.
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[3
+
+])
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[4] (./Manual.lof)
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[5
+
+] [6
+
+] [7]
+\openout2 = `Warnings.aux'.
+
+ (./Warnings.tex
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[8
+
+])
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[9] [10
+
+
+] [11
+
+]
+\openout2 = `Unpacking.aux'.
+
+ (./Unpacking.tex
+<./images-1600x1200/zip_ties.jpg, id=53, 296.7888pt x 289.08pt>
+File: ./images-1600x1200/zip_ties.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/zip_ties.jpg>
+Package pdftex.def Info: ./images-1600x1200/zip_ties.jpg used on input line 5.
+(pdftex.def)             Requested size: 296.78807pt x 289.07928pt.
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[12
+
+ <./images-1600x1200/zip_ties.jpg>]
+<./images-1600x1200/shipping_clamps.jpg, id=57, 385.44pt x 255.354pt>
+File: ./images-1600x1200/shipping_clamps.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/shipping_clamps.jpg>
+Package pdftex.def Info: ./images-1600x1200/shipping_clamps.jpg used on input l
+ine 38.
+(pdftex.def)             Requested size: 385.43906pt x 255.35338pt.
+
+<./images-1600x1200/shipping_clamps_pry.jpg, id=58, 385.44pt x 285.2256pt>
+File: ./images-1600x1200/shipping_clamps_pry.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/shipping_clamps_pry.jpg>
+Package pdftex.def Info: ./images-1600x1200/shipping_clamps_pry.jpg used on inp
+ut line 53.
+(pdftex.def)             Requested size: 385.43906pt x 285.22488pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 61.
+
+
+Class memoir Warning: The material used in the headers is too large
+(14.75815pt) for the given head height (12.0pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 61.
+
+
+Overfull \vbox (2.75815pt too high) has occurred while \output is active []
+
+
+[13 <./images-1600x1200/shipping_clamps.jpg>])
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[14 <./images-1600x1200/shipping_clamps_pry.jpg>] [15
+
+
+]
+\openout2 = `Setup.aux'.
+
+ (./Setup.tex
+<./images-1600x1200/axes.jpg, id=69, 334.1283pt x 289.08pt>
+File: ./images-1600x1200/axes.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/axes.jpg>
+Package pdftex.def Info: ./images-1600x1200/axes.jpg used on input line 11.
+(pdftex.def)             Requested size: 334.12747pt x 289.07928pt.
+
+<./images-1600x1200/xz_endstops.jpg, id=70, 385.44pt x 255.354pt>
+File: ./images-1600x1200/xz_endstops.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/xz_endstops.jpg>
+Package pdftex.def Info: ./images-1600x1200/xz_endstops.jpg used on input line 
+17.
+(pdftex.def)             Requested size: 385.43906pt x 255.35338pt.
+
+<./images-1600x1200/y_endstop.jpg, id=71, 385.44pt x 255.354pt>
+File: ./images-1600x1200/y_endstop.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/y_endstop.jpg>
+Package pdftex.def Info: ./images-1600x1200/y_endstop.jpg used on input line 23
+.
+(pdftex.def)             Requested size: 385.43906pt x 255.35338pt.
+
+<./images-1600x1200/electronics_plugs.jpg, id=72, 385.44pt x 282.3348pt>
+File: ./images-1600x1200/electronics_plugs.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/electronics_plugs.jpg>
+Package pdftex.def Info: ./images-1600x1200/electronics_plugs.jpg used on input
+ line 39.
+(pdftex.def)             Requested size: 385.43906pt x 282.33409pt.
+
+<./images-1600x1200/ps_plug.jpg, id=73, 385.44pt x 255.354pt>
+File: ./images-1600x1200/ps_plug.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/ps_plug.jpg>
+Package pdftex.def Info: ./images-1600x1200/ps_plug.jpg used on input line 45.
+(pdftex.def)             Requested size: 385.43906pt x 255.35338pt.
+
+<./images-1600x1200/electronics_plugs_plugged-in.jpg, id=74, 385.44pt x 255.354
+pt>
+File: ./images-1600x1200/electronics_plugs_plugged-in.jpg Graphic file (type jp
+g)
+ <use ./images-1600x1200/electronics_plugs_plugged-in.jpg>
+Package pdftex.def Info: ./images-1600x1200/electronics_plugs_plugged-in.jpg us
+ed on input line 51.
+(pdftex.def)             Requested size: 385.43906pt x 255.35338pt.
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[16
+
+ <./images-1600x1200/axes.jpg>]
+Overfull \vbox (2.75815pt too high) has occurred while \output is active []
+
+
+[17 <./images-1600x1200/xz_endstops.jpg> <./images-1600x1200/y_endstop.jpg>]
+<./images-1600x1200/spool.jpg, id=81, 385.44pt x 255.354pt>
+File: ./images-1600x1200/spool.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/spool.jpg>
+Package pdftex.def Info: ./images-1600x1200/spool.jpg used on input line 67.
+(pdftex.def)             Requested size: 385.43906pt x 255.35338pt.
+
+<./images-1600x1200/spool_mount.jpg, id=82, 385.44pt x 255.354pt>
+File: ./images-1600x1200/spool_mount.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/spool_mount.jpg>
+Package pdftex.def Info: ./images-1600x1200/spool_mount.jpg used on input line 
+78.
+(pdftex.def)             Requested size: 385.43906pt x 255.35338pt.
+
+<./images-1600x1200/spool_mounted.jpg, id=83, 385.44pt x 255.354pt>
+File: ./images-1600x1200/spool_mounted.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/spool_mounted.jpg>
+Package pdftex.def Info: ./images-1600x1200/spool_mounted.jpg used on input lin
+e 86.
+(pdftex.def)             Requested size: 385.43906pt x 255.35338pt.
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[18 <./images-1600x1200/electronics_plugs.jpg>]
+Overfull \vbox (2.75815pt too high) has occurred while \output is active []
+
+
+[19 <./images-1600x1200/ps_plug.jpg> <./images-1600x1200/electronics_plugs_plug
+ged-in.jpg>]
+<./images-1600x1200/filament_guide.jpg, id=91, 385.44pt x 255.354pt>
+File: ./images-1600x1200/filament_guide.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/filament_guide.jpg>
+Package pdftex.def Info: ./images-1600x1200/filament_guide.jpg used on input li
+ne 96.
+(pdftex.def)             Requested size: 385.43906pt x 255.35338pt.
+
+<./images-1600x1200/filament_guide_nuts.jpg, id=92, 385.44pt x 255.354pt>
+File: ./images-1600x1200/filament_guide_nuts.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/filament_guide_nuts.jpg>
+Package pdftex.def Info: ./images-1600x1200/filament_guide_nuts.jpg used on inp
+ut line 105.
+(pdftex.def)             Requested size: 385.43906pt x 255.35338pt.
+
+<./images-1600x1200/filament_guide_setting.jpg, id=93, 385.44pt x 255.354pt>
+File: ./images-1600x1200/filament_guide_setting.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/filament_guide_setting.jpg>
+Package pdftex.def Info: ./images-1600x1200/filament_guide_setting.jpg used on 
+input line 114.
+(pdftex.def)             Requested size: 385.43906pt x 255.35338pt.
+
+<./images-1600x1200/sdramps.jpg, id=94, 385.44pt x 255.354pt>
+File: ./images-1600x1200/sdramps.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/sdramps.jpg>
+Package pdftex.def Info: ./images-1600x1200/sdramps.jpg used on input line 124.
+
+(pdftex.def)             Requested size: 385.43906pt x 255.35338pt.
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[20 <./images-1600x1200/spool.jpg>])
+Overfull \vbox (2.75815pt too high) has occurred while \output is active []
+
+
+[21 <./images-1600x1200/spool_mount.jpg>]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[22 <./images-1600x1200/spool_mounted.jpg> <./images-1600x1200/filament_guide.j
+pg>]
+Overfull \vbox (2.75815pt too high) has occurred while \output is active []
+
+
+[23 <./images-1600x1200/filament_guide_nuts.jpg> <./images-1600x1200/filament_g
+uide_setting.jpg>]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[24 <./images-1600x1200/sdramps.jpg>] [25
+
+
+]
+\openout2 = `Software.aux'.
+
+ (./Software.tex
+<./images-1600x1200/slic3r.png, id=114, 836.12375pt x 522.95375pt>
+File: ./images-1600x1200/slic3r.png Graphic file (type png)
+
+<use ./images-1600x1200/slic3r.png>
+Package pdftex.def Info: ./images-1600x1200/slic3r.png used on input line 28.
+(pdftex.def)             Requested size: 836.1217pt x 522.95247pt.
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[26
+
+]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[27 <./images-1600x1200/slic3r.png>]
+<./images-1600x1200/printrun.png, id=124, 1024.82875pt x 571.13374pt>
+File: ./images-1600x1200/printrun.png Graphic file (type png)
+
+<use ./images-1600x1200/printrun.png>
+Package pdftex.def Info: ./images-1600x1200/printrun.png used on input line 69.
+
+(pdftex.def)             Requested size: 1024.82625pt x 571.13235pt.
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[28]
+<./images-1600x1200/printrun_controls.png, id=128, 371.3875pt x 463.7325pt>
+File: ./images-1600x1200/printrun_controls.png Graphic file (type png)
+
+<use ./images-1600x1200/printrun_controls.png>
+Package pdftex.def Info: ./images-1600x1200/printrun_controls.png used on input
+ line 96.
+(pdftex.def)             Requested size: 371.38658pt x 463.73135pt.
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[29 <./images-1600x1200/printrun.png>]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[30 <./images-1600x1200/printrun_controls.png>]
+<./images-1600x1200/printrun_viewer.png, id=135, 897.3525pt x 887.315pt>
+File: ./images-1600x1200/printrun_viewer.png Graphic file (type png)
+
+<use ./images-1600x1200/printrun_viewer.png>
+Package pdftex.def Info: ./images-1600x1200/printrun_viewer.png used on input l
+ine 138.
+(pdftex.def)             Requested size: 897.3503pt x 887.31284pt.
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[31]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[32 <./images-1600x1200/printrun_viewer.png>])
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[33] [34
+
+
+] [35]
+\openout2 = `Filament.aux'.
+
+ (./Filament.tex
+<./images-1600x1200/filament_spool_dir.jpg, id=152, 385.44pt x 255.354pt>
+File: ./images-1600x1200/filament_spool_dir.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/filament_spool_dir.jpg>
+Package pdftex.def Info: ./images-1600x1200/filament_spool_dir.jpg used on inpu
+t line 7.
+(pdftex.def)             Requested size: 385.43906pt x 255.35338pt.
+)
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[36
+
+ <./images-1600x1200/filament_spool_dir.jpg>] [37
+
+
+]
+\openout2 = `Firstprint.aux'.
+
+ (./Firstprint.tex
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2012/04/20 UCS: Unicode data U+0000..U+00FF
+)
+<./images-1600x1200/extruder_idler_bolts.jpg, id=160, 385.44pt x 278.9622pt>
+File: ./images-1600x1200/extruder_idler_bolts.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/extruder_idler_bolts.jpg>
+Package pdftex.def Info: ./images-1600x1200/extruder_idler_bolts.jpg used on in
+put line 14.
+(pdftex.def)             Requested size: 385.43906pt x 278.96152pt.
+
+<./images-1600x1200/extruder_feed_hole.jpg, id=161, 385.44pt x 279.2031pt>
+File: ./images-1600x1200/extruder_feed_hole.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/extruder_feed_hole.jpg>
+Package pdftex.def Info: ./images-1600x1200/extruder_feed_hole.jpg used on inpu
+t line 22.
+(pdftex.def)             Requested size: 385.43906pt x 279.20241pt.
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[38
+
+ <./images-1600x1200/extruder_idler_bolts.jpg>]
+<./images-1600x1200/nozzle_height.jpg, id=166, 1606.0pt x 1063.975pt>
+File: ./images-1600x1200/nozzle_height.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/nozzle_height.jpg>
+Package pdftex.def Info: ./images-1600x1200/nozzle_height.jpg used on input lin
+e 35.
+(pdftex.def)             Requested size: 1605.99611pt x 1063.97241pt.
+
+<./images-1600x1200/z_endstop_trigger.jpg, id=167, 385.44pt x 282.8166pt>
+File: ./images-1600x1200/z_endstop_trigger.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/z_endstop_trigger.jpg>
+Package pdftex.def Info: ./images-1600x1200/z_endstop_trigger.jpg used on input
+ line 43.
+(pdftex.def)             Requested size: 385.43906pt x 282.8159pt.
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[39 <./images-1600x1200/extruder_feed_hole.jpg>]
+
+LaTeX Warning: Text page 40 contains only floats.
+
+
+Overfull \vbox (2.71812pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[40 <./images-1600x1200/nozzle_height.jpg> <./images-1600x1200/z_endstop_trigge
+r.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
+\OT1/cmr/m/n/12 (+20) Load the \OT1/cmtt/m/n/12 bedcalib.gco \OT1/cmr/m/n/12 (+
+20) file. This file can be found at:
+ []
+
+
+Overfull \hbox (14.2002pt too wide) in paragraph at lines 50--53
+\OT1/cmtt/m/n/12 http://download.lulzbot.com/TAZ/objects/calibration/bedcalib.g
+co 
+ []
+
+<./images-1600x1200/1st_layer_adhesion.jpg, id=174, 1606.0pt x 968.61874pt>
+File: ./images-1600x1200/1st_layer_adhesion.jpg Graphic file (type jpg)
+
+<use ./images-1600x1200/1st_layer_adhesion.jpg>
+Package pdftex.def Info: ./images-1600x1200/1st_layer_adhesion.jpg used on inpu
+t line 58.
+(pdftex.def)             Requested size: 1605.99611pt x 968.61638pt.
+
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[41 <./images-1600x1200/1st_layer_adhesion.jpg>])
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[42] [43
+
+
+]
+\openout2 = `Maintenance.aux'.
+
+ (./Maintenance.tex
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[44
+
+])
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[45] [46
+
+
+] [47]
+\openout2 = `Advanced.aux'.
+
+ (./Advanced.tex
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[48
+
+]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[49]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[50])
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[51] [52
+
+
+] [53]
+\openout2 = `Source.aux'.
+
+ (./Source.tex)
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[54
+
+] [55
+
+
+]
+\openout2 = `Support.aux'.
+
+ (./Support.tex)
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[56
+
+] [57
+
+
+]
+\openout2 = `Contact.aux'.
+
+ (./Contact.tex)
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[58
+
+] (./Manual.ind
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[59
+
+
+
+
+
+]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[60]
+Overfull \vbox (2.49998pt too high) has occurred while \output is active []
+
+
+[61
+
+]) [62
+
+]
+\openout2 = `Colophon.aux'.
+
+ (./Colophon.tex) [63
+
+] [64
+
+] [65] [66] [67] [68]
+
+Class memoir Warning: The material used in the headers is too large
+(14.75815pt) for the given head height (12.0pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 374.
+
+\tf@toc=\write8
+\openout8 = `Manual.toc'.
+
+\tf@lof=\write9
+\openout9 = `Manual.lof'.
+
+(./Manual.aux (./Title.aux) (./Copyright.aux) (./Warnings.aux) (./Unpacking.aux
+) (./Setup.aux) (./Software.aux) (./Filament.aux) (./Firstprint.aux)
+(./Maintenance.aux) (./Advanced.aux) (./Source.aux) (./Support.aux)
+(./Contact.aux) (./Colophon.aux)) ) 
+Here is how much of TeX's memory you used:
+ 9567 strings out of 495059
+ 136843 string characters out of 3182030
+ 289169 words of memory out of 3000000
+ 12393 multiletter control sequences out of 15000+200000
+ 19110 words of font info for 115 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 54i,17n,42p,1028b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmtt12.pfb>
+Output written on Manual.pdf (68 pages, 18065555 bytes).
+PDF statistics:
+ 321 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 31373 words of extra memory for PDF output out of 35830 (max. 10000000)
+

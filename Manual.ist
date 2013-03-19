@@ -1,0 +1,3 @@
+heading_prefix   "{\\normalsize \\bfseries\\hfil\\ "
+heading_suffix   " \\ \\hfil}\\nopagebreak\n"
+headings_flag       1

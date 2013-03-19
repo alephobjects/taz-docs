@@ -1,0 +1,55 @@
+\select@language {english}
+\contentsline {chapter}{\emph {WARNINGS}\\ {Safety Information}}{vii}
+\contentsline {section}{Read Me First!}{viii}
+\contentsline {section}{Hazards and Warnings}{viii}
+\contentsline {subsection}{\leavevmode {\color {red}Electric Shock Hazard}}{viii}
+\contentsline {subsection}{\leavevmode {\color {red}Burn Hazard}}{viii}
+\contentsline {subsection}{\leavevmode {\color {red}Fire Hazard}}{viii}
+\contentsline {subsection}{\leavevmode {\color {red}Pinch Hazard}}{viii}
+\contentsline {subsection}{\leavevmode {\color {red}Static Charge}}{ix}
+\contentsline {subsection}{\leavevmode {\color {red}Age Warning}}{ix}
+\contentsline {chapter}{\chapternumberline {1}\emph {Unpacking Your Printer}}{11}
+\contentsline {chapter}{\chapternumberline {2}\emph {Setup Your Printer}}{15}
+\contentsline {chapter}{\chapternumberline {3}\emph {3D Printer Software}}{25}
+\contentsline {section}{\numberline {3.1}Software Overview}{26}
+\contentsline {section}{\numberline {3.2}Slic3r}{26}
+\contentsline {subsection}{Loading Configurations}{27}
+\contentsline {subsection}{Loading STL files}{27}
+\contentsline {subsection}{Export Gcode files}{28}
+\contentsline {section}{\numberline {3.3}Printrun}{28}
+\contentsline {subsection}{Connecting the Printer}{28}
+\contentsline {subsection}{Printer Controls}{29}
+\contentsline {subsection}{Loading Print Files}{31}
+\contentsline {section}{\numberline {3.4}CAD and 3D Modeling Software}{32}
+\contentsline {subsection}{FreeCAD}{33}
+\contentsline {subsection}{OpenSCAD}{33}
+\contentsline {subsection}{Blender}{33}
+\contentsline {chapter}{\chapternumberline {4}\emph {Loading Filament}}{35}
+\contentsline {chapter}{\chapternumberline {5}\emph {Your First 3D Print}}{37}
+\contentsline {section}{\numberline {5.1}Set Temperature}{38}
+\contentsline {section}{\numberline {5.2}Load Filament}{38}
+\contentsline {section}{\numberline {5.3}Home Printer}{39}
+\contentsline {section}{\numberline {5.4}Z Print Height}{41}
+\contentsline {section}{\numberline {5.5}Remove Part}{42}
+\contentsline {chapter}{\chapternumberline {6}\emph {Maintaining Your 3D Printer}}{43}
+\contentsline {section}{\numberline {6.1}Overview}{44}
+\contentsline {section}{\numberline {6.2}Smooth Rods}{44}
+\contentsline {section}{\numberline {6.3}PET Sheets}{44}
+\contentsline {section}{\numberline {6.4}Hobbed Bolt}{44}
+\contentsline {section}{\numberline {6.5}Software}{45}
+\contentsline {section}{\numberline {6.6}Belts}{45}
+\contentsline {section}{\numberline {6.7}Hot End}{45}
+\contentsline {chapter}{\chapternumberline {7}\emph {Advanced Usage}}{47}
+\contentsline {section}{\numberline {7.1}Intro}{48}
+\contentsline {section}{\numberline {7.2}Changing nozzles}{48}
+\contentsline {section}{\numberline {7.3}ABS/Acetone Glue}{49}
+\contentsline {section}{\numberline {7.4}Using 1.75mm Filament}{49}
+\contentsline {chapter}{\chapternumberline {8}\emph {Hardware and Software Source Code}}{53}
+\contentsline {chapter}{\chapternumberline {9}\emph {3D Printer Support}}{55}
+\contentsline {section}{\numberline {9.1}LulzBot}{56}
+\contentsline {section}{\numberline {9.2}Community}{56}
+\contentsline {chapter}{\chapternumberline {10}\emph {Contact Information}}{57}
+\contentsline {section}{\numberline {10.1}Support}{58}
+\contentsline {section}{\numberline {10.2}Sales}{58}
+\contentsline {section}{\numberline {10.3}Websites}{58}
+\contentsline {chapter}{Index}{59}
