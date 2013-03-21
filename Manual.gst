@@ -1,3 +1,5 @@
+%%% memman.gst makindex glossary style file for memman and friends
+%%% Output style parameters
 preamble "\\begin{theglossary}"
 postamble "\n\\end{theglossary}\n"
 group_skip "\n\\glossaryspace\n"

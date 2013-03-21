@@ -1,0 +1,11 @@
+*~
+.fuse_hidden*
+*.aux
+*.log
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.log
+*.pdf
