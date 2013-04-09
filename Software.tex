@@ -1,8 +1,11 @@
 \section{Software Overview}
 \index{software}
-Aleph Objects, Inc., the maker of the LulzBot TAZ completely supports free/libre hardware and software. Along with the TAZ being a free/libre hardware design, it has been tested to work with 100\% free/libre software.
 
+Aleph Objects, Inc., the maker of the LulzBot TAZ completely supports free/libre hardware and software. Along with the TAZ being a free/libre hardware design, it has been tested to work with 100\% free/libre software.
+\glossary{free/libre}{Free/Libre hardware and software can be thought of as "free as in free speech, not free as in free beer", although most free/libre software is available for no cost. Libre hardware designs can be copied, modified and are usually available for download. Free/Libre software can be used, copied and modified in a similar fashion.}
 To operate your desktop 3D printer you will need to install a few software packages onto your PC. You will need a 3D printer host, an \texttt{.STL} to \texttt{.gcode} generator, and optional CAD or 3D modeling software.
+\glossary{.gcode}{The file extension for G-Code files}
+\glossary{CAD}{Computer Aided Design}
 
 \index{GNU/Linux}
 \index{Macintosh}
@@ -74,7 +77,7 @@ The host controls include: setting the extruder and print surface temperatures, 
 
 \index{pronterface}
 \index{GNU/Linux}
-To launch Printrun, navigate to the \texttt{Printrun} directory and launch the \texttt{pronterface.py} file. On GNU/Linux operating systems you may need to set the \texttt{pronterface.py} file as executable. On other operating systems the file may be called \texttt{pronterface.exe}.
+To launch Printrun, navigate to the \texttt{Printrun} directory and launch the \texttt{pronterface.py} file. On GNU/Linux operating systems you may need to set the \texttt{pronterface.py} file as executable. Depending on your environment you may need to launch the program by using the full command: \texttt{python pronterface.py}. On other operating systems the file may be called \texttt{pronterface.exe}.
 
 \subsection{Connecting the Printer}
 \index{connecting}
@@ -82,7 +85,7 @@ To launch Printrun, navigate to the \texttt{Printrun} directory and launch the \
 \index{USB cable}
 \index{port}
 \index{baud rate}
-To start up the printer, first you will need to connect to the printer with Printrun. Make sure you have connected the USB cable from your PC to the printer before launching Printrun. If not, close Printrun, connect the USB cable, and relaunch Printrun. In the top left \texttt{Port} pull down menu select the correct port for the printer (generally \texttt{/dev/ACM0}). On other operating systems the port may be named such as \texttt{COM1} or \texttt{tty.usbserial-USB-ID}. If you only have one printer connected there will only be one port available to select. Make sure the port baud rate is set to \texttt{115200} in the pull down menu to the right of the port selection. You can refresh the USB ports, by clicking the \texttt{Port} button.
+To start up the printer, first you will need to connect to the printer with Printrun. Make sure you have connected the USB cable from your PC to the printer before launching Printrun. If not, close Printrun, connect the USB cable, and relaunch Printrun. In the top left \texttt{Port} pull down menu select the correct port for the printer (generally \texttt{/dev/ttyACM0}). On other operating systems the port may be named such as \texttt{COM1} or \texttt{tty.usbserial-USB-ID}. If you only have one printer connected there will only be one port available to select. Make sure the port baud rate is set to \texttt{115200} in the pull down menu to the right of the port selection. You can refresh the USB ports, by clicking the \texttt{Port} button.
 
 Now, to connect to the printer click the \texttt{Connect} button. In the text output window you will see multiple return lines. If you see \texttt{Printer is now online} you have succesfully connected to the printer. The printer control buttons on the left will also darken and become clickable after connecting. When you need to disconnect the printer simply press the \texttt{Disconnect} button.
 
@@ -139,7 +142,7 @@ To load a \texttt{.gcode} file into Printrun click the \texttt{Load file} button
 \caption{Printrun viewer}
 \label{fig:printrun_viewer}
 \end{figure}
-Click the Gcode viewer window to see a more detailed version of the sliced model. In the pop-up Gcode viewer you can zoom in using the mouse scroll wheel and flip through layers with the up and down arrow keys. The lines shown in the Gcode viewer represent the path the extrusion nozzle will follow to print the model.
+Click the Gcode viewer window to see a more detailed version of the sliced model. In the pop-up Gcode viewer you can zoom in using the mouse scroll wheel and flip through layers with the up and down arrow keys. To pan within the window left-click and drag to move around the work plane. The lines shown in the Gcode viewer represent the path the extrusion nozzle will follow to print the model.
 
 For more information on using Printrun see the Printrun page in the Support/Downloads section at \texttt{www.LulzBot.com}. Instructions for running a print can be found in the
 %%% XXX Tag this
@@ -159,7 +162,7 @@ On some CAD and 3D modeling software you will need to select millimeters as the 
 \index{GNU/Linux}
 \index{Windows}
 \index{Macintosh}
-Website: free-cad.sourceforge.net
+Website: \texttt{free-cad.sourceforge.net}
 
 Although still in development, FreeCAD is a great free/libre CAD application. Containing a full GUI for building CAD models, FreeCAD is capable of creating simple to complex designs. STL files can also easily be exported for use with 3D printing. FreeCAD is available for GNU/Linux, Windows, and Mac. The latest development version is recommended.
 
@@ -168,7 +171,7 @@ Although still in development, FreeCAD is a great free/libre CAD application. Co
 \index{GNU/Linux}
 \index{Windows}
 \index{Macintosh}
-Website: openscad.org
+Website: \texttt{openscad.org}
 
 OpenSCAD is another free/libre CAD software; however, different than FreeCAD, it is script based. Rather than using a GUI to generate CAD designs, OpenSCAD CAD designs are created using script based renderings. Users with programming experience would find this very useful. Also, OpenSCAD uses a simple script language that is easy to learn for users with little or no programming experience.
 
@@ -177,7 +180,7 @@ OpenSCAD is another free/libre CAD software; however, different than FreeCAD, it
 \index{GNU/Linux}
 \index{Windows}
 \index{Macintosh}
-Website: blender.org
+Website: \texttt{blender.org}
 
 The most widely used Free/Libre 3D modeling software, Blender is well documented with tutorials available on the Blender.org website. Numerous video tutorials can be also found online.
 

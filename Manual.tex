@@ -5,32 +5,15 @@
 %%% END MEMOIR CLASS %%%
 
 \usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{mathtools}
 % For full size print graphics
 %\graphicspath{{./images-original/}}
 % For web quality output
 \graphicspath{{./images-1600x1200/}}
 
 \makeindex
-%%% Glossary
+%%% GLOSSARY
 \makeglossary
-\changeglossactual{?}
-\changeglossnum{\thepage}
-\changeglossnumformat{|hyperpage}%% for hyperlinks
-\renewcommand*{\glossaryname}{Command summary}
-\renewcommand*{\glossarymark}{\markboth{\glossaryname}{\glossaryname}}
-\renewcommand{\glossitem}[4]{%
-\sbox\@tempboxa{#1 \space #2 #3 \makebox[2em]{#4}}%
-\par\hangindent 2em
-\ifdim\wd\@tempboxa<0.8\linewidth
-#1 \space #2 #3 \dotfill \makebox[2em][r]{#4}\relax
-\else
-#1 \dotfill \makebox[2em][r]{#4}\\
-#2 #3
-\fi}
-
+%%% END GLOSSARY
 
 \usepackage{color}
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
@@ -347,9 +330,10 @@
 %%% END INDEX %%%
 
 %%% GLOSSARY %%%
-% Presently disabled, until filled
-% Sample:
-%\glossary{glossary}{A list of terms and their descriptions.}
+\renewcommand{\memgloterm}[1]{\textbf{#1}}
+\renewcommand{\memglodesc}[1]{\textit{#1}}
+\renewcommand{\memglonum}[1]{}
+
 \clearpage
 \printglossary
 %%% END GLOSSARY %%%
