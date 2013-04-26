@@ -4,6 +4,8 @@
 % Fine divisions:   \subsubsection, \paragraph \subparagraph.
 %%% END MEMOIR CLASS %%%
 
+\usepackage{float}
+\usepackage{comment}
 \usepackage{graphicx}
 % For full size print graphics
 %\graphicspath{{./images-original/}}
@@ -44,8 +46,9 @@
 \newif\iftitle\titletrue
 \newif\ifcopyright\copyrighttrue
 \newif\ifwarnings\warningstrue %true
-\newif\ifunpacking\unpackingtrue %true
+\newif\ifunpacking\unpackingfalse %false - now included in the separate unpacking document
 \newif\ifsetup\setuptrue %true
+\newif\ifslicer\slicertrue %true
 \newif\ifsoftware\softwaretrue %true
 \newif\iffilament\filamenttrue %true
 \newif\iffirstprint\firstprinttrue %true
@@ -59,7 +62,7 @@
 \newif\ifcolophon\colophontrue %true
 %% or just render everything:
 \newif\ifrendereverything\rendereverythingfalse
-\ifrendereverything \titletrue \copyrighttrue \warningstrue \unpackingtrue \setuptrue \softwaretrue \filamenttrue \firstprinttrue \maintenancetrue \advancedtrue \faqtrue \troubleshootingtrue \colophontrue \fi
+\ifrendereverything \titletrue \copyrighttrue \warningstrue \unpackingtrue \setuptrue \slicertrue \softwaretrue \filamenttrue \firstprinttrue \maintenancetrue \advancedtrue \faqtrue \troubleshootingtrue \colophontrue \fi
 %%% END INCLUDED FILES %%%
 
 \setcounter{secnumdepth}{3}
@@ -238,6 +241,15 @@
 \fi
 %%% END SOFTWARE %%%
 
+%%% SLIC3R %%%
+\ifsoftware
+\chapter{\emph{Slic3r}}
+\thispagestyle{empty}
+\markboth{Slic3r}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+{\include{Slicer}}
+\fi
+%%% END SLIC3R %%%
+
 %%% FILAMENT %%%
 \iffilament
 \chapter{\emph{Loading Filament}}
@@ -354,6 +366,7 @@
 %%% END BACKMATTER %%%
 
 %%% BLANK PAGES Lulu requires minimum 68 pages %%%
+\begin{comment}
 \thispagestyle{empty}
 \begingroup
 \newpage
@@ -373,6 +386,7 @@
 \thispagestyle{empty}
 \newpage
 \endgroup
+\end{comment}
 %%% END BLANK PAGE %%%
 
 \end{document}

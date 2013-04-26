@@ -1,36 +1,77 @@
 \select@language {english}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Orange Zip Ties}}{12}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Red Shipping Clamps}}{13}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Using a wrench to pry off the shipping clamps}}{14}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Locate the four Y axis bolts}}{14}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Remove the four Y axis bolts}}{15}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Locate the four Y axis mounts on the frame}}{16}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Screw in and tighten the four Y axis bolts}}{16}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Locate the two zip ties found in the bag with the manual}}{17}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Connect the two connectors found at the rear of the Y axis}}{18}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Connect the two connectors on the left of the print bed}}{18}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Tightly wrap the zip ties around the bed wires and through the strain relief slot}}{19}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Power supply and USB receptacles}}{20}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Power supply}}{21}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces 12V DC Power supply plug and receptacle}}{21}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces The power supply plug correctly plugged in}}{22}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Filament Guide}}{23}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Filament Guide Mount}}{23}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Filament Guide Setting}}{24}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Axes movement directions}}{25}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces End stop locations}}{25}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Axes movement directions}}{16}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces X and Z end stop locations}}{17}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Y end stop location}}{17}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Power supply and USB receptacles}}{18}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Power supply plug}}{19}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces The power supply and USB plugs correctly plugged in}}{19}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Spool}}{20}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Spool mount}}{21}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Spool mounted}}{22}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Filament Guide}}{22}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Filament Guide Nuts}}{23}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Filament Guide Setting}}{23}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces SDRAMPS}}{24}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Printrun application for 3D printer control}}{29}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Printrun controls}}{30}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Printrun viewer}}{32}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Slic3r application, STL to Gcode generator}}{27}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Printrun application for 3D printer control}}{29}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Printrun controls}}{30}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Printrun viewer}}{32}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Configuration Wizard: Welcome Screen}}{39}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Configuration Wizard: Firmware Type}}{40}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Configuration Wizard: Bed Size}}{41}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Configuration Wizard: Nozzle Diameter}}{42}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Configuration Wizard: Filament Diamter}}{43}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Configuration Wizard: Extrusion Temperature}}{44}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Configuration Wizard: Bed Temperature}}{45}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Configuration Wizard: End}}{46}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Simple Mode: Print Settings.}}{49}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces An example of support material.}}{51}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces A diagram depicting the clearance around an extruder.}}{52}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Simple Mode: Filament Settings.}}{53}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Simple Mode: Printer Settings.}}{54}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Shapesmith online CAD tool.}}{57}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Plater}}{58}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Minimug model.}}{59}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces STL file loaded.}}{59}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces FreeCAD part repair.}}{61}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Infill pattern: Line (344.51mm / 5m:20s)}}{62}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Infill pattern: Rectilinear (350.57mm / 5m:23s)}}{63}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Infill pattern: Concentric (351.80mm / 5m:30s)}}{63}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Infill pattern: Honeycomb (362.73mm / 5m:39s)}}{63}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Infill pattern: Hilbert Curve (332.82mm / 5m:28s)}}{63}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Infill pattern: Archimedean Chords (333.66mm / 5m:27s)}}{64}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Infill pattern: Octagram Spiral (318.63mm / 5m:15s)}}{64}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Infill pattern comparison in a complex object. Left to Right: honeycomb, line}}{64}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Infill patterns at varying densities. Left to Right: 20\%,40\%,60\%,80\%. Top to Bottom: Honeycomb, Concentric, Line, Rectilinear, Hilbert Curve, Archimedean Chords, Octagram Spiral}}{66}
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Image of a poorly top-filled print.}}{67}
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Expert mode speed options.}}{68}
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Print with brim.}}{71}
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Saving a profile.}}{72}
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Deleting a profile.}}{73}
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Support structure options.}}{73}
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Minimug model, tilted 45\IeC {\textdegree }.}}{74}
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Support infill pattern: Rectilinear}}{74}
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Support infill pattern: Rectilinear Grid}}{75}
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Support infill pattern: Honeycomb}}{75}
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Example of pattern angle rotated 45\IeC {\textdegree }.}}{75}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Filament spool direction}}{36}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Filament spool mount parts}}{78}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Filament spool mount front}}{79}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Filament spool mount back}}{79}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Filament run through the guide}}{80}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Extruder idler bolts}}{38}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Extruder feed hole}}{39}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Nozzle height}}{40}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Z endstop trigger}}{40}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces First layer adhesion}}{41}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Extruder idler release}}{82}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Extruder filament slot}}{83}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Nozzle height}}{84}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Z end stop trigger}}{84}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces First layer adhesion}}{85}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

@@ -2,50 +2,52 @@
 \index{temperature}
 Make sure to first read the instructions for using the Printrun software. Connect to the printer as described in the Printrun software section
 %%% XXX pageref going to \label not \section
-(page \pageref{Printrun}). Set the hot end and print surface for ABS plastic and turn both on. The temperature settings should be set at \texttt{230°C} for the hot end and \texttt{100°C} for print surface. If you have not already, make sure the axes end stops are aligned to be triggered when each axis homes. Click the \texttt{Motors Off} button.
+(page \pageref{Printrun}). Set the hot end and print surface for ABS or PLA plastic and turn both on. The temperature settings for ABS should be set at \texttt{230°C} for the hot end and \texttt{100°C} for print surface; for PLA they should be set at \texttt{185°C} for the hot end and \texttt{60°C} for print surface. If you have not already, make sure the axes end stops are aligned to be triggered when each axis homes. Click the \texttt{Motors Off} button.
 \glossary{Idler}{Refers to parts using a bearing (usually a 608ZZ) to add tension in belts or to add pressure against a rolling surface.}
 \section{Load Filament}
 \index{filament}
 \index{hot end}
-Once the hotend is heated to the correct temperature you will now need to load the plastic filament into the extruder. Loosen the two idler bolts (turn the black plastic knobs by hand) to take pressure off of the idler springs
-(Fig. \ref{fig:extruder_idler_bolts}, page \pageref{fig:extruder_idler_bolts}).
+Once the hot end is heated to the correct temperature you will now need to load the plastic filament into the extruder. Raise both the idler clip and the 2 screws adding tension to release the hinged idler. It can be loosened if necessary.
+(Fig. \ref{fig:extruder_idler_release}).
 \begin{figure}[hbt]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{extruder_idler_bolts.jpg}
-\caption{Extruder idler bolts}
-\label{fig:extruder_idler_bolts}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{extruder_idler_release.JPG}
+\caption{Extruder idler release}
+\label{fig:extruder_idler_release}
 \end{figure}
-Pull both idler screws upwards to release the idler. The idler can be turned downwards allowing access to the hobbed bolt and filament feed hole. Feed the end of the plastic filament into the filament feed hole
-(Fig. \ref{fig:extruder_feed_hole}, page \pageref{fig:extruder_feed_hole}).
-\begin{figure}[hbt]
+% update feed hole picture.
+Gently pull both the idler screws and the plastic clip upwards to release the idler. The idler can be rotated downwards allowing access to the hobbed bolt and filament feed hole(Fig. \ref{fig:extruder_filament_slot}, page \pageref{fig:extruder_filament_slot}). Feed the end of the plastic filament into the filament feed hole
+(Fig. \ref{fig:extruder_filament_slot}).
+\begin{figure}[htb]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{extruder_feed_hole.jpg}
-\caption{Extruder feed hole}
-\label{fig:extruder_feed_hole}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{extruder_filament_slot.JPG}
+\caption{Extruder filament slot}
+\label{fig:extruder_filament_slot}
 \end{figure}
 Now you can push the filament through the extruder by slowly pushing the filament down into the hot end.
 
-Once the filament extrudes a small amount out of the nozzle raise the idler and slide the two idler bolts and springs back into place. Tighten the two idler bolts so that the knobs are distanced ~20mm away from the extruder body. Now use the \texttt{Extrude} button in Printrun to test that the extruder is working properly.
+Once the filament extrudes a small amount out of the nozzle raise the idler and slide the two idler bolts and plate back into place. Tighten the two idler bolts if you previously loosened them or if you need additional clearance. Now use the \texttt{Extrude} button in Printrun to test that the extruder is working properly. You may need to extrude 30-60mm to fully prime the hot end.
 
 \section{Home Printer}
 Use the home buttons to home the X axis and then the Y axis. Next home the Z axis. When the Z axis is at home the nozzle tip should be sitting right against the glass
 (Fig. \ref{fig:nozzle_height}, page \pageref{fig:nozzle_height}). The image to the right, in figure \ref{fig:nozzle_height}, is the correct nozzle height.
-\begin{figure}[hbt]
+\begin{figure}[p]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{nozzle_height.jpg}
 \caption{Nozzle height}
 \label{fig:nozzle_height}
 \end{figure}
-The nozzle should not be pushing down on the print surface. To lower or raise the Z home height adjust the Z end stop trigger. The end stop trigger is on the far left of the printer near the print surface
-(Fig. \ref{fig:z_endstop_trigger}, page \pageref{fig:z_endstop_trigger}).
-\begin{figure}[hb!]
+\begin{figure}[p]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{z_endstop_trigger.jpg}
-\caption{Z endstop trigger}
-\label{fig:z_endstop_trigger}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Z_end_stop_trigger.JPG}
+\caption{Z end stop trigger}
+\label{fig:Z_end_stop_trigger}
 \end{figure}
-The end stop trigger can be lowered by turning clockwise and raised by turning counter-clockwise. Once you have homed the axes and the hotend and bed have reached the correct temperature it is time to print!
+The nozzle should not be pushing down on the print surface. To lower or raise the Z home height adjust the Z end stop trigger. The red end stop trigger is on the far left of the printer mounted on the X-axis motor mount.
+(Fig. \ref{fig:Z_end_stop_trigger}, page \pageref{fig:Z_end_stop_trigger}).
+The red end stop trigger can be lowered by turning clockwise and raised by turning counter-clockwise. Once you have homed the axes and the hot end and bed have reached the correct temperature it is time to print!
 
+%fix image positioning, images for 5.3 get shoved underneath 5.4
 \section{Z Print Height}
 Load the \texttt{bedcalib.gco} file.
 This file can be found at:

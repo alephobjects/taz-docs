@@ -1,0 +1,49 @@
+%!TEX root = Slic3r-Manual.tex
+
+\subsection{The Important First Layer}
+\label{sec:the_important_first_layer}
+Before delving into producing the first print it is worthwhile taking a little detour to talk about the importance of getting the first layer right.  As many have found through trial and error, if the first layer is not the best it can be then it can lead to complete failure, parts detaching, and warping.  There are several techniques and recommendations one can heed in order to minimise the chance of this happening.
+
+\paragraph{Level bed.} % (fold)
+\label{par:level_bed}
+Having a level bed is critical.  If the distance between the nozzle tip and the bed deviates by even a small amount it can result in either the material not lying down on the bed (because the nozzle is too close and scrapes the bed instead), or the material lying too high from the bed and not adhering correctly.
+% paragraph level_bed (end)
+
+\paragraph{Higher temperature.} % (fold)
+\label{par:higher_temperature}
+The extruder hot-end and bed, if it is heated, can be made hotter for the first layer, thus increasing the viscosity of the material being printed.
+% paragraph higher_temperature (end)
+
+\paragraph{No cooling.} % (fold)
+\label{par:no_cooling}
+Directly related with the above, it makes no sense to increase the temperature of the first layer and still have a fan or other cooling mechanism at work.  Keeping the fan turned off for the first few layers is generally recommended.  Of course, some models may need direct cooling due to their size, but this would be an exception.
+% paragraph no_cooling (end)
+
+\paragraph{Lower speeds.} % (fold)
+\label{par:lower_speeds}
+Slowing down the extruder for the first layer reduces the forces applied to the molten material as it emerges, reducing the chances of it being stretched too much and not adhering correctly.
+% paragraph lower_speeds (end)
+
+\paragraph{Correctly calibrated extrusion rates.} % (fold)
+\label{par:correct_extrusion_settings}
+If too much material is laid down then the nozzle may drag through it on the second pass, causing it to lift off the bed (particularly if the material has cooled).  Too little material may result in the first layer coming loose later in the print, leading either to detached objects or warping.  For these reasons it is important to have a well-calibrated extrusion rate.
+% paragraph correct_extrusion_settings (end)
+
+\paragraph{Wider extrusion width.} % (fold)
+\label{par:wider_extrusion_width}
+The more material touching the bed, the more adhesion it will have.  There are several ways to achieve this:
+\begin{itemize}
+	\item Reduce the height of the first layer, either by a percentage or a fixed amount.  A value of approximately 60\% is usually recommended.
+	\item Increase the extrusion width of the first layer, either by a percentage or a fixed amount.  A value of approximately 200\% is usually recommended.
+\end{itemize}
+Note: These options are available in expert mode.
+% paragraph wider_extrusion_width (end)
+
+\paragraph{Bed material.} % (fold)
+\label{par:bed_material}
+Many options exist for the material to use for the bed, and preparing the right surface can vastly improve first layer adhesion.  
+
+PLA is more forgiving and works well on PET, Kapton, or blue painters tape.  
+
+ABS usually needs more cajoling and, whilst it can print well on PET and Kapton, there are reports that people have success by applying hairspray to the bed before printing.  Others have reported that an ABS slurry (made from dissolving some ABS in Acetone) thinly applied can also help keep the print attached.
+% paragraph bed_material (end)
