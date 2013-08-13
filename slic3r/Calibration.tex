@@ -1,22 +1,11 @@
 %!TEX root = Slic3r-Manual.tex
-\index{calibration}
+
 \subsection{Calibration}
 \label{calibration}
-Before even attempting the first print it is vital that the printer is correctly calibrated.  Skipping or rushing this step will result in frustration and failed prints later, so it is important to take the time to make sure the machine is correctly set up.
+\index{calibration}
 
-Each machine may have it's own calibration procedure and this manual will not attempt to cover all the variations.  Instead here is a list of key points that should be addressed. 
+Before even attempting the first print it is vital that the printer is correctly calibrated.  Skipping or rushing this step will result in frustration and failed prints later, so it is important to take the time to make sure the machine is correctly set up. Be sure to complete the Setup and First Print section of this manual before moving forward with Slic3r.
 
-\begin{itemize}
-\item Frame is stable and correctly aligned.
-\item Belts are taut.
-\item Bed is level in relation to the path of the extruder.
-\item Filament rolls freely from the spool, without causing too much tension on the extruder.
-%\item Current for stepper motors is set to the correct level.
-\item Firmware settings are correct including: axis movement speeds and acceleration; temperature control; end-stops; motor directions.
-\item Extruder is calibrated in the firmware with the correct steps per mm of filament.
-\end{itemize}
+If you are just beginning with 3D printing or Slic3r, LulzBot recommends starting with our pre-set Slic3r profiles. You can find the TAZ Slic3r profiles at \texttt{https://www.lulzbot.com/support/downloads}. For information on loading and export Slic3r profiles please see page \pageref{sub:exporting_and_importing_configuration}. Note that the pre-set profiles will only work correctly when Slic3r is in Expert mode.
 
-The point regarding the extruder step rate is vital.  Slic3r expects that the machine will accurately produce a set amount of filament when told to do so.  Too much will result in blobs and other imperfections in the print.  Too little will result in gaps and poor inter-layer adhesion.
-
-Please refer to the printer documentation and/or resources in the 3D printing community for details on how best to calibrate a particular machine.
-
+The pre-set profiles will give you Slic3r settings that will work great on most designs. The Slic3r manual can be used as a reference in building knowledge of Slic3r settings while using the pre-set profiles. Once you have a number of prints completed you can use the Slic3r manual as a reference to make small adjustments to the pre-set profiles or begin creating your own profiles.
