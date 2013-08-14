@@ -52,6 +52,7 @@
 \newif\ifsoftware\softwaretrue %true
 \newif\iffilament\filamenttrue %true
 \newif\iffirstprint\firstprinttrue %true
+\newif\ifglcd\glcdtrue %true
 \newif\ifmaintenance\maintenancetrue %true
 \newif\ifadvanced\advancedtrue %true
 \newif\iffaq\faqfalse %false - Not yet written
@@ -268,6 +269,16 @@
 {\include{Firstprint}}
 \fi
 %%% END FIRSTPRINT %%%
+
+%%% GLCD %%%
+\ifglcd
+\chapter{\emph{Printing with the Graphic LCD}}
+\label{glcd}
+\thispagestyle{empty}
+\markboth{Printing with the Graphic LCD}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+{\include{glcd}}
+\fi
+%%% END GLCD %%%
 
 %%% MAINTENANCE %%%
 \ifmaintenance
