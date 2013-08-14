@@ -205,15 +205,18 @@ Linux and Mac OSX users will not need to install a driver to communicate with th
 \section{Installing Printrun}
 Printrun contains several different applications that can be used to control the TAZ 3D printer. It can be installed on Windows, Mac OSX and Linux based computers. Most users will use Pronterface, the graphical user interface for interacting with the 3D printer. \texttt{Pronsole} allows printing from the command line, and can be used for scripting and some automation. \texttt{Plater} allows you to arrange and combine several STL files into one. More information on the other programs within the Printrun package can be found at \texttt{https://github.com/kliment/Printrun}. Printrun can be downloaded from \texttt{LulzBot.com/support/downloads}. Download the version for your operating system and extract. You will need an archive manager to extract the files. If you do not have one installed we recommend using 7-zip, which can be downloaded for free at \texttt{www.1-zip.org}.
 
+\begin{itemize}
 \subsection{Windows Instructions}
 \index{windows}
-Once downloaded, extract the \texttt{dist} folder to a location of your choice. You can rename the \texttt{dist} folder if you like. Double click \texttt{pronterface.exe} to run Pronterface.
+\item Once downloaded, extract the \texttt{dist} folder to a location of your choice. You can rename the \texttt{dist} folder if you like. Double click \texttt{pronterface.exe} to run Pronterface.
+
 
 \subsection{Mac OSX Instructions}
-%Once downloaded, extract the \texttt{dist} folder to a location of your choice. Once extracted, double click the \texttt{pronterface-mac-Mar2012.app} file to install.
+\item Once downloaded, extract the \texttt{dist} folder to a location of your choice. Once extracted, double click the \texttt{pronterface-mac-Mar2012.app} file to install.
 
 \subsection{Linux Instructions}
-Once downloaded, extract the \texttt{dist} folder to a location of your choice. You will need to ensure that the following dependencies are met. They are listed in the README.md file. You can use this command to install the dependencies: 
+%\begin{itemize}
+\item Once downloaded, extract the \texttt{dist} folder to a location of your choice. You will need to ensure that the following dependencies are met. They are listed in the README.md file. You can use this command to install the dependencies: 
 sudo apt-get install python-serial python-wxgtk2.8 python-pyglet python-tornado python-setuptools python-libxml2 python-gobject avahi-daemon libavahi-compat-libdnssd1}
 followed by:
 \texttt{pip install -r requirements.txt}
@@ -221,7 +224,26 @@ Open the \texttt{Printrun-source} folder in a terminal and enter the following c
 \texttt{sudo python setup.py install}
 Run Printrun by issuing the following command:
 \texttt{python pronterface.py}
+%\end{itemize}
+\item Navigate to the download directory and run the following command:
+\texttt{python pronterface.py}
 
+
+\index{printrun}
+\section{Using Printrun}
+
+%\begin{figure}[hbt]
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun.png}
+\caption{Printrun}
+\label{fig:printrun}
+\end{figure}
+\end{itemize}
+Printrun 
+######################################################################
+LOTS OF IMAGES HERE
+######################################################################
 
 
 
