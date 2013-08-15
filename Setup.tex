@@ -227,7 +227,7 @@ Run Printrun by issuing the following command:
 %\end{itemize}
 \item Navigate to the download directory and run the following command:
 \texttt{python pronterface.py}
-
+\end{itemize}
 
 \index{printrun}
 \section{Using Printrun}
@@ -239,10 +239,43 @@ Run Printrun by issuing the following command:
 \caption{Printrun}
 \label{fig:printrun}
 \end{figure}
-\end{itemize}
 
-Printrun will be used to control the printer during the first print phase. 
 
+Printrun is used to control the printer from a computer. It is divided into 4 main parts: The buttons over the top are used to connect to the printer, load files and start & stop prints.
+
+%\begin{figure}[hbt]
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun-labels.png}
+\caption{Printrun Functions}
+\label{fig:printrun-labels}
+\end{figure}
+
+The movement controls are on the left hand side, with the G-code preview window in the center and the Log window and Terminal command entry box on the right hand side.
+
+\subsection{Connecting to the TAZ 3D Printer}
+To connect to the printer, select the correct port by using the drop down arrow and selecting the active port. The \texttt{Port} button will refresh the Port listing. Once selected choose the default \texttt{115200} buad rate and press \texttt{Connect}. Pronterface will open a connection to the printer and display firmware information in the Log window. If nothing is displayed in the Log window verify you have the correct port and connection speed selected. 
+
+\subsectiom{Movement 
+%\begin{figure}[hbt]
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun_controls.png}
+\caption{Movement Controls}
+\label{fig:printrun_controls}
+\end{figure}
+
+\subsubsection{Motors off}
+The TAZ 3D printer can be moved on all three axes independently. If you would like to do so by hand, use the \texttt{Motors off} button to unlock all the stepper motors. Once unlocked they can be moved by hand. Keep in mind that there is no positional feedback, so if you move an axis you will need to re-home in order to re-establish the hot end's position. 
+
+\subsubsection{mm/min ZY:/ Z:}
+These settings control the manual jog speeds when driven with Pronterface. Use caution when changing these figures. Moving the axes too fast can cause the printer to lose steps. If that occurs with the Z axis, it can potentially cause the Z axis to become out of square.
+
+\subsubsection{Homing}
+Each axes can be homed either individually or together. 
+
+\subsubsection{X/Y/Z Axes Movement Controls}
+The X, Y and Z axes can be moved utilizing the circular movement controls. Each axis can be moved in either fine moves or large moves, ranging from 0.1mm to 100mm.  For example, to move the \texttt{Y Axis} towards you, move your mouse to the \texttt{+y} section until both the \texttt{+y} and the \texttt{100} is highlighted.
  
 ######################################################################
 LOTS OF IMAGES HERE
