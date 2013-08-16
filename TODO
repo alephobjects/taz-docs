@@ -4,9 +4,6 @@
 * Update to CC-BY-SA 4.0, if available **NOT COMPLETED YET, next round maybe
 * Need new ISBN for TAZ
 * Ensure ISBN scans - correct number?
-* Vi Orphan
-* Hyland comments
-* CaFexin index is normal teyt
 * fig 5.4, change angle - looks like 1 rod ***Is this old?
 
 	-Trouble Shooting
@@ -14,7 +11,14 @@
 		-skips
 * Convert to html
 
-TAZ 2.0 version
+Old??
+=====
+* Vi Orphan
+* Hyland comments
+* CaFexin index is normal teyt
+
+
+Changes still needed for TAZ 2.0 version
 ===============
 
 *Figure 1.7 is in the wrong spot. It appears before 1.5 and 1.6.
@@ -28,12 +32,29 @@ TAZ 2.0 version
 
 Images needing to be updated:
 
--Cover image
--frame_y_axis_connector.JPG
--X_axis_toolhead.JPG
--X_axis_connectors.JPG
--X_axis_strain_relief.JPG
--y_axis_bolt_tighten.JPG
+axes.JPG
+bed_connectors.JPG
+bed_connectors_strain_relief.JPG
+bed_connectors_strain_relief_done.JPG
+Cover image
+electronics_case_rec.JPG
+electronics_DC_connector.JPG
+electronics_DC_connector_tight.JPG
+end_stop_switches.JPG
+extruder_filament_slot.JPG
+extruder_idler_release.JPG
+filament_guide_direction.JPG
+filament_guide_mount.JPG
+filament_spool_mount_back.JPG
+filament_spool_mount_front.JPG
+frame_y_axis_connector.JPG
+spool_mount_parts.JPG
+X_axis_connectors.JPG 
+X_axis_strain_relief.JPG -explain
+X_axis_toolhead.JPG
+y_axis_bolt_tighten.JPG
+y_axis_connectors.JPG
+Z_end_stop_trigger.JPG
 
 
 Pronterface pictures
