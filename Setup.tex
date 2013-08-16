@@ -275,11 +275,13 @@ These settings control the manual jog speeds when driven with Pronterface. Use c
 Each axes can be homed either individually or together. Press the \texttt{HomeX} button to move the X axis to the left until it activates the end stop. Once the X axis end stop is activated, the X axis carriage will 'bounce'- it will move over and move back to the home position more slowly. Press the \texttt{HomeY} button to home the Y axis. The Y axis platform will move away from you towards the rear of the printer. Press the \texttt{HomeZ} button to home the Z axis. The Z axis will move down towards the heated bed. Make sure that you home the printer immediately after power up. The printer will not know where the not end is until each axes has been homed. Moving prior to home can be risky since the 3D printer will not know it's initial location.  
 
 \subsubsection{X/Y/Z Axes Movement Controls}
-The X, Y and Z axes can be moved utilizing the circular movement controls. Each axis can be moved in either fine moves or large moves, ranging from 0.1mm to 100mm.  For example, to move the \texttt{Y Axis} towards you, move your mouse to the \texttt{+y} section until both the \texttt{+y} and the \texttt{100} is highlighted.
+Prior to moving the X, Y or Z axis, make sure that you home each axis. The X, Y and Z axes can be moved utilizing the circular movement controls. Each axis can be moved in either fine moves or large moves, ranging from 0.1mm to 100mm.  For example, to move the \texttt{Y Axis} towards you, move your mouse to the \texttt{+y} section until both the \texttt{+y} and the \texttt{100} is highlighted then select that ring section. To move the \texttt{Y axis} away from you, move your mouse to the \texttt{-y} section until both the \texttt{-y} and the \texttt{100} is highlighted then select that ring section. The X axis can be moved in a similar fashion.
+
+The Z axis movement control operates similarly, but the movement scale is different. The Z axis will move in 0.1mm, 1mm and 10mm increments. The top half of the movement bar will move the Z axis up, by the selected units, while the lower half will move the Z axis down, by the desired units. 
+
+\subsubsection{Bed Leveling}
  
 
-%%%%%%%%%%%%%%%%%%%
-%LOTS OF IMAGES HERE
 %%%%%%%%%%%%%%%%%%%
 
 
