@@ -98,6 +98,15 @@
 
 \item Now that the Y axis is mounted and the extruder tool head is installed you should set your printer on a stable, flat, and level surface large enough for extra space around the printer. Make sure your printer work space is clear of anything that could obstruct the movement of the printer. Move the Y axis to the back of the printer to ensure unobstructed movement of that axis. \textcolor{red}{Make sure there are no flammable fabrics or liquids near the printer space}. It is also best to not put your printer near a drafty window or air conditioner vent.
 
+\item We will next make sure that the \texttt{Y axis} stage is level in relation to the \texttt{X axis}. Using the ruler included with your TAZ 3D printer toolkit measure the distance from the aluminum \texttt{Y axis} bed plate to the bottom of the smooth rods on the \texttt{X axis}. You will want to compare the distance between both points on the left and right side of the aluminum bed plate. If the left or right measurements are not the same, manually rotate one of the \texttt{Z axis} stepper motors to raise or lower that side of the X axis. Once adjusted verify they match.
+%\begin{figure}[hbt]
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{X-Y_axes_leveling_check.JPG}
+\caption{Verifying the X and Y axis are square}
+\label{fig:X-Y_axes_leveling_check}
+\end{figure}  
+
 \index{power supply}
 \index{USB cable}
 \item Unwrap the power supply and USB cables.
@@ -272,24 +281,12 @@ The TAZ 3D printer can be moved on all three axes independently. If you would li
 These settings control the manual jog speeds when driven with Pronterface. Use caution when changing these figures. Moving the axes too fast can cause the printer to lose steps. If that occurs with the Z axis, it can potentially cause the Z axis to become out of square.
 
 \subsubsection{Homing}
-Each axes can be homed either individually or together. 
+Each axes can be homed either individually or together. Press the \texttt{HomeX} button to move the X axis to the left until it activates the end stop. Once the X axis end stop is activated, the X axis carriage will 'bounce'- it will move over and move back to the home position more slowly. Press the \texttt{HomeY} button to home the Y axis. The Y axis platform will move away from you towards the rear of the printer. Press the \texttt{HomeZ} button to home the Z axis. The Z axis will move down towards the heated bed. Make sure that you home the printer immediately after power up. The printer will not know where the not end is until each axes has been homed. Moving prior to home can be risky since the 3D printer will not know it's initial location.  
 
 \subsubsection{X/Y/Z Axes Movement Controls}
-The X, Y and Z axes can be moved utilizing the circular movement controls. Each axis can be moved in either fine moves or large moves, ranging from 0.1mm to 100mm.  For example, to move the \texttt{Y Axis} towards you, move your mouse to the \texttt{+y} section until both the \texttt{+y} and the \texttt{100} is highlighted.
- 
+Prior to moving the X, Y or Z axis, make sure that you home each axis. The X, Y and Z axes can be moved utilizing the circular movement controls. Each axis can be moved in either fine moves or large moves, ranging from 0.1mm to 100mm.  For example, to move the \texttt{Y Axis} towards you, move your mouse to the \texttt{+y} section until both the \texttt{+y} and the \texttt{100} is highlighted then select that ring section. To move the \texttt{Y axis} away from you, move your mouse to the \texttt{-y} section until both the \texttt{-y} and the \texttt{100} is highlighted then select that ring section. The X axis can be moved in a similar fashion.
 
-%%%%%%%%%%%%%%%%%%%
-%LOTS OF IMAGES HERE
-%%%%%%%%%%%%%%%%%%%
+The Z axis movement control operates similarly, but the movement scale is different. The Z axis will move in 0.1mm, 1mm and 10mm increments. The top half of the movement bar will move the Z axis up, by the selected units, while the lower half will move the Z axis down, by the desired units. 
 
-
-\index{}
-\section{Z Axis Leveling Check}
-
-
-
-\index{bed leveling}
-\section{Bed Leveling}
-\item Making sure that your bed is level is highly important. Make sure you take the time to go through the following procedure to help ensure that your prints are consistent and trouble free. The leveling procedure will need to occur while connected to the TAZ 3D printer. 
 
 \end{enumerate}
