@@ -1,43 +1,39 @@
-* Add more words to index
-* Make a glossary [done]
-* Compress images in the non-print version
+* Add more words to index as needed
+* Glossary - Add more as needed
 * use PDF compression
-* Update to CC-BY-SA 4.0, if available
-* Need new ISBN for AO-101
-* Add new Logo
+* Update to CC-BY-SA 4.0, if available **NOT COMPLETED YET, next round maybe
+* Need new ISBN for TAZ
 * Ensure ISBN scans - correct number?
-* Barcode is wavy - generate vector version?
-* Videos.LulzBot.com - link to our NAMED videos
-* Invlude acetone gloves?
-* 6.5 http?
-* 5.5 need re-Lulzing
 * Vi Orphan
-* Cover photo old 2 stop
 * Hyland comments
 * CaFexin index is normal teyt
-* Logo on cover - (TM) on AO
-* fig 5.4, change angle - looks like 1 rod
-* add FAQ on tightening belt
+* fig 5.4, change angle - looks like 1 rod ***Is this old?
 
 	-Trouble Shooting
 		-Spires / cooling
 		-skips
-	-FAQ
-	-Maintenance
-		-tightening belts
-		-tightening screws on Buda
-	-devel.lulzbot.com
-	-Grease threaded rods, not smooth rods
 * Convert to html
 
+TAZ 2.0 version
+===============
+
+*Figure 1.7 is in the wrong spot. It appears before 1.5 and 1.6.
+
+*Maintenance
+	-Grease threaded rods, not smooth rods, silicone
+
+*Hardware and Software Source Code
+	*Add devel.lulzbot.com
 
 
 Images needing to be updated:
-Cover
 
-X_axis_toolhead.JPG
-X_axis_connectors.JPG
-X_axis_strain_relief.JPG
+-Cover image
+-frame_y_axis_connector.JPG
+-X_axis_toolhead.JPG
+-X_axis_connectors.JPG
+-X_axis_strain_relief.JPG
+-y_axis_bolt_tighten.JPG
 
 
 Pronterface pictures

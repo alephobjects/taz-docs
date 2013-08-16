@@ -1,14 +1,17 @@
 
-The Graphic LCD allows you to print with the TAZ 3D printer without needing to have a connected computer or use a host software (Printrun). This will allow for more effecient space in the workspace and free up a computer for other tasks.
+The Graphic LCD allows you to print with the TAZ 3D printer without needing to have a connected computer or use a host software (Printrun). This will allow for more efficient space in the workspace and free up a computer for other tasks.
 
 In the following sections you will find general information on using the Graphic LCD, how to transfer .gcode files to the included sd card, heat up the printer, start a print, and make configuration adjustments.
 
 \section{Graphic LCD or Printrun Host?}
 The Graphic LCD is perfect for normal day to day print use and will be used in the majority of your print jobs. However, there are some instances where you will want to use the Printrun software. A few examples of when you would want to plug the USB cable back in and fire up Printrun:
 \begin{itemize}
-	\item When performing calibration checks a number of manual movements are required. Because of this it is easier and faster to make the required manual movements within Printrun. Calibration checks can be done with the Graphic LCD, but require a number of repetetive menu selections.
+	\item When performing calibration checks a number of manual movements are required. Because of this it is easier and faster to make the required manual movements within Printrun. Calibration checks can be done with the Graphic LCD, but require a number of repetitive menu selections.
 	\item Printrun offers a number of extra options for advanced users, including: custom gcode input, output display, and pronsole. Pronsole is the command line portion of Printrun which can be used in scripts for automation or controlling a printer through remote access (SSH for example).
 \end{itemize}
 
 \section{Multiple Connections}
-Because the TAZ printer can be controlled by the Graphic LCD and by USB this can create some connection problems. A general rule is: once you have started a print with either the Graphic LCD or Printrun, you should finish the print with that controller. 
+Because the TAZ printer can be controlled by the Graphic LCD and by host software, caution is advised when the USB is connected to the printer. A general rule is: once you have started a print with either the Graphic LCD or Printrun, for the rest of the print only use that controller. When printing with the Graphic LCD, never try to connect through USB in the Printrun host software; wait until the print is complete, and then connect in Printrun.
+
+\section{Putting Print Files On the SD Card}
+To print from the Graphic LCD you will need to transfer .gcode print files onto the SD card. Follow the steps as explained in the Slic3r manual to create .gcode print files on your computer. Insert the SD card into your computer using a SD reader slot or USB SD card reader.
