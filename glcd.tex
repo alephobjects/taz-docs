@@ -4,6 +4,7 @@ The Graphic LCD allows you to print with the TAZ 3D printer without needing to h
 In the following sections you will find general information on using the Graphic LCD, how to transfer .gcode files to the included sd card, heat up the printer, start a print, and make configuration adjustments.
 
 \section{Graphic LCD or Printrun Host?}
+\label{sec:Graphic LCD or Printrun Host?}
 The Graphic LCD is perfect for normal day to day print use and will be used in the majority of your print jobs. However, there are some instances where you will want to use the Printrun software. A few examples of when you would want to plug the USB cable back in and fire up Printrun:
 \begin{itemize}
 	\item When performing calibration checks a number of manual movements are required. Because of this it is easier and faster to make the required manual movements within Printrun. Calibration checks can be done with the Graphic LCD, but require a number of repetitive menu selections.
@@ -54,11 +55,31 @@ Before starting a print you will need to set the hot end and heat bed to the app
 
 If you need to set the extrusion and/or bed temperature at a different setting than the preheat temperature you can manually set the temperature. To do so, from the main menu navigate through: Configuration \texttt{->} Temperature \texttt{->} Nozzle or Bed. Clicking on either of these settings will give you a menu to set and select the desired temperature setting.
 
-\subsection{Selecting a file from the SD and starting a print}
+\subsection{Selecting a File From the SD and Starting a Print}
 Once the hot end and heat bed have reached the desired temperature the printer is ready to print. From the main menu select the \texttt{Print from SD} option. You will now see a selection of the directories and .gcode files on the SD card. Navigate through the menu to locate the file you would like to print. Select the desired file to begin the print.
 
-\subsection{Making manual movements with the GLCD}
-As noted previously (\ref{sec:Graphic LCD or Printrun Host?}) doing numerous manual movements is easier done using the Printrun host software. However, you can make manual movements with the GLCD. Navigate to Prepare \texttt{->} Move Axis. You will then select the length of the movement and then the axis to move. Note, that only 1mm and 0.1mm movements are allowed for the Z axis and extruder.
+\subsection{Making Manual Movements With the Graphic LCD}
+As noted previously (page \pageref{sec:Graphic LCD or Printrun Host?}), making numerous manual movements is easier done using the Printrun host software. However, you can make manual movements with the GLCD. Navigate to Prepare \texttt{->} Move Axis. You will then select the length of the movement and then the axis to move. Note, that only 1mm and 0.1mm movements are allowed for the Z axis and extruder.
 
 When at the move screen turn the selection knob clockwise to move the axis in millimeters in the positive direction and counter-clockwise for the negative direction. Push the selection knob to complete the manual move.
+
+\subsection{Configuration Settings}
+
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{GLCD/configuration_menu.JPG}
+\caption{Configuration Menu}
+\label{fig:configuration_menu}
+\end{figure}
+
+Out of the box, the TAZ 3D printer is already calibrated for printing. However, the GLCD does allow tuning of the more advanced configuration settings. It is highly suggested to not modify the configuration settings unless you are certain it is needed.
+
+To find the configuration settings, navigate to the main menu and then Configuration (fig. \ref{fig:configuration_menu}, page \pageref{fig:configuration_menu}). In the configuration settings you will find temperature and motion settings. These settings include default temperature settings, axis steps per mm, and more.
+
+The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the Graphic LCD. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered down. The stored settings will then automatically load when the printer is repowered.
+
+For more information on the configuration settings please see the TAZ support page on LulzBot.com.
+
+
+
 

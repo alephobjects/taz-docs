@@ -27,7 +27,10 @@ Changes still needed for TAZ 2.0 version
 	-Grease threaded rods, not smooth rods, silicone
 
 *Hardware and Software Source Code
-	*Add devel.lulzbot.com
+	-Add devel.lulzbot.com
+
+*GLCD
+	-
 
 
 Images needing to be updated:
@@ -57,11 +60,6 @@ y_axis_connectors.JPG
 Z_end_stop_trigger.JPG
 bed_fingers.JPG
 X-Y_axes_leveling_check.JPG (Show ruler measuring distance of Al bed plate to bottom of X axis smooth rods on the left and right.
-
-GLCD images needed:
-
-configuration_menu
-prepare_menu
 
 
 Pronterface pictures
