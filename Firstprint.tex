@@ -7,13 +7,14 @@ Making sure that your bed is level is highly important. Make sure you take the t
 Once connected to the TAZ 3D printer in Pronterface, Use the \texttt{-Z 1 button} to move the Z axis down in \texttt{1mm} increments. Move the Z axis down towards the bed by 5mm at first. While the Z axis is moving down pay attention to the Z axis movement and sound. The Z axis stepper motors should be moving in unison. If you notice a grinding sound stop and make sure that the Z axis looks level in relation to the body of the TAZ 3D printer before proceeding. Once you have confirmed smooth movement of the Z axis, use the \texttt{-Z 10 button} to move the Z axis down in 10mm increments. \color{red}}{Commands sent in Pronterface will stack, so multiple movement button presses can potentially be harmful and cannot be stopped without powering down the 3D printer.} Keep an eye on the nozzle for the hot end. As it approaches the surface of the bed use the \texttt{-Z 1 button} to continue lowering the Z axis into position. Stop lowering the Z axis once the Z axis has been lowered to within 4 inches(100mm) of the bed.
 
 \subsection{Verify Z Axis Leveling}
-With the Z axis lowered near the bed, use the included \textt{150mm ruler} to measure the distance from the bottom of the \texttt{X axis} smooth rod and the top surface of the \texttt{Y axis} aluminum bed plate.
+With the Z axis lowered near the bed, use the included \textt{150mm ruler} to measure the distance from the bottom of the \texttt{X axis} smooth rod and the top surface of the \texttt{Y axis} aluminum bed plate on the left side.
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{X-Y_axes_leveling_check.JPG}
 \caption{Z axis leveling check}
 \label{fig:X-Y_axes_leveling_check}
 \end{figure}
+Compare the distance measurement from the left side to the measurement on the right side. The distance measurement should be the same. If not, in Pronterface use the \texttt{Motors off} button to turn off the stepper motors on the TAZ 3D printer. Manually turn the threaded rod on one side of the printer to raise or lower that side to match the measurement on the other side.
 
 \subsection{Rough Adjustment of the Z Axis End Stop}
 
