@@ -1,6 +1,26 @@
 \index{bed leveling}
 \section{Bed Leveling}
-Making sure that your bed is level is highly important. Make sure you take the time to go through the following procedure to help ensure that your prints are consistent and trouble free. The leveling procedure will need to occur while connected to the TAZ 3D printer. 
+Making sure that your bed is level is highly important. Make sure you take the time to go through the following procedure to help ensure that your prints are consistent and trouble free. Make sure to first read the instructions for using the Printrun software. Connect to the printer as described in the Printrun software section. Once \texttt{Pronterface} is connected to the printer use the homing buttons to home the X and Y axis. \color{red}{Do not use the \texttt{HomeZ button}until after the \texttt{Z axis End stop} has been adjusted. Make sure that the red shipping clamps on the Z axis smooth rods have been removed before continuing.}
+
+\index{z axis}
+\subsection{Lowering the Z Axis}
+Once connected to the TAZ 3D printer in Pronterface, Use the \texttt{-Z 1 button} to move the Z axis down in \texttt{1mm} increments. Move the Z axis down towards the bed by 5mm at first. While the Z axis is moving down pay attention to the Z axis movement and sound. The Z axis stepper motors should be moving in unison. If you notice a grinding sound stop and make sure that the Z axis looks level in relation to the body of the TAZ 3D printer before proceeding. Once you have confirmed smooth movement of the Z axis, use the \texttt{-Z 10 button} to move the Z axis down in 10mm increments. \color{red}}{Commands sent in Pronterface will stack, so multiple movement button presses can potentially be harmful and cannot be stopped without powering down the 3D printer.} Keep an eye on the nozzle for the hot end. As it approaches the surface of the bed use the \texttt{-Z 1 button} to continue lowering the Z axis into position. Stop lowering the Z axis once the Z axis has been lowered to within 4 inches(100mm) of the bed.
+
+\subsection{Verify Z Axis Leveling}
+With the Z axis lowered near the bed, use the included \textt{150mm ruler} to measure the distance from the bottom of the \texttt{X axis} smooth rod and the top surface of the \texttt{Y axis} aluminum bed plate.
+\begin{figure}[hbt]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{X-Y_axes_leveling_check.JPG}
+\caption{Z axis leveling check}
+\label{fig:X-Y_axes_leveling_check}
+\end{figure}
+
+\subsection{Rough Adjustment of the Z Axis End Stop}
+
+\subsection{Fine Adjustment of the Z Axis End Stop}
+
+\subsection{Leveling the Print Bed}
+
 
 \section{Set Temperature}
 \index{temperature}
@@ -22,7 +42,7 @@ Once the hot end is heated to the correct temperature you will now need to load 
 % update feed hole picture.
 Gently pull both the idler screws and the plastic clip upwards to release the idler. The idler can be rotated downwards allowing access to the hobbed bolt and filament feed hole(Fig. \ref{fig:extruder_filament_slot}, page \pageref{fig:extruder_filament_slot}). Feed the end of the plastic filament into the filament feed hole
 (Fig. \ref{fig:extruder_filament_slot}).
-\begin{figure}[htb]
+\begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{extruder_filament_slot.JPG}
 \caption{Extruder filament slot}
