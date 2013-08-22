@@ -80,7 +80,7 @@
 \label{fig:X_axis_toolhead}
 \end{figure}
 
-\item Connect the stepper motor and the hot end to the existing wiring harness located at the top of the X axis carriage. You will find matching color male and female 4 pin connectors. Connect the matching male and female connectors for the extruder stepper motor and hot end (Fig. \ref{fig:X_axis_connectors}, page \pageref{fig:X_axis_connectors}); make sure the connector locks click to be sure that the connections are secure.
+\item Connect the stepper motor and the hot end to the existing wiring harness located at the top of the X axis carriage. You will find matching colored male and female 4 pin connectors. Connect the matching male and female connectors for the extruder stepper motor and hot end (Fig. \ref{fig:X_axis_connectors}, page \pageref{fig:X_axis_connectors}); make sure the connector locks click to be sure that the connections are secure.
 \begin{figure}[hp]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{X_axis_connectors.JPG}
@@ -90,7 +90,8 @@
 
 \item Now that the Y axis is mounted and the extruder tool head is installed you should set your printer on a stable, flat, and level surface large enough for extra space around the printer. Make sure your printer work space is clear of anything that could obstruct the movement of the printer. Move the Y axis to the back of the printer to ensure unobstructed movement of that axis. \textcolor{red}{Make sure there are no flammable fabrics or liquids near the printer space}. It is also best to not put your printer near a drafty window or air conditioner vent.
 
-\item We will next make sure that the Y axis stage is level in relation to the X axis. Using the ruler included with your TAZ 3D printer toolkit measure the distance from the aluminum Y axis bed plate to the bottom of the smooth rods on the X axis. You will want to compare the distance between both points on the left and right side of the aluminum bed plate. If the left or right measurements are not the same, manually rotate one of the Z axis stepper motors to raise or lower that side of the X axis. Once adjusted verify they match.
+%MOVE TO BEFORE BED LEVELING
+%\item We will next make sure that the Y axis stage is level in relation to the X axis. Using the ruler included with your TAZ 3D printer toolkit measure the distance from the aluminum Y axis bed plate to the bottom of the smooth rods on the X axis. You will want to compare the distance between both points on the left and right side of the aluminum bed plate. If the left or right measurements are not the same, manually rotate one of the Z axis stepper motors to raise or lower that side of the X axis. Once adjusted verify they match.
 %\begin{figure}[hbt]
 \begin{figure}[H]
 \centering
@@ -183,7 +184,7 @@
 \label{fig:axes}
 \end{figure}
 
-\begin{figure}[hp]
+\begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{end_stop_switches.JPG}
 \caption{End stop locations}
@@ -204,7 +205,7 @@ Linux and Mac OSX users will not need to install a driver to communicate with th
 \index{plater}
 \index{stl}
 \section{Installing Printrun}
-Printrun contains several different applications that can be used to control the TAZ 3D printer. It can be installed on Windows, Mac OSX and Linux based computers. Most users will use Pronterface, the graphical user interface for interacting with the 3D printer. \texttt{Pronsole} allows printing from the command line, and can be used for scripting and some automation. \texttt{Plater} allows you to arrange and combine several STL files into one. More information on the other programs within the Printrun package can be found at \texttt{https://github.com/kliment/Printrun}. Printrun can be downloaded from \texttt{LulzBot.com/support/downloads}. Download the version for your operating system and extract. You will need an archive manager to extract the files. If you do not have one installed we recommend using 7-zip, which can be downloaded for free at \texttt{www.1-zip.org}.
+Printrun contains several different applications that can be used to control the TAZ 3D printer. It can be installed on Windows, Mac OSX and Linux based computers. Most users will use Pronterface, when using a host software to interact with the 3D printer. \texttt{Pronsole} allows printing from the command line, and can be used for scripting and some automation. \texttt{Plater} allows you to arrange and combine several STL files into one. More information on the other programs within the Printrun package can be found at \texttt{https://github.com/kliment/Printrun}. Printrun can be downloaded from \texttt{LulzBot.com/support/downloads}. Download the version for your operating system and extract. You will need an archive manager to extract the files. If you do not have one installed we recommend using 7-zip, which can be downloaded for free at \texttt{www.1-zip.org}.
 
 \begin{itemize}
 \subsection{Windows Instructions}
@@ -218,11 +219,11 @@ Printrun contains several different applications that can be used to control the
 \subsection{Linux Instructions}
 %\begin{itemize}
 \item Once downloaded, extract the \texttt{dist} folder to a location of your choice. You will need to ensure that the following dependencies are met. They are listed in the README.md file. You can use this command to install the dependencies: 
-\texttt{sudo apt-get install python-serial python-wxgtk2.8 python-pyglet python-tornado python-setuptools python-libxml2 python-gobject avahi-daemon libavahi-compat-libdnssd1}
+\texttt{sudo apt-get install python-serial python-wxgtk2.8 python-pyglet python-tornado python-setuptools python-libxml2 python-gobject python-pip avahi-daemon libavahi-compat-libdnssd1}
 followed by:
 \texttt{pip install -r requirements.txt}
 Open the \texttt{Printrun-source} folder in a terminal and enter the following command:
-\texttt{sudo python setup.py install}
+\texttt{sudo python setup.py install}.
 Run Printrun by issuing the following command:
 \texttt{python pronterface.py}
 %\end{itemize}
@@ -241,8 +242,12 @@ Run Printrun by issuing the following command:
 \label{fig:printrun}
 \end{figure}
 
-
 Printrun is used to control the printer from a computer. It is divided into 4 main parts: The buttons over the top are used to connect to the printer, load files and start \& stop prints.
+
+The movement controls are on the left hand side, with the G-code preview window in the center and the Log window and Terminal command entry box on the right hand side (Fig. \ref{fig:printrun_labels}, page \pageref{fig:printrun_labels}).
+
+\subsection{Connecting to the TAZ 3D Printer}
+To connect to the printer, select the correct port by using the drop down arrow and selecting the active port. The \texttt{Port} button will refresh the Port listing. Once selected choose the default \texttt{115200} buad rate and press \texttt{Connect}. Pronterface will open a connection to the printer and display firmware information in the Log window. If nothing is displayed in the Log window verify you have the correct port and connection speed selected. 
 
 %\begin{figure}[hbt]
 \begin{figure}[H]
@@ -251,11 +256,6 @@ Printrun is used to control the printer from a computer. It is divided into 4 ma
 \caption{Printrun Functions}
 \label{fig:printrun-labels}
 \end{figure}
-
-The movement controls are on the left hand side, with the G-code preview window in the center and the Log window and Terminal command entry box on the right hand side.
-
-\subsection{Connecting to the TAZ 3D Printer}
-To connect to the printer, select the correct port by using the drop down arrow and selecting the active port. The \texttt{Port} button will refresh the Port listing. Once selected choose the default \texttt{115200} buad rate and press \texttt{Connect}. Pronterface will open a connection to the printer and display firmware information in the Log window. If nothing is displayed in the Log window verify you have the correct port and connection speed selected. 
 
 \subsection{Movement} 
 %\begin{figure}[hbt]
