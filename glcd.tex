@@ -1,11 +1,11 @@
 
-The Graphic LCD allows you to print with the TAZ 3D printer without needing to have a connected computer or use a host software (Printrun). This will allow for more efficient space in the workspace and free up a computer for other tasks.
+The Graphic LCD allows you to print with the TAZ 3D printer without needing to have a computer connected or use host software such as Printrun. This will allow for more efficient space in the workspace and free up a computer for other tasks.
 
 In the following sections you will find general information on using the Graphic LCD, how to transfer .gcode files to the included sd card, heat up the printer, start a print, and make configuration adjustments.
 
-\section{Graphic LCD or Printrun Host?}
-\label{sec:Graphic LCD or Printrun Host?}
-The Graphic LCD is perfect for normal day to day print use and will be used in the majority of your print jobs. However, there are some instances where you will want to use the Printrun software. A few examples of when you would want to plug the USB cable back in and fire up Printrun:
+\section{Graphic LCD Controller}
+\label{sec:Graphic LCD Controller}
+The Graphical LCD Controller is perfect for normal day to day printing and will be used in the majority of your print jobs. However, there are some instances where you will want to use Printrun instead of the GLCD Controller. A few examples of when you would want to plug the USB cable back in and use Printrun:
 \begin{itemize}
 	\item When performing calibration checks a number of manual movements are required. Because of this it is easier and faster to make the required manual movements within Printrun. Calibration checks can be done with the Graphic LCD, but require a number of repetitive menu selections.
 	\item Printrun offers a number of extra options for advanced users, including: custom gcode input, output display, and pronsole. Pronsole is the command line portion of Printrun which can be used in scripts for automation or controlling a printer through remote access (SSH for example).
@@ -31,8 +31,8 @@ After powering up your TAZ 3d printer the GLCD screen will turn on. After the st
 \begin{enumerate}
 \item Hot end temperatures: represents the current temperature (bottom) and set temperature (top) of up to three nozzles.
 \item Heat bed temperature: represents the current temperature (bottom) and set temperature (top) of the heat bed.
-\item Fan speed: represents the current fan speed. The fan is set to off (1\%) by default as this function is not used by the TAZ printer. If you later modify your TAZ printer to use a print cooling fan, this status will come in use.
-\item Tool head coordinates: represents the currents tool head coordinates in the X, Y, and Z axes.
+\item Fan speed: represents the current fan speed. The fan is set to off (1\%) by default as this function is not used by the TAZ printer. If you later modify your TAZ printer to use a print cooling fan, this status indicator will come in use.
+\item Tool head coordinates: represents the current tool head coordinates in the X, Y, and Z axes.
 \item Feed rate: represents the current feed rate setting. The feed rate is set to 100\% by default which matches the speed set in the gcode generation. When on the status screen selection knob can be turned to increase or decrease the feed rate during the print. Increasing/decreasing the feed rate will increase/decrease the speed of the print.
 \item Printer status: lists the current status of the printer including: SD card status, current printing file, or completed print time.
 \item Current print time: lists the length of time for the current print job.
@@ -51,9 +51,9 @@ To navigate through the LCD menu use the selection knob by rotating to scroll th
 \end{figure}
 
 \subsection{Preparing for a Print}
-Before starting a print you will need to set the hot end and heat bed to the appropriate temperatures for the filament type you are using. To quickly set the printer to preheat, for ABS or PLA filament, click the selection knob to bring up the menu and select \texttt{Prepare}. Select \texttt{Preheat PLA} for PLA filament or \texttt{Preheat ABS} for ABS filament. This will set the temperatures for the hot end and heat bed and begin bringing the printer up to print ready temperature.
+Before starting a print you will need to set the hot end and heat bed to the appropriate temperatures for the filament type you are using. To quickly set the printer to preheat, for ABS or PLA filament, click the selection knob to bring up the menu and select \texttt{Prepare}. Select \texttt{Preheat PLA} for PLA filament or \texttt{Preheat ABS} for ABS filament. This will set the temperatures for the hot end and heat bed and begin bringing the printer up to print-ready temperature.
 
-If you need to set the extrusion and/or bed temperature at a different setting than the preheat temperature you can manually set the temperature. To do so, from the main menu navigate through: Configuration \texttt{->} Temperature \texttt{->} Nozzle or Bed. Clicking on either of these settings will give you a menu to set and select the desired temperature setting.
+If you need to set the extrusion and/or bed temperature to a different setting than the preheat temperature you can manually set the temperature. To do so, from the main menu navigate through: Configuration \texttt{->} Temperature \texttt{->} Nozzle or Bed. Clicking on either of these settings will give you a menu to set and select the desired temperature setting.
 
 \subsection{Selecting a File From the SD and Starting a Print}
 Once the hot end and heat bed have reached the desired temperature the printer is ready to print. From the main menu select the \texttt{Print from SD} option. You will now see a selection of the directories and .gcode files on the SD card. Navigate through the menu to locate the file you would like to print. Select the desired file to begin the print.
@@ -72,11 +72,11 @@ When at the move screen turn the selection knob clockwise to move the axis in mi
 \label{fig:configuration_menu}
 \end{figure}
 
-Out of the box, the TAZ 3D printer is already calibrated for printing. However, the GLCD does allow tuning of the more advanced configuration settings. It is highly suggested to not modify the configuration settings unless you are certain it is needed.
+Out of the box, the TAZ 3D printer is already calibrated for printing. However, the GLCD does allow tuning of the more advanced configuration settings. It is highly suggested to not modify the configuration settings unless you are certain it is needed. It is recommended to write down any values prior to changing any settings.
 
 To find the configuration settings, navigate to the main menu and then Configuration (fig. \ref{fig:configuration_menu}, page \pageref{fig:configuration_menu}). In the configuration settings you will find temperature and motion settings. These settings include default temperature settings, axis steps per mm, and more.
 
-The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the Graphic LCD. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered down. The stored settings will then automatically load when the printer is repowered.
+The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the GLCD Controller. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered down. The stored settings will then automatically load when the printer is repowered.
 
 For more information on the configuration settings please see the TAZ support page on LulzBot.com.
 
