@@ -34,31 +34,25 @@ Changes still needed for TAZ 2.0 version
 
 Images needing to be updated:
 
-axes.JPG
-bed_connectors.JPG
-bed_connectors_strain_relief.JPG
-bed_connectors_strain_relief_done.JPG
+DONE*axes.JPG
+DONE*bed_connectors.JPG
+DONE*bed_connectors_strain_relief.JPG
+DONE*bed_connectors_strain_relief_done.JPG
 Cover image
-electronics_case_rec.JPG
-electronics_DC_connector.JPG
-electronics_DC_connector_tight.JPG
-end_stop_switches.JPG
+DONE*electronics_case_rec.JPG
+DONE*electronics_DC_connector.JPG
+DONE*electronics_DC_connector_tight.JPG
+DONE*end_stop_switches.JPG
 extruder_filament_slot.JPG
 extruder_idler_release.JPG
-filament_guide_direction.JPG
-filament_guide_mount.JPG
-filament_spool_mount_back.JPG
-filament_spool_mount_front.JPG
-frame_y_axis_connector.JPG
-spool_mount_parts.JPG
-X_axis_connectors.JPG 
-X_axis_strain_relief.JPG -explain (Show how the wiring for the extruder needs to sit within the strain relief)
-X_axis_toolhead.JPG
-y_axis_bolt_tighten.JPG
-y_axis_connectors.JPG
-Z_end_stop_trigger.JPG
+DONE*filament_guide_direction.JPG
+DONE*filament_guide_mount.JPG
+DONE*frame_y_axis_connector.JPG
+DONE*y_axis_bolt_tighten.JPG
+DONE*y_axis_connectors.JPG
+DONE*Z_end_stop_trigger.JPG
 bed_fingers.JPG
-X-Y_axes_leveling_check.JPG (Show ruler measuring distance of Al bed plate to bottom of X axis smooth rods on the left and right.
+DONE*X-Y_axes_leveling_check.JPG (Show ruler measuring distance of Al bed plate to bottom of X axis smooth rods on the left and right.
 
 
 Pronterface pictures
