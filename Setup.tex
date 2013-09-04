@@ -1,5 +1,7 @@
+
+\section{Hardware Setup}
 \begin{enumerate}
-\item Your printer has been pre-calibrated and tested, however, after unpacking all of the components you will need to re-mount the Y axis onto the frame and connect the bed and Y axis connectors. You will also need to re-mount the extruder tool head. Please follow the steps completely to make certain that the extruder tool head and Y axis are re-mounted correctly and you will be on your way to your first print.
+\item Your printer has been pre-calibrated and tested, however, after unpacking all of the components you will need to re-mount the Y axis onto the frame and connect the bed and Y axis connectors. You will also need to re-mount the extruder tool head. Please follow the steps completely to make certain that the extruder tool head and Y axis are re-mounted correctly. You will then be on your way to your first print.
 
 \item Place the TAZ frame and Y axis assembly on a flat and level surface. Move to the Y axis assembly and find the four Y axis bolts. The four bolts located on the Y axis aluminum frame bars, have large plastic knobs that allow the bolts to be easily turned by hand (Fig. \ref{fig:Y_axis_bolts}, page \pageref{fig:Y_axis_bolts}). Turning counter clock-wise, remove each of the four Y axis bolts and set aside (Fig. \ref{fig:remove_Y_axis_bolts}, page \pageref{fig:remove_Y_axis_bolts}).
 
@@ -45,7 +47,7 @@
 \label{fig:Y_axis_connectors}
 \end{figure}
 
-\item Locate the two connectors to the left of the print bed. Connect the matching female and male large two pin heat bed connectors and the small two pin thermistor connectors (Fig. \ref{fig:bed_connectors}, page \pageref{fig:bed_connectors}).
+\item Locate the two connectors to the left of the print bed. Connect the matching female and male large two pin heat bed connectors and the small two pin thermistor connectors, again making sure the connectors lock(Fig. \ref{fig:bed_connectors}, page \pageref{fig:bed_connectors}).
 
 \begin{figure}[H]
 \centering
@@ -72,7 +74,7 @@
 \label{fig:bed_connectors_strain_relief_done}
 \end{figure}
 
-\item Move the X axis carriage to the center of the smooth rods. Remove the foam from between the X axis carriage and the left hand X axis end. Locate and remove, with the 2.5mm hex driver, the tool head 3mm screw in top center of the X axis carriage (needs photo). Place the extruder tool head mount onto the X axis carriage bottom first. The extruder mount will slide into the bottom portion of the carriage and self center. Use the included 2.5mm driver and the previously removed 3mm screw to secure the extruder tool head onto the X axis carriage.
+\item Move the X axis carriage to the center of the smooth rods. If you have not already done so, remove the foam from between the X axis carriage and the left hand X axis end. Locate and remove, with the 2.5mm hex driver, the tool head 3mm screw in top center of the X axis carriage (Fig. \ref{fig:tool_head_screw}, page \pageref{fig:tool_head_screw}). Place the extruder tool head mount onto the X axis carriage bottom first. The extruder mount will slide into the bottom portion of the carriage and self center (Fig. \ref{fig:tool_head_placement}, page \pageref{fig:tool_head_placement}). Use the included 2.5mm driver and the previously removed 3mm screw to secure the extruder tool head onto the X axis carriage.
 \begin{figure}[hp]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{tool_head_screw.JPG}
@@ -94,19 +96,9 @@
 \label{fig:tool_head_connectors}
 \end{figure}
 
-\item Connect the stepper motor and the hot end to the existing wiring harness located at the top of the X axis carriage. You will find matching colored male and female 4 pin connectors. Connect the matching male and female connectors for the extruder stepper motor and hot end (Fig. \ref{fig:X_axis_connectors}, page \pageref{fig:X_axis_connectors}); make sure the connector locks click to be sure that the connections are secure.
+\item Connect the stepper motor and the hot end to the existing wiring harness located at the top of the X axis carriage. You will find matching colored male and female 4 pin connectors. Connect the matching male and female connectors for the extruder stepper motor and hot end (Fig. \ref{fig:tool_head_connectors}, page \pageref{fig:tool_head_connectors}); orange/yellow wired connecters paired and red/blue/green/black wired connectors paired. Make sure the connector locks click to be sure that the connections are secure.
 
 \item Now that the Y axis is mounted and the extruder tool head is installed you should set your printer on a stable, flat, and level surface large enough for extra space around the printer. Make sure your printer work space is clear of anything that could obstruct the movement of the printer. Move the Y axis to the back of the printer to ensure unobstructed movement of that axis. \textcolor{red}{Make sure there are no flammable fabrics or liquids near the printer space}. It is also best to not put your printer near a drafty window or air conditioner vent.
-
-%MOVE TO BEFORE BED LEVELING    MOVED...
-%\item We will next make sure that the Y axis stage is level in relation to the X axis. Using the ruler included with your TAZ 3D printer toolkit measure the distance from the aluminum Y axis bed plate to the bottom of the smooth rods on the X axis. You will want to compare the distance between both points on the left and right side of the aluminum bed plate. If the left or right measurements are not the same, manually rotate one of the Z axis stepper motors to raise or lower that side of the X axis. Once adjusted verify they match.
-%\begin{figure}[hbt]
-\begin{figure}[H]
-\centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{X-Y_axes_leveling_check.JPG}
-\caption{Verifying the X and Y axis are square}
-\label{fig:X-Y_axes_leveling_check}
-\end{figure}  
 
 \index{power supply}
 \index{USB cable}
@@ -201,7 +193,7 @@
 
 
 \section{ABS \& Acetone Solution Prep}
-Please refer to section \ref{sec:ABS/Acetone Glue} for instructions in preparing the ABS/Acetone Glue for use when printing with ABS. It will not be required for use when printing with PLA.
+Please refer to section \ref{sec:ABS/Acetone Glue} (page \pageref{sec:ABS/Acetone Glue}) for instructions in preparing the ABS/Acetone Glue for use when printing with ABS. As it will take some time to dissolve the ABS into the acetone it may now be a good time to make the solution. If you are printing with PLA, the ABS and Acetone solution is not needed.
 
 \index{driver}
 \section{Installing Drivers}
@@ -213,7 +205,7 @@ Linux and Mac OSX users will not need to install a driver to communicate with th
 \index{plater}
 \index{stl}
 \section{Installing Printrun}
-Printrun contains several different applications that can be used to control the TAZ 3D printer. It can be installed on Windows, Mac OSX and Linux based computers. Most users will use Pronterface, when using a host software to interact with the 3D printer. \texttt{Pronsole} allows printing from the command line, and can be used for scripting and some automation. \texttt{Plater} allows you to arrange and combine several STL files into one. More information on the other programs within the Printrun package can be found at \texttt{https://github.com/kliment/Printrun}. Printrun can be downloaded from \texttt{LulzBot.com/support/downloads}. Download the version for your operating system and extract. You will need an archive manager to extract the files. If you do not have one installed we recommend using 7-zip, which can be downloaded for free at \texttt{www.1-zip.org}.
+Printrun contains several different applications that can be used to control the TAZ 3D printer. It can be installed on Windows, Mac OSX and Linux based computers. Most users will use Pronterface, the graphical user interface for printrun, when using a host software to interact with the 3D printer. \texttt{Pronsole} allows printing from the command line, and can be used for scripting and some automation. \texttt{Plater} allows you to arrange and combine several STL files into one. More information on the other programs within the Printrun package can be found at \texttt{https://github.com/kliment/Printrun}. Printrun can be downloaded from \texttt{LulzBot.com/support/downloads}. Download the version for your operating system and extract. You will need an archive manager to extract the files. If you do not have one installed we recommend using 7-zip, which can be downloaded for free at \texttt{www.1-zip.org}.
 
 \begin{itemize}
 \subsection{Windows Instructions}
@@ -233,9 +225,6 @@ followed by:
 Open the \texttt{Printrun-source} folder in a terminal and enter the following command:
 \texttt{sudo python setup.py install}.
 Run Printrun by issuing the following command:
-\texttt{python pronterface.py}
-%\end{itemize}
-\item Navigate to the download directory and run the following command:
 \texttt{python pronterface.py}
 \end{itemize}
 
