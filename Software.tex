@@ -15,19 +15,100 @@ To operate your desktop 3D printer you will need to install a few software packa
 All of the following free/libre software is available for GNU/Linux, Windows, and Apple OS X. However, we highly recommend using these softwares on GNU/Linux.
 
 \index{download}
-The required software can be found in the Support/Downloads section at \texttt{https://www.lulzbot.com/?q=support}. You will also find instructions there for installing each program onto your PC. You can also find downloads specific to the TAZ 3D printer on the TAZ product page.
+The required software can be found in the Support/Downloads section at \texttt{https://www.lulzbot.com/?q=support/downloads}. You will also find instructions there for installing each program onto your PC. You can also find downloads specific to the TAZ 3D printer on the TAZ product page.
 
-\section{Drivers}
-\index{drivers}
-\index{Windows}
-\index{Apple OS X}
-\index{OSX}
-\index{Linux}
-You will need to install device drivers in order for your Windows computer to communicate with the TAZ 3D Printer. A Windows guide can be found at: \texttt{https://www.lulzbot.com/support/manually-installing-drivers-windows}. If you are using your TAZ 3D Printer on a Linux/Apple OS X based computer you will not need any drivers- support is already built into the operating system.
+\index{driver}
+\section{Installing Drivers}
+Linux and Mac OSX users will not need to install a driver to communicate with the TAZ 3D printer. Windows users will. The drivers can be downloaded from \texttt{LulzBot.com/support/downloads}. A visual guide showing the driver installation process can be found in our download section as well.
 
-Windows Driver Downloads:
-\texttt{http://download.lulzbot.com/TAZ/
-software/current/drivers/windows/}
+\index{pronterface}
+\index{printrun}
+\index{pronsole}
+\index{plater}
+\index{stl}
+\section{Installing Printrun}
+Printrun contains several different applications that can be used to control the TAZ 3D printer. It can be installed on Windows, Mac OSX and Linux based computers. Most users will use Pronterface, the graphical user interface for printrun, when using a host software to interact with the 3D printer. \texttt{Pronsole} allows printing from the command line, and can be used for scripting and some automation. \texttt{Plater} allows you to arrange and combine several STL files into one. More information on the other programs within the Printrun package can be found at \texttt{https://github.com/kliment/Printrun}. Printrun can be downloaded from \texttt{LulzBot.com/support/downloads}. Download the version for your operating system and extract. You will need an archive manager to extract the files. If you do not have one installed we recommend using 7-zip, which can be downloaded for free at \texttt{www.1-zip.org}.
+
+\begin{itemize}
+\subsection{Windows Instructions}
+\index{windows}
+\item Once downloaded, extract the \texttt{dist} folder to a location of your choice. You can rename the \texttt{dist} folder if you like. Double click \texttt{pronterface.exe} to run Pronterface.
+
+
+\subsection{Mac OSX Instructions}
+\item Once downloaded, extract the \texttt{dist} folder to a location of your choice. Once extracted, double click the \texttt{pronterface-mac-Mar2012.app} file to install.
+
+\subsection{Linux Instructions}
+%\begin{itemize}
+\item Once downloaded, extract the \texttt{dist} folder to a location of your choice. You will need to ensure that the following dependencies are met. They are listed in the README.md file. You can use this command to install the dependencies: 
+\texttt{sudo apt-get install python-serial python-wxgtk2.8 python-pyglet python-tornado python-setuptools python-libxml2 python-gobject python-pip avahi-daemon libavahi-compat-libdnssd1}
+followed by:
+\texttt{pip install -r requirements.txt}
+Open the \texttt{Printrun-source} folder in a terminal and enter the following command:
+\texttt{sudo python setup.py install}.
+Run Printrun by issuing the following command:
+\texttt{python pronterface.py}
+\end{itemize}
+
+\index{printrun}
+\section{Using Printrun}
+
+%\begin{figure}[hbt]
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun.png}
+\caption{Printrun}
+\label{fig:printrun}
+\end{figure}
+
+Printrun is used to control the printer from a computer. It is divided into 4 main parts: The buttons over the top are used to connect to the printer, load files and start \& stop prints.
+
+The movement controls are on the left hand side, with the G-code preview window in the center and the Log window and Terminal command entry box on the right hand side (Fig. \ref{fig:printrun_labels}, page \pageref{fig:printrun_labels}).
+
+\subsection{Connecting to the TAZ 3D Printer}
+\index{connecting}
+\index{Printrun}
+\index{USB cable}
+\index{port}
+\index{baud rate}
+\glossary{Baud Rate}{Refers to the speed at which the host controller communicates with the 3d Printer electronics.}
+To start up the printer, first you will need to connect to the printer with Printrun. Make sure you have connected the USB cable from your PC to the printer before launching Printrun. If not, close Printrun, connect the USB cable, and relaunch Printrun. To connect to the printer, select the correct port by using the drop down arrow and selecting the active port, generally \texttt{/dev/ttyACM0}). On other operating systems the port may be named such as \texttt{COM1} or \texttt{tty.usbserial-USB-ID}. The \texttt{Port} button will refresh the Port listing. Once selected choose the default \texttt{115200} buad rate and press \texttt{Connect}. Pronterface will open a connection to the printer and display firmware information in the Log window. 
+
+In the text output window you will see multiple return lines. If you see \texttt{Printer is now online} you have successfully connected to the printer. The printer control buttons on the left will also darken and become click-able after connecting. If nothing is displayed in the Log window verify you have the correct port and connection speed selected. When you need to disconnect the printer simply press the \texttt{Disconnect} button.
+
+%\begin{figure}[hbt]
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun-labels.png}
+\caption{Printrun Functions}
+\label{fig:printrun-labels}
+\end{figure}
+
+\subsection{Movement} 
+%\begin{figure}[hbt]
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun_controls.png}
+\caption{Movement Controls}
+\label{fig:printrun_controls}
+\end{figure}
+
+\subsubsection{Motors off}
+The TAZ 3D printer can be moved on all three axes independently. If you would like to do so by hand, use the \texttt{Motors off} button to unlock all the stepper motors. Once unlocked they can be moved by hand. Keep in mind that there is no positional feedback, so if you move an axis you will need to re-home in order to re-establish the hot end's position. 
+
+\subsubsection{mm/min ZY:/ Z:}
+These settings control the manual jog speeds when driven with Pronterface. Use caution when changing these figures. Moving the axes too fast can cause the printer to lose steps. If that occurs with the Z axis, it can potentially cause the Z axis to become out of square.
+
+\subsubsection{Homing}
+\index{end stops}
+Caution: when homing, the axis will continue to move in the negative direction until the end stop switch is activated. If the printer is ever transported make sure the end stop switches are clear before resuming printing. If an axis has missed an end stop and is continuing to try to move in the negative direction, immediately turn the power switch to the off position. 
+
+Each axes can be homed either individually or together. Press the \texttt{HomeX} button to move the X axis to the left until it activates the end stop. Once the X axis end stop is activated, the X axis carriage will 'bounce'- it will move over and move back to the home position more slowly. Press the \texttt{HomeY} button to home the Y axis. The Y axis platform will move away from you towards the rear of the printer. \textcolor{red}}DO NOT press the \texttt{HomeZ} button to home the Z axis or the \texttt{HomeAll button} at this time.} Make sure that you home the printer immediately after power up. The printer will not know where the origin point is until each axes has been homed. Moving prior to homing can be risky since the 3D printer will not know it's initial location.  
+
+\subsubsection{X/Y/Z Axes Movement Controls}
+Prior to moving the X, Y or Z axis, make sure that you home each axis. The X, Y and Z axes can be moved utilizing the circular movement controls. Each axis can be moved in either fine moves or large moves, ranging from 0.1mm to 100mm.  For example, to move the \texttt{Y Axis} towards you, move your mouse to the \texttt{+y} section until both the \texttt{+y} and the \texttt{100} is highlighted then select that ring section. To move the \texttt{Y axis} away from you, move your mouse to the \texttt{-y} section until both the \texttt{-y} and the \texttt{100} is highlighted then select that ring section. The X axis can be moved in a similar fashion.
+
+The Z axis movement control operates similarly, but the movement scale is different. The Z axis will move in 0.1mm, 1mm and 10mm increments. The top half of the movement bar will move the Z axis up, by the selected units, while the lower half will move the Z axis down, by the desired units. 
 
 
 
@@ -70,7 +151,7 @@ To load an \texttt{.STL} 3D model file into Slic3r, activate the Plater tab and 
 \index{gcode}
 \subsection{Export Gcode files}
 Once you have finished setting your part(s) in Plater you can generate the Gcode by clicking \texttt{Export G-Code...}. In the file browser navigate to where you would like to save the \texttt{.gcode} file and list a name to save the file as. Click \texttt{Save} and Slic3r will begin generating the \texttt{.gcode} file. When Slicer is finished you will receive a prompt. If you have created a plate with multiple model designs you can also use the \texttt{Export STL...} function to save an \texttt{.STL} file for quickly reproducing the same plate of models.
-\end{comment}
+
 
 \section{Printrun}
 %%% XXX shouldn't have to do it this way.
@@ -142,13 +223,10 @@ The linear control bar to the right controls the Z axis. The Z axis is also sepa
 
 \index{home}
 The four triangular buttons around the circular pattern are the axes home buttons. Each home button will move that axis in the negative direction until the end stop is activated. There is a home button for the X, Y, and Z axes. There is also a white home all button that homes all of the axes at once.
+\end{comment}
 
-\index{motors}
-The \texttt{Motors off} button will deactivate all motors allowing all of the axes to be moved by hand.
 
-\index{end stops}
-Caution: when homing, the axis will continue to move in the negative direction until the end stop switch is activated. If the printer is ever transported make sure the end stop switches are clear before resuming printing. If an axis has missed an end stop and is continuing to try to move in the negative direction, immediately turn the power switch to the off position. If a print file was running, after turning the power switch to off, pause the print by clicking the \texttt{Pause} button. Realign the end stop and try homing again.
-
+\begin{comment}
 \subsection{Loading Print Files}
 \index{load files}
 \index{gcode}
@@ -164,9 +242,8 @@ To load a \texttt{.gcode} file into Printrun click the \texttt{Load file} button
 \end{figure}
 Click the Gcode viewer window to see a more detailed version of the sliced model. In the pop-up Gcode viewer you can zoom in using the mouse scroll wheel and flip through layers with the up and down arrow keys. To pan within the window left-click and drag to move around the work plane. The lines shown in the Gcode viewer represent the path the extrusion nozzle will follow to print the model.
 
-For more information on using Printrun see the Printrun page in the Support/Downloads section at \texttt{https://www.lulzbot.com/?q=support}. Instructions for running a print can be found in the
-%%% XXX Tag this
-Starting the First Print section in this manual.
+For more information on using Printrun see the Printrun page in the Support/Downloads section at \texttt{https://www.lulzbot.com/?q=support}. Instructions for running a print can be found in the starting the First Print section in this manual.
+\end{comment}
 
 \section{CAD and 3D Modeling Software}
 \index{CAD}
