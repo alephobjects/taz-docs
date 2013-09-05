@@ -25,11 +25,14 @@ Changes still needed for TAZ 2.0 version
 
 *Maintenance
 	-Grease threaded rods, not smooth rods, silicone
+		Added to Maintenance.tex
 
 *Hardware and Software Source Code
 	-Add devel.lulzbot.com
+		Added to Software.tex 
 
 *Add note about removing the shipping clamps before setup
+	Added to Setup.tex as a check.
 
 Notes for possible changes
 ==========================
