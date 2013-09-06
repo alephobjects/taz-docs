@@ -2,12 +2,16 @@
 \section{Bed Leveling}
 Make sure you take the time to go through the following procedure to help ensure that your prints are consistent and trouble free. Make sure to first read the instructions for using the Printrun software. Connect to the printer as described in the Printrun software section. Once \texttt{Pronterface} is connected to the printer use the homing buttons to home the X and Y axis. \textcolor{red}{Do not use the \texttt{Home Z button} until after the \texttt{Z axis End stop} has been adjusted. Make sure that the red shipping clamps on the Z axis smooth rods have been removed before continuing.}
 
+\subsection{Rough Adjustment of the Z Axis End Stop}
+\index{end stop}
+Before using the \texttt{home Z} button or the \texttt{home all} button you will need to adjust the \texttt{Z axis endstop} (Fig. \ref{fig:Z_end_stop_trigger}, page \pageref{fig:Z_end_stop_trigger}). Once connected to the TAZ 3D printer in Pronterface, Rotate the \texttt{Z axis end stop trigger} clockwise to lower the bottom of the screw closer to the Z axis end stop. Once lowered by approximately 1cm, press the \texttt{HomeZ button} to home the Z axis. The hot end will approach the heated bed and should stop around a centimeter above the surface of the heated bed. While the Z axis is moving down pay attention to the Z axis movement and sound. The Z axis stepper motors should be moving in unison. If you notice a grinding sound stop, turn the printer off and before proceeding, make sure that the Z axis looks level in relation to the body of the TAZ 3D printer. Manually rotate one of the Z axis stepper motors by hand if needed to visually level the Z axis.
+
 \index{z axis}
-\subsection{Lowering the Z Axis}
-Once connected to the TAZ 3D printer in Pronterface, Use the \texttt{-Z 1 button} to move the Z axis down in \texttt{1mm} increments. Move the Z axis down towards the bed by 5mm at first. While the Z axis is moving down pay attention to the Z axis movement and sound. The Z axis stepper motors should be moving in unison. If you notice a grinding sound stop and, before proceeding, make sure that the Z axis looks level in relation to the body of the TAZ 3D printer. Once you have confirmed smooth movement of the Z axis, use the \texttt{-Z 10 button} to move the Z axis down in 10mm increments. \textcolor{red}{Commands sent in Pronterface will stack, so multiple movement button presses can potentially be harmful and cannot be stopped without powering down the 3D printer.} Keep an eye on the nozzle for the hot end. As it approaches the surface of the bed use the \texttt{-Z 1 button} to continue lowering the Z axis into position. Lower the Z axis until the hot end nozzle is approximately 40-50mm away from the print bed.
+\subsection{Raising the Z Axis}
+Use the \texttt{+Z 10 button} to move the Z axis up in \texttt{10mm} increments. \textcolor{red}{Commands sent in Pronterface will stack, so multiple movement button presses can potentially be harmful and cannot be stopped without powering down the 3D printer.} Keep an eye on the nozzle for the hot end. Raise the Z axis until the hot end nozzle is approximately 40-50mm away from the print bed.
 
 \subsection{Verify Z Axis Leveling}
-With the Z axis lowered near the bed, use the included \texttt{150mm ruler} to measure the distance from the bottom of the \texttt{X axis} smooth rod and the top surface of the \texttt{Y axis} aluminum bed plate on the left side.
+With the Z axis above the bed, use the included \texttt{150mm ruler} to measure the distance from the bottom of the \texttt{X axis} smooth rod and the top surface of the \texttt{Y axis} aluminum bed plate on the left side.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{X-Y_axes_leveling_check.JPG}
@@ -16,10 +20,6 @@ With the Z axis lowered near the bed, use the included \texttt{150mm ruler} to m
 \end{figure} 
 Compare the distance measurement from the left side to the measurement on the right side. The distance measurement should be the same. If not, in Pronterface use the \texttt{Motors off} button to turn off the stepper motors on the TAZ 3D printer. Manually, by hand, turn the threaded rod on one side of the printer to raise or lower that side to match the measurement on the other side. If the Z axis has been adjusted measure again to confirm that the left and right side of the Z axis are level in relation to the Y axis aluminum plate.
 
-\subsection{Rough Adjustment of the Z Axis End Stop}
-\index{end stop}
-Before using the \texttt{home Z} button or the \texttt{home all} button you will need to adjust the \texttt{Z axis endstop} (Fig. \ref{fig:Z_end_stop_trigger}, page \pageref{fig:Z_end_stop_trigger}).
-Rotate the \texttt{Z axis end stop trigger} clockwise to lower the bottom of the screw closer to the Z axis end stop. Once lowered by approximately 1cm, press the \texttt{HomeZ button} to home the Z axis. The hot end will approach the heated bed and should stop around a centimeter above the surface of the heated bed.
 
 \subsection{Fine Adjustment of the Z Axis End Stop}
 Adjust the \texttt{Z axis end stop trigger} by rotating the screw counter-clockwise to raise the tip of the screw. Raise the screw by roughly the same amount of the distance between the nozzle tip and the print surface. Press the \texttt{Home Z} button to home the Z axis. The tip of the nozzle should now be very close to the surface of the bed.
