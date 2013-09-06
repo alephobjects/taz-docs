@@ -4,7 +4,7 @@ Make sure you take the time to go through the following procedure to help ensure
 
 \index{z axis}
 \subsection{Lowering the Z Axis}
-Once connected to the TAZ 3D printer in Pronterface, Use the \texttt{-Z 1 button} to move the Z axis down in \texttt{1mm} increments. Move the Z axis down towards the bed by 5mm at first. While the Z axis is moving down pay attention to the Z axis movement and sound. The Z axis stepper motors should be moving in unison. If you notice a grinding sound stop and, before proceeding, make sure that the Z axis looks level in relation to the body of the TAZ 3D printer. Once you have confirmed smooth movement of the Z axis, use the \texttt{-Z 10 button} to move the Z axis down in 10mm increments. \textcolor{red}{Commands sent in Pronterface will stack, so multiple movement button presses can potentially be harmful and cannot be stopped without powering down the 3D printer.} Keep an eye on the nozzle for the hot end. As it approaches the surface of the bed use the \texttt{-Z 1 button} to continue lowering the Z axis into position. Stop lowering the Z axis once the Z axis has been lowered to within 4 inches(100mm) of the bed.
+Once connected to the TAZ 3D printer in Pronterface, Use the \texttt{-Z 1 button} to move the Z axis down in \texttt{1mm} increments. Move the Z axis down towards the bed by 5mm at first. While the Z axis is moving down pay attention to the Z axis movement and sound. The Z axis stepper motors should be moving in unison. If you notice a grinding sound stop and, before proceeding, make sure that the Z axis looks level in relation to the body of the TAZ 3D printer. Once you have confirmed smooth movement of the Z axis, use the \texttt{-Z 10 button} to move the Z axis down in 10mm increments. \textcolor{red}{Commands sent in Pronterface will stack, so multiple movement button presses can potentially be harmful and cannot be stopped without powering down the 3D printer.} Keep an eye on the nozzle for the hot end. As it approaches the surface of the bed use the \texttt{-Z 1 button} to continue lowering the Z axis into position. Lower the Z axis until the hot end nozzle is approximately 40-50mm away from the print bed.
 
 \subsection{Verify Z Axis Leveling}
 With the Z axis lowered near the bed, use the included \texttt{150mm ruler} to measure the distance from the bottom of the \texttt{X axis} smooth rod and the top surface of the \texttt{Y axis} aluminum bed plate on the left side.
@@ -18,20 +18,14 @@ Compare the distance measurement from the left side to the measurement on the ri
 
 \subsection{Rough Adjustment of the Z Axis End Stop}
 \index{end stop}
-Before using the \texttt{home Z} button or the \texttt{home all} button you will need to adjust the \texttt{Z axis endstop}.
-\begin{figure}[p]
-\centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Z_end_stop_trigger.JPG}
-\caption{Z end stop trigger}
-\label{fig:Z_end_stop_trigger}
-\end{figure}
-Rotate the \texttt{Z axis end stop trigger} clockwise to lower the bottom of the screw closer to the Z axis end stop. Once lowered by approximately 1cm, press the \texttt{HomeZ button} to home the Z axis. The hot end will approach the heated bed and will likely stop around a centimeter above the surface of the heated bed.
+Before using the \texttt{home Z} button or the \texttt{home all} button you will need to adjust the \texttt{Z axis endstop} (Fig. \ref{fig:Z_end_stop_trigger}, page \pageref{fig:Z_end_stop_trigger}).
+Rotate the \texttt{Z axis end stop trigger} clockwise to lower the bottom of the screw closer to the Z axis end stop. Once lowered by approximately 1cm, press the \texttt{HomeZ button} to home the Z axis. The hot end will approach the heated bed and should stop around a centimeter above the surface of the heated bed.
 
 \subsection{Fine Adjustment of the Z Axis End Stop}
-Adjust the \texttt{Z axis end stop trigger} by rotating the screw counter-clockwise to raise the tip of the screw. Raise the screw by roughly the same amount of the distance between the nozzle tip and the print surface. Press the \texttt{Home Z}button to home the Z axis. The tip of the nozzle should now be very close to the surface of the bed.
+Adjust the \texttt{Z axis end stop trigger} by rotating the screw counter-clockwise to raise the tip of the screw. Raise the screw by roughly the same amount of the distance between the nozzle tip and the print surface. Press the \texttt{Home Z} button to home the Z axis. The tip of the nozzle should now be very close to the surface of the bed.
 
 \subsection{Leveling the Print Bed}
-Slide a thin piece of paper underneath the nozzle in the front left corner of the bed. Adjust the z axis end stop and home the Z axis until the tip of the nozzle applies a firm pressure on the paper. Try to slide the paper from underneath the the tip of the nozzle. It should not tear, but some resistance should be felt. Move the hot end nozzle tip over to the far side of the X axis by using the \texttt{+X 100 button}. As the X axis carriage approaches the end of the X axis use the \texttt{+X 10 button} and finally the \texttt{+X 1 button}. Once the tip of the nozzle is near the front right corner of the bed slide the same piece of paper under the nozzle and home the Z axis. To raise or lower the front right corner of the bed adjust the third screw from the left. Do not adjust the middle screw. Adjust the front right corner of the bed until the amount of tension felt when moving the piece of paper under the nozzle feels the same as the tension felt when doing the same thing on the front left corner. Repeat the same process using the \texttt{+Y button} to move the heated bed to place the nozzle on the rear right corner of the bed. Adjust the height of the bed using the same procedure as outlined above. Finally, move the X axis carriage over to the rear left corner of the bed and perform the same leveling procedure to adjust the last corner. The bed should now be almost perfectly level. We will check this in a later section. Use the controls in Printrun to raise the Z axis up 20mm, and move the X axis carriage over to the center of the X axis.
+Slide a thin piece of paper underneath the nozzle in the front left corner of the bed. Adjust the Z axis end stop and home the Z axis until the tip of the nozzle applies a firm pressure on the paper. Try to slide the paper from underneath the tip of the nozzle. It should not tear, but some resistance should be felt. Move the hot end nozzle tip over to the far side of the X axis by using the \texttt{+X 100 button}. As the X axis carriage approaches the end of the X axis use the \texttt{+X 10 button} and finally the \texttt{+X 1 button}. Once the tip of the nozzle is near the front right corner of the bed slide the same piece of paper under the nozzle and home the Z axis. To raise or lower the front right corner of the bed adjust the third screw from the left. Do not adjust the middle screw. Adjust the front right corner of the bed until the amount of tension felt when moving the piece of paper under the nozzle feels the same as the tension felt when doing the same thing on the front left corner. Repeat the same process using the \texttt{+Y button} to move the heated bed to place the nozzle on the rear right corner of the bed. Adjust the height of the bed using the same procedure as outlined above. Finally, move the X axis carriage over to the rear left corner of the bed and perform the same leveling procedure to adjust the last corner. The bed should now be almost perfectly level. We will check this in a later section. Use the controls in Printrun to raise the Z axis up 20mm, and move the X axis carriage over to the center of the X axis.
 
 \section{Set Temperature}
 \index{temperature}
@@ -43,8 +37,7 @@ Set the hot end and print surface for ABS or PLA plastic and turn both on. The t
 \index{filament}
 \index{hot end}
 
-Once the hot end is heated to the correct temperature you will now need to load the plastic filament into the extruder. Raise both the idler clip and the 2 screws adding tension to release the hinged idler. It can be loosened if necessary. If the extruder has a small section of filament already loaded, you will need to remove the filament once the extruder idler has been opened by gently pulling out the filament by hand once the hot end has reached the extrusion temperature of \texttt{230C}
-(Fig. \ref{fig:extruder_idler_release}).
+Once the hot end is heated to the correct temperature you will now need to load the plastic filament into the extruder.
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{extruder_idler_release.JPG}
@@ -52,8 +45,8 @@ Once the hot end is heated to the correct temperature you will now need to load 
 \label{fig:extruder_idler_release}
 \end{figure}
 % update feed hole picture.
-Gently squeeze both the idler screws and the plastic clip together and pull upwards to release the idler. The idler can be rotated downwards allowing access to the hobbed bolt and filament feed hole(Fig. \ref{fig:extruder_filament_slot}, page \pageref{fig:extruder_filament_slot}). Feed the end of the plastic filament into the filament feed hole
-(Fig. \ref{fig:extruder_filament_slot}).
+Gently squeeze both the idler screws and the plastic clip together and pull upwards to release the idler (Fig. \ref{fig:extruder_idler_release}, page \pageref{fig:extruder_idler_release}). The idler screws can be loosened if necessary. The idler can be rotated downwards allowing access to the hobbed bolt and filament feed hole(Fig. \ref{fig:extruder_filament_slot}, page \pageref{fig:extruder_filament_slot}). If the extruder has a small section of filament already loaded, you will need to remove the filament once the extruder idler has been opened, by gently pulling out the filament by hand once the hot end has reached extrusion temperature. From the previously installed filament reel, feed the end of the plastic filament into the filament feed hole
+(Fig. \ref{fig:extruder_filament_slot}, page \pageref{fig:extruder_filament_slot}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{extruder_filament_slot.JPG}
@@ -62,7 +55,7 @@ Gently squeeze both the idler screws and the plastic clip together and pull upwa
 \end{figure}
 Now you can push the filament through the extruder by slowly pushing the filament down into the hot end.
 
-Once the filament extrudes a small amount out of the nozzle raise the idler and slide the two idler bolts and plate back into place. Tighten the two idler bolts if you previously loosened them. Tighten the two screws until they are finger tight, then tighten them slightly more. Now use the \texttt{Extrude} button in Printrun to test that the extruder is working properly. You may need to extrude 40-60mm of filament to fully prime the hot end. Adjust the tension on the two screws until you can reliable and repeatedly extrude roughly 40mm of filament.
+Once the filament extrudes a small amount out of the nozzle raise the idler and slide the two idler bolts and plate back into place. Tighten the two idler bolts if you previously loosened them. Tighten the two screws until they are finger tight, then tighten them slightly more. Now use the \texttt{Extrude} button in Printrun to test that the extruder is working properly. You may need to extrude 40-60mm of filament to fully prime the hot end. Adjust the tension on the two screws until you can reliably and repeatedly extrude roughly 40mm of filament.
 
 \section{Home Printer}
 Use the home buttons to home the X axis and then the Y axis. Next home the Z axis. When the Z axis is at home the nozzle tip should be sitting right against the glass
@@ -86,7 +79,7 @@ The red end stop trigger can be lowered by turning clockwise and raised by turni
 %fix image positioning, images for 5.3 get shoved underneath 5.4
 \section{Z Print Height}
 Load the \texttt{bedcalib.gco} file.
-This file can be found at: \texttt{http://download.lulzbot.com/TAZ/calibration/bed\_level.gcode} once downloaded you your computer press the \texttt{Load file} button. Navigate through the file browser to the downloaded \texttt{bed\_level.gcode} file, highlight the file and select the \texttt{Open} button.
+This file can be found at: \texttt{http://download.lulzbot.com/TAZ/calibration/bed\_level.gcode} . Once downloaded the file your computer, press the \texttt{Load file} button. Navigate through the file browser to the downloaded \texttt{bed\_level.gcode} file, highlight the file and select the \texttt{Open} button.
 
 The .gcode file should appear in the Printrun G-Code viewer. Press the \texttt{Print} button to begin the print. When the print starts make sure the first layer is not printing too close or too far from the print bed. Note 
 Figure \ref{fig:1st_layer_adhesion}, page \pageref{fig:1st_layer_adhesion},
@@ -98,9 +91,8 @@ Figure \ref{fig:1st_layer_adhesion}, page \pageref{fig:1st_layer_adhesion},
 \end{figure}
 as an example of a good first layer adhesion. From left to right: very low, low, \emph{perfect}, high, very high. If the first layer is too high or low you can pause the print by pressing the \texttt{Pause} button. Adjust the Z end stop trigger. After making adjustments remove any printed material off the bed and home the axes and press \texttt{Restart} to restart the print. Measure the extrusion width, ideally the width would be the same in all areas of the bed. You would raise/lower a corner to minimize/increase the extrusion width to match the others. Once they are all consistent, the bed is level.
 
-\section{Your First Print!}
-Load the \texttt{octopus.gcode} file.
-This file can be found at:
+\section{Your First Octopus!}
+Load the \texttt{octopus.gcode} file. This file can be found at:
 \texttt{http://download.lulzbot.com/TAZ/novelties/octopus.gcode}. Load the file in Pronterface, bring the hot end \texttt{(230C ABS/185C PLA))} and the heated bed \texttt{(85C ABS/60C PLA)} up to printing temperature. Once the printer is at the appropriate temperature, press the \texttt{Print} button to begin the print.
 
 \section{Remove Part}
