@@ -26,7 +26,26 @@ Linux and Mac OSX users will not need to install a driver to communicate with th
 \index{pronsole}
 \index{plater}
 \index{stl}
-\section{Installing Printrun}
+\index{extruder}
+\index{extrusion}
+\index{temperature}
+\index{gcode}
+\index{SD card}
+\section{Printrun}
+\label{Printrun}
+Website: \texttt{http://www.github.com/kliment/Printrun}
+
+The host software, Printrun, is used to start up and control your 3D printer 
+(Fig. \ref{fig:printrun}, page \pageref{fig:printrun}).
+\begin{figure}[hbt]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun.png}
+\caption{Printrun application for 3D printer control}
+\label{fig:printrun}
+\end{figure}
+The host controls include: setting the extruder and print surface temperatures, manual control of each axis, and manual extrusion. The host is also where you will push print files (\texttt{.gcode}) to the 3D printer or load print files from the SD card for printing out model designs.
+
+\subsection{Installing Printrun}
 Printrun contains several different applications that can be used to control the TAZ 3D printer. It can be installed on Windows, Mac OSX and Linux based computers. Most users will use Pronterface, the graphical user interface for printrun, when using a host software to interact with the 3D printer. \texttt{Pronsole} allows printing from the command line, and can be used for scripting and some automation. \texttt{Plater} allows you to arrange and combine several STL files into one. More information on the other programs within the Printrun package can be found at \texttt{https://github.com/kliment/Printrun}. Printrun can be downloaded from \texttt{LulzBot.com/support/downloads}. Download the version for your operating system and extract. You will need an archive manager to extract the files. If you do not have one installed we recommend using 7-zip, which can be downloaded for free at \texttt{www.1-zip.org}.
 
 \begin{itemize}
