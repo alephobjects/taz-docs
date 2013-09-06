@@ -1,4 +1,4 @@
-%%% MEMOIR CLASS %%%
+ga%%% MEMOIR CLASS %%%
 \documentclass[twoside,12pt,openright,final,english]{memoir}
 % Memoir Divisions: \book, \part, \chapter, \section, \subsection
 % Fine divisions:   \subsubsection, \paragraph \subparagraph.
@@ -243,6 +243,8 @@
 \fi
 %%% END SOFTWARE %%%
 
+\begin{comment}
+%%% Moving Slic3r to allow for more linear reading/setup. Slic3r will not be needed until after first test print %%%%
 %%% SLIC3R %%%
 \ifsoftware
 \chapter{\emph{Slic3r}}
@@ -251,6 +253,7 @@
 {\include{Slicer}}
 \fi
 %%% END SLIC3R %%%
+\end{comment}
 
 %%% FILAMENT %%%
 \iffilament
@@ -270,6 +273,15 @@
 {\include{Firstprint}}
 \fi
 %%% END FIRSTPRINT %%%
+
+%%% SLIC3R %%%
+\ifsoftware
+\chapter{\emph{Slic3r}}
+\thispagestyle{empty}
+\markboth{Slic3r}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+{\include{Slicer}}
+\fi
+%%% END SLIC3R %%%
 
 %%% GLCD %%%
 \ifglcd
