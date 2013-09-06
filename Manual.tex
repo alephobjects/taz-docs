@@ -234,6 +234,15 @@
 \fi
 %%% END SETUP %%%
 
+%%% FILAMENT %%%
+\iffilament
+\chapter{\emph{Loading Filament}}
+\thispagestyle{empty}
+\markboth{Loading Filament}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+{\include{Filament}}
+\fi
+%%% END FILAMENT %%%
+
 %%% SOFTWARE %%%
 \ifsoftware
 \chapter{\emph{3D Printer Software}}
@@ -255,14 +264,6 @@
 %%% END SLIC3R %%%
 \end{comment}
 
-%%% FILAMENT %%%
-\iffilament
-\chapter{\emph{Loading Filament}}
-\thispagestyle{empty}
-\markboth{Loading Filament}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
-{\include{Filament}}
-\fi
-%%% END FILAMENT %%%
 
 %%% FIRSTPRINT %%%
 \iffirstprint
