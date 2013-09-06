@@ -3,8 +3,8 @@ The Graphic LCD allows you to print with the TAZ 3D printer without needing to h
 
 In the following sections you will find general information on using the Graphic LCD, how to transfer .gcode files to the included sd card, heat up the printer, start a print, and make configuration adjustments.
 
-\section{Graphic LCD Controller}
-\label{sec:Graphic LCD Controller}
+\section{GLCD Controller or Printrun Host?}
+\label{sec:Graphic LCD or Printrun Host?}
 The Graphical LCD Controller is perfect for normal day to day printing and will be used in the majority of your print jobs. However, there are some instances where you will want to use Printrun instead of the GLCD Controller. A few examples of when you would want to plug the USB cable back in and use Printrun:
 \begin{itemize}
 	\item When performing calibration checks a number of manual movements are required. Because of this it is easier and faster to make the required manual movements within Printrun. Calibration checks can be done with the Graphic LCD, but require a number of repetitive menu selections.
@@ -15,7 +15,7 @@ The Graphical LCD Controller is perfect for normal day to day printing and will 
 Because the TAZ 3D printer can be controlled by the Graphic LCD and by host software, caution is advised when the USB is connected to the printer. A general rule is: once you have started a print with either the Graphic LCD or Printrun, for the rest of the print only use that controller. When printing with the Graphic LCD, never try to connect through USB in the Printrun host software; wait until the print is complete, and then connect in Printrun.
 
 \section{Putting Print Files On the SD Card}
-To print from the Graphic LCD you will need to transfer .gcode print files onto the SD card. Follow the normal steps, as explained in the Slic3r manual, to create .gcode print files on your computer. Insert the SD card into your computer using a SD reader slot or USB SD card reader. Open a file browser / manager and locate the created .gcode files; drag and drop or paste the .gcode files to the SD card. Once the files have transferred, eject the SD card from your computer and insert it back into the SD card slot on the left side of the Graphic LCD case.
+To print from the Graphic LCD you will need to transfer .gcode print files onto the SD card. Follow the normal steps, as explained in the Slic3r chapter, to create .gcode print files on your computer. Insert the SD card into your computer using a SD reader slot or USB SD card reader. Open a file browser / manager and locate the created .gcode files; drag and drop or paste the .gcode files to the SD card. Once the files have transferred, eject the SD card from your computer and insert it back into the SD card slot on the left side of the Graphic LCD case.
 
 \section{Printing with the Graphic LCD}
 \begin{figure}[b]
@@ -72,11 +72,11 @@ When at the move screen turn the selection knob clockwise to move the axis in mi
 \label{fig:configuration_menu}
 \end{figure}
 
-Out of the box, the TAZ 3D printer is already calibrated for printing. However, the GLCD does allow tuning of the more advanced configuration settings. It is highly suggested to not modify the configuration settings unless you are certain it is needed. It is recommended to write down any values prior to changing any settings.
+Out of the box, the TAZ 3D printer is already calibrated for printing. However, the GLCD does allow tuning of the more advanced configuration settings. It is highly suggested to not modify the configuration settings unless you are certain it is needed.
 
 To find the configuration settings, navigate to the main menu and then Configuration (fig. \ref{fig:configuration_menu}, page \pageref{fig:configuration_menu}). In the configuration settings you will find temperature and motion settings. These settings include default temperature settings, axis steps per mm, and more.
 
-The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the GLCD Controller. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered down. The stored settings will then automatically load when the printer is repowered.
+The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the GLCD Controller. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered down. The stored settings will then automatically load when the printer is repowered. If you ever need to revert back to the factory settings navigate to Configuration \texttt{->} Restore Failsafe. Clicking Restore Failsafe with set all configuration settings back to the original factory settings in the firmware.
 
 For more information on the configuration settings please see the TAZ support page on LulzBot.com.
 
