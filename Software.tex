@@ -59,6 +59,7 @@ Printrun contains several different applications that can be used to control the
 
 \subsection{Linux Instructions}
 %\begin{itemize}
+\subsubsection{Debian|Ubuntu}
 \item Once downloaded, extract the \texttt{dist} folder to a location of your choice. You will need to ensure that the following dependencies are met. They are listed in the README.md file. You can use this command to install the dependencies: 
 \texttt{sudo apt-get install python-serial python-wxgtk2.8 python-pyglet python-tornado python-setuptools python-libxml2 python-gobject python-pip avahi-daemon libavahi-compat-libdnssd1}
 followed by:
@@ -67,6 +68,13 @@ Open the \texttt{Printrun-source} folder in a terminal and enter the following c
 \texttt{sudo python setup.py install}.
 Run Printrun by issuing the following command:
 \texttt{python pronterface.py}
+
+\subsubsection{Ferdora}
+\item Use this command to install Printrun from the official sources: \texttt{sudo yum install printrun}
+
+\subsubsection{Archlinux}
+\item Use this command to install Printun from AUR: \texttt{yaourt printrun}
+
 \end{itemize}
 
 \index{printrun}
