@@ -10,14 +10,14 @@ Make sure you take the time to go through the following procedure to help ensure
 \caption{Z end stop trigger}
 \label{fig:Z_end_stop_trigger}
 \end{figure}
-To lower or raise the Z home height adjust the Z end stop trigger. The red end stop trigger is on the far left of the printer mounted on the X-axis motor mount. Before using the \texttt{home Z} button or the \texttt{home all} button you will need to adjust the \texttt{Z axis endstop trigger}. Once connected to the TAZ 3D printer in Pronterface, Rotate the \texttt{Z axis end stop trigger} clockwise to lower the bottom of the screw closer to the Z axis end stop. Once lowered by approximately 1cm, press the \texttt{HomeZ button} to home the Z axis. The hot end will approach the heated bed and should stop around a centimeter above the surface of the heated bed. While the Z axis is moving down pay attention to the Z axis movement and sound. The Z axis stepper motors should be moving in unison. If you notice a grinding sound stop, turn the printer off and before proceeding, make sure that the Z axis looks level in relation to the body of the TAZ 3D printer. Manually rotate one of the Z axis stepper motors by hand if needed to visually level the Z axis.
+Before using the \texttt{home Z} button or the \texttt{home all} button you will need to adjust the \texttt{Z axis endstop trigger}. The red end stop trigger is on the far left of the printer, mounted on the X-axis motor mount. Once connected to the TAZ 3D printer in Pronterface, Rotate the \texttt{Z axis end stop trigger} clockwise to lower the bottom of the screw closer to the Z axis end stop. Once lowered by approximately 1cm, press the \texttt{Home Z button} to home the Z axis. The hot end will approach the heated bed and should stop around a centimeter above the surface of the heated bed. While the Z axis is moving down pay attention to the Z axis movement and sound. The Z axis stepper motors should be moving in unison. If you notice a grinding sound, stop, turn the printer off and before proceeding, make sure that the Z axis looks level in relation to the body of the TAZ 3D printer. Manually rotate one of the Z axis linear threaded rods by hand if needed to visually level the Z axis.
 
 \index{z axis}
 \subsection{Raising the Z Axis}
 Use the \texttt{+Z 10 button} to move the Z axis up in \texttt{10mm} increments. \textcolor{red}{Commands sent in Pronterface will stack, so multiple movement button presses can potentially be harmful and cannot be stopped without powering down the 3D printer.} Keep an eye on the nozzle for the hot end. Raise the Z axis until the hot end nozzle is approximately 40-50mm away from the print bed.
 
 \subsection{Verify Z Axis Leveling}
-With the Z axis above the bed, use the included \texttt{150mm ruler} to measure the distance from the bottom of the \texttt{X axis} smooth rod and the top surface of the \texttt{Y axis} aluminum bed plate on the left side.
+With the Z axis above the bed, use the included \texttt{150mm ruler} to measure the distance from the bottom of the \texttt{X axis} smooth rod and the top surface of the \texttt{Y axis} aluminum bed plate on the left side (Fig. \ref{fig:X-Y_axes_leveling_check}, page \pageref{fig:X-Y_axes_leveling_check}).
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{X-Y_axes_leveling_check.JPG}
@@ -36,11 +36,17 @@ Compare the distance measurement from the left side to the measurement on the ri
 \label{fig:Z_end_stop_trigger}
 \end{figure}
 \end{comment}
-To lower or raise the Z home height adjust the Z end stop trigger. The red end stop trigger is on the far left of the printer mounted on the X-axis motor mount.
+Now that the Z axis is checked for level a finer adjustment of the Z axis end stop trigger can be set.
 Adjust the \texttt{Z axis end stop trigger} by rotating the screw counter-clockwise to raise the tip of the screw. Raise the screw by roughly the same amount of the distance between the nozzle tip and the print surface. Press the \texttt{Home Z} button to home the Z axis. The tip of the nozzle should now be very close to the surface of the bed.
 
 \subsection{Leveling the Print Bed}
-Slide a thin piece of paper underneath the nozzle in the front left corner of the bed. Adjust the Z axis end stop and home the Z axis until the tip of the nozzle applies a firm pressure on the paper. Try to slide the paper from underneath the tip of the nozzle. It should not tear, but some resistance should be felt. Move the hot end nozzle tip over to the far side of the X axis by using the \texttt{+X 100 button}. As the X axis carriage approaches the end of the X axis use the \texttt{+X 10 button} and finally the \texttt{+X 1 button}. Once the tip of the nozzle is near the front right corner of the bed slide the same piece of paper under the nozzle and home the Z axis. To raise or lower the front right corner of the bed adjust the third screw from the left. Do not adjust the middle screw. Adjust the front right corner of the bed until the amount of tension felt when moving the piece of paper under the nozzle feels the same as the tension felt when doing the same thing on the front left corner. Repeat the same process using the \texttt{+Y button} to move the heated bed to place the nozzle on the rear right corner of the bed. Adjust the height of the bed using the same procedure as outlined above. Finally, move the X axis carriage over to the rear left corner of the bed and perform the same leveling procedure to adjust the last corner. The bed should now be almost perfectly level. We will check this in a later section. Use the controls in Printrun to raise the Z axis up 20mm, and move the X axis carriage over to the center of the X axis.
+Slide a thin piece of paper underneath the nozzle in the front left corner of the bed. Adjust the Z axis end stop and home the Z axis until the tip of the nozzle applies a firm pressure on the paper. Try to slide the paper from underneath the tip of the nozzle. It should not tear, but some resistance should be felt.
+
+Move the hot end nozzle tip over to the far side of the X axis by using the \texttt{+X 100 button}. As the X axis carriage approaches the end of the X axis use the \texttt{+X 10 button} and finally the \texttt{+X 1 button}. Once the tip of the nozzle is near the front right corner of the bed slide the same piece of paper under the nozzle and home the Z axis. To raise or lower the front right corner of the bed adjust the third screw from the left. Do not adjust the middle screw. Adjust the front right corner of the bed until the amount of tension felt when moving the piece of paper under the nozzle feels the same as the tension felt when doing the same thing on the front left corner.
+
+Repeat the same process using the \texttt{+Y button} to move the heated bed to place the nozzle on the rear right corner of the bed. Adjust the height of the bed using the same procedure as outlined above. Finally, move the X axis carriage over to the rear left corner of the bed and perform the same leveling procedure to adjust the last corner.
+
+The bed should now be almost perfectly level. We will check this in a later section. Use the controls in Printrun to raise the Z axis up 20mm, and move the X axis carriage over to the center of the X axis.
 
 \section{Set Temperature}
 \index{temperature}
@@ -94,7 +100,7 @@ The red end stop trigger can be lowered by turning clockwise and raised by turni
 %fix image positioning, images for 5.3 get shoved underneath 5.4
 \section{Z Print Height}
 Load the \texttt{bed\_level.gcode} file.
-This file can be found at: \texttt{http://download.lulzbot.com/TAZ/calibration}. Once downloaded the file your computer, press the \texttt{Load file} button. Navigate through the file browser to the downloaded \texttt{bed\_level.gcode} file, highlight the file and select the \texttt{Open} button.
+This file can be found in the calibration directory on the SD card included with your TAZ 3D printer or at: \texttt{http://www.LulzBot.com/support/downloads}. Once you have downloaded the file to your computer, press the \texttt{Load file} button in Printrun. Navigate through the file browser to the downloaded \texttt{bed\_level.gcode} file, highlight the file and select the \texttt{Open} button.
 
 The .gcode file should appear in the Printrun G-Code viewer. Press the \texttt{Print} button to begin the print. When the print starts make sure the first layer is not printing too close or too far from the print bed. Note 
 Figure \ref{fig:1st_layer_adhesion}, page \pageref{fig:1st_layer_adhesion},
