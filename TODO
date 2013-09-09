@@ -23,22 +23,20 @@ Changes still needed for TAZ 2.0 version
 
 *Figure 1.7 is in the wrong spot. It appears before 1.5 and 1.6.
 
-*Maintenance
-	-Grease threaded rods, not smooth rods, silicone
-		Added to Maintenance.tex
-
-*Hardware and Software Source Code
-	-Add devel.lulzbot.com
-		Added to Software.tex 
-
 *Add note about removing the shipping clamps before setup
 	Added to Setup.tex as a check.
+
+*Empty pages
+
+*
+
+
 
 Notes for possible changes
 ==========================
 *First Print: leveling print bed. This section may need some clarification.
 
-* Warnings.tex: Lots of "Also"
+
 
 
 
