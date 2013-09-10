@@ -31,6 +31,10 @@ Changes still needed for TAZ 2.0 version
 * Advanced.tex
 	1.75mm filament needs to be updated to reflect removing the extruder mount`
 
+* Slicer
+	Troubleshooting
+	footnote for Z ribbing has a weird address: exttthttp://goo.gl/iOYoK
+
 
 
 
