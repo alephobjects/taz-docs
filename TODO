@@ -2,7 +2,7 @@
 * Glossary - Add more as needed
 * use PDF compression
 * Update to CC-BY-SA 4.0, if available **NOT COMPLETED YET, next round maybe
-**** Need new ISBN for TAZ 
+**** Need new ISBN for TAZ ****
 * Ensure ISBN scans - correct number?
 * fig 5.4, change angle - looks like 1 rod ***Is this old?
 
@@ -23,17 +23,9 @@ Changes still needed for TAZ 2.0 version
 
 *Figure 1.7 is in the wrong spot. It appears before 1.5 and 1.6.
 
-*Add note about removing the shipping clamps before setup
-	Added to Setup.tex as a check.
 
 *Empty pages
 
-* Advanced.tex
-	1.75mm filament needs to be updated to reflect removing the extruder mount`
-
-* Slicer
-	Troubleshooting
-	footnote for Z ribbing has a weird address: exttthttp://goo.gl/iOYoK
 
 
 
