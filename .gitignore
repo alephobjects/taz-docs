@@ -9,3 +9,5 @@
 *.ind
 *.log
 *.pdf
+*.lof
+*.toc
