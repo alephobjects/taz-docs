@@ -69,7 +69,7 @@ Open the \texttt{Printrun-source} folder in a terminal and enter the following c
 Run Printrun by issuing the following command:
 \texttt{python pronterface.py}
 
-\subsubsection{Ferdora}
+\subsubsection{Fedora}
 \item Use this command to install Printrun from the official sources: \texttt{sudo yum install printrun}
 
 \subsubsection{Archlinux}
@@ -123,14 +123,14 @@ In the text output window you will see multiple return lines. If you see \texttt
 \subsubsection{Motors off}
 The TAZ 3D printer can be moved on all three axes independently. If you would like to do so by hand, use the \texttt{Motors off} button to unlock all the stepper motors. Once unlocked they can be moved by hand. Keep in mind that there is no positional feedback, so if you move an axis you will need to re-home in order to re-establish the hot end's position. 
 
-\subsubsection{mm/min ZY:/ Z:}
+\subsubsection{mm/min XY:/ Z:}
 These settings control the manual jog speeds when driven with Pronterface. Use caution when changing these figures. Moving the axes too fast can cause the printer to lose steps. If that occurs with the Z axis, it can potentially cause the Z axis to become out of square.
 
 \subsubsection{Homing}
 \index{end stops}
 Caution: when homing, the axis will continue to move in the negative direction until the end stop switch is activated. If the printer is ever transported make sure the end stop switches are clear before resuming printing. If an axis has missed an end stop and is continuing to try to move in the negative direction, immediately turn the power switch to the off position. 
 
-Each axes can be homed either individually or together. Press the \texttt{Home X} button to move the X axis to the left until it activates the end stop. Once the X axis end stop is activated, the X axis carriage will 'bounce'- it will move over and move back to the home position more slowly. Press the \texttt{Home Y} button to home the Y axis. The Y axis platform will move away from you towards the rear of the printer. \textcolor{red}{DO NOT press the \texttt{Home Z} button to home the Z axis or the \texttt{Home All button} at this time.} Make sure that you home the printer immediately after power up. The printer will not know where the origin point is until each axes has been homed. Moving prior to homing can be risky since the 3D printer will not know it's initial location.  
+Each axes can be homed either individually or together. Press the \texttt{Home X} button to move the X axis to the left until it activates the end stop. Once the X axis end stop is activated, the X axis carriage will 'bounce'- it will move over and move back to the home position more slowly. Press the \texttt{Home Y} button to home the Y axis. The Y axis platform will move away from you towards the rear of the printer. The Z home button functions the same, but the Z trigger can be adjusted manually on the printer. \textcolor{red}{DO NOT press the \texttt{Home Z} button to home the Z axis or the \texttt{Home All button} at this time.} In a later step you will need to set the Z end stop trigger before homing Z.
 
 \subsubsection{X/Y/Z Axes Movement Controls}
 Prior to moving the X, Y or Z axis, make sure that you home each axis. The X, Y and Z axes can be moved utilizing the circular movement controls. Each axis can be moved in either fine moves or large moves, ranging from 0.1mm to 100mm.  For example, to move the \texttt{Y Axis} towards you, move your mouse to the \texttt{+y} section until both the \texttt{+y} and the \texttt{100} are highlighted then select that ring section. To move the \texttt{Y axis} away from you, move your mouse to the \texttt{-y} section until both the \texttt{-y} and the \texttt{100} are highlighted then select that ring section. The X axis can be moved in a similar fashion.
