@@ -1,29 +1,27 @@
-* Add more words to index as needed
-* Glossary - Add more as needed
-* use PDF compression
-* Update to CC-BY-SA 4.0, if available **NOT COMPLETED YET, next round maybe
-**** Need new ISBN for TAZ ****
-* Ensure ISBN scans - correct number?
-* fig 5.4, change angle - looks like 1 rod ***Is this old?
 
-	-Trouble Shooting
-		-Spires / cooling
-		-skips
-* Convert to html
+Changes for v3.0
+================
 
-Old??
-=====
-* Vi Orphan
-* Hyland comments
-* CaFexin index is normal teyt
+Images to update
+----------------
 
 
-Changes still needed for TAZ 2.1 version
-===============
-Make changes for the reel arm.
 
-**Check cover and isbn
-**Check the rest of the manual to make sure nothing else needs to be changed
+
+From Chris Christopher
+----------------------
+	*Some images need circled point of focus
+		-f1.6
+		-f1.10
+	
+	*Check that all figures reference a page of the fig location
+		-Ch1.1-1, Fig 1.21 is referenced because the image appears twice
+		-Ch1.1-2, First sentence, says to use flat and level surface. What 	does "level" mean to the average person?
+		-Ch1.13, whole section listed as confusing
+		-Ch3.2, Second sentence is incomplete sentence
+		-Ch3.4, Homing and X/Y/Z Axes sections are noted as "Sounds very 	complex"
+		-General noting that the figures do not reference the page they are discussed on. I don't think that is normal practice, but something to think about
+
 
 
 
@@ -33,7 +31,10 @@ Notes for possible changes
 
 Pronterface pictures
 	Explain buttons/text entry fields
-
+* Add more words to index as needed
+* Glossary - Add more as needed
+* use PDF compression
+* Update to CC-BY-SA 4.0, if available **NOT COMPLETED YET, next round maybe
 
 Goals for next version of manual
 ================================
