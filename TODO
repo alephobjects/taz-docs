@@ -11,12 +11,12 @@ From Chris Christopher
 		-f1.10
 	
 	*Check that all figures reference a page of the fig location
-		-Ch1.1-1, Fig 1.21 is referenced because the image appears twice
-		-Ch1.1-2, First sentence, says to use flat and level surface. What 	does "level" mean to the average person?
-		-Ch1.13, whole section listed as confusing
-		-Ch3.2, Second sentence is incomplete sentence
-		-Ch3.4, Homing and X/Y/Z Axes sections are noted as "Sounds very 	complex"
-		-General noting that the figures do not reference the page they are discussed on. I don't think that is normal practice, but something to think about
+		-Ch1.1-1, Fig 1.21 is referenced because the image appears twice STILL PRESENT
+		-Ch1.1-2, First sentence, says to use flat and level surface. What 	does "level" mean to the average person? ###seems clear to me###
+		-Ch1.13, whole section listed as confusing ## experiment with forcing image placement to break up and make more clear ###
+		-Ch3.2, Second sentence is incomplete sentence DONE
+		-Ch3.4, Homing and X/Y/Z Axes sections are noted as "Sounds very 	complex" ### not too sure on what can be done to make it more layman friendly, other than perhaps a video/screencast.###
+		-General noting that the figures do not reference the page they are discussed on. I don't think that is normal practice, but something to think about ##references the image page not text discussion page, nothing to fix##
 
 
 CD
