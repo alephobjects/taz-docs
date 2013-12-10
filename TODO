@@ -39,6 +39,10 @@ CD
 
 *Slic3r Profiles (Week of 12/16)
 
+Other Changes needed
+==========================
+* This section points people to this address: http://download.lulzbot.com/TAZ/2.1/samples/ which is not available yet. We need to make sure that the file does not automatically set the print temperature, but does turn off the hot end and bed.
+
 Notes for possible changes
 ==========================
 
