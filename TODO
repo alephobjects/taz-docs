@@ -7,7 +7,7 @@ UPDATE Cover Image and ISBN
 From Chris Christopher
 ----------------------
 	*Some images need circled point of focus
-		-f1.6
+		-f1.6 DONE
 		-f1.10
 	
 	*Check that all figures reference a page of the fig location
@@ -27,7 +27,7 @@ CD
 
 Other Changes needed
 ==========================
-* This section points people to this address: http://download.lulzbot.com/TAZ/2.1/samples/ which is not available yet. We need to make sure that the file does not automatically set the print temperature, but does turn off the hot end and bed.
+* review any gcode files the manual point to and update as needed.
 
 Notes for possible changes
 ==========================
