@@ -1,4 +1,4 @@
-This is the LaTeX source code for the LulzBot AO-101 3D Printer.
+This is the LaTeX source code for the LulzBot TAZ 3D Printer.
 
 Known used packages required to compile the PDF manual:
 
@@ -27,7 +27,7 @@ doxygen-latex feynmf lacheck latex-beamer latex-xcolor preview-latex-style prosp
 
 $: sudo apt-get install $(cat packages)
 
-Copyright 2012, Aleph Objects, Inc.
+Copyright 2014, Aleph Objects, Inc.
 
 License: CC-BY-SA 3.0
 
