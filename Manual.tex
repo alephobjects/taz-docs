@@ -47,7 +47,6 @@
 \newif\iftitle\titletrue
 \newif\ifcopyright\copyrighttrue
 \newif\ifwarnings\warningstrue %true
-\newif\ifunpacking\unpackingfalse %false - now included in the separate unpacking document
 \newif\ifsetup\setuptrue %true
 \newif\ifslicer\slicertrue %true
 \newif\ifsoftware\softwaretrue %true
@@ -64,7 +63,7 @@
 \newif\ifcolophon\colophontrue %true
 %% or just render everything:
 \newif\ifrendereverything\rendereverythingfalse
-\ifrendereverything \titletrue \copyrighttrue \warningstrue \unpackingtrue \setuptrue \slicertrue \softwaretrue \filamenttrue \firstprinttrue \maintenancetrue \advancedtrue \faqtrue \troubleshootingtrue \colophontrue \fi
+\ifrendereverything \titletrue \copyrighttrue \warningstrue \setuptrue \slicertrue \softwaretrue \filamenttrue \firstprinttrue \maintenancetrue \advancedtrue \faqtrue \troubleshootingtrue \colophontrue \fi
 %%% END INCLUDED FILES %%%
 
 \setcounter{secnumdepth}{3}
@@ -215,15 +214,6 @@
 
 % Set page numbering to arabic, but don't reset numbering (*)
 \pagenumbering*{arabic}
-
-%%% UNPACKING %%%
-\ifunpacking
-\chapter{\emph{Unpacking Your Printer}}
-\thispagestyle{empty}
-\markboth{Unpacking Your Printer}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
-{\include{Unpacking}}
-\fi
-%%% END UNPACKING %%%
 
 %%% SETUP %%%
 \ifsetup
