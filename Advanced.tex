@@ -1,38 +1,51 @@
+%
+% Advanced.tex
+% Advanced Techniques
+%
+% LulzBot TAZ User Manual
+%
+% Copyright (C) 2014 Aleph Objects, Inc.
+%
+% This document is licensed under the Creative Commons Attribution 4.0
+% International Public License (CC BY-SA 4.0) by Aleph Objects, Inc.
+%
+%
+
 \section{Intro}
 \index{advanced techniques}
 \glossary{3D Printer}{Also referred to as additive manufacturing, is the process of fabricating objects from 3D model data, through the deposition of a material in accumulative layers.}
-After becoming familiar with printing with the TAZ 3D printer with the default settings there are a few advanced techniques that may help in getting better and more consistent prints. Some of these instructions include items and materials not included with the TAZ. With any of these additional items or materials, follow safety and usage guidelines as instructed by the manufacturer.
+After you become familiar with printing using the default settings, a few advanced techniques may help in getting better and more consistent prints from the TAZ 3D printer. Some of these instructions are items and materials not included with the TAZ. With any of these additional items or materials, follow safety and usage guidelines as instructed by the manufacturer.
 
 \section{Changing nozzles}
 \index{nozzle}
 \glossary{Nozzle}{The metal tip at the bottom of the hot end. It has a small hole where the plastic filament comes out of the printer.}
 \index{high resolution}
-The TAZ 3D printer ships with a standard 0.35mm nozzle which allows small layer resolution and up to 0.35mm layers. Although the 0.35mm nozzle will be perfect for most printing applications LulzBot also offers smaller and larger nozzle sizes.
-\glossary{Layer height}{The thickness of each individual deposited layer of the three dimensional model when cut with a slicing program.}
+The TAZ 3D printer ships with a standard 0.35mm nozzle which allows small-layer resolution and up to 0.35mm layers. Although the 0.35mm nozzle will be perfect for most printing applications, LulzBot also offers smaller and larger nozzle sizes.
+\glossary{Layer height}{The thickness of each individual deposited layer of the three-dimensional model when cut with a slicing program.}
 % Change the address to point to the 2.0 section when released.
 
 \index{hot end}
 \glossary{Hot end}{The hot end is the whole part where the plastic melts, including the nozzle, heater block, thermistor, and heat sink. The Budaschnozzle is LulzBot's\textsuperscript{\miniscule{\texttrademark}} hot end.}
 \index{threaded extension}
 \glossary{Threaded extension}{Used to separate the heater block and nozzle from the PEEK insulator. The plastic filament passes through the threaded extension into the melting chamber.}
-\glossary{PEEK}{Polyether ether ketone- an organic polymer used to insulate the hot end due to it's mechanical properties at elevated temperatures.}
-In most cases the nozzle is best changed when the hot end is slightly warm. NEVER try to remove the nozzle when the hot end is at extrusion temperature. At higher temperatures the threaded extension expands in the nozzle causing the nozzle to bind if turned. Heat the hot end to \texttt{160°C}. This will soften the plastic inside the hot end and allow the nozzle to be loosened off the threaded extension. Power off the printer and continue unscrewing the nozzle once cooler. Take care when removing the nozzle while the hot end is hot. Wear leather gloves or use a towel to turn the nozzle off of the hot end.
+\glossary{PEEK}{Polyether ether ketone: an organic polymer used to insulate the hot end due to its mechanical properties at elevated temperatures.}
+In most cases the nozzle is best changed when the hot end is slightly warm. NEVER try to remove the nozzle when the hot end is at extrusion temperature. At higher temperatures the threaded extension expands in the nozzle causing the nozzle to bind if turned. Heat the hot end to \texttt{160°C}. This will soften the plastic inside the hot end and allow the nozzle to be loosened off the threaded extension. Power off the printer and once it cools continue unscrewing the nozzle. Take care when removing the nozzle while the hot end is hot. Wear leather gloves or use a towel to turn the nozzle off the hot end.
 
 \index{wrench}
 \index{heater block}
-\glossary{Heater block}{Machined from Aluminium, the heater block generates heat with a heater resistor and uses a thermistor to measure the temperature.}
+\glossary{Heater block}{Machined from aluminum, the heater block generates heat with a heater resistor and uses a thermistor to measure the temperature.}
 \glossary{Thermistor}{A special type of resistor that changes resistance based on temperature. It is used to measure temperature on the nozzle and the heated bed.}
 \glossary{Heater resistor}{A special type of resistor that is used to apply heat in a small area.}
 To change the nozzle you will need the included 13mm wrench and needle nose pliers. Use the pliers to hold the rectangular aluminum heater block away from the heater resistor and thermistor wires.
 
-Using the 13mm wrench turn the nozzle counter clock-wise. Make sure the nozzle is turning off of the threaded aluminum extension that runs up through the heater block. Do not allow the heater block to turn. This can put strain on and possibly damage the wiring.
+Using the 13mm wrench, turn the nozzle counter-clock-wise. Make sure the nozzle is turning off of the threaded aluminum extension that runs up through the heater block. Do not allow the heater block to turn. This can put strain on, and possibly damage, the wiring.
 
 Once you have removed the nozzle you can then thread on the other nozzle size you would like to use. Make sure the nozzle has threaded correctly onto the threaded extension before trying to turn it with the wrench. Turn the nozzle clock-wise until it tightens against the heater block.
 
-After installing the new nozzle you may need to adjust your Z home trigger setting before printing again. Refer to the Printing Your First Print section (page \pageref{firstprint}) for calibrating the Z home trigger setting.
+After installing the new nozzle you may need to adjust your Z home trigger setting before printing again. Refer to the "Printing Your First Print" section (page \pageref{firstprint}) for calibrating the Z home trigger setting.
 
 \index{anti-seize}
-If you will be changing nozzles frequently we suggest reapplying a small amount of high temperate anti-seize to the inside threads of the nozzles. You will need an anti-seize capable of temperature of at least \texttt{250°C}.
+If you will be changing nozzles frequently we suggest reapplying a small amount of high temperature anti-seize compound to the inside threads of the nozzles. You will need an anti-seize capable of temperatures of at least \texttt{250°C}.
 
 \section{ABS/Acetone Glue}
 \label{sec:ABS/Acetone Glue}
@@ -41,31 +54,31 @@ If you will be changing nozzles frequently we suggest reapplying a small amount 
 Acetone is not included or required with the TAZ 3D printer. An acetone safety label is included for the HDPE bottle.
 
 \index{ABS}
-\textcolor{red}{Acetone can cause skin irritation when prolonged skin contact occurs. It is recommended to use acetone safe gloves when applying the ABS/acetone glue. Use the ABS/acetone glue in a well ventilated space. Leave the mixture bottle closed except when applying a small amount to the wiping towel. Acetone liquid and vapors are highly flammable. Keep acetone away from open flames and high temperature sources, including the 3D printer. Read the warnings label on your purchased acetone packaging for additional warnings.}
+\textcolor{red}{Acetone can cause skin irritation when prolonged skin contact occurs. We recommend using acetone safe gloves when applying the ABS/acetone glue. Use the ABS/acetone glue in a well-ventilated space. Leave the mixture bottle closed except when applying a small amount to the wiping towel. Acetone liquid and vapors are highly flammable. Keep acetone away from open flames and high temperature sources, including the 3D printer. Read the warnings label on your purchased acetone packaging for additional warnings.}
 
 \index{warping}
 \index{bottle}
-You may find that during printing, printed parts lift off of the print surface on the corners. If you are seeing this problem you can make an ABS/acetone glue to apply to the print surface. Using the HDPE acetone safe bottle included in the printer kit, fill the bottle 3/4 full with acetone. Now cut eight, 75mm lengths of ABS filament and put them in the bottle with the acetone. Allow the ABS filament to dissolve for 2 hours.
+You may find that during printing, printed parts lift off the print surface on the corners. If you are seeing this problem you can make an ABS/acetone glue to apply to the print surface. Using the HDPE acetone-safe bottle included in the printer kit, fill the bottle 3/4 full with acetone. Now cut eight 75-mm lengths of ABS filament and put them in the bottle with the acetone. Allow the ABS filament to dissolve for 2 hours.
 
 \index{PET sheet}
 \glossary{PET}{Polyethylene terephthalate.}
-To apply the acetone/ABS mixture put a small amount onto a paper towel. Now, rub the towel onto the cool PET print surface to apply a \emph{thin} layer of ABS. Generally only one thin layer of the acetone/ABS solution is needed. However, if needed you can apply multiple coats.
+To apply the acetone/ABS mixture, put a small amount onto a paper towel. Now, rub the towel onto the cool PET print surface to apply a \emph{thin} layer of ABS. Generally only one thin layer of the acetone/ABS solution is needed. However, you can apply multiple coats if needed.
 
-\section{Using 1.75mm Filament}
+\section{Using 1.75mm filament}
 \index{1.75mm filament}
 \index{PTFE tube}
 \glossary{PTFE}{Polytetrafluoroethylene is a synthetic fluoropolymer used in the Budaschnozzle for it's low coefficient of friction.}
-\textcolor{red}{This procedure is highly advanced and involves disassembling parts of the printer, including the hot end. We recommend using 3mm plastic filament as we have yet to see major advantages to using 1.75mm filament. If you would still like to use 1.75mm filament make sure to follow the instructions carefully. If the instructions are not followed correctly you will run the risk of damaging the printer.}
+\textcolor{red}{This procedure is highly advanced and involves disassembling parts of the printer, including the hot end. We recommend using 3mm plastic filament as we have yet to see major advantages to using 1.75mm filament. If you would still like to use 1.75mm filament make sure to follow the instructions carefully. You will run the risk of damaging the printer if the instructions are not followed correctly.}
 
 The TAZ 3D printer is set up to use 3mm plastic filament by default. Although we recommend using 3mm filament, the TAZ is also capable of printing 1.75mm filament. To print with 1.75mm filament you will need to change the PTFE tube inside the Budaschnozzle hot end. Purchase the 1.75mm conversion PTFE tube in our store at \texttt{www.LulzBot.com}.
-% Change the address to point to the 2.0 section when released.
+% Currently sold out due to sourcing issues.
 
 To change out the PTFE tube:
 \begin{enumerate}
 \item Remove the plastic filament from the extruder if there is any currently loaded by bringing the hot end up to extrusion temp and backing out the filament in Printrun
 
 \item Using the Printrun manual controls, raise the Z axis to 100mm.
-\item Turn off all power to the printer and allow the hot end to cool. Disconnect the two 4 pin connectors on the extruder assembly. Locate and remove, with the 2.5mm hex driver, the tool head 3mm screw in top center of the X axis carriage. Remove the extruder mount from the X axis carriage.
+\item Turn off all power to the printer and allow the hot end to cool. Disconnect the two 4-pin connectors on the extruder assembly. Locate and remove, with the 2.5mm hex driver, the tool head 3mm screw in top center of the X axis carriage. Remove the extruder mount from the X axis carriage.
 \item Using a 3mm hex driver loosen and remove the two 4mm screws from the bottom of the extruder X axis carriage. This will allow you to lift the extruder body and hot end off of the extruder mount. Set the extruder body aside.
 \item The hot end now has to be partially disassembled to replace the PTFE tube for 1.75mm filament. 
 \item Using the 2.5mm hex driver, remove the three 3mm screws from the bottom plate of the hot end. Remove the aluminum mount plate.
@@ -78,9 +91,9 @@ To change out the PTFE tube:
 \item Place the aluminum mount bracket on top. Screw in and lightly tighten the three 3mm screws from the bottom plate. \textcolor{red}{Do not over-tighten these screws as you can crack the wooden plate}.
 \item Wrap the wires through the strain relief slots in the correct path of all four wires, snaking through each slot together.
 \item Place the hot end back down into the extruder mount. Make sure the wires are facing the rear of the printer
-\item Place the extruder body back on top of the hot end and extruder mount. Line up the two mounting holes. Push the two 4mm screws through the bottom of the X carriage, through the hot end, and into the extruder body. Thread the screws using the 3mm hex driver but leave loose for now.
-\item Reconnect the two four pin connectors.
-\item Finally, push 1.75mm filament through the extruder and into the hot end. This will align the filament travel space. Tighten the two 4mm screws from the bottom of the X axis carriage.
+\item Place the extruder body back on top of the hot end and extruder mount. Line up the two mounting holes. Push the two 4mm screws through the bottom of the X carriage, through the hot end, and into the extruder body. Thread the screws using the 3mm hex driver but leave them loose for now.
+\item Reconnect the two 4-pin connectors.
+\item Finally, push 1.75mm filament through the extruder and into the hot end. This will align the filament travel space. Tighten the two 4-mm screws from the bottom of the X axis carriage.
 \end{enumerate}
 
 Before printing with 1.75mm filament, make sure to make the needed changes in Slic3r (found at \texttt{Filament Settings > Filament > Diameter}  ) for 1.75mm filament. You will need to re-slice any previously sliced files with the new settings for 1.75mm filament.
