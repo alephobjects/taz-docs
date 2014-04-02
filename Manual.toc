@@ -96,78 +96,78 @@
 \contentsline {paragraph}{Start, End and Layer Chance G-codes.}{51}
 \contentsline {section}{\numberline {2.5}Expert Mode}{52}
 \contentsline {subsection}{Speed}{52}
-\contentsline {subsection}{Infill Patterns and Density}{55}
-\contentsline {subsection}{Infill Optimization}{59}
-\contentsline {subsection}{Fighting Ooze}{60}
-\contentsline {subsection}{Skirt}{62}
-\contentsline {subsection}{Cooling}{63}
-\contentsline {subsubsection}{Fans}{64}
-\contentsline {subsubsection}{Slowing Down}{64}
-\contentsline {subsubsection}{Configuring}{64}
-\contentsline {subsection}{Support Material}{66}
-\contentsline {subsection}{Multiple Extruders}{69}
-\contentsline {subsubsection}{Configuring Extruders}{69}
-\contentsline {subsubsection}{Assigning Filaments}{71}
-\contentsline {subsubsection}{Assigning Extruders for Single-material Objects}{71}
-\contentsline {subsubsection}{Configuring Tool Changes}{72}
-\contentsline {subsubsection}{Printing Multi-material Objects}{73}
-\contentsline {subsubsection}{Generating multi-material AMF files}{73}
-\contentsline {subsection}{Extrusion Width}{74}
-\contentsline {subsection}{Variable Layer Height}{75}
-\contentsline {section}{\numberline {2.6}Configuration Organization}{80}
-\contentsline {subsection}{Exporting and Importing Configuration}{80}
-\contentsline {subsection}{Profiles}{80}
-\contentsline {subsubsection}{Creating Profiles}{80}
-\contentsline {section}{\numberline {2.7}Repairing Models}{82}
-\contentsline {paragraph}{FreeCAD}{82}
-\contentsline {section}{\numberline {2.8}Advanced Topics}{83}
-\contentsline {subsection}{Sequential Printing}{83}
-\contentsline {subsection}{Command Line Usage}{85}
-\contentsline {subsubsection}{Command Line Options}{85}
-\contentsline {subsection}{Post-Processing Scripts}{90}
-\contentsline {section}{\numberline {2.9}Troubleshooting}{92}
-\contentsline {subsection}{Z Wobble}{92}
-\contentsline {section}{\numberline {2.10}Slic3r Support}{93}
-\contentsline {subsection}{Slic3r Support}{93}
-\contentsline {subsubsection}{Wiki and FAQ}{93}
-\contentsline {subsubsection}{Blog}{93}
-\contentsline {subsubsection}{IRC}{93}
-\contentsline {subsubsection}{RepRap.org Forum}{93}
-\contentsline {subsubsection}{Issue Tracker}{94}
-\contentsline {chapter}{\chapternumberline {3}\emph {Printing with the Graphic LCD}}{95}
-\contentsline {section}{\numberline {3.1}GLCD Controller or Printrun Host?}{96}
-\contentsline {section}{\numberline {3.2}Multiple Connections}{96}
-\contentsline {section}{\numberline {3.3}Putting Print Files on the SD Card}{97}
-\contentsline {section}{\numberline {3.4}Printing With the Graphic LCD}{97}
-\contentsline {subsection}{The Graphic LCD Status Screen}{97}
-\contentsline {subsection}{Using the Selection Knob}{98}
-\contentsline {subsection}{Preparing for a Print}{99}
-\contentsline {subsection}{Selecting a File From the SD and Starting a Print}{100}
-\contentsline {subsection}{Making Manual Movements With the Graphic LCD}{100}
-\contentsline {subsection}{Configuration Settings}{101}
-\contentsline {subsection}{GLCD Controller Menu Diagram}{102}
-\contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{103}
-\contentsline {section}{\numberline {4.1}Overview}{104}
-\contentsline {section}{\numberline {4.2}Smooth Rods}{104}
-\contentsline {section}{\numberline {4.3}Threaded Rods}{104}
-\contentsline {section}{\numberline {4.4}PET Sheets}{104}
-\contentsline {section}{\numberline {4.5}Hobbed Bolt}{105}
-\contentsline {section}{\numberline {4.6}Software}{105}
-\contentsline {section}{\numberline {4.7}Belts}{105}
-\contentsline {section}{\numberline {4.8}Hot End}{106}
-\contentsline {section}{\numberline {4.9}Electronics}{106}
-\contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{107}
-\contentsline {section}{\numberline {5.1}Intro}{108}
-\contentsline {section}{\numberline {5.2}Changing nozzles}{108}
-\contentsline {section}{\numberline {5.3}ABS/Acetone Glue}{109}
-\contentsline {section}{\numberline {5.4}Using 1.75mm filament}{109}
-\contentsline {chapter}{\chapternumberline {6}\emph {Hardware and Software Source Code}}{113}
-\contentsline {chapter}{\chapternumberline {7}\emph {3D Printer Support}}{115}
-\contentsline {section}{\numberline {7.1}LulzBot}{116}
-\contentsline {section}{\numberline {7.2}Community}{116}
-\contentsline {chapter}{\chapternumberline {8}\emph {Contact Information}}{117}
-\contentsline {section}{\numberline {8.1}Support}{118}
-\contentsline {section}{\numberline {8.2}Sales}{118}
-\contentsline {section}{\numberline {8.3}Websites}{118}
-\contentsline {chapter}{Index}{119}
-\contentsline {chapter}{Glossary}{123}
+\contentsline {subsection}{Infill Patterns and Density}{56}
+\contentsline {subsection}{Infill Optimization}{60}
+\contentsline {subsection}{Fighting Ooze}{61}
+\contentsline {subsection}{Skirt}{63}
+\contentsline {subsection}{Cooling}{64}
+\contentsline {subsubsection}{Fans}{65}
+\contentsline {subsubsection}{Slowing Down}{65}
+\contentsline {subsubsection}{Configuring}{65}
+\contentsline {subsection}{Support Material}{67}
+\contentsline {subsection}{Multiple Extruders}{70}
+\contentsline {subsubsection}{Configuring Extruders}{70}
+\contentsline {subsubsection}{Assigning Filaments}{72}
+\contentsline {subsubsection}{Assigning Extruders for Single-material Objects}{72}
+\contentsline {subsubsection}{Configuring Tool Changes}{73}
+\contentsline {subsubsection}{Printing Multi-material Objects}{74}
+\contentsline {subsubsection}{Generating multi-material AMF files}{74}
+\contentsline {subsection}{Extrusion Width}{75}
+\contentsline {subsection}{Variable Layer Height}{76}
+\contentsline {section}{\numberline {2.6}Configuration Organization}{81}
+\contentsline {subsection}{Exporting and Importing Configuration}{81}
+\contentsline {subsection}{Profiles}{81}
+\contentsline {subsubsection}{Creating Profiles}{81}
+\contentsline {section}{\numberline {2.7}Repairing Models}{83}
+\contentsline {paragraph}{FreeCAD}{83}
+\contentsline {section}{\numberline {2.8}Advanced Topics}{84}
+\contentsline {subsection}{Sequential Printing}{84}
+\contentsline {subsection}{Command Line Usage}{86}
+\contentsline {subsubsection}{Command Line Options}{86}
+\contentsline {subsection}{Post-Processing Scripts}{91}
+\contentsline {section}{\numberline {2.9}Troubleshooting}{93}
+\contentsline {subsection}{Z Wobble}{93}
+\contentsline {section}{\numberline {2.10}Slic3r Support}{94}
+\contentsline {subsection}{Slic3r Support}{94}
+\contentsline {subsubsection}{Wiki and FAQ}{94}
+\contentsline {subsubsection}{Blog}{94}
+\contentsline {subsubsection}{IRC}{94}
+\contentsline {subsubsection}{RepRap.org Forum}{94}
+\contentsline {subsubsection}{Issue Tracker}{95}
+\contentsline {chapter}{\chapternumberline {3}\emph {Printing with the Graphic LCD}}{97}
+\contentsline {section}{\numberline {3.1}GLCD Controller or Printrun Host?}{98}
+\contentsline {section}{\numberline {3.2}Multiple Connections}{98}
+\contentsline {section}{\numberline {3.3}Putting Print Files on the SD Card}{99}
+\contentsline {section}{\numberline {3.4}Printing With the Graphic LCD}{99}
+\contentsline {subsection}{The Graphic LCD Status Screen}{99}
+\contentsline {subsection}{Using the Selection Knob}{100}
+\contentsline {subsection}{Preparing for a Print}{101}
+\contentsline {subsection}{Selecting a File From the SD and Starting a Print}{102}
+\contentsline {subsection}{Making Manual Movements With the Graphic LCD}{102}
+\contentsline {subsection}{Configuration Settings}{103}
+\contentsline {subsection}{GLCD Controller Menu Diagram}{104}
+\contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{105}
+\contentsline {section}{\numberline {4.1}Overview}{106}
+\contentsline {section}{\numberline {4.2}Smooth Rods}{106}
+\contentsline {section}{\numberline {4.3}Threaded Rods}{106}
+\contentsline {section}{\numberline {4.4}PET Sheets}{106}
+\contentsline {section}{\numberline {4.5}Hobbed Bolt}{107}
+\contentsline {section}{\numberline {4.6}Software}{107}
+\contentsline {section}{\numberline {4.7}Belts}{107}
+\contentsline {section}{\numberline {4.8}Hot End}{108}
+\contentsline {section}{\numberline {4.9}Electronics}{108}
+\contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{109}
+\contentsline {section}{\numberline {5.1}Intro}{110}
+\contentsline {section}{\numberline {5.2}Changing nozzles}{110}
+\contentsline {section}{\numberline {5.3}ABS/Acetone Glue}{111}
+\contentsline {section}{\numberline {5.4}Using 1.75mm filament}{111}
+\contentsline {chapter}{\chapternumberline {6}\emph {Hardware and Software Source Code}}{115}
+\contentsline {chapter}{\chapternumberline {7}\emph {3D Printer Support}}{117}
+\contentsline {section}{\numberline {7.1}LulzBot}{118}
+\contentsline {section}{\numberline {7.2}Community}{118}
+\contentsline {chapter}{\chapternumberline {8}\emph {Contact Information}}{119}
+\contentsline {section}{\numberline {8.1}Support}{120}
+\contentsline {section}{\numberline {8.2}Sales}{120}
+\contentsline {section}{\numberline {8.3}Websites}{120}
+\contentsline {chapter}{Index}{121}
+\contentsline {chapter}{Glossary}{125}

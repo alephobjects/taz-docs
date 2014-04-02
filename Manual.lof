@@ -27,53 +27,53 @@
 \contentsline {figure}{\numberline {2.19}{\ignorespaces Simple Mode: Filament Settings.}}{49}
 \contentsline {figure}{\numberline {2.20}{\ignorespaces Simple Mode: Printer Settings.}}{50}
 \contentsline {figure}{\numberline {2.21}{\ignorespaces Expert mode speed options.}}{53}
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Infill pattern settings.}}{55}
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Infill pattern: Line (344.51mm / 5m:20s)}}{55}
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Infill pattern: Rectilinear (350.57mm / 5m:23s)}}{55}
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Infill pattern: Concentric (351.80mm / 5m:30s)}}{56}
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Infill pattern: Honeycomb (362.73mm / 5m:39s)}}{56}
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Infill pattern: Hilbert Curve (332.82mm / 5m:28s)}}{56}
-\contentsline {figure}{\numberline {2.28}{\ignorespaces Infill pattern: Archimedean Chords (333.66mm / 5m:27s)}}{56}
-\contentsline {figure}{\numberline {2.29}{\ignorespaces Infill pattern: Octagram Spiral (318.63mm / 5m:15s)}}{57}
-\contentsline {figure}{\numberline {2.30}{\ignorespaces Infill pattern comparison in a complex object. Left to Right: honeycomb, line}}{57}
-\contentsline {figure}{\numberline {2.31}{\ignorespaces Infill patterns at varying densities. Left to Right: 20\%,40\%,60\%,80\%. Top to Bottom: Honeycomb, Concentric, Line, Rectilinear, Hilbert Curve, Archimedean Chords, Octagram Spiral}}{58}
-\contentsline {figure}{\numberline {2.32}{\ignorespaces Infill advanced settings.}}{59}
-\contentsline {figure}{\numberline {2.33}{\ignorespaces Retraction settings.}}{60}
-\contentsline {figure}{\numberline {2.34}{\ignorespaces Skirt settings.}}{62}
-\contentsline {figure}{\numberline {2.35}{\ignorespaces Cooling strategy.}}{63}
-\contentsline {figure}{\numberline {2.36}{\ignorespaces Cooling advanced settings.}}{65}
-\contentsline {figure}{\numberline {2.37}{\ignorespaces Support structure options.}}{66}
-\contentsline {figure}{\numberline {2.38}{\ignorespaces Minimug model, tilted 45\IeC {\textdegree }.}}{67}
-\contentsline {figure}{\numberline {2.39}{\ignorespaces Support infill pattern: Rectilinear}}{68}
-\contentsline {figure}{\numberline {2.40}{\ignorespaces Support infill pattern: Rectilinear Grid}}{68}
-\contentsline {figure}{\numberline {2.41}{\ignorespaces Support infill pattern: Honeycomb}}{68}
-\contentsline {figure}{\numberline {2.42}{\ignorespaces Example of pattern angle rotated 45\IeC {\textdegree }.}}{69}
-\contentsline {figure}{\numberline {2.43}{\ignorespaces Multiple extruder options - Printer Settings Tab (General). Note the two extruders defined in the left-hand pane.}}{70}
-\contentsline {figure}{\numberline {2.44}{\ignorespaces Multiple extruder options - Printer Settings Tab (Extruder).}}{70}
-\contentsline {figure}{\numberline {2.45}{\ignorespaces Plater with multiple filament options.}}{71}
-\contentsline {figure}{\numberline {2.46}{\ignorespaces Multiple extruder options - Print Settings Tab.}}{72}
-\contentsline {figure}{\numberline {2.47}{\ignorespaces Multiple extruder options - Tool change G-code.}}{72}
-\contentsline {figure}{\numberline {2.48}{\ignorespaces Extrusion widths options.}}{74}
-\contentsline {figure}{\numberline {2.49}{\ignorespaces Example model highlighting use case for variable layer heights.}}{75}
-\contentsline {figure}{\numberline {2.50}{\ignorespaces Example with normal layer height.}}{76}
-\contentsline {figure}{\numberline {2.51}{\ignorespaces Variable layer height options - Info.}}{77}
-\contentsline {figure}{\numberline {2.52}{\ignorespaces Variable layer height options - Layers.}}{78}
-\contentsline {figure}{\numberline {2.53}{\ignorespaces Example with variable layer height.}}{78}
-\contentsline {figure}{\numberline {2.54}{\ignorespaces Example print with variable layer height.}}{79}
-\contentsline {figure}{\numberline {2.55}{\ignorespaces Example with skipped layers.}}{79}
-\contentsline {figure}{\numberline {2.56}{\ignorespaces Saving a profile.}}{81}
-\contentsline {figure}{\numberline {2.57}{\ignorespaces Deleting a profile.}}{81}
-\contentsline {figure}{\numberline {2.58}{\ignorespaces FreeCAD part repair.}}{82}
-\contentsline {figure}{\numberline {2.59}{\ignorespaces Sequential printing options.}}{83}
-\contentsline {figure}{\numberline {2.60}{\ignorespaces The clearance cylinder around an extruder.}}{84}
-\contentsline {figure}{\numberline {2.61}{\ignorespaces Post-processing script option.}}{90}
-\contentsline {figure}{\numberline {2.62}{\ignorespaces Example post-processing script to display Slic3r environment variables.}}{90}
-\contentsline {figure}{\numberline {2.63}{\ignorespaces Example post-processing script to print each line to output.}}{91}
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Infill pattern settings.}}{56}
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Infill pattern: Line (344.51mm / 5m:20s)}}{56}
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Infill pattern: Rectilinear (350.57mm / 5m:23s)}}{56}
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Infill pattern: Concentric (351.80mm / 5m:30s)}}{57}
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Infill pattern: Honeycomb (362.73mm / 5m:39s)}}{57}
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Infill pattern: Hilbert Curve (332.82mm / 5m:28s)}}{57}
+\contentsline {figure}{\numberline {2.28}{\ignorespaces Infill pattern: Archimedean Chords (333.66mm / 5m:27s)}}{57}
+\contentsline {figure}{\numberline {2.29}{\ignorespaces Infill pattern: Octagram Spiral (318.63mm / 5m:15s)}}{58}
+\contentsline {figure}{\numberline {2.30}{\ignorespaces Infill pattern comparison in a complex object. Left to Right: honeycomb, line}}{58}
+\contentsline {figure}{\numberline {2.31}{\ignorespaces Infill patterns at varying densities. Left to Right: 20\%,40\%,60\%,80\%. Top to Bottom: Honeycomb, Concentric, Line, Rectilinear, Hilbert Curve, Archimedean Chords, Octagram Spiral}}{59}
+\contentsline {figure}{\numberline {2.32}{\ignorespaces Infill advanced settings.}}{60}
+\contentsline {figure}{\numberline {2.33}{\ignorespaces Retraction settings.}}{61}
+\contentsline {figure}{\numberline {2.34}{\ignorespaces Skirt settings.}}{63}
+\contentsline {figure}{\numberline {2.35}{\ignorespaces Cooling strategy.}}{64}
+\contentsline {figure}{\numberline {2.36}{\ignorespaces Cooling advanced settings.}}{66}
+\contentsline {figure}{\numberline {2.37}{\ignorespaces Support structure options.}}{67}
+\contentsline {figure}{\numberline {2.38}{\ignorespaces Minimug model, tilted 45°.}}{68}
+\contentsline {figure}{\numberline {2.39}{\ignorespaces Support infill pattern: Rectilinear}}{69}
+\contentsline {figure}{\numberline {2.40}{\ignorespaces Support infill pattern: Rectilinear Grid}}{69}
+\contentsline {figure}{\numberline {2.41}{\ignorespaces Support infill pattern: Honeycomb}}{69}
+\contentsline {figure}{\numberline {2.42}{\ignorespaces Example of pattern angle rotated 45°.}}{70}
+\contentsline {figure}{\numberline {2.43}{\ignorespaces Multiple extruder options - Printer Settings Tab (General). Note the two extruders defined in the left-hand pane.}}{71}
+\contentsline {figure}{\numberline {2.44}{\ignorespaces Multiple extruder options - Printer Settings Tab (Extruder).}}{71}
+\contentsline {figure}{\numberline {2.45}{\ignorespaces Plater with multiple filament options.}}{72}
+\contentsline {figure}{\numberline {2.46}{\ignorespaces Multiple extruder options - Print Settings Tab.}}{73}
+\contentsline {figure}{\numberline {2.47}{\ignorespaces Multiple extruder options - Tool change G-code.}}{73}
+\contentsline {figure}{\numberline {2.48}{\ignorespaces Extrusion widths options.}}{75}
+\contentsline {figure}{\numberline {2.49}{\ignorespaces Example model highlighting use case for variable layer heights.}}{76}
+\contentsline {figure}{\numberline {2.50}{\ignorespaces Example with normal layer height.}}{77}
+\contentsline {figure}{\numberline {2.51}{\ignorespaces Variable layer height options - Info.}}{78}
+\contentsline {figure}{\numberline {2.52}{\ignorespaces Variable layer height options - Layers.}}{79}
+\contentsline {figure}{\numberline {2.53}{\ignorespaces Example with variable layer height.}}{79}
+\contentsline {figure}{\numberline {2.54}{\ignorespaces Example print with variable layer height.}}{80}
+\contentsline {figure}{\numberline {2.55}{\ignorespaces Example with skipped layers.}}{80}
+\contentsline {figure}{\numberline {2.56}{\ignorespaces Saving a profile.}}{82}
+\contentsline {figure}{\numberline {2.57}{\ignorespaces Deleting a profile.}}{82}
+\contentsline {figure}{\numberline {2.58}{\ignorespaces FreeCAD part repair.}}{83}
+\contentsline {figure}{\numberline {2.59}{\ignorespaces Sequential printing options.}}{84}
+\contentsline {figure}{\numberline {2.60}{\ignorespaces The clearance cylinder around an extruder.}}{85}
+\contentsline {figure}{\numberline {2.61}{\ignorespaces Post-processing script option.}}{91}
+\contentsline {figure}{\numberline {2.62}{\ignorespaces Example post-processing script to display Slic3r environment variables.}}{91}
+\contentsline {figure}{\numberline {2.63}{\ignorespaces Example post-processing script to print each line to output.}}{92}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces GLCD Info Screen}}{97}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Main menu}}{99}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Configuration Menu}}{101}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Configuration Menu}}{102}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces GLCD Info Screen}}{99}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Main menu}}{101}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Configuration Menu}}{103}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Configuration Menu}}{104}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

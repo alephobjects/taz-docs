@@ -1,17 +1,49 @@
+%
+% Manual.tex
+% TAZ Manual main document formatting
+%
+% LulzBot TAZ User Manual
+%
+% Copyright (C) 2014 Aleph Objects, Inc.
+%
+% This document is licensed under the Creative Commons Attribution 4.0
+% International Public License (CC BY-SA 4.0) by Aleph Objects, Inc.
+%
+
+%%% Images may be commented out to render more quickly
+%%%
+%%% Bug on ShareLaTeX: glossary and index are not rendering.
+%%% https://sharelatex.tenderapp.com/help/discussions/questions/19378-glossaries-indices-and-speed
+
+
 %%% MEMOIR CLASS %%%
 \documentclass[twoside,12pt,openright,final,english]{memoir}
 % Memoir Divisions: \book, \part, \chapter, \section, \subsection
 % Fine divisions:   \subsubsection, \paragraph \subparagraph.
 %%% END MEMOIR CLASS %%%
 
+%%% PREAMBLE FONTS %%%
+% For XeLaTeX
+% http://www.ctan.org/pkg/fontspec
+% http://mirrors.ctan.org/macros/latex/contrib/fontspec/fontspec.pdf
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX} % To support LaTeX quoting style
+\setmainfont{lmroman12-regular.otf}
+
+\usepackage[normalem]{ulem} % underline
+%%% END PREAMBLE FONTS %%%
+
 \usepackage{float}
 \usepackage{comment}
 \usepackage{graphicx}
 \usepackage{epstopdf}
 % For full size print graphics
-\graphicspath{{./images-original/}}
+% Note, these images haven't been uploaded yet
+%\graphicspath{{./images-original/}}
 % For web quality output
-%\graphicspath{{./images-1600x1200/}}
+% Note, some of these "web" images are much larger than they should be
+%%% Images commented out to render more quickly
+\graphicspath{{./images-1600x1200/}}
 
 \makeindex
 %%% GLOSSARY
@@ -75,9 +107,13 @@
 %%% PDFLATEX %%%
 \usepackage{etex}
 
-\usepackage[protrusion,expansion,spacing,kerning,babel,final]{microtype}
-\usepackage[utf8x]{inputenc}
+% http://mirrors.ctan.org/macros/latex/contrib/microtype/microtype.pdf
+\usepackage[protrusion,babel,final]{microtype}
+% This may need to be disabled for XeTeX
+%\usepackage[utf8x]{inputenc}
 
+%\usepackage{eledmac}
+%% Use ledmac for compiling on debian
 \usepackage{ledmac}
 
 %%% PAGE STYLE %%%
