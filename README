@@ -41,6 +41,13 @@ Translations:
 If you'd like to translate the manual, please feel free to do so! Fork the project to a new branch. 
 
 
+Generating the manual:
+
+At the root directory of the manual, (../taz-docs/) in a terminal run:
+$: ./make-Manual-multiple.sh
+
+If you encounter any errors, look for the file name/line entry.
+
 
 Copyright 2014, Aleph Objects, Inc.
 
