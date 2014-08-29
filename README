@@ -25,7 +25,7 @@ $: vi packages
 
 doxygen-latex feynmf lacheck latex-beamer latex-xcolor preview-latex-style prosper texlive-base texlive-binaries texlive-common texlive-doc-base texlive-doc-en texlive-extra-utils texlive-fonts-extra texlive-fonts-extra-doc texlive-fonts-recommended texlive-fonts-recommended-doc texlive-font-utils texlive-generic-recommended texlive-humanities texlive-humanities-doc texlive-latex3 texlive-latex-base texlive-latex-base-doc texlive-latex-extra texlive-latex-extra-doc texlive-latex-recommended texlive-latex-recommended-doc texlive-luatex texlive-metapost texlive-metapost-doc texlive-pictures texlive-pictures-doc texlive-pstricks texlive-pstricks-doc texlive-xetex tipa xindy texlive-humanities texlive-latex-extra
 
-If you're not familiar wit vi/vim, use your desired text editor.
+If you're not familiar with vi/vim, use your desired text editor.
 
 
 Install the packages:
