@@ -142,9 +142,9 @@
 \contentsline {subsection}{The Graphic LCD Status Screen}{99}
 \contentsline {subsection}{Using the Selection Knob}{100}
 \contentsline {subsection}{Preparing for a Print}{101}
-\contentsline {subsection}{Selecting a File From the SD and Starting a Print}{102}
+\contentsline {subsection}{Selecting a File From the SD and Starting a Print}{101}
 \contentsline {subsection}{Making Manual Movements With the Graphic LCD}{102}
-\contentsline {subsection}{Configuration Settings}{103}
+\contentsline {subsection}{Configuration Settings}{102}
 \contentsline {subsection}{GLCD Controller Menu Diagram}{104}
 \contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{105}
 \contentsline {section}{\numberline {4.1}Overview}{106}
