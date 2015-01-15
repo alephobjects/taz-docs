@@ -71,7 +71,8 @@ Choose your desired filament. The Lulzbot Mini ships with a 1 meter sample of HI
 \index{Support Material}
 %%%% Saved for standalone Cura Manual %%%%
 %The TAZ and Mini are able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model could benefit from support material.
-The Mini 3D printer is able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model could benefit from support material.
+%MINI% The Mini 3D printer is able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model could benefit from support material.
+The TAZ 3D printer is able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model could benefit from support material.
 
 \subsection{Brim}
 \index{Brim}
@@ -242,8 +243,11 @@ Set your temperatures for the hot end and the bed. You will see two boxes, one l
 
 \subsection{Control}
 \index{Control}
-Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button. This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. As soon as it is operational, select \texttt{Print}. This will start the printing process: (set the appropriate temperatures, go through the auto-leveling procedure, and start printing your model).
+Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button. This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. As soon as it is operational, select \texttt{Print}. This will start the printing process.
+%%mini:
+%This will start the printing process: (set the appropriate temperatures, go through the auto-leveling procedure, and start printing your model).
 %\pageref{fig:Print Control}).
+
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Pronterface117.png}
@@ -302,7 +306,7 @@ The thickness of each printed layer is known as the \texttt{Layer Height}. The s
 
 \subsubsection{Shell Thickness}
 \index{Shell Thickness}
-This defines the number of vertical walls that comprise the outside of your model. We recommend keeping this set to multiples of your nozzle width. Your Mini 3D printer is equipped with a 0.5 mm nozzle. %The TAZ ships with a .35mm nozzle standard, while the TAZ Mini has a .5mm nozzle standard.
+This defines the number of vertical walls that comprise the outside of your model. We recommend keeping this set to multiples of your nozzle width. Your TAZ 3D printer is equipped with a 0.5 mm nozzle. %The TAZ ships with a .5mm nozzle standard, while the Mini has a .5mm nozzle standard.
 
 \subsubsection{Enable Retraction}
 \index{Retraction}
@@ -324,9 +328,11 @@ Your overall printing speed can be adjusted here. If no other speeds are determi
 
 \subsubsection{Printing Temperature}
 \index{Printing Temperature}
-When using different filament materials you'll need to update the desired hot end and heated bed temperature. Any temperatures specified here will be used to automatically set both the hot end and heated bed. Your print will not begin until these temperatures are met. The Mini 3D printer needs to have the temperature specified in order to run through the automatic bed-leveling routine.
+When using different filament materials you'll need to update the desired hot end and heated bed temperature. Any temperatures specified here will be used to automatically set both the hot end and heated bed. Your print will not begin until these temperatures are met. 
+
+%The Mini 3D printer needs to have the temperature specified in order to run through the automatic bed-leveling routine.
 %%%% Since the Mini needs to have gcode temps set in order to run through auto bed leveling, the following statement is only applicable to the TAZ4 or earlier. %%%%
-%We recommend leaving this temperature setting to “0”. If you set your temperature in this section your printer will not begin printing until it reaches the specified temperature. We recommend setting your printing temperatures through the Pronterface UI, or through your LCD.
+We recommend leaving this temperature setting to “0”. If you set your temperature in this section your printer will not begin printing until it reaches the specified temperature. We recommend setting your printing temperatures through the Pronterface UI, or through your LCD.
 
 \subsection{Support Type}
 \index{Support Type}
@@ -375,8 +381,8 @@ This controls how much filament your printer is extruding in relation to speed. 
 \subsection{Nozzle Size (mm)}
 \index{Nozzle Size}
 %%%% standalone version line %%%%
-%This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end. The TAZ ships with a 0.35mm nozzle, and the TAZ Mini ships with a 0.5mm nozzle.
-This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end. The Mini ships with a 0.5mm nozzle.
+This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end. The TAZ ships with a 0.5mm nozzle, and the TAZ Mini ships with a 0.5mm nozzle.
+%This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end. The Mini ships with a 0.5mm nozzle.
 
 \subsection{Retraction Speed (mm/s)}
 \index{Retraction Speed}

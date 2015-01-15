@@ -12,12 +12,45 @@
 \section{Software Overview}
 \index{software}
 
-Aleph Objects, Inc., the maker of the LulzBot TAZ, completely supports free/libre hardware and software. Along with the TAZ being a free/libre hardware design, it has been tested to work with 100\% free/libre software. Our source code and design files are hosted on our development server found at \texttt{http://devel.lulzbot.com}.
+Aleph Objects, Inc., the maker of the LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ, completely supports free/libre hardware and software. Along with the TAZ being a free/libre hardware design, it has been tested to work with 100\% free/libre software. Our source code and design files are hosted on our development server found at \texttt{http://devel.lulzbot.com}.
 \glossary{free/libre}{Free/Libre hardware and software can be thought of as "free as in free speech, not just free as in free beer", although most free/libre software is available for no cost. Libre hardware designs can be copied, modified and are usually available for download. Free/Libre software can be used in a similar fashion.}
 To operate your desktop 3D printer you will need to install a few software packages onto your PC. You will need a 3D printer host, an \texttt{.STL} to \texttt{.gcode} generator, and optional CAD or 3D modeling software.
 \glossary{.gcode}{The file extension for G-Code files}
 \glossary{GCODE}{The common name for the most widely used CNC programming language.}
 \glossary{CAD}{Computer Aided Design}
+
+\section{Software Types}
+\index{Printer Host}
+\index{Slicing}
+\index{Slicers}
+\index{gcode}
+\index{g-code}
+
+\begin{description}
+\item{Printer Hosts} \hfill \\
+Printer Host software is used to control the 3D printer. The program not only allows you to manually move the printer along all the axes, but set temperatures manually, send commands and receive feedback/error messages from the onboard electronics. We recommend that new users start with Cura as it includes a slicing engine as well.
+
+Common Printer Hosts:
+\begin{itemize}
+\item Cura
+\item Printrun (Pronterface)
+\item MatterControl
+\item OctoPrint
+\item Botqueue
+\end{itemize}
+
+\item{Slicers} \hfill \\
+These programs take the 3-Dimensional model (typically STL/OBJ/etc) and determine the 3D printer toolpath based on the options selected. The slicing engine uses the nozzle diameter, printing and movement speeds, layer height and other variables to determine the coordinates where it needs to move and the rates at which it will do so. This information is exported out of the program as a gcode file. The gcode file is a plain-text file with a series of text-based codes and a list of the complete X,Y and Z axis coordinates used for printing the 3D model. We recommend that new users start with Cura as it includes the printer host as well.
+
+Recommended Slicers:
+\begin{itemize}
+\item Cura
+\item Slic3r
+%\item Skeinforge
+%\item Sfact
+\end{itemize}
+
+\end{description}
 
 \index{GNU/Linux}
 \index{Apple OS X}
@@ -26,14 +59,21 @@ To operate your desktop 3D printer you will need to install a few software packa
 All of the following free/libre software packages are available for GNU/Linux, Windows, and Apple OS X. However, we highly recommend using these programs on GNU/Linux.
 
 \index{download}
-The required software can be found in the Support/Downloads section at \texttt{LulzBot.com/support/downloads}. You will also find instructions there for installing each program onto your PC. You can also find downloads specific to the TAZ 3D printer on the TAZ product page.
+The required software can be found in the Support/Downloads section at \texttt{LulzBot.com/support/downloads}. You will also find instructions there for installing each program onto your PC. You can also find downloads specific to the LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ 3D printer on the LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ product page.
 
 \index{driver}
 \section{Installing Drivers}
-Linux and Mac OSX users will not need to install a driver to communicate with the TAZ 3D printer. Windows users will need to install the following drivers. The drivers can be downloaded from \texttt{LulzBot.com/support/downloads}. A visual guide showing the driver installation process can be found in our download section as well.
+Linux and Mac OSX users will not need to install a driver to communicate with the TAZ 3D printer. Windows users will need to install the drivers. Using Cura as your printer host and slicing software is recommended, as the drivers will automatically be installed. The drivers can also be downloaded from \texttt{LulzBot.com/support/downloads}. A visual guide showing the driver installation process can be found in our download section as well.
+
+%%%% Change the following section when Cura.tex can be replaced by the standalone version. %%%%
+
+\index{Cura}
+\input{Cura}   
+
+%%%% End Cura Section %%%%
 
 \index{pronterface}
-\index{printrun}
+\index{Printrun}
 \index{pronsole}
 \index{plater}
 \index{stl}
@@ -42,22 +82,21 @@ Linux and Mac OSX users will not need to install a driver to communicate with th
 \index{temperature}
 \index{gcode}
 \index{SD card}
+\newpage
 \section{Printrun}
 \label{Printrun}
 Website: \texttt{http://www.github.com/kliment/Printrun}
-
-The host software, Printrun, is used to start up and control your 3D printer 
-(Figure \ref{fig:printrun}, page \pageref{fig:printrun}).
+The host software, Printrun, can be used to start up and control your 3D printer (Figure \ref{fig:Printrun}, page \pageref{fig:Printrun}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun.png}
 \caption{Printrun application for 3D printer control}
-\label{fig:printrun}
+\label{fig:Printrun}
 \end{figure}
 The host controls include: setting the extruder and print surface temperatures, manual control of each axis, and manual extrusion. The host is also where you can push print files (\texttt{.gcode}) to the 3D printer or load print files from the SD card for printing out model designs.
 
 \subsection{Installing Printrun}
-Printrun contains several different applications that can be used to control the TAZ 3D printer. It can be installed on Windows, Mac OSX and Linux based computers. We recommend using Pronterface, the graphical user interface for printrun, when setting up or troubleshooting the 3D printer. \texttt{Pronsole} allows printing from the command line, and can be used for scripting and some automation. \texttt{Plater} allows you to arrange and combine several STL files into one. More information on the other programs within the Printrun package can be found at \texttt{https://github.com/kliment/Printrun}. Printrun can be downloaded from \texttt{LulzBot.com/support/downloads}. Download the version for your operating system and extract. You will need an archive manager to extract the files. If you do not have one installed we recommend using 7-zip, which can be downloaded for free at \texttt{www.7-zip.org}.
+Printrun contains several different applications that can be used to control the TAZ 3D printer. It can be installed on Windows, Mac OSX and Linux based computers. Pronterface is the graphical user interface for Printrun. \texttt{Pronsole} allows printing from the command line, and can be used for scripting and some automation. \texttt{Plater} allows you to arrange and combine several STL files into one. More information on the other programs within the Printrun package can be found at \texttt{https://github.com/kliment/Printrun}. Printrun can be downloaded from \texttt{LulzBot.com/support/downloads}. Download the version for your operating system and extract. You will need an archive manager to extract the files. If you do not have one installed we recommend using 7-zip, which can be downloaded for free at \texttt{www.7-zip.org}.
 
 \begin{itemize}
 \subsection{Windows Instructions}
@@ -66,7 +105,7 @@ Printrun contains several different applications that can be used to control the
 
 
 \subsection{Mac OSX Instructions}
-\item Once downloaded, extract the \texttt{dist} folder to a location of your choice. Once extracted, double click the \texttt{pronterface-mac-Mar2012.app} file to install.
+\item Once downloaded, extract the \texttt{dist} folder to a location of your choice. Once extracted, double click the \texttt{pronterface-mac.app} file to install.
 
 \subsection{Linux Instructions}
 %\begin{itemize}
@@ -75,7 +114,7 @@ Printrun contains several different applications that can be used to control the
 \item We recommend using the stand-alone Printrun option found at \texttt{https://www.LulzBot.com/?=support/downloads}. Once downloaded and extracted, navigate to the extracted directory. Install the dependencies by issuing the following command in a terminal: \texttt{sudo apt-get install python-serial python-wxgtk2.8 python-pyglet}. Once the dependencies have been installed, run Pronterface by using the following command in a terminal: \texttt{python pronterface.py}.
 
 \subsubsection{Installing from source}
-\item Using Git, in a terminal issue the following command: \texttt{git clone https://github.com/kliment/Printrun.git}
+\item Using Git, in a terminal issue the following command: \texttt{git clone https://github.com/kliment/printrun.git}
 \item Once downloaded, change to the Printrun directory. You will need to ensure that the following dependencies are met. They are listed in the README.md file. You can use this command to install the dependencies: 
 \texttt{sudo apt-get install python-serial python-wxgtk2.8 python-pyglet python-tornado python-setuptools python-libxml2 python-gobject python-pip avahi-daemon libavahi-compat-libdnssd1}
 followed by:
@@ -89,11 +128,11 @@ Run Printrun by issuing the following command:
 \item Use this command to install Printrun from the official sources: \texttt{sudo yum install printrun}
 
 \subsubsection{Archlinux}
-\item Use this command to install Printun from AUR: \texttt{yaourt printrun}
+\item Use this command to install Printun from AUR: \texttt{yaourt rintrun}
 
 \end{itemize}
 
-\index{printrun}
+\index{Printrun}
 \section{Using Printrun}
 
 %\begin{figure}[hbt]
@@ -101,12 +140,12 @@ Run Printrun by issuing the following command:
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun.png}
 \caption{Printrun}
-\label{fig:printrun}
+\label{fig:Printrun}
 \end{figure}
 
 Printrun is used to control the printer from a computer. It is divided into 4 main parts: The buttons over the top are used to connect to the printer, load files and start \& stop prints.
 
-The movement controls are on the left hand side, with the G-code preview window in the center and the Log window and Terminal command entry box on the right hand side (Figure \ref{fig:printrun}, page \pageref{fig:printrun}).
+The movement controls are on the left hand side, with the G-code preview window in the center and the Log window and Terminal command entry box on the right hand side (Figure \ref{fig:Printrun}, page \pageref{fig:Printrun}).
 
 \subsection{Connecting to the TAZ 3D Printer}
 \index{connecting}
@@ -124,7 +163,7 @@ In the text output window you will see multiple return lines. If you see \texttt
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun-labels.png}
 \caption{Printrun Functions}
-\label{fig:printrun-labels}
+\label{fig:Printrun-labels}
 \end{figure}
 
 \subsection{Movement} 
@@ -133,7 +172,7 @@ In the text output window you will see multiple return lines. If you see \texttt
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun_controls.png}
 \caption{Movement Controls}
-\label{fig:printrun_controls}
+\label{fig:Printrun_controls}
 \end{figure}
 
 \subsubsection{Motors off}
@@ -146,12 +185,12 @@ These settings control the manual jog speeds when driven with Pronterface. Use c
 \index{end stops}
 Caution: when homing, the axis will continue to move in the negative direction until the end stop switch is activated. If the printer is ever transported make sure the end stop switches are clear before resuming printing. If an axis has missed an end stop and is continuing to try to move in the negative direction, immediately turn the power switch to the off position. 
 
-Each axes can be homed either individually or together. Press the \texttt{Home X} button to move the X axis to the left until it activates the end stop. Once the X axis end stop is activated, the X axis carriage will 'bounce'- it will move over and move back to the home position more slowly. Press the \texttt{Home Y} button to home the Y axis. The Y axis platform will move away from you towards the rear of the printer. The Z home button functions the same, but the Z trigger can be adjusted manually on the printer. \textcolor{red}{DO NOT press the \texttt{Home Z} button to home the Z axis or the \texttt{Home All button} at this time.} In a later step you will need to set the Z end stop trigger before homing Z.
+Each axes can be homed either individually or together. Press the \texttt{Home X} button to move the X axis to the left until it activates the end stop. Once the X axis end stop is activated, the X axis carriage will 'bounce'- it will move over and move back to the home position more slowly. Press the \texttt{Home Y} button to home the Y axis. The Y axis platform will move away from you towards the rear of the printer. The Z home button functions the same, but the Z trigger cannot be adjusted manually on the printer and uses the automatic bed-compensating routine at the beginning of each print.
 
 \subsubsection{X/Y/Z Axes Movement Controls}
 Prior to moving the X, Y, or Z axis, make sure that you home each axis. The X, Y and Z axes can be moved utilizing the circular movement controls. Each axis can be moved in either fine moves or large moves, ranging from 0.1mm to 100mm.  For example, to move the \texttt{Y Axis} towards you, move your mouse to the \texttt{+y} section until both the \texttt{+y} and the \texttt{100} are highlighted then select that ring section. To move the \texttt{Y axis} away from you, move your mouse to the \texttt{-y} section until both the \texttt{-y} and the \texttt{100} are highlighted then select that ring section. The X axis can be moved in a similar fashion.
 
-\textcolor{red}{DO NOT press the \texttt{Home Z} button to home the Z axis or the \texttt{Home All button} at this time.} The Z axis movement control operates similarly, but the movement scale is different. The Z axis will move in 0.1mm, 1mm and 10mm increments. The top half of the movement bar will move the Z axis up, by the selected units, while the lower half will move the Z axis down, by the selected units. 
+The Z axis movement control operates similarly, but the movement scale is different. The Z axis will move in 0.1mm, 1mm and 10mm increments. The top half of the movement bar will move the Z axis up, by the selected units, while the lower half will move the Z axis down, by the selected units. 
 
 
 
@@ -208,13 +247,13 @@ Once you have finished setting your part(s) in Plater you can generate the .gcod
 \index{Printrun}
 Website: \texttt{http://www.github.com/kliment/Printrun}
 
-The host software, Printrun, is used to start up and control your 3D printer 
-(Figure \ref{fig:printrun}, page \pageref{fig:printrun}).
+The host software, Printrun, can be used to start up and control your 3D printer 
+(Figure \ref{fig:Printrun}, page \pageref{fig:Printrun}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun.png}
 \caption{Printrun application for 3D printer control}
-\label{fig:printrun}
+\label{fig:Printrun}
 \end{figure}
 The host controls include: setting the extruder and print surface temperatures, manual control of each axis, and manual extrusion. The host is also where you will push print files (\texttt{.gcode}) to the 3D printer or load print files from the SD card for printing model designs.
 
@@ -237,12 +276,12 @@ Now, to connect to the printer, click the \texttt{Connect} button. In the text o
 \index{Printrun}
 \index{hot end}
 All of the printer controls can be found on the left side of the Printrun interface
-(Figure  \ref{fig:printrun_controls}, page \pageref{fig:printrun_controls}).
+(Figure  \ref{fig:Printrun_controls}, page \pageref{fig:Printrun_controls}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun_controls.png}
 \caption{Printrun controls}
-\label{fig:printrun_controls}
+\label{fig:Printrun_controls}
 \end{figure}
 To set the hot end and print surface temperature, first click the \texttt{Monitor Printer} check box on. This will enable the printer temperature bars and graph. The hot end and print surface controls are labeled \texttt{Heater} and \texttt{Bed}. Select the temperature setting by using the pull-down menu for pre-defined temperature settings. You can also set custom temperature settings by typing into the temperature box.
 
@@ -276,12 +315,12 @@ The four triangular buttons around the circular pattern are the axes home button
 \index{Printrun}
 
 To load a \texttt{.gcode} file into Printrun click the \texttt{Load file} button. Navigate to the \texttt{.gcode} file in the file browser and click \texttt{Open}. You will now see a 2D image of the first layer of your model design in the .gcode viewer
-(Figure \ref{fig:printrun_viewer}, page \pageref{fig:printrun_viewer}).
+(Figure \ref{fig:Printrun_viewer}, page \pageref{fig:Printrun_viewer}).
 \begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{printrun_viewer.png}
 \caption{Printrun viewer}
-\label{fig:printrun_viewer}
+\label{fig:Printrun_viewer}
 \end{figure}
 Click the .gcode viewer window to see a more detailed version of the sliced model. In the pop-up .gcode viewer you can zoom in using the mouse scroll wheel and flip through layers with the up and down arrow keys. To pan within the window, left-click and drag to move around the work plane. The lines shown in the .gcode viewer represent the path the extrusion nozzle will follow to print the model.
 
@@ -344,6 +383,13 @@ Website: \texttt{http://octoprint.org/}
 
 Octoprint is a printer host that uses a web-based interface to access and control the 3D printer. Added web-cam functionality allows for time-lapse videos and a live stream. Octoprint will run on Windows, Apple and Linux based computers and can even run well on a Beagle Bone Black or a RaspberryPi (inexpensive business-card sized computers). 
 
+\subsection{BotQueue}
+\index{BotQueue}
+\index{GNU/Linux}
+\index{Apple OS X}
+Website: \texttt{https://www.botqueue.com/}
+
+Botqueue works well for those users wanting to have a web-based multiple 3D printer operation running off a queuing system.
 
 
 \subsection{MatterControl}
