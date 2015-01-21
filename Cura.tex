@@ -24,7 +24,8 @@ When first opening Cura, you will be prompted to go through the \texttt{First ru
 \item Download the appropriate installer for your computer operating system.
 \item Install Cura by double clicking on the installer.
 %\item Once your language has been selected, select \texttt{Next}.
-\item Select \texttt{Lulzbot Mini}. 
+%\item Select \texttt{Lulzbot Mini}.
+\item Select \texttt{TAZ}.  
 \item Once the proper printer is selected, select \texttt{Next}. 
 \end{itemize}
 
@@ -64,7 +65,7 @@ Designed for the fast prints, where overall model finish is not of concern. Most
 \subsection{Material Selection}
 \index{Material Selection}
 \index{filament}
-Choose your desired filament. The Lulzbot Mini ships with a 1 meter sample of HIPS, that should be used in your first print.
+Choose your desired filament. The TAZ ships with a 1 meter sample of ABS, that should be used in your first print.
 %If you are not using Lulzbot supplied filament, update your filament diameter to your specific average filament diameter. Do this by taking 10 to 12 filament diameter measurements from different parts of the reel and averaging them. Update your filament diameter. %You may also want to adjust the temperature, as different manufacturers have different recommended temperatures. % This would be better served in the Full Settings explination.
 
 \subsection{Printing Support Material}
@@ -76,7 +77,7 @@ The TAZ 3D printer is able to print models that have angles and overhangs, even 
 
 \subsection{Brim}
 \index{Brim}
-Brim is used to increase surface area of the part your printing, thereby ensuring proper part adhesion. This will print a single layer high edge around the outside of the part, helping first layer adhesion and minimizing warping.
+Brim is used to increase surface area of the part you're printing, thereby ensuring proper part adhesion. This will print a single layer high edge around the outside of the part, helping first layer adhesion and minimizing warping.
 
 \subsection{Load Model File}
 \index{Load Model}
@@ -85,7 +86,7 @@ Select the model you would like to print. Either use the \texttt{Load Model} but
 
 \subsection{Model Orientation}
 \index{Orientation}
-Move your model to change where it is printed on the build plate. Do this by left clicking on the model and dragging it to the desired location. The \texttt{black} outlined corner represents the lower left hand corner of the build plate on your printer. You can also Right Click and hold in the build screen, to view your model from different angles. %Not sure if this last sentence should be reworked or put in a separate section.
+Move your model to change where it is printed on the build plate. Do this by left clicking on the model and dragging it to the desired location. The \texttt{black} outlined corner represents the front left hand corner of the build plate on your printer. You can also Right Click and hold in the build screen, to view your model from different angles. %Not sure if this last sentence should be reworked or put in a separate section.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Options.png}
@@ -243,7 +244,7 @@ Set your temperatures for the hot end and the bed. You will see two boxes, one l
 
 \subsection{Control}
 \index{Control}
-Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button. This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. As soon as it is operational, select \texttt{Print}. This will start the printing process.
+Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button. This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. Once it is operational, you will need to set your filament specific temperatures. The temperature box heats the hot end, while the bed temp sets the bed temperature. Your current temperatures will be listed in the top of the control box. Once your hot end and bed are heated, select \texttt{Print}. This will start the printing process.
 %%mini:
 %This will start the printing process: (set the appropriate temperatures, go through the auto-leveling procedure, and start printing your model).
 %\pageref{fig:Print Control}).
@@ -258,9 +259,10 @@ Connect your 3D printer to a computer using a USB cable, power it on and select 
 
 \section{Removing Your First Print}
 \index{Removing a Print}
-After your first print has finished, you need to wait for the part to cool down.  Your parts will be easier to remove if you allow your heated bed to cool down to optimal temperature. This will allow the plastic to contract, making it easier to remove. \texttt{Your print bed will move forward once it is ready to be removed.}
+After your first print has finished, you need to wait for the part to cool down.  Your parts will be easier to remove if you allow your heated bed to cool down to optimal temperature. This will allow the plastic to contract, making it easier to remove. 
+%\texttt{Your print bed will move forward once it is ready to be removed.}
 
-Once your heated bed has cooled, use the blue handled knife that was included with your printer to remove the item. Carefully insert the blade of the knife between your print and heated bed. Once underneath the part rotate the blade- lifting with the sharp edge into the part, to gently pop the piece off your plate.
+Once your heated bed has cooled, use the blue handled knife that was included with your toolkit to remove the item. Carefully insert the blade of the knife between your print and heated bed. Once underneath the part rotate the blade- lifting with the sharp edge into the part, to gently pop the piece off your plate.
 %\begin{figure}[hbt]
 %\centering
 %\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{remove_part.png} %%%% Photo needed %%%%
@@ -306,7 +308,7 @@ The thickness of each printed layer is known as the \texttt{Layer Height}. The s
 
 \subsubsection{Shell Thickness}
 \index{Shell Thickness}
-This defines the number of vertical walls that comprise the outside of your model. We recommend keeping this set to multiples of your nozzle width. Your TAZ 3D printer is equipped with a 0.5 mm nozzle. %The TAZ ships with a .5mm nozzle standard, while the Mini has a .5mm nozzle standard.
+This defines the number of vertical walls that comprise the outside of your model. We recommend keeping this set to multiples of your nozzle width. Your TAZ 3D printer is equipped with a 0.35 mm nozzle. %The TAZ ships with a .5mm nozzle standard, while the Mini has a .5mm nozzle standard.
 
 \subsubsection{Enable Retraction}
 \index{Retraction}
@@ -328,11 +330,11 @@ Your overall printing speed can be adjusted here. If no other speeds are determi
 
 \subsubsection{Printing Temperature}
 \index{Printing Temperature}
-When using different filament materials you'll need to update the desired hot end and heated bed temperature. Any temperatures specified here will be used to automatically set both the hot end and heated bed. Your print will not begin until these temperatures are met. 
+%When using different filament materials you'll need to update the desired hot end and heated bed temperature. Any temperatures specified here will be used to automatically set both the hot end and heated bed. Your print will not begin until these temperatures are met. 
 
 %The Mini 3D printer needs to have the temperature specified in order to run through the automatic bed-leveling routine.
 %%%% Since the Mini needs to have gcode temps set in order to run through auto bed leveling, the following statement is only applicable to the TAZ4 or earlier. %%%%
-We recommend leaving this temperature setting to “0”. If you set your temperature in this section your printer will not begin printing until it reaches the specified temperature. We recommend setting your printing temperatures through the Pronterface UI, or through your LCD.
+We recommend leaving this temperature setting to “0”. If you set your temperature in this section your printer will not begin printing until it reaches the EXACT temperature. We recommend setting your printing temperatures through the Pronterface UI, or through your LCD.
 
 \subsection{Support Type}
 \index{Support Type}
@@ -381,7 +383,8 @@ This controls how much filament your printer is extruding in relation to speed. 
 \subsection{Nozzle Size (mm)}
 \index{Nozzle Size}
 %%%% standalone version line %%%%
-This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end. The TAZ ships with a 0.5mm nozzle, and the TAZ Mini ships with a 0.5mm nozzle.
+This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end. The TAZ ships with a 0.35mm nozzle. 
+%and the TAZ Mini ships with a 0.5mm nozzle.
 %This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end. The Mini ships with a 0.5mm nozzle.
 
 \subsection{Retraction Speed (mm/s)}
