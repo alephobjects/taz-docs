@@ -36,13 +36,9 @@ The TAZ 3D printer ships with a standard 0.5mm nozzle which allows small-layer r
 \glossary{Heater block}{Machined from aluminum, the heater block generates heat with a heater resistor and uses a thermistor to measure the temperature.}
 \glossary{Thermistor}{A special type of resistor that changes resistance based on temperature. It is used to measure temperature on the nozzle and the heated bed.}
 \glossary{Heater resistor}{A special type of resistor that is used to apply heat in a small area.}
-To change the nozzle you will need the included 13mm wrench and needle nose pliers. Use the pliers to hold the rectangular aluminum heater block away from the heater resistor and thermistor wires. To minimize risk to the hot end wiring, from the rear of the printer hold onto the heater block.
+The LulzBot Hexagon does not currently have additional nozzle sizes. If a nozzle change is required you will need to tighten the nozzle to the recommended 30in/lb of torque. 
 
-Using the 13mm wrench, turn the nozzle counter-clock-wise. Make sure the nozzle is turning off of the threaded aluminum extension that runs up through the heater block. Do not allow the heater block to turn. This can put strain on, and possibly damage, the wiring.
-
-Once you have removed the nozzle you can then thread on the other nozzle size you would like to use. Make sure the nozzle has threaded correctly onto the threaded extension before trying to turn it with the wrench. Turn the nozzle clock-wise until it tightens against the heater block.
-
-After installing the new nozzle you may need to adjust your Z home trigger setting before printing again. Refer to the "Quick Start" guides included with your TAZ 3D printer or rotate the Z axis endstop trigger counter-clockwise to start with a higher Z axis homing height.
+Prior to any modifications make sure the that printer is unplugged from both the wall and the computer. Use a 7mm wrench to turn the nozzle and a 18mm wrench to hold the heater block. 
 
 %\index{anti-seize}
 %If you will be changing nozzles frequently we suggest reapplying a small amount of high temperature anti-seize compound to the inside threads of the nozzles. You will need an anti-seize capable of temperatures of at least \texttt{250°C}.
@@ -50,15 +46,13 @@ After installing the new nozzle you may need to adjust your Z home trigger setti
 \section{ABS/Acetone Glue}
 \label{sec:ABS/Acetone Glue}
 \index{acetone}
-\glossary{Acetone}{A colorless, volatile, flammable liquid ketone, (CH3)2CO, used as a solvent for ABS.}
-Acetone is not included or required with the TAZ 3D printer. An acetone safety label is included for the HDPE bottle.
-
 \index{ABS}
-\textcolor{red}{Acetone can cause skin irritation when prolonged skin contact occurs. We recommend using acetone safe gloves when applying the ABS/acetone glue. Use the ABS/acetone glue in a well-ventilated space. Leave the mixture bottle closed except when applying a small amount to the wiping towel. Acetone liquid and vapors are highly flammable. Keep acetone away from open flames and high temperature sources, including the 3D printer. Read the warnings label on your purchased acetone packaging for additional warnings.}
+\glossary{Acetone}{A colorless, volatile, flammable liquid ketone, (CH3)2CO, used as a solvent for ABS.}
+Acetone is not included or required with the TAZ 3D printer. \textcolor{red}{Acetone & ABS solution is NOT recommended anymore, as the PEI print surface works well without it.}
 
 \index{warping}
 \index{bottle}
-You may find that during printing, printed parts lift off the print surface on the corners. If you are seeing this problem you can make an ABS/acetone glue to apply to the print surface. Using the HDPE acetone-safe bottle included in the printer kit, fill the bottle 3/4 full with acetone. Now cut eight 75-mm lengths of ABS filament and put them in the bottle with the acetone. Allow the ABS filament to dissolve for 2 hours.
+You may find that during printing, printed parts lift off the print surface on the corners. If you are seeing this turning on \texttt{Brim} in Cura or Slic3r will help increase the surface area of the print, improving part adhesion. If the corners of the part still lift, clean the PEI surface with IPA/ Isopropyl Alcohol and sand the surface with fine grit (2000-3000) sandpaper.
 
 %\index{PET sheet}
 %\glossary{PET}{Polyethylene terephthalate.}
