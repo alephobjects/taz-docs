@@ -68,7 +68,7 @@ Designed for the fast prints, where overall model finish is not of concern. Most
 \subsection{Material Selection}
 \index{Material Selection}
 \index{filament}
-Choose your desired filament. The TAZ ships with a 1 meter sample of HIPS, that should be used in your first print.
+Choose your desired filament. The TAZ ships with a 1 meter sample of ABS, that should be used in your first print.
 If you are not using Lulzbot supplied filament, update your filament diameter to your specific average filament diameter. Do this by taking 10 to 12 filament diameter measurements from different parts of the reel and averaging them. Update your filament diameter. You may also want to adjust the temperature, as different manufacturers have different recommended temperatures. % This could be better served in the Full Settings explination.
 
 \subsection{Printing Support Material}
@@ -85,7 +85,7 @@ Brim is used to increase surface area of the part you're printing, thereby ensur
 \subsection{Load Model File}
 \index{Load Model}
 \index{STL}
-Select the model you would like to print. Either use the \texttt{Load Model} button or select \texttt{File} > \texttt{Load Model}. Once the file has been loaded, you will see a 3D rendering of your object on the build platform. Select the model to see the various options. 
+Select the STL model you would like to print. Either use the \texttt{Load Model} button or select \texttt{File} > \texttt{Load Model}. Once the file has been loaded, you will see a 3D rendering of your object on the build platform. Select the model to see the various options. 
 
 \subsection{Model Orientation}
 \index{Orientation}
@@ -101,7 +101,8 @@ Move your model to change where it is printed on the build plate. Do this by lef
 %%%% Alternate explanation %%%%
 %The \texttt{Rotate} button will give you the ability orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The red circle will allow you to rotate in the XY plane. The Yellow circle will rotate in the XZ plane. The Green circle will rotate in the YZ plane.
 \definecolor{yellow1}{cmyk}{0,0,1,0.30}
-The \texttt{Rotate} button will give you the ability to orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red circle} will allow you to rotate around the \textcolor{red}{Z axis}. The \textcolor{yellow1}{Yellow circle} will rotate around the \textcolor{yellow1}{Y axis}. The \textcolor{green}{Green circle} will rotate around the \textcolor{green}{X axis}.
+\definecolor{green1}{rgb}{0.30,1,0.30}
+The \texttt{Rotate} button will give you the ability to orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red circle} will allow you to rotate around the \textcolor{red}{Z axis}. The \textcolor{yellow1}{Yellow circle} will rotate around the \textcolor{yellow1}{Y axis}. The \textcolor{green1}{Green circle} will rotate around the \textcolor{green}{X axis}.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Rotate.png}
@@ -311,7 +312,7 @@ The thickness of each printed layer is known as the \texttt{Layer Height}. The s
 
 \subsubsection{Shell Thickness}
 \index{Shell Thickness}
-This defines the number of vertical walls that comprise the outside of your model. We recommend keeping this set to multiples of your nozzle width. Your TAZ 3D printer is equipped with a 0.5 mm nozzle. %The TAZ ships with a .5mm nozzle standard, while the Mini has a .5mm nozzle standard.
+This defines the number of vertical walls that comprise the outside of your model. We recommend keeping this set to multiples of your nozzle width. Your TAZ 3D printer is equipped with a 0.35 mm nozzle. %The TAZ ships with a .5mm nozzle standard, while the Mini has a .5mm nozzle standard.
 
 \subsubsection{Enable Retraction}
 \index{Retraction}
@@ -408,7 +409,7 @@ This will control how wide your first extruded filament path is for the initial 
 
 \subsection{Cut Off Object Bottom (mm)}
 \index{Cut Off Object}
-This setting is used to help print models that were not specifically designed for FFF printing. Specifically, it is for models that do not have a flat surface to adhere to the plate. It will sink your object Xmm into the build plate, creating a nice flat surface to begin your print. You can also use this option to remove the lower portion of your model.
+This setting is used to help print models that were not specifically designed for FFF printing. In particular, it is for models that do not have a flat surface to adhere to the plate. It will sink your object Xmm into the build plate, creating a nice flat surface to begin your print. You can also use this option to remove the lower portion of your model.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{cutoff.png}
@@ -434,7 +435,7 @@ This is how fast your print head speed will be while laying down the interior po
 
 \subsection{Outer Shell Speed}
 \index{Outer Shell Speed}
-This will be the outermost surface of the model. This is the most important setting, as it controls the speed of your print head on the visible layers. As a general rule of thumb, the slower you go the better looking print you will get. 
+This will be the outermost surface of the model. This is the most important speed setting, as it controls the speed of your print head on the visible layers. As a general rule of thumb, the slower you go the better looking print you will get. 
 
 \subsection{Inner Shell Speed}
 \index{Inner Shell Speed}
@@ -470,8 +471,9 @@ Pause your print at a specified height. You can also specify where to move the p
 \index{Custom Gcode}
 Custom Gcode allows for complex automatic printer movements and operations. By adding custom Gcode into the start or end of your file, you can alter how it prints. A comprehensive list of Gcode commands can be found here: \texttt{http://reprap.org/wiki/G-code} We recommend new users to leave this as provided in the profiles at \texttt{https://www.lulzbot.com/support/downloads}
 
-\subsection{Mini Specific Considerations}
-Please be cautious when changing any of these start and end gcode settings. \textcolor{red}{This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer automatically compensate for the heated bed position and can even potentially damage components on the printer.} If you are uncertain of the change you are trying to make, please contact us at \texttt{Support@LulzBot.com} before hand.
+%mini
+%\subsection{Mini Specific Considerations}
+%Please be cautious when changing any of these start and end gcode settings. \textcolor{red}{This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer automatically compensate for the heated bed position and can even potentially damage components on the printer.} If you are uncertain of the change you are trying to make, please contact us at \texttt{Support@LulzBot.com} before hand.
 
 \section{Expert Settings}
 \index{Expert Settings}
@@ -496,7 +498,7 @@ This sets the minimum travel distance of your printhead in order to retract. If 
 This option prevents your print head from traveling over holes in the X/Y plane when printing. This will slightly increase print time, but will prevent strings from getting caught on the holes during travel moves. We recommend keeping this setting on.
 
 \subsection{Minimal Extrusion Before Retracting}
-This will control the distance at which retraction occurs if the printing movement exceeds the minimum extrusion amount. This will prevent a retraction move, if your extruder has not put out Xmm of filament since its last retraction.
+This will prevent a retraction move, if your extruder has not put out Xmm of filament since its last retraction.
 
 \subsection{Z Hop When Retracting}
 \index{Z hop}
@@ -513,7 +515,7 @@ This will define the number of loops the Skirt creates around the outside of you
 
 \subsection{Start Distance}
 \index{Start Distance}
-This will define the distance away from your model that the skirt will be created. If using as an envelope to prevent drafts, it is recommended to be closer to your object.
+This will define the distance away from your model that the skirt will be created. 
 
 \subsection{Minimal Length}
 \index{Minmal Length}
@@ -581,7 +583,7 @@ This will determine the distance the brim will cover around the outside of your 
 
 \section{Raft}
 \index{Raft}
-Raft is a platform built underneath your object, designed to help adhesion and prevent warping. It will lay down support material, and then a platform on top of the supports. Your model will be built on top of this platform. The bottom surface of your printed part will not be as clean or as even when using this option. Raft is typically not recommended.
+Raft is a platform built underneath your object, designed to help adhesion and prevent warping. It will lay down support material, and then a platform on top of the supports. Your model will be built on top of this platform. The bottom surface of your printed part will not be as clean or as even when using this option. Raft is typically not required.
 
 \subsection{Extra Margin}
 \index{Extra Margin}
