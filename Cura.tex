@@ -279,11 +279,11 @@ Connect your 3D printer to a computer using a USB cable, power it on and select 
  \hline 
  T-Glase & Gluestick & 240-260 & 60 & 45 \\
  \hline
- Flexible Filaments & GlueStick & 215-230 & 50 & 35 \\ [1ex] 
+ Flexible Filaments & GlueStick & 215-230 & 50 & 35 \\  
  \hline
  Nylons & Gluestick & 220-270 & 110 & 50 \\
  \hline
- Poly Carbonate & Gluestick & 260-300 & 110 & 50 \\
+ Poly Carbonate & Gluestick & 260-300 & 110 & 50 \\ [1ex]
  \hline
 \end{tabular}
 \end{center}
@@ -423,7 +423,7 @@ This controls how much filament your printer is extruding in relation to speed. 
 \subsection{Nozzle Size (mm)}
 \index{Nozzle Size}
 %%%% standalone version line %%%%
-This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end. The TAZ ships with a 0.35mm nozzle. 
+This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end. The TAZ ships with a 0.35mm or a 0.5mm nozzle. 
 
 %This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end. The Mini ships with a 0.5mm nozzle.
 
@@ -672,3 +672,42 @@ This will ignore all manifold errors in the object. It can create issues generat
 \subsection{Extensive Stiching}
 \index{Extensive Stiching}
 This causes Cura to automatically add triangle meshes in an attempt to fix manifold errors. This algorithm will greatly increase Gcode generation time and may end up adding in un-intended meshes. It is recommended that you repair your model through Meshlab, FreeCAS or your preferred CAD program before attempting this option.
+
+\section{Dual Extrusion}
+\index{Dual Extrusion}
+We recommend the Dual Extruder for advanced users. Installation and operation of the dual extruder will require you to flash your firmware, calibrate your extruders, level two heads to a single plane, define extruder offsets, and fine tune your slicing profile. This can be a little overwhelming for new users, and is recommended to get a couple months of single extruder printining experience before making the switch.
+
+\subsection{Updating Firmware}
+\index{Updating Firmware}
+In order to use the Dual Extruder you will need to update your firmware to activate the second hot end.
+
+\begin{itemize}
+\item Download the printer appropriate firmware from \texttt{https://www.lulzbot.com/support/firmware-flashing-through-cura} Be sure it is saved as a .hex file.
+\item Have the printer turned on and connected to your computer through USB.
+\item Open Cura and select \texttt{Machine > Install Custom Firmware}
+\item Select the appropriate hex file
+\item Once the progress bar has completed, you will be done!  
+\item You can verify this by looking at the LCD screen. You should now see three temperature readings. 
+\end{itemize} 
+
+\subsection{Preparing Cura}
+In order to slice for a second toolhead, you will need to let Cura know that you have added a second toolhead. To do this, please go to \texttt{Machine > Machine Settings > Extruder Count > 2.} Select Ok to close out the screen. Next you will need to open the Machine settings again. You will now notice a new section labeled \texttt{Extruder 2.} Within it you will see an \texttt{X offset and Y offset.} Please set the \texttt{X offset to 0} and the \texttt{Y offset to -50}. 
+
+\subsection{Calibrating Extruders}
+\index{Calibrating Extruders}
+Each individual extruder will have its own unique set of Esteps. To determine this, you will need to tell the extruder to take in 100mm of filament.
+\begin{itemize}
+\item Load the outer and inner calibrations squares into Cura \texttt{https://www.lulzbot.com/support/downloads} Order counts, load the outer square first.
+\item Open the Control window and set temperatures for both heads. \texttt{Switch between hotends using T0 (rear) and T1 (front.)}
+\item Make two marks at 100mm and 120mm on the filament from each entrance to the extruder.
+\item Once at temperature type \textcolor{red}{Awaiting BAM's tested Gcode commands}
+\item Measure the distance that the toolhead over/under extruded. You will need to adjust your Esteps by 8 up or down for each mm it under or over extruded.
+\item Update your Esteps (rear) and E1steps (front) through your LCD screen. \texttt{Control > Motion > E/E1 Steps > New Number (click)}
+\item Store your new E steps \texttt{Control > Store Memory}
+\end{itemize}
+
+\subsection{Defining Second Extruder Offset}
+\index{Second Extruder Offset}
+To get crisper looking prints, you will want to really dial in your offsets. With the outer and inner square on your build platform, right click and select \texttt{Dual Extrusion Merge} The red square will be printed with your front extruder, and the yellow square will be printed with the rear extruder.
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{CalSquares1.png}
+After printing the squares, you will want to measure the gaps between the 
