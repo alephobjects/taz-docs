@@ -16,14 +16,15 @@ In the following sections you will find general information on using the Graphic
 
 \section{GLCD Controller, Cura or Printrun Host?}
 \label{sec:Graphic LCD, Cura or Printrun Host?}
-The Graphical LCD Controller is perfect for normal day to day printing and will be used in the majority of your print jobs. However, in some instances- you will want to use Printrun instead of the GLCD Controller. A few examples of when you would want to plug the USB cable back in and use Printrun:
+The Graphical LCD Controller is perfect for normal day to day printing and will be used in the majority of your print jobs. However, in some instances- you will want to use Cura or Printrun instead of the GLCD Controller. A few examples of when you would want to plug the USB cable back in and use Cura:
 \begin{itemize}
-	\item A number of manual movements are required to perform calibration checks. Because of this it is easier and faster to make the required manual movements within Printrun. Calibration checks can be done with the Graphic LCD, but require a number of repetitive menu selections.
+	\item A number of manual movements are required to perform calibration checks. Because of this it is easier and faster to make the required manual movements within Cura. Calibration checks can be done with the Graphic LCD, but require a number of repetitive menu selections.
 	\item Printrun offers a number of extra options for advanced users, including custom gcode input, output display, and pronsole. Pronsole is the command line portion of Printrun that can be used in scripts for automation or controlling a printer through remote access, for example, SSH.
+	\item Cura is the preferred printer host software, as the inclusion of quick print profiles, the combination of slicing engine, and printer host communications allows for easy all-in-one use.
 \end{itemize}
 
 \section{Multiple Connections}
-Because the TAZ 3D printer can be controlled by the Graphic LCD and by host software, caution is advised when connecting to the printer through USB as the print can be interrupted when connecting or disconnecting the USB cable. A general rule is: once you have started a print with either the Graphic LCD or Printrun, for the rest of the print use only that controller. When printing with the Graphic LCD, never try to connect through USB in the Printrun host software; wait until the print is complete, and then connect in Printrun.
+Because the TAZ 3D printer can be controlled by the Graphic LCD and by host software, caution is advised when connecting to the printer through USB as the print can be interrupted when connecting or disconnecting the USB cable. A general rule is: once you have started a print with either the Graphic LCD, Cura, or Printrun, for the rest of the print use only that controller. When printing with the Graphic LCD, never try to connect through USB in the Cura host software; wait until the print is complete, and then connect in Cura.
 
 \section{Putting Print Files on the SD Card}
 To print from the Graphic LCD, you will need to transfer .gcode print files onto the SD card. Follow the normal steps, as explained in the Slic3r chapter, to create .gcode print files on your computer. Insert the SD card into your computer using a SD reader slot or USB SD card reader. Open a file browser- / -manager and locate the created .gcode files; drag and drop or paste the .gcode files to the SD card. Once the files have transferred, eject the SD card from your computer and insert it back into the SD card slot on the left side of the Graphic LCD case.
@@ -40,9 +41,9 @@ To print from the Graphic LCD, you will need to transfer .gcode print files onto
 The GLCD screen will turn on you power up your TAZ 3D printer. The start-up screen will display the Status screen (fig. \ref{fig:info_screen}, page \pageref{fig:info_screen}). The Status screen is the default screen for the GLCD, presenting the current status of the printer. There are a number of live statuses shown on the Status screen; these will give you current temperatures, tool head coordinates, print status, and more. The different numbered sections of the status screen are shown in Figure \ref{fig:info_screen} above. Follow the key below for more information on each section.
 
 \begin{enumerate}
-\item Hot end temperatures: represents the current temperature (bottom) and set temperature (top) of up to three nozzles.
+\item Hot end temperatures: represents the current temperature (bottom) and set temperature (top) of up to three nozzles. The RAMBo control electronics currently only supports two hot ends.
 \item Heat bed temperature: represents the current temperature (bottom) and set temperature (top) of the heat bed.
-\item Fan speed: represents the current optional extruder fan speed. The fan is set to off (1\%) by default; the fan is not recommended for ABS. If you print with PLA filament, you will want to use the fan. If cooling is turned on in Slic3r, this portion of the display will change to reflect the .g-code embedded extruder fan control instructions.
+\item Fan speed: represents the current optional extruder fan speed. The fan is set to off (1\%) by default; the fan is not recommended for ABS. If you print with PLA filament, you will want to use the fan. If cooling is turned on in Cura/Slic3r, this portion of the display will change to reflect the .g-code embedded extruder fan control instructions.
 \item Tool head coordinates: represents the current tool head coordinates on the X, Y, and Z axes.
 \item Feed rate: represents the current feed rate setting. The feed rate is set to 100\% by default; this matches the speed set in the gcode generation. When on, the status screen selection knob can be turned to increase or decrease the feed rate during the print. Increasing/decreasing the feed rate will increase/decrease the speed of the print.
 \item Printer status: lists the current status of the printer including: SD card status, current printing file, or completed print time.
@@ -70,7 +71,7 @@ If you need to set the extrusion and/or bed temperature to a setting different t
 Once the hot end and heat bed have reached the desired temperature the printer is ready to print. From the main menu select the \texttt{Print from SD} option. You will now see a selection of the directories and .gcode files on the SD card. Navigate through the menu to locate the file you would like to print. Select the desired file to begin the print.
 
 \subsection{Making Manual Movements With the Graphic LCD}
-As noted previously (page \pageref{sec:Graphic LCD, Cura or Printrun Host?}), making numerous manual movements is easier done using the Printrun host software. However, you can make manual movements with the GLCD. Navigate to Prepare \texttt{->} Move Axis. You will select the length of the movement and then which axis to move. Note; that only 1-mm and 0.1-mm movements are allowed for the Z axis and extruder.
+As noted previously (page \pageref{sec:Graphic LCD, Cura or Printrun Host?}), making numerous manual movements is easier done using Cura/Printrun. However, you can make manual movements with the GLCD. Navigate to Prepare \texttt{->} Move Axis. You will select the length of the movement and then which axis to move. Note; that only 1-mm and 0.1-mm movements are allowed for the Z axis and extruder.
 
 When at the move screen; turn the selection knob clockwise to move the axis in millimeters in the positive direction and counter-clockwise for the negative direction. Push the selection knob to complete the manual move.
 
@@ -87,7 +88,7 @@ Out of the box, the TAZ 3D printer is already calibrated for printing. However, 
 
 To find the configuration settings, navigate to the main menu and then select \texttt{Control} (Figure \ref{fig:configuration_menu}, page \pageref{fig:configuration_menu}). In the Control configuration settings you will find temperature and motion settings. Among others, these settings include default temperature settings and axis steps per millimeter.
 
-The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the GLCD Controller. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered down. The stored settings will then automatically load when the printer is repowered. If you ever need to revert to the factory settings navigate to \texttt{Control} \texttt{->} \texttt{Restore Failsafe}. Clicking \texttt{Restore Failsafe} will set all configuration settings back to the original factory settings in the firmware.
+The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the GLCD Controller. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered down. The stored settings will then automatically load when the printer is powered back on. If you ever need to revert to the original factory settings navigate to \texttt{Control} \texttt{->} \texttt{Restore Failsafe}. Clicking \texttt{Restore Failsafe} will set all configuration settings back to the original factory settings in the firmware.
 
 For more information on the configuration settings please see the TAZ support page on LulzBot.com.
 
