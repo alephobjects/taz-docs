@@ -18,10 +18,12 @@
 \contentsline {figure}{\numberline {1.15}{\ignorespaces Cutoff Example}}{32}
 \contentsline {figure}{\numberline {1.16}{\ignorespaces View of Plugins}}{34}
 \contentsline {figure}{\numberline {1.17}{\ignorespaces View Expert Settings}}{35}
-\contentsline {figure}{\numberline {1.18}{\ignorespaces Printrun application for 3D printer control}}{45}
-\contentsline {figure}{\numberline {1.19}{\ignorespaces Printrun}}{47}
-\contentsline {figure}{\numberline {1.20}{\ignorespaces Printrun Functions}}{49}
-\contentsline {figure}{\numberline {1.21}{\ignorespaces Movement Controls}}{49}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Before Merging}}{45}
+\contentsline {figure}{\numberline {1.19}{\ignorespaces After Merging}}{45}
+\contentsline {figure}{\numberline {1.20}{\ignorespaces Printrun application for 3D printer control}}{46}
+\contentsline {figure}{\numberline {1.21}{\ignorespaces Printrun}}{48}
+\contentsline {figure}{\numberline {1.22}{\ignorespaces Printrun Functions}}{50}
+\contentsline {figure}{\numberline {1.23}{\ignorespaces Movement Controls}}{50}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Configuration Wizard: Welcome Screen}}{60}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Configuration Wizard: Firmware Type}}{61}
@@ -69,7 +71,7 @@
 \contentsline {figure}{\numberline {2.44}{\ignorespaces Multiple extruder options - Printer Settings Tab (Extruder).}}{103}
 \contentsline {figure}{\numberline {2.45}{\ignorespaces Plater with multiple filament options.}}{104}
 \contentsline {figure}{\numberline {2.46}{\ignorespaces Multiple extruder options - Print Settings Tab.}}{105}
-\contentsline {figure}{\numberline {2.47}{\ignorespaces Multiple extruder options - Tool change G-code.}}{105}
+\contentsline {figure}{\numberline {2.47}{\ignorespaces Multiple extruder options - Tool change G-code.}}{106}
 \contentsline {figure}{\numberline {2.48}{\ignorespaces Extrusion widths options.}}{107}
 \contentsline {figure}{\numberline {2.49}{\ignorespaces Example model highlighting use case for variable layer heights.}}{108}
 \contentsline {figure}{\numberline {2.50}{\ignorespaces Example with normal layer height.}}{109}
@@ -86,11 +88,14 @@
 \contentsline {figure}{\numberline {2.61}{\ignorespaces Post-processing script option.}}{123}
 \contentsline {figure}{\numberline {2.62}{\ignorespaces Example post-processing script to display Slic3r environment variables.}}{123}
 \contentsline {figure}{\numberline {2.63}{\ignorespaces Example post-processing script to print each line to output.}}{124}
+\contentsline {figure}{\numberline {2.64}{\ignorespaces Holes made through polygonal segments.}}{127}
+\contentsline {figure}{\numberline {2.65}{\ignorespaces Z wobble changing layer stacking.}}{128}
+\contentsline {figure}{\numberline {2.66}{\ignorespaces Variable filament diameter changing layer stacking.}}{129}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces GLCD Info Screen}}{131}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Main menu}}{133}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Control Menu}}{134}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Control Menu}}{136}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces GLCD Info Screen}}{135}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Main menu}}{137}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Control Menu}}{139}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Control Menu}}{140}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

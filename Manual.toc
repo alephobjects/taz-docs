@@ -19,7 +19,7 @@
 \contentsline {subsection}{Selecting a Quick Print Profile}{17}
 \contentsline {subsection}{Material Selection}{17}
 \contentsline {subsection}{Printing Support Material}{17}
-\contentsline {subsection}{Brim}{18}
+\contentsline {subsection}{Brim}{17}
 \contentsline {subsection}{Load Model File}{18}
 \contentsline {subsection}{Model Orientation}{18}
 \contentsline {subsubsection}{Rotate}{19}
@@ -118,32 +118,34 @@
 \contentsline {subsection}{Preparing Cura}{43}
 \contentsline {subsection}{Calibrating Extruders}{43}
 \contentsline {subsection}{Defining Second Extruder Offset}{43}
-\contentsline {section}{\numberline {1.24}Printrun}{45}
-\contentsline {subsection}{Installing Printrun}{45}
-\contentsline {subsection}{Windows Instructions}{46}
-\contentsline {subsection}{Mac OSX Instructions}{46}
-\contentsline {subsection}{Linux Instructions}{46}
-\contentsline {subsubsection}{Debian|Ubuntu}{46}
-\contentsline {subsubsection}{Recommended Installation}{46}
-\contentsline {subsubsection}{Installing from source}{46}
-\contentsline {subsubsection}{Fedora}{47}
-\contentsline {subsubsection}{Archlinux}{47}
-\contentsline {section}{\numberline {1.25}Using Printrun}{47}
-\contentsline {subsection}{Connecting to the TAZ 3D Printer}{48}
-\contentsline {subsection}{Movement}{49}
-\contentsline {subsubsection}{Motors off}{50}
-\contentsline {subsubsection}{mm/min XY:/ Z:}{50}
-\contentsline {subsubsection}{Homing}{50}
-\contentsline {subsubsection}{X/Y/Z Axes Movement Controls}{50}
-\contentsline {section}{\numberline {1.26}CAD and 3D Modeling Software}{51}
-\contentsline {subsection}{FreeCAD}{51}
-\contentsline {subsection}{OpenSCAD}{51}
-\contentsline {subsection}{Blender}{52}
-\contentsline {subsection}{Shapesmith}{52}
-\contentsline {section}{\numberline {1.27}Alternative Printer Host Software}{52}
-\contentsline {subsection}{OctoPrint}{52}
-\contentsline {subsection}{BotQueue}{52}
-\contentsline {subsection}{MatterControl}{52}
+\contentsline {subsection}{First Dual Print}{44}
+\contentsline {subsection}{Setting Dual Temps}{44}
+\contentsline {section}{\numberline {1.24}Printrun}{46}
+\contentsline {subsection}{Installing Printrun}{46}
+\contentsline {subsection}{Windows Instructions}{47}
+\contentsline {subsection}{Mac OSX Instructions}{47}
+\contentsline {subsection}{Linux Instructions}{47}
+\contentsline {subsubsection}{Debian|Ubuntu}{47}
+\contentsline {subsubsection}{Recommended Installation}{47}
+\contentsline {subsubsection}{Installing from source}{47}
+\contentsline {subsubsection}{Fedora}{48}
+\contentsline {subsubsection}{Archlinux}{48}
+\contentsline {section}{\numberline {1.25}Using Printrun}{48}
+\contentsline {subsection}{Connecting to the TAZ 3D Printer}{49}
+\contentsline {subsection}{Movement}{50}
+\contentsline {subsubsection}{Motors off}{51}
+\contentsline {subsubsection}{mm/min XY:/ Z:}{51}
+\contentsline {subsubsection}{Homing}{51}
+\contentsline {subsubsection}{X/Y/Z Axes Movement Controls}{51}
+\contentsline {section}{\numberline {1.26}CAD and 3D Modeling Software}{52}
+\contentsline {subsection}{FreeCAD}{52}
+\contentsline {subsection}{OpenSCAD}{52}
+\contentsline {subsection}{Blender}{53}
+\contentsline {subsection}{Shapesmith}{53}
+\contentsline {section}{\numberline {1.27}Alternative Printer Host Software}{53}
+\contentsline {subsection}{OctoPrint}{53}
+\contentsline {subsection}{BotQueue}{53}
+\contentsline {subsection}{MatterControl}{53}
 \contentsline {chapter}{\chapternumberline {2}\emph {Slic3r}}{55}
 \contentsline {section}{\numberline {2.1}Introduction}{56}
 \contentsline {subsection}{Overview}{56}
@@ -234,48 +236,59 @@
 \contentsline {subsubsection}{Command Line Options}{118}
 \contentsline {subsection}{Post-Processing Scripts}{123}
 \contentsline {section}{\numberline {2.9}Troubleshooting}{125}
-\contentsline {subsection}{Z Wobble}{125}
-\contentsline {section}{\numberline {2.10}Slic3r Support}{126}
-\contentsline {subsection}{Slic3r Support}{126}
-\contentsline {subsubsection}{Wiki and FAQ}{126}
-\contentsline {subsubsection}{Blog}{126}
-\contentsline {subsubsection}{IRC}{126}
-\contentsline {subsubsection}{RepRap.org Forum}{126}
-\contentsline {subsubsection}{Issue Tracker}{127}
-\contentsline {chapter}{\chapternumberline {3}\emph {Printing with the Graphic LCD}}{129}
-\contentsline {section}{\numberline {3.1}GLCD Controller, Cura or Printrun Host?}{130}
-\contentsline {section}{\numberline {3.2}Multiple Connections}{130}
-\contentsline {section}{\numberline {3.3}Putting Print Files on the SD Card}{131}
-\contentsline {section}{\numberline {3.4}Printing With the Graphic LCD}{131}
-\contentsline {subsection}{The Graphic LCD Status Screen}{131}
-\contentsline {subsection}{Using the Selection Knob}{132}
-\contentsline {subsection}{Preparing for a Print}{133}
-\contentsline {subsection}{Selecting a File From the SD and Starting a Print}{133}
-\contentsline {subsection}{Making Manual Movements With the Graphic LCD}{134}
-\contentsline {subsection}{Control Settings}{134}
-\contentsline {subsection}{GLCD Controller Menu Diagram}{136}
-\contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{137}
-\contentsline {section}{\numberline {4.1}Overview}{138}
-\contentsline {section}{\numberline {4.2}Smooth Rods}{138}
-\contentsline {section}{\numberline {4.3}Lead Screw Drive Rods}{138}
-\contentsline {section}{\numberline {4.4}PEI Surface}{138}
-\contentsline {section}{\numberline {4.5}Hobbed Bolt}{139}
-\contentsline {section}{\numberline {4.6}Software}{139}
-\contentsline {section}{\numberline {4.7}Belts}{139}
-\contentsline {section}{\numberline {4.8}Hot End}{139}
-\contentsline {section}{\numberline {4.9}Electronics}{140}
-\contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{141}
-\contentsline {section}{\numberline {5.1}Intro}{142}
-\contentsline {section}{\numberline {5.2}Changing nozzles}{142}
-\contentsline {section}{\numberline {5.3}ABS/Acetone Glue}{142}
-\contentsline {section}{\numberline {5.4}Using 1.75mm filament}{143}
-\contentsline {chapter}{\chapternumberline {6}\emph {Hardware and Software Source Code}}{145}
-\contentsline {chapter}{\chapternumberline {7}\emph {3D Printer Support}}{147}
-\contentsline {section}{\numberline {7.1}LulzBot}{148}
-\contentsline {section}{\numberline {7.2}Community}{148}
-\contentsline {chapter}{\chapternumberline {8}\emph {Contact Information}}{149}
-\contentsline {section}{\numberline {8.1}Support}{150}
-\contentsline {section}{\numberline {8.2}Sales}{150}
-\contentsline {section}{\numberline {8.3}Websites}{150}
-\contentsline {chapter}{Index}{151}
-\contentsline {chapter}{Glossary}{157}
+\contentsline {subsection}{Dimension Errors}{125}
+\contentsline {subsubsection}{Vertical dimensions}{125}
+\contentsline {subsubsection}{Horizontal dimensions}{125}
+\contentsline {subsubsection}{Plastic shrinkage}{125}
+\contentsline {subsubsection}{More material is deposited in the inside}{125}
+\contentsline {subsubsection}{Curves are approximated by polygons}{126}
+\contentsline {subsubsection}{Filament tends to cut corners}{128}
+\contentsline {subsubsection}{Z wobble}{128}
+\contentsline {subsubsection}{Non-regular filament section}{128}
+\contentsline {subsubsection}{Backlash}{129}
+\contentsline {subsubsection}{Flow Math}{129}
+\contentsline {subsection}{Z Wobble}{130}
+\contentsline {section}{\numberline {2.10}Slic3r Support}{131}
+\contentsline {subsection}{Slic3r Support}{131}
+\contentsline {subsubsection}{Wiki and FAQ}{131}
+\contentsline {subsubsection}{Blog}{131}
+\contentsline {subsubsection}{IRC}{131}
+\contentsline {subsubsection}{RepRap.org Forum}{131}
+\contentsline {subsubsection}{Issue Tracker}{132}
+\contentsline {chapter}{\chapternumberline {3}\emph {Printing with the Graphic LCD}}{133}
+\contentsline {section}{\numberline {3.1}GLCD Controller, Cura or Printrun Host?}{134}
+\contentsline {section}{\numberline {3.2}Multiple Connections}{134}
+\contentsline {section}{\numberline {3.3}Putting Print Files on the SD Card}{135}
+\contentsline {section}{\numberline {3.4}Printing With the Graphic LCD}{136}
+\contentsline {subsection}{The Graphic LCD Status Screen}{136}
+\contentsline {subsection}{Using the Selection Knob}{137}
+\contentsline {subsection}{Preparing for a Print}{137}
+\contentsline {subsection}{Selecting a File From the SD and Starting a Print}{138}
+\contentsline {subsection}{Making Manual Movements With the Graphic LCD}{138}
+\contentsline {subsection}{Control Settings}{139}
+\contentsline {subsection}{GLCD Controller Menu Diagram}{140}
+\contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{141}
+\contentsline {section}{\numberline {4.1}Overview}{142}
+\contentsline {section}{\numberline {4.2}Smooth Rods}{142}
+\contentsline {section}{\numberline {4.3}Lead Screw Drive Rods}{142}
+\contentsline {section}{\numberline {4.4}PEI Surface}{142}
+\contentsline {section}{\numberline {4.5}Hobbed Bolt}{143}
+\contentsline {section}{\numberline {4.6}Software}{143}
+\contentsline {section}{\numberline {4.7}Belts}{143}
+\contentsline {section}{\numberline {4.8}Hot End}{143}
+\contentsline {section}{\numberline {4.9}Electronics}{144}
+\contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{145}
+\contentsline {section}{\numberline {5.1}Intro}{146}
+\contentsline {section}{\numberline {5.2}Changing nozzles}{146}
+\contentsline {section}{\numberline {5.3}ABS/Acetone Glue}{146}
+\contentsline {section}{\numberline {5.4}Using 1.75mm filament}{147}
+\contentsline {chapter}{\chapternumberline {6}\emph {Hardware and Software Source Code}}{149}
+\contentsline {chapter}{\chapternumberline {7}\emph {3D Printer Support}}{151}
+\contentsline {section}{\numberline {7.1}LulzBot}{152}
+\contentsline {section}{\numberline {7.2}Community}{152}
+\contentsline {chapter}{\chapternumberline {8}\emph {Contact Information}}{153}
+\contentsline {section}{\numberline {8.1}Support}{154}
+\contentsline {section}{\numberline {8.2}Sales}{154}
+\contentsline {section}{\numberline {8.3}Websites}{154}
+\contentsline {chapter}{Index}{155}
+\contentsline {chapter}{Glossary}{161}
