@@ -1,0 +1,72 @@
+%!TEX root = Slic3r-Manual.tex
+
+\subsection{Understanding extrusion width}
+\label{sec:understanding_extrusion_width}
+\index{Extrusion Width}
+\index{Flow Math}
+\index{Extrusion Overlap}
+
+Two main questions affect Slic3r's work:
+\begin{itemize}
+\item How distant should extrusion paths be positioned in order to get a good continuous finish?
+\item How much material must be extruded along such paths?
+\end{itemize}
+
+If two adjacent paths are too close (or too much material is extruded), they'll overlap. If two adjacent paths are too distant (or not enough material is extruded), gaps will be visible and/or the extrusions will delaminate because of not enough bonding.
+
+By extruding more or less while moving (i.e. by changing the flow speed/head speed ratio) we can make paths thicker or thinner:
+
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,width=.33\textwidth]{flow_math/extrusion-width.png}
+\caption{Extrusion Width.}
+\label{fig:extrusion-width}
+\end{figure}
+
+Thicker paths will have better bonding with the lower layer, thus are good for mechanical parts. However, they'll be less able to approximate the object shape and fill tiny gaps or narrow curves (think of a drill bit: a larger one will not be able to enter narrow places). On the contrary, thinner paths will provide less bonding but better shape accuracy.
+
+However note that extrusion width can be controlled only when extruding over an existing surface (such as a previous layer or print bed). If we extrude in free air (i.e. when bridging), the resulting shape will be always round and equal to the nozzle diameter:
+
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,width=.33\textwidth]{flow_math/bridge.png}
+\caption{Bridging filament shape.}
+\label{fig:bridge}
+\end{figure}
+
+If you reduce the material flow you'll get smaller circles to some extent, until the plastic viscosity decides it's time to break your bridge because of too much tension. If, on the contrary, you extrude too much material, the shape of the extruded filament won't change (still equal to nozzle diameter) but you'll get a loose bridge.
+
+Let's start from a definition:
+\quote{Extrusion Width is the thickness of a single filament extruded either in free air or above a surface. It's not the distance of two adjacent paths since some overlap will be generally applied in order to get better bonding.}
+
+\subsection{Bridges: the easy case}
+\label{sec:bridges}
+\index{Bridging}
+\index{Bridge}
+
+As said above, there's only one correct flow rate for bridging: the one that doesn't make your bridge sag or break. Extrusions are round and their diameter is equal to the nozzle diameter. Parallel paths will be positioned so that they are tangent, thus the spacing between one path and its neighbor is equal to nozzle diameter as well. (In case of bridges, we want no overlap because it has proven to drag the existing paths.)
+
+The required material volume for a path of unitary length is calculated accordingly to the cylindric shape, thus with a circular cross-sectional area:
+\quote{E = (nozzle_diameter/2)\textasciicircum{2} * PI}
+
+\subsection{Extruding on top of a surface}
+\label{sec:extruding_on_surface}
+\index{Extrusion Shape}
+\index{Extrusion Width}
+
+In this case the problem is: what shape will our extrusion get? We know it will get squashed horizontally, but will it have a rectangular or oval shape? What's the maximum extrusion width we can get with a given nozzle diameter before plastic starts curling at the sides?
+
+Slic3r assumes that the cross-sectional shape of an extrusion is a rectangle with semicircular ends. So the relationship between desired extrusion width and volume to extrude is the following:
+
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,width=.33\textwidth]{flow_math/area1.png}
+\caption{Extrusion shape.}
+\label{fig:area1}
+\end{figure}
+
+When target extrusion width is thinner than layer height the shape is unpredictable so we just use the same rectangular formula but discourage usage of such thin extrusion values.
+
+The above formula provides a function that correlates the target extrusion width with the amount of material to extrude per distance unit:
+
+\quote{E = f(extrusion_width, layer_height)}
