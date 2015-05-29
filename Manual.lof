@@ -10,20 +10,21 @@
 \contentsline {figure}{\numberline {1.7}{\ignorespaces View in Ghost}}{22}
 \contentsline {figure}{\numberline {1.8}{\ignorespaces View in Xray}}{22}
 \contentsline {figure}{\numberline {1.9}{\ignorespaces View in Layers}}{23}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Viewing Specific Layers}}{23}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Control Screen}}{24}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Differences in Layer Height}}{26}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Viewing Cumulative Layers}}{23}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Viewing Specific Layers}}{24}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Control Screen}}{25}
 \contentsline {figure}{\numberline {1.13}{\ignorespaces Differences in Layer Height}}{27}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Support Types}}{29}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Cutoff Example}}{32}
-\contentsline {figure}{\numberline {1.16}{\ignorespaces View of Plugins}}{34}
-\contentsline {figure}{\numberline {1.17}{\ignorespaces View Expert Settings}}{35}
-\contentsline {figure}{\numberline {1.19}{\ignorespaces Before Merge}}{45}
-\contentsline {figure}{\numberline {1.18}{\ignorespaces After Merge}}{45}
-\contentsline {figure}{\numberline {1.20}{\ignorespaces Printrun application for 3D printer control}}{47}
-\contentsline {figure}{\numberline {1.21}{\ignorespaces Printrun}}{49}
-\contentsline {figure}{\numberline {1.22}{\ignorespaces Printrun Functions}}{51}
-\contentsline {figure}{\numberline {1.23}{\ignorespaces Movement Controls}}{51}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Differences in Layer Height}}{28}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Support Types}}{30}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Cutoff Example}}{33}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces View of Plugins}}{35}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces View Expert Settings}}{36}
+\contentsline {figure}{\numberline {1.20}{\ignorespaces Before Merge}}{46}
+\contentsline {figure}{\numberline {1.19}{\ignorespaces After Merge}}{46}
+\contentsline {figure}{\numberline {1.21}{\ignorespaces Printrun application for 3D printer control}}{48}
+\contentsline {figure}{\numberline {1.22}{\ignorespaces Printrun}}{50}
+\contentsline {figure}{\numberline {1.23}{\ignorespaces Printrun Functions}}{52}
+\contentsline {figure}{\numberline {1.24}{\ignorespaces Movement Controls}}{52}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Configuration Wizard: Welcome Screen}}{62}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Configuration Wizard: Firmware Type}}{63}
@@ -99,7 +100,6 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces GLCD Info Screen}}{141}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Main menu}}{143}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Control Menu}}{145}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Control Menu}}{146}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

@@ -186,19 +186,26 @@ Xray is very similiar to Ghost mode. It will alow you to see into objects, ensur
 
 \subsection{Layers}
 \index{Layers}
-To view the toolpath of your print head and to ensure no skipped layers or gaps use this option. Use the slide bar on the right hand side of the window to move up and down through the toolpath layers. If there is support activated in your model, it will be shown in blue.
+To view the toolpath of your print head and to ensure no skipped layers or gaps use this option. Use the slide bar on the right hand side of the window to move up and down through the toolpath layers. Click the icon below it to view an individual layer at a time. If there is support activated in your model, it will be shown in blue.
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{layers.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{NewLayer.png}
 \caption{View in Layers}
 \label{fig:Layers View}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{layers2.png}
-\caption{Viewing Specific Layers}
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{MidLayers2.png}
+\caption{Viewing Cumulative Layers}
 \label{fig:Mid Layers View}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{IndividualLayer.png}
+\caption{Viewing Specific Layers}
+\label{fig:Viewing Specific Layer}
 \end{figure}
 
 \section{Starting Your First Print}
@@ -251,7 +258,7 @@ Set your temperatures for the hot end and the bed. You will see two boxes, one l
 
 \subsection{Control}
 \index{Control}
-Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button. This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. Once it is operational, you will need to set your filament specific temperatures. The temperature box heats the hot end, while the bed temp sets the bed temperature. Your current temperatures will be listed in the top of the control box. Once your hot end and bed are heated, select \texttt{Print}. This will start the printing process.
+Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button at the top of the 3d viewing window. This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. Once it is operational, you will need to set your filament specific temperatures. The temperature box heats the hot end, while the bed temp sets the bed temperature. Your current temperatures will be listed in the top of the control box. Once your hot end and bed are heated, select \texttt{Print}. This will start the printing process.
 
 \begin{figure}[H]
 \centering
@@ -260,6 +267,9 @@ Connect your 3D printer to a computer using a USB cable, power it on and select 
 \label{fig:Control}
 \end{figure}
 
+\subsection{Pausing Midprint}
+\index{Pause}
+You will notice after starting your print, the print button has changed to a pause button. This will pause your print after it has run through its Gcode buffer. Cura will remember the location of your printheads X and Y coordinates. This allows you to move the printhead away from your print and change filaments, colors, etc. When you hit resume, Cura will bring the printhead back to the original (X,Y) before resuming. \texttt{Cura will NOT remember any Z movements}. If you would like to move in the Z direction, be sure to make the opposite movement before resuming.
 \subsection{Recommended Temperatures}
 \index{Temperatures}
 \begin{center}
@@ -285,7 +295,7 @@ Connect your 3D printer to a computer using a USB cable, power it on and select 
  \hline
  PolyCarbonate & Gluestick & 260-300 & 110 & 50 \\ 
  \hline
- N-Vent & Gluestick & 225-260 & 110 & 50 \\ [1ex]
+ N-Vent & Gluestick & 230-260 & 110 & 50 \\ [1ex]
  \hline
 \end{tabular}
 \end{center}
@@ -326,7 +336,7 @@ The first time Cura is launched it will default to the \texttt{Quick Print} inte
 \end{figure}
 \subsection{View in Full Settings}
 \index{Full Settings}
-When you first switch to Full Settings, Cura will need to know what filament and quality you wish to use. It will automatically transfer our quickprint settings over to allow adjustments. \textcolor{red}{IF A QUICKPRINT PROFILE IS NOT AVAILABLE, YOU WILL NEED TO MANUALLY LOAD ONE IN.} We recommend using our tested profiles that are available here: \texttt{https://www.lulzbot.com/support/downloads}. You will want to choose the profile that matches your filament and quality needs. Once downloaded, you can load the file into Cura by selecting \texttt{File} > \texttt{Open Profile}. Choose your desired profile. This will automatically update all of your settings for use with your printer.
+When you first switch to Full Settings, Cura will need to know what filament and quality you wish to use. It will automatically transfer our quickprint settings over to allow adjustments if one is selected. \textcolor{red}{IF A QUICKPRINT PROFILE IS NOT AVAILABLE, YOU WILL NEED TO MANUALLY LOAD ONE IN.} We recommend using our tested profiles that are available here: \texttt{https://www.lulzbot.com/support/downloads}. You will want to choose the profile that matches your filament and quality needs. Once downloaded, you can load the file into Cura by selecting \texttt{File} > \texttt{Open Profile}. Choose your desired profile. This will automatically update all of your settings for use with your printer.
 %\begin{figure}[hbt]
 %\centering
 %\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}
@@ -367,6 +377,8 @@ Also known as \texttt{Surface Layers}- this will determine how thick the top and
 \index{Fill Density}
 This number is expressed as a percentage. 0\% will give a completely hollow print, while 100\% will give you a completely solid object. We have found that 20\% to 40\% fill density is functional for most prints.
 
+\subsubsection{Perimeters Before Infill}
+This option will toggle in what order the infill and perimeters are printed. We recommend leaving this toggled.
 \subsubsection{Print Speed (mm/s)}
 \index{Print Speed}
 Your overall printing speed can be adjusted here. If no other speeds are determined in the later sections your printer will automatically default to this speed. This speed will be different, depending on what type of filament you are using.
@@ -704,10 +716,12 @@ In order to slice for a second toolhead, you will need to let Cura know that you
 \index{Calibrating Extruders}
 Each individual extruder will have its own unique set of Esteps. To determine this, you will need to tell the extruder to take in 100mm of filament.
 \begin{itemize}
-\item Load the outer and inner calibrations squares into Cura \texttt{https://www.lulzbot.com/support/downloads} Order counts, load the outer square first.
-\item Open the Control window and set temperatures for both heads. \texttt{Switch between hotends using T0 (rear) and T1 (front.)}
+\item Load the outer and inner calibrations squares into Cura \texttt{https://www.lulzbot.com/support/downloads}
+\item Open the Control window and set temperatures for both heads. \texttt{Switch between hotends by entering T0 (rear) and T1 (front) into the command line.}
 \item Make two marks at 100mm and 120mm on the filament from each entrance to the extruder.
-\item Once at temperature type \textcolor{red}{Awaiting BAM's tested Gcode commands}
+\item Once at temperature type into the command line "G92" enter. Then "\texttt{G1 E100 F60}" enter.
+\item Switch to the other toolhead by entering "T0" for the rear or T1 for the front. 
+\item Type into the command line "G92" enter. Then "\texttt{G1 E100 F60}" enter.
 \item Measure the distance that the toolhead over/under extruded. You will need to adjust your Esteps by 8 up or down for each mm it under or over extruded.
 \item Update your Esteps (rear) and E1steps (front) through your LCD screen. \texttt{Configuration > Advanced Settings > E/E1 Steps > New Number (click)}
 \item Store your new E steps \texttt{Configuration > Store Memory}
