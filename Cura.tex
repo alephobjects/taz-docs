@@ -719,9 +719,9 @@ Each individual extruder will have its own unique set of Esteps. To determine th
 \item Load the outer and inner calibrations squares into Cura \texttt{https://www.lulzbot.com/support/downloads}
 \item Open the Control window and set temperatures for both heads. \texttt{Switch between hotends by entering T0 (rear) and T1 (front) into the command line.}
 \item Make two marks at 100mm and 120mm on the filament from each entrance to the extruder.
-\item Once at temperature type into the command line "G92" enter. Then "\texttt{G1 E100 F60}" enter.
-\item Switch to the other toolhead by entering "T0" for the rear or T1 for the front. 
-\item Type into the command line "G92" enter. Then "\texttt{G1 E100 F60}" enter.
+\item Once at temperature type into the command line "\texttt{G92}" enter. Then "\texttt{G1 E100 F60}" enter.
+\item Switch to the other toolhead by entering "\texttt{T0}" for the rear or "\texttt{T1}" for the front. 
+\item Type into the command line "\texttt{G92}" enter. Then "\texttt{G1 E100 F60}" enter.
 \item Measure the distance that the toolhead over/under extruded. You will need to adjust your Esteps by 8 up or down for each mm it under or over extruded.
 \item Update your Esteps (rear) and E1steps (front) through your LCD screen. \texttt{Configuration > Advanced Settings > E/E1 Steps > New Number (click)}
 \item Store your new E steps \texttt{Configuration > Store Memory}

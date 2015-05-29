@@ -272,29 +272,29 @@
 \contentsline {subsection}{Preparing for a Print}{143}
 \contentsline {subsection}{Selecting a File From the SD and Starting a Print}{144}
 \contentsline {subsection}{Making Manual Movements With the Graphic LCD}{144}
-\contentsline {subsection}{Control Settings}{145}
-\contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{147}
-\contentsline {section}{\numberline {4.1}Overview}{148}
-\contentsline {section}{\numberline {4.2}Smooth Rods}{148}
-\contentsline {section}{\numberline {4.3}Lead Screw Drive Rods}{148}
-\contentsline {section}{\numberline {4.4}PEI Surface}{148}
-\contentsline {section}{\numberline {4.5}Hobbed Bolt}{149}
-\contentsline {section}{\numberline {4.6}Software}{149}
-\contentsline {section}{\numberline {4.7}Belts}{149}
-\contentsline {section}{\numberline {4.8}Hot End}{149}
-\contentsline {section}{\numberline {4.9}Electronics}{150}
-\contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{151}
-\contentsline {section}{\numberline {5.1}Intro}{152}
-\contentsline {section}{\numberline {5.2}Changing nozzles}{152}
-\contentsline {section}{\numberline {5.3}ABS/Acetone Glue}{152}
-\contentsline {section}{\numberline {5.4}Using 1.75mm filament}{153}
-\contentsline {chapter}{\chapternumberline {6}\emph {Hardware and Software Source Code}}{155}
-\contentsline {chapter}{\chapternumberline {7}\emph {3D Printer Support}}{157}
-\contentsline {section}{\numberline {7.1}LulzBot}{158}
-\contentsline {section}{\numberline {7.2}Community}{158}
-\contentsline {chapter}{\chapternumberline {8}\emph {Contact Information}}{159}
-\contentsline {section}{\numberline {8.1}Support}{160}
-\contentsline {section}{\numberline {8.2}Sales}{160}
-\contentsline {section}{\numberline {8.3}Websites}{160}
-\contentsline {chapter}{Index}{161}
-\contentsline {chapter}{Glossary}{167}
+\contentsline {subsection}{Configuration Settings}{144}
+\contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{145}
+\contentsline {section}{\numberline {4.1}Overview}{146}
+\contentsline {section}{\numberline {4.2}Smooth Rods}{146}
+\contentsline {section}{\numberline {4.3}Lead Screw Drive Rods}{146}
+\contentsline {section}{\numberline {4.4}PEI Surface}{146}
+\contentsline {section}{\numberline {4.5}Hobbed Bolt}{147}
+\contentsline {section}{\numberline {4.6}Software}{147}
+\contentsline {section}{\numberline {4.7}Belts}{147}
+\contentsline {section}{\numberline {4.8}Hot End}{147}
+\contentsline {section}{\numberline {4.9}Electronics}{148}
+\contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{149}
+\contentsline {section}{\numberline {5.1}Intro}{150}
+\contentsline {section}{\numberline {5.2}Changing nozzles}{150}
+\contentsline {section}{\numberline {5.3}ABS/Acetone Glue}{150}
+\contentsline {section}{\numberline {5.4}Using 1.75mm filament}{151}
+\contentsline {chapter}{\chapternumberline {6}\emph {Hardware and Software Source Code}}{153}
+\contentsline {chapter}{\chapternumberline {7}\emph {3D Printer Support}}{155}
+\contentsline {section}{\numberline {7.1}LulzBot}{156}
+\contentsline {section}{\numberline {7.2}Community}{156}
+\contentsline {chapter}{\chapternumberline {8}\emph {Contact Information}}{157}
+\contentsline {section}{\numberline {8.1}Support}{158}
+\contentsline {section}{\numberline {8.2}Sales}{158}
+\contentsline {section}{\numberline {8.3}Websites}{158}
+\contentsline {chapter}{Index}{159}
+\contentsline {chapter}{Glossary}{165}
