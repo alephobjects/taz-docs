@@ -63,17 +63,17 @@ To navigate through the LCD menu use the selection knob by rotating to scroll th
 \end{figure}
 
 \subsection{Preparing for a Print}
-Before starting a print you will need to set the hot end and heat bed to the appropriate temperatures for the filament type you are using. To quickly set the printer to preheat, for ABS or PLA filament, click the selection knob to bring up the menu and select \texttt{Prepare}. Select \texttt{Preheat PLA} for PLA filament or \texttt{Preheat ABS} for ABS filament. This will set the temperatures for the hot end and heat bed and begin bringing the printer up to print-ready temperature.
+Before starting a print you will need to set the hot end and heat bed to the appropriate temperatures for the filament type you are using. To quickly set the printer to preheat, click the selection knob to bring up the menu and select \texttt{Temperature}. Select \texttt{Filament Type} to automatically set the hot end and bed temperature for that specific filament.
 
-If you need to set the extrusion and/or bed temperature to a setting different than the preheat temperature you can manually set the temperature. To do so, from the main menu navigate through: Control \texttt{->} Temperature \texttt{->} Nozzle or Bed. Clicking on either of these settings will give you a menu to set and select the desired temperature setting.
+If you need to set the extrusion and/or bed temperature to a setting different than the preheat temperature you can manually set the temperature. To do so, from the main menu navigate through: Temperature \texttt{->} Custom Temp \texttt{->} Nozzle or Bed. Clicking on either of these settings will give you a menu to set and select the desired temperature setting.
 
 \subsection{Selecting a File From the SD and Starting a Print}
 Once the hot end and heat bed have reached the desired temperature the printer is ready to print. From the main menu select the \texttt{Print from SD} option. You will now see a selection of the directories and .gcode files on the SD card. Navigate through the menu to locate the file you would like to print. Select the desired file to begin the print.
 
 \subsection{Making Manual Movements With the Graphic LCD}
-As noted previously (page \pageref{sec:Graphic LCD, Cura or Printrun Host?}), making numerous manual movements is easier done using Cura/Printrun. However, you can make manual movements with the GLCD. Navigate to Prepare \texttt{->} Move Axis. You will select the length of the movement and then which axis to move. Note; that only 1-mm and 0.1-mm movements are allowed for the Z axis and extruder.
+As noted previously (page \pageref{sec:Graphic LCD, Cura or Printrun Host?}), making numerous manual movements is easier done using Cura/Printrun. However, you can make manual movements with the GLCD. Navigate to Movement \texttt{->} Move Axis. You will select the length of the movement and then which axis to move. Note; that only 1-mm and 0.1-mm movements are allowed for the Z axis and extruder.
 
-When at the move screen; turn the selection knob clockwise to move the axis in millimeters in the positive direction and counter-clockwise for the negative direction. Push the selection knob to complete the manual move.
+When at the move screen; turn the selection knob clockwise to move the axis in millimeters in the positive direction and counter-clockwise for the negative direction. 
 
 \subsection{Control Settings}
 
@@ -84,21 +84,21 @@ When at the move screen; turn the selection knob clockwise to move the axis in m
 \label{fig:configuration_menu}
 \end{figure}
 
-Out of the box, the TAZ 3D printer is already calibrated for printing. However, the GLCD does allow tuning of the more advanced configuration settings. We highly suggest you not modify the configuration settings unless you are certain it is necessary.
+Out of the box, the TAZ 3D printer is already calibrated for printing. However, the GLCD does allow tuning of the more advanced configuration settings. \textcolor{red}{We highly suggest you not modify the configuration settings unless you are certain it is necessary}. These settings control how your printer operates.
 
-To find the configuration settings, navigate to the main menu and then select \texttt{Control} (Figure \ref{fig:configuration_menu}, page \pageref{fig:configuration_menu}). In the Control configuration settings you will find temperature and motion settings. Among others, these settings include default temperature settings and axis steps per millimeter.
+%To find the configuration settings, navigate to the main menu and then select \texttt{Control} (Figure \ref{fig:configuration_menu}, page \pageref{fig:configuration_menu}). In the Control configuration settings you will find temperature and motion settings. Among others, these settings include default temperature settings and axis steps per millimeter.
 
-The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the GLCD Controller. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered down. The stored settings will then automatically load when the printer is powered back on. If you ever need to revert to the original factory settings navigate to \texttt{Control} \texttt{->} \texttt{Restore Failsafe}. Clicking \texttt{Restore Failsafe} will set all configuration settings back to the original factory settings in the firmware.
+The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the GLCD Controller. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered on. If you ever need to revert to the original factory settings navigate to \texttt{Control} \texttt{->} \texttt{Restore Failsafe}. Clicking \texttt{Restore Failsafe} will set all configuration settings back to the original factory settings in the firmware.
 
 For more information on the configuration settings please see the TAZ support page on LulzBot.com.
 
-\subsection{GLCD Controller Menu Diagram}
-\begin{figure}[H]
-\centering
-\includegraphics[keepaspectratio=true,angle=0,height=1.0\textheight,width=1.0\textwidth]{GLCD/glcd_menu.JPG}
-\caption{Control Menu}
-\label{fig:configuration_menu}
-\end{figure}
+%\subsection{GLCD Controller Menu Diagram}
+%\begin{figure}[H]
+%\centering
+%\includegraphics[keepaspectratio=true,angle=0,height=1.0\textheight,width=1.0\textwidth]{GLCD/glcd_menu.JPG}
+%\caption{Control Menu}
+%\label{fig:configuration_menu}
+%\end{figure}
 
 
 

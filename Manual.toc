@@ -117,7 +117,7 @@
 \contentsline {subsection}{Updating Firmware}{42}
 \contentsline {subsection}{Preparing Cura}{43}
 \contentsline {subsection}{Calibrating Extruders}{43}
-\contentsline {subsection}{Defining Second Extruder Offset}{43}
+\contentsline {subsection}{Defining Second Extruder Offset}{44}
 \contentsline {subsection}{First Dual Print}{44}
 \contentsline {subsection}{Setting Dual Temps}{46}
 \contentsline {section}{\numberline {1.24}Printrun}{47}
