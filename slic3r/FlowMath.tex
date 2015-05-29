@@ -75,4 +75,40 @@ The above formula provides a function that correlates the target extrusion width
 
 \par \verb|E = f(extrusion_width, layer_height)|
 
+\subsection{Spacing paths}
+\label{sec:spacing_paths}
+\index{Paths}
 
+How much should we overlap paths in order to get perfect bonding?
+Supposing no overlap, thus tangent paths, there would be empty space (yellow):
+
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,width=.66\textwidth]{advanced/flow_math/tangent.png}
+\caption{No path overlap}
+\label{fig:tangent}
+\end{figure}
+
+The cross-section area of such voids is generally:
+
+\par \verb|void_area = layer_height\^{2} - (layer_height/2)\^{2} * PI|
+
+Ideally, we would want to fill all of that yellow area by placing the extrusions closed to each other. However, it's very unlikely that the second extrusion will fill the space below the previous one, so there would still be a little void. The ideal overlap would be something like:
+\par \verb|0 < overlap_factor*void_area < void_area|
+with overlap_factor ranging from 0 to 1. overlap_factor represents how much void remains between the extrusions. It's difficult to estimate this amount, since it probably depends also on viscosity of plastic, extrusion speed and temperature. In the past, several values were tried for overlap_factor, but some users were still reporting too sparse paths. A value of 1 is currently being used to guarantee that the error (which is always present) is fully on the side of abundant extrusion rather than lacking material.
+
+Path spacing is thus:
+\par \verb|spacing = extrusion_width - layer_height * (1 - PI/4)|
+
+\subsection{Sane defaults}
+\label{sec:sane_defaults}
+\index{Sane Defaults}
+
+Slic3r allows users to define extrusion width manually for each kind of extrusion (perimeters, infill, support material etc.) but will calculate sane defaults if no custom values are entered.
+For the outermost loop of perimeters (aka external perimeters) Slic3r will default to a thin extrusion width, equal to 
+\par \verb| nozzle diameter * 1.05|.
+
+This is considered the thinnest safe extrusion width. A thin extrusion width provides better accuracy to the object shape and minimizes the flow errors caused by irregular filament.
+
+Extrusion width for other things is calculated by getting the cross-sectional area of the configured nozzle diameter and then calculating the extrusion width produced by extruding that amount of material. In other words, by matching flow speed and head speed. The purpose of this logic is to find the "native" flow that minimizes side forces during extrusion. Such calculated extrusion with is capped to max value equal to:
+\verb| nozzle_diameter * 1.7|, except for internal sparse infill where the full native flow is used.
