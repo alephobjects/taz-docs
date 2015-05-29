@@ -38,26 +38,26 @@
 \contentsline {section}{\numberline {1.8}Removing Your First Print}{25}
 \contentsline {section}{\numberline {1.9}Full Settings}{25}
 \contentsline {subsection}{View in Full Settings}{26}
-\contentsline {section}{\numberline {1.10}Basic Tab Options}{26}
-\contentsline {subsubsection}{Layer Height}{26}
+\contentsline {section}{\numberline {1.10}Basic Tab Options}{27}
+\contentsline {subsubsection}{Layer Height}{27}
 \contentsline {subsubsection}{Shell Thickness}{27}
 \contentsline {subsubsection}{Enable Retraction}{27}
-\contentsline {subsubsection}{Bottom/Top Thickness (mm)}{27}
+\contentsline {subsubsection}{Bottom/Top Thickness (mm)}{28}
 \contentsline {subsubsection}{Fill Density}{28}
 \contentsline {subsubsection}{Print Speed (mm/s)}{28}
 \contentsline {subsubsection}{Printing Temperature}{28}
 \contentsline {subsubsection}{Bed Temperature}{28}
-\contentsline {subsection}{Support Type}{28}
-\contentsline {subsubsection}{Touching Buildplate}{28}
+\contentsline {subsection}{Support Type}{29}
+\contentsline {subsubsection}{Touching Buildplate}{29}
 \contentsline {subsubsection}{Everywhere}{29}
 \contentsline {subsection}{Platform Adhesion Type}{29}
-\contentsline {subsubsection}{Brim}{29}
+\contentsline {subsubsection}{Brim}{30}
 \contentsline {subsubsection}{Raft}{30}
 \contentsline {subsection}{Filament Diameter}{30}
 \contentsline {subsection}{Filament Flow \%}{30}
 \contentsline {section}{\numberline {1.11}Advanced Tab Options}{30}
 \contentsline {subsection}{Nozzle Size (mm)}{30}
-\contentsline {subsection}{Retraction Speed (mm/s)}{30}
+\contentsline {subsection}{Retraction Speed (mm/s)}{31}
 \contentsline {subsection}{Retraction Distance}{31}
 \contentsline {subsection}{Initial Layer Thickness}{31}
 \contentsline {subsection}{Initial Layer Line Width}{31}
@@ -235,60 +235,65 @@
 \contentsline {subsection}{Command Line Usage}{120}
 \contentsline {subsubsection}{Command Line Options}{120}
 \contentsline {subsection}{Post-Processing Scripts}{125}
-\contentsline {section}{\numberline {2.9}Troubleshooting}{127}
-\contentsline {subsection}{Dimension Errors}{127}
-\contentsline {subsubsection}{Vertical dimensions}{127}
-\contentsline {subsubsection}{Horizontal dimensions}{127}
-\contentsline {subsubsection}{Plastic shrinkage}{127}
-\contentsline {subsubsection}{More material is deposited in the inside}{127}
-\contentsline {subsubsection}{Curves are approximated by polygons}{128}
-\contentsline {subsubsection}{Filament tends to cut corners}{128}
-\contentsline {subsubsection}{Z wobble}{129}
-\contentsline {subsubsection}{Non-regular filament section}{129}
-\contentsline {subsubsection}{Backlash}{130}
-\contentsline {subsubsection}{Flow Math}{130}
-\contentsline {subsection}{Z Wobble}{130}
-\contentsline {section}{\numberline {2.10}Slic3r Support}{132}
-\contentsline {subsection}{Slic3r Support}{132}
-\contentsline {subsubsection}{Wiki and FAQ}{132}
-\contentsline {subsubsection}{Blog}{132}
-\contentsline {subsubsection}{IRC}{132}
-\contentsline {subsubsection}{RepRap.org Forum}{132}
-\contentsline {subsubsection}{Issue Tracker}{133}
-\contentsline {chapter}{\chapternumberline {3}\emph {Printing with the Graphic LCD}}{135}
-\contentsline {section}{\numberline {3.1}GLCD Controller, Cura or Printrun Host?}{136}
-\contentsline {section}{\numberline {3.2}Multiple Connections}{136}
-\contentsline {section}{\numberline {3.3}Putting Print Files on the SD Card}{137}
-\contentsline {section}{\numberline {3.4}Printing With the Graphic LCD}{138}
-\contentsline {subsection}{The Graphic LCD Status Screen}{138}
-\contentsline {subsection}{Using the Selection Knob}{139}
-\contentsline {subsection}{Preparing for a Print}{139}
-\contentsline {subsection}{Selecting a File From the SD and Starting a Print}{140}
-\contentsline {subsection}{Making Manual Movements With the Graphic LCD}{140}
-\contentsline {subsection}{Control Settings}{141}
-\contentsline {subsection}{GLCD Controller Menu Diagram}{142}
-\contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{143}
-\contentsline {section}{\numberline {4.1}Overview}{144}
-\contentsline {section}{\numberline {4.2}Smooth Rods}{144}
-\contentsline {section}{\numberline {4.3}Lead Screw Drive Rods}{144}
-\contentsline {section}{\numberline {4.4}PEI Surface}{144}
-\contentsline {section}{\numberline {4.5}Hobbed Bolt}{145}
-\contentsline {section}{\numberline {4.6}Software}{145}
-\contentsline {section}{\numberline {4.7}Belts}{145}
-\contentsline {section}{\numberline {4.8}Hot End}{145}
-\contentsline {section}{\numberline {4.9}Electronics}{146}
-\contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{147}
-\contentsline {section}{\numberline {5.1}Intro}{148}
-\contentsline {section}{\numberline {5.2}Changing nozzles}{148}
-\contentsline {section}{\numberline {5.3}ABS/Acetone Glue}{148}
-\contentsline {section}{\numberline {5.4}Using 1.75mm filament}{149}
-\contentsline {chapter}{\chapternumberline {6}\emph {Hardware and Software Source Code}}{151}
-\contentsline {chapter}{\chapternumberline {7}\emph {3D Printer Support}}{153}
-\contentsline {section}{\numberline {7.1}LulzBot}{154}
-\contentsline {section}{\numberline {7.2}Community}{154}
-\contentsline {chapter}{\chapternumberline {8}\emph {Contact Information}}{155}
-\contentsline {section}{\numberline {8.1}Support}{156}
-\contentsline {section}{\numberline {8.2}Sales}{156}
-\contentsline {section}{\numberline {8.3}Websites}{156}
-\contentsline {chapter}{Index}{157}
-\contentsline {chapter}{Glossary}{163}
+\contentsline {subsection}{Understanding extrusion width}{127}
+\contentsline {subsection}{Bridges: the easy case}{128}
+\contentsline {subsection}{Extruding on top of a surface}{128}
+\contentsline {subsection}{Spacing paths}{129}
+\contentsline {subsection}{Sane defaults}{130}
+\contentsline {section}{\numberline {2.9}Troubleshooting}{131}
+\contentsline {subsection}{Dimension Errors}{131}
+\contentsline {subsubsection}{Vertical dimensions}{131}
+\contentsline {subsubsection}{Horizontal dimensions}{131}
+\contentsline {subsubsection}{Plastic shrinkage}{131}
+\contentsline {subsubsection}{More material is deposited in the inside}{131}
+\contentsline {subsubsection}{Curves are approximated by polygons}{132}
+\contentsline {subsubsection}{Filament tends to cut corners}{132}
+\contentsline {subsubsection}{Z wobble}{133}
+\contentsline {subsubsection}{Non-regular filament section}{133}
+\contentsline {subsubsection}{Backlash}{134}
+\contentsline {subsubsection}{Flow Math}{134}
+\contentsline {subsection}{Z Wobble}{134}
+\contentsline {section}{\numberline {2.10}Slic3r Support}{136}
+\contentsline {subsection}{Slic3r Support}{136}
+\contentsline {subsubsection}{Wiki and FAQ}{136}
+\contentsline {subsubsection}{Blog}{136}
+\contentsline {subsubsection}{IRC}{136}
+\contentsline {subsubsection}{RepRap.org Forum}{136}
+\contentsline {subsubsection}{Issue Tracker}{137}
+\contentsline {chapter}{\chapternumberline {3}\emph {Printing with the Graphic LCD}}{139}
+\contentsline {section}{\numberline {3.1}GLCD Controller, Cura or Printrun Host?}{140}
+\contentsline {section}{\numberline {3.2}Multiple Connections}{140}
+\contentsline {section}{\numberline {3.3}Putting Print Files on the SD Card}{141}
+\contentsline {section}{\numberline {3.4}Printing With the Graphic LCD}{142}
+\contentsline {subsection}{The Graphic LCD Status Screen}{142}
+\contentsline {subsection}{Using the Selection Knob}{143}
+\contentsline {subsection}{Preparing for a Print}{143}
+\contentsline {subsection}{Selecting a File From the SD and Starting a Print}{144}
+\contentsline {subsection}{Making Manual Movements With the Graphic LCD}{144}
+\contentsline {subsection}{Control Settings}{145}
+\contentsline {subsection}{GLCD Controller Menu Diagram}{146}
+\contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{147}
+\contentsline {section}{\numberline {4.1}Overview}{148}
+\contentsline {section}{\numberline {4.2}Smooth Rods}{148}
+\contentsline {section}{\numberline {4.3}Lead Screw Drive Rods}{148}
+\contentsline {section}{\numberline {4.4}PEI Surface}{148}
+\contentsline {section}{\numberline {4.5}Hobbed Bolt}{149}
+\contentsline {section}{\numberline {4.6}Software}{149}
+\contentsline {section}{\numberline {4.7}Belts}{149}
+\contentsline {section}{\numberline {4.8}Hot End}{149}
+\contentsline {section}{\numberline {4.9}Electronics}{150}
+\contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{151}
+\contentsline {section}{\numberline {5.1}Intro}{152}
+\contentsline {section}{\numberline {5.2}Changing nozzles}{152}
+\contentsline {section}{\numberline {5.3}ABS/Acetone Glue}{152}
+\contentsline {section}{\numberline {5.4}Using 1.75mm filament}{153}
+\contentsline {chapter}{\chapternumberline {6}\emph {Hardware and Software Source Code}}{155}
+\contentsline {chapter}{\chapternumberline {7}\emph {3D Printer Support}}{157}
+\contentsline {section}{\numberline {7.1}LulzBot}{158}
+\contentsline {section}{\numberline {7.2}Community}{158}
+\contentsline {chapter}{\chapternumberline {8}\emph {Contact Information}}{159}
+\contentsline {section}{\numberline {8.1}Support}{160}
+\contentsline {section}{\numberline {8.2}Sales}{160}
+\contentsline {section}{\numberline {8.3}Websites}{160}
+\contentsline {chapter}{Index}{161}
+\contentsline {chapter}{Glossary}{167}

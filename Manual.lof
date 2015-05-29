@@ -18,8 +18,8 @@
 \contentsline {figure}{\numberline {1.15}{\ignorespaces Cutoff Example}}{32}
 \contentsline {figure}{\numberline {1.16}{\ignorespaces View of Plugins}}{34}
 \contentsline {figure}{\numberline {1.17}{\ignorespaces View Expert Settings}}{35}
-\contentsline {figure}{\numberline {1.19}{\ignorespaces After Merging}}{45}
-\contentsline {figure}{\numberline {1.18}{\ignorespaces Before Merging}}{45}
+\contentsline {figure}{\numberline {1.19}{\ignorespaces Before Merge}}{45}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces After Merge}}{45}
 \contentsline {figure}{\numberline {1.20}{\ignorespaces Printrun application for 3D printer control}}{47}
 \contentsline {figure}{\numberline {1.21}{\ignorespaces Printrun}}{49}
 \contentsline {figure}{\numberline {1.22}{\ignorespaces Printrun Functions}}{51}
@@ -88,14 +88,18 @@
 \contentsline {figure}{\numberline {2.61}{\ignorespaces Post-processing script option.}}{125}
 \contentsline {figure}{\numberline {2.62}{\ignorespaces Example post-processing script to display Slic3r environment variables.}}{125}
 \contentsline {figure}{\numberline {2.63}{\ignorespaces Example post-processing script to print each line to output.}}{126}
-\contentsline {figure}{\numberline {2.64}{\ignorespaces Holes made through polygonal segments.}}{128}
-\contentsline {figure}{\numberline {2.65}{\ignorespaces Z wobble changing layer stacking.}}{129}
-\contentsline {figure}{\numberline {2.66}{\ignorespaces Variable filament diameter changing layer stacking.}}{129}
+\contentsline {figure}{\numberline {2.64}{\ignorespaces Extrusion Width.}}{127}
+\contentsline {figure}{\numberline {2.65}{\ignorespaces Bridging filament shape.}}{128}
+\contentsline {figure}{\numberline {2.66}{\ignorespaces Extrusion shape.}}{129}
+\contentsline {figure}{\numberline {2.67}{\ignorespaces No path overlap}}{129}
+\contentsline {figure}{\numberline {2.68}{\ignorespaces Holes made through polygonal segments.}}{132}
+\contentsline {figure}{\numberline {2.69}{\ignorespaces Z wobble changing layer stacking.}}{133}
+\contentsline {figure}{\numberline {2.70}{\ignorespaces Variable filament diameter changing layer stacking.}}{133}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces GLCD Info Screen}}{137}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Main menu}}{139}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Control Menu}}{141}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Control Menu}}{142}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces GLCD Info Screen}}{141}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Main menu}}{143}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Control Menu}}{145}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Control Menu}}{146}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
