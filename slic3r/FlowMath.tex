@@ -57,3 +57,16 @@ The required material volume for a path of unitary length is calculated accordin
 In this case the problem is: what shape will our extrusion get? We know it will get squashed horizontally, but will it have a rectangular or oval shape? What's the maximum extrusion width we can get with a given nozzle diameter before plastic starts curling at the sides?
 
 Slic3r assumes that the cross-sectional shape of an extrusion is a rectangle with semicircular ends. So the relationship between desired extrusion width and volume to extrude is the following:
+
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,width=.33\textwidth]{flow_math/area1.png}
+\caption{Extrusion shape.}
+\label{fig:area1}
+\end{figure}
+
+When target extrusion width is thinner than layer height the shape is unpredictable so we just use the same rectangular formula but discourage usage of such thin extrusion values.
+
+The above formula provides a function that correlates the target extrusion width with the amount of material to extrude per distance unit:
+
+\quote{E = f(extrusion_width, layer_height)}
