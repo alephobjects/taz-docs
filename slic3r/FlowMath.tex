@@ -37,7 +37,8 @@ However note that extrusion width can be controlled only when extruding over an 
 If you reduce the material flow you'll get smaller circles to some extent, until the plastic viscosity decides it's time to break your bridge because of too much tension. If, on the contrary, you extrude too much material, the shape of the extruded filament won't change (still equal to nozzle diameter) but you'll get a loose bridge.
 
 Let's start from a definition:
-\quote{Extrusion Width is the thickness of a single filament extruded either in free air or above a surface. It's not the distance of two adjacent paths since some overlap will be generally applied in order to get better bonding.}
+
+\verb|Extrusion Width is the thickness of a single filament extruded either in free air or above a surface. It's not the distance of two adjacent paths since some overlap will be generally applied in order to get better bonding.|
 
 \subsection{Bridges: the easy case}
 \label{sec:bridges}
@@ -47,6 +48,7 @@ Let's start from a definition:
 As said above, there's only one correct flow rate for bridging: the one that doesn't make your bridge sag or break. Extrusions are round and their diameter is equal to the nozzle diameter. Parallel paths will be positioned so that they are tangent, thus the spacing between one path and its neighbor is equal to nozzle diameter as well. (In case of bridges, we want no overlap because it has proven to drag the existing paths.)
 
 The required material volume for a path of unitary length is calculated accordingly to the cylindric shape, thus with a circular cross-sectional area:
+
 \verb|E = (nozzle_diameter/2)\textasciicircum{2} * PI|
 
 \subsection{Extruding on top of a surface}
@@ -69,4 +71,4 @@ When target extrusion width is thinner than layer height the shape is unpredicta
 
 The above formula provides a function that correlates the target extrusion width with the amount of material to extrude per distance unit:
 
-\quote{E = f(extrusion_width, layer_height)}
+\verb|E = f(extrusion_width, layer_height)|
