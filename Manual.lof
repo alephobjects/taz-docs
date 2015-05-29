@@ -12,7 +12,7 @@
 \contentsline {figure}{\numberline {1.9}{\ignorespaces View in Layers}}{23}
 \contentsline {figure}{\numberline {1.10}{\ignorespaces Viewing Specific Layers}}{23}
 \contentsline {figure}{\numberline {1.11}{\ignorespaces Control Screen}}{24}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces View in Full Settings}}{26}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Differences in Layer Height}}{26}
 \contentsline {figure}{\numberline {1.13}{\ignorespaces Differences in Layer Height}}{27}
 \contentsline {figure}{\numberline {1.14}{\ignorespaces Support Types}}{29}
 \contentsline {figure}{\numberline {1.15}{\ignorespaces Cutoff Example}}{32}
@@ -88,9 +88,9 @@
 \contentsline {figure}{\numberline {2.61}{\ignorespaces Post-processing script option.}}{125}
 \contentsline {figure}{\numberline {2.62}{\ignorespaces Example post-processing script to display Slic3r environment variables.}}{125}
 \contentsline {figure}{\numberline {2.63}{\ignorespaces Example post-processing script to print each line to output.}}{126}
-\contentsline {figure}{\numberline {2.64}{\ignorespaces Holes made through polygonal segments.}}{129}
-\contentsline {figure}{\numberline {2.65}{\ignorespaces Z wobble changing layer stacking.}}{130}
-\contentsline {figure}{\numberline {2.66}{\ignorespaces Variable filament diameter changing layer stacking.}}{131}
+\contentsline {figure}{\numberline {2.64}{\ignorespaces Holes made through polygonal segments.}}{128}
+\contentsline {figure}{\numberline {2.65}{\ignorespaces Z wobble changing layer stacking.}}{129}
+\contentsline {figure}{\numberline {2.66}{\ignorespaces Variable filament diameter changing layer stacking.}}{129}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces GLCD Info Screen}}{137}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Main menu}}{139}

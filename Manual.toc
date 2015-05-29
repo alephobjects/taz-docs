@@ -37,40 +37,40 @@
 \contentsline {subsection}{Recommended Temperatures}{25}
 \contentsline {section}{\numberline {1.8}Removing Your First Print}{25}
 \contentsline {section}{\numberline {1.9}Full Settings}{25}
-\contentsline {subsection}{Loading a Profile}{26}
-\contentsline {section}{\numberline {1.10}Basic Tab Options}{27}
-\contentsline {subsubsection}{Layer Height}{27}
+\contentsline {subsection}{View in Full Settings}{26}
+\contentsline {section}{\numberline {1.10}Basic Tab Options}{26}
+\contentsline {subsubsection}{Layer Height}{26}
 \contentsline {subsubsection}{Shell Thickness}{27}
 \contentsline {subsubsection}{Enable Retraction}{27}
-\contentsline {subsubsection}{Bottom/Top Thickness (mm)}{28}
+\contentsline {subsubsection}{Bottom/Top Thickness (mm)}{27}
 \contentsline {subsubsection}{Fill Density}{28}
 \contentsline {subsubsection}{Print Speed (mm/s)}{28}
 \contentsline {subsubsection}{Printing Temperature}{28}
 \contentsline {subsubsection}{Bed Temperature}{28}
-\contentsline {subsection}{Support Type}{29}
-\contentsline {subsubsection}{Touching Buildplate}{29}
+\contentsline {subsection}{Support Type}{28}
+\contentsline {subsubsection}{Touching Buildplate}{28}
 \contentsline {subsubsection}{Everywhere}{29}
-\contentsline {subsection}{Platform Adhesion Type}{30}
-\contentsline {subsubsection}{Brim}{30}
+\contentsline {subsection}{Platform Adhesion Type}{29}
+\contentsline {subsubsection}{Brim}{29}
 \contentsline {subsubsection}{Raft}{30}
 \contentsline {subsection}{Filament Diameter}{30}
 \contentsline {subsection}{Filament Flow \%}{30}
-\contentsline {section}{\numberline {1.11}Advanced Tab Options}{31}
-\contentsline {subsection}{Nozzle Size (mm)}{31}
-\contentsline {subsection}{Retraction Speed (mm/s)}{31}
+\contentsline {section}{\numberline {1.11}Advanced Tab Options}{30}
+\contentsline {subsection}{Nozzle Size (mm)}{30}
+\contentsline {subsection}{Retraction Speed (mm/s)}{30}
 \contentsline {subsection}{Retraction Distance}{31}
 \contentsline {subsection}{Initial Layer Thickness}{31}
 \contentsline {subsection}{Initial Layer Line Width}{31}
-\contentsline {subsection}{Cut Off Object Bottom (mm)}{32}
+\contentsline {subsection}{Cut Off Object Bottom (mm)}{31}
 \contentsline {subsection}{Dual Extrusion Overlap}{32}
 \contentsline {subsection}{Travel Speed}{32}
-\contentsline {subsection}{Bottom Layer Speed}{33}
+\contentsline {subsection}{Bottom Layer Speed}{32}
 \contentsline {subsection}{Infill Speed}{33}
 \contentsline {subsection}{Outer Shell Speed}{33}
 \contentsline {subsection}{Inner Shell Speed}{33}
 \contentsline {subsection}{Minimal Layer Time}{33}
 \contentsline {subsection}{Enable Cooling Fan}{33}
-\contentsline {section}{\numberline {1.12}Plugins}{34}
+\contentsline {section}{\numberline {1.12}Plugins}{33}
 \contentsline {subsection}{Tweak at Z}{34}
 \contentsline {subsection}{Pause at Z Height}{34}
 \contentsline {section}{\numberline {1.13}Start and End Gcode Settings}{35}
@@ -119,7 +119,7 @@
 \contentsline {subsection}{Calibrating Extruders}{43}
 \contentsline {subsection}{Defining Second Extruder Offset}{43}
 \contentsline {subsection}{First Dual Print}{44}
-\contentsline {subsubsection}{Setting Dual Temps}{46}
+\contentsline {subsection}{Setting Dual Temps}{46}
 \contentsline {section}{\numberline {1.24}Printrun}{47}
 \contentsline {subsection}{Installing Printrun}{47}
 \contentsline {subsection}{Windows Instructions}{48}
@@ -242,19 +242,19 @@
 \contentsline {subsubsection}{Plastic shrinkage}{127}
 \contentsline {subsubsection}{More material is deposited in the inside}{127}
 \contentsline {subsubsection}{Curves are approximated by polygons}{128}
-\contentsline {subsubsection}{Filament tends to cut corners}{130}
-\contentsline {subsubsection}{Z wobble}{130}
-\contentsline {subsubsection}{Non-regular filament section}{130}
-\contentsline {subsubsection}{Backlash}{131}
-\contentsline {subsubsection}{Flow Math}{131}
-\contentsline {subsection}{Z Wobble}{132}
-\contentsline {section}{\numberline {2.10}Slic3r Support}{133}
-\contentsline {subsection}{Slic3r Support}{133}
-\contentsline {subsubsection}{Wiki and FAQ}{133}
-\contentsline {subsubsection}{Blog}{133}
-\contentsline {subsubsection}{IRC}{133}
-\contentsline {subsubsection}{RepRap.org Forum}{133}
-\contentsline {subsubsection}{Issue Tracker}{134}
+\contentsline {subsubsection}{Filament tends to cut corners}{128}
+\contentsline {subsubsection}{Z wobble}{129}
+\contentsline {subsubsection}{Non-regular filament section}{129}
+\contentsline {subsubsection}{Backlash}{130}
+\contentsline {subsubsection}{Flow Math}{130}
+\contentsline {subsection}{Z Wobble}{130}
+\contentsline {section}{\numberline {2.10}Slic3r Support}{132}
+\contentsline {subsection}{Slic3r Support}{132}
+\contentsline {subsubsection}{Wiki and FAQ}{132}
+\contentsline {subsubsection}{Blog}{132}
+\contentsline {subsubsection}{IRC}{132}
+\contentsline {subsubsection}{RepRap.org Forum}{132}
+\contentsline {subsubsection}{Issue Tracker}{133}
 \contentsline {chapter}{\chapternumberline {3}\emph {Printing with the Graphic LCD}}{135}
 \contentsline {section}{\numberline {3.1}GLCD Controller, Cura or Printrun Host?}{136}
 \contentsline {section}{\numberline {3.2}Multiple Connections}{136}

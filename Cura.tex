@@ -92,7 +92,7 @@ Select the STL model you would like to print. Either use the \texttt{Load Model}
 
 \subsection{Model Orientation}
 \index{Orientation}
-Move your model to change where it is printed on the build plate. Do this by left clicking on the model and dragging it to the desired location. The \texttt{black} outlined corner represents the front left hand corner of the build plate on your printer. You can also Right Click and hold in the build screen, to view your model from different angles. %Not sure if this last sentence should be reworked or put in a separate section.
+Move your model to change where it is printed on the build plate. Do this by left clicking on the model and dragging it to the desired location. The \texttt{black} outlined corner of the 3d view represents the front left hand corner of the build plate on your printer. By holding down the right mouse button and dragging, you can view your model from different angles. %Not sure if this last sentence should be reworked or put in a separate section.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Options.png}
@@ -105,7 +105,7 @@ Move your model to change where it is printed on the build plate. Do this by lef
 %The \texttt{Rotate} button will give you the ability orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The red circle will allow you to rotate in the XY plane. The Yellow circle will rotate in the XZ plane. The Green circle will rotate in the YZ plane.
 \definecolor{yellow1}{cmyk}{0,0,1,0.30}
 \definecolor{green1}{rgb}{0.30,1,0.30}
-The \texttt{Rotate} button will give you the ability to orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red circle} will allow you to rotate around the \textcolor{red}{Z axis}. The \textcolor{yellow1}{Yellow circle} will rotate around the \textcolor{yellow1}{Y axis}. The \textcolor{green1}{Green circle} will rotate around the \textcolor{green}{X axis}.
+The \texttt{Rotate} button will give you the ability to orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red circle} will allow you to rotate around the \textcolor{red}{Z axis}. The \textcolor{yellow1}{Yellow circle} will rotate around the \textcolor{yellow1}{Y axis}. The \textcolor{green1}{Green circle} will rotate around the \textcolor{green}{X axis}. Cura defaults to 15 degree incriments. Hold \texttt{Shift} to rotate by \texttt{One Degree Incriments}.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Rotate.png}
@@ -156,7 +156,7 @@ This is the standard view and shows the solid outer surfaces of the model. (Fig.
 
 \subsection{Overhang}
 \index{Overhang} 
-Overhang mode shows where your model may need support material. In Fig. \ref{fig:Overhang_View}, page \pageref{fig:Overhang_View} the red highlighted areas show overhangs and more severe angles and areas where support material is recommended.
+Overhang mode shows where your model may need support material. In Fig. \ref{fig:Overhang_View}, page \pageref{fig:Overhang_View} the red highlighted areas show overhangs and more severe angles and areas where support material is recommended. The overhang threshold can be defined in Expert Settings.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{overhang.png}
@@ -186,7 +186,7 @@ Xray is very similiar to Ghost mode. It will alow you to see into objects, ensur
 
 \subsection{Layers}
 \index{Layers}
-To view the toolpath of your print head and to ensure no skipped layers or gaps use this option. Use the slide bar on the right hand side of the window to move up and down through the toolpath layers.
+To view the toolpath of your print head and to ensure no skipped layers or gaps use this option. Use the slide bar on the right hand side of the window to move up and down through the toolpath layers. If there is support activated in your model, it will be shown in blue.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{layers.png}
@@ -283,7 +283,9 @@ Connect your 3D printer to a computer using a USB cable, power it on and select 
  \hline
  Nylons & Gluestick & 220-270 & 110 & 50 \\
  \hline
- Poly Carbonate & Gluestick & 260-300 & 110 & 50 \\ [1ex]
+ PolyCarbonate & Gluestick & 260-300 & 110 & 50 \\ 
+ \hline
+ N-Vent & Gluestick & 225-260 & 110 & 50 \\ [1ex]
  \hline
 \end{tabular}
 \end{center}
@@ -310,16 +312,21 @@ Once your heated bed has cooled, use the blue handled knife that was included wi
 \index{Full Settings}
 \textcolor{red}{Full settings should not be used until enough experience with 3D printing has been gained to feel comfortable with all aspects of the printer and its operation. The simple settings will provide good results for most models.}
 The first time Cura is launched it will default to the \texttt{Quick Print} interface. In order to have more control of your slicing and Gcode generation, switch to \texttt{Full Settings}. Select \texttt{Expert} > \texttt{Switch to full settings}. If a quickprint profile for your filament type is available, be sure to have it selected. This will automatically update the settings for that filament. The following tabs will now be available: Basic, Advanced, Plugins, and Start/End-Gcode. You will also have access to the Expert Settings. 
-\begin{figure}[H]
+%\begin{figure}[H]
+%\centering
+%\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}
+%\caption{View in Full Settings}
+%\label{fig:Full Settings View}
+%\end{figure}
+\begin{figure}[hbt]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}
-\caption{View in Full Settings}
-\label{fig:Full Settings View}
+\caption{Differences in Layer Height}
+\label{fig:Differences in Layer Height}
 \end{figure}
-
-\subsection{Loading a Profile}
-\index{Loading Profile}
-When you first switch to Full Settings, Cura will need to know what filament and quality you wish to use. \textcolor{red}{IF A QUICKPRINT PROFILE IS NOT AVAILABLE, YOU WILL NEED TO MANUALLY LOAD ONE IN.} We recommend using our tested profiles that are available here: \texttt{https://www.lulzbot.com/support/downloads}. You will want to choose the profile that matches your filament and quality needs. Once downloaded, you can load the file into Cura by selecting \texttt{File} > \texttt{Open Profile}. Choose your desired profile. This will automatically update all of your settings for use with your printer.
+\subsection{View in Full Settings}
+\index{Full Settings}
+When you first switch to Full Settings, Cura will need to know what filament and quality you wish to use. It will automatically transfer our quickprint settings over to allow adjustments. \textcolor{red}{IF A QUICKPRINT PROFILE IS NOT AVAILABLE, YOU WILL NEED TO MANUALLY LOAD ONE IN.} We recommend using our tested profiles that are available here: \texttt{https://www.lulzbot.com/support/downloads}. You will want to choose the profile that matches your filament and quality needs. Once downloaded, you can load the file into Cura by selecting \texttt{File} > \texttt{Open Profile}. Choose your desired profile. This will automatically update all of your settings for use with your printer.
 %\begin{figure}[hbt]
 %\centering
 %\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}
@@ -438,7 +445,7 @@ Retraction Distance determines how much filament is pulled out of your hot end o
 
 \subsection{Initial Layer Thickness}
 \index{Initial Layer}
-This will control how thick your first printed layer height is printed onto the heated bed. Having a larger initial layer height will help prevent your part from popping off the plate. %\textcolor{red}{Your LulzBot Mini auto leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
+This will control how thick your first printed layer height is printed onto the heated bed. Having a larger initial layer height will help prevent your part from popping off the plate. All of our standard profiles have a 0.3mm initial layer height. This eliminates the need for adjustments when switching between filaments.  %\textcolor{red}{Your LulzBot Mini auto leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
 \subsection{Initial Layer Line Width}
 \index{Initial Layer Width}
 This will control how wide your first extruded filament path is for the initial layer. A wider line width will help with bed adhesion. We have found 125\% to be a good starting place. For models with moving printed in place parts, a smaller initial layer line width is recommended. %\textcolor{red}{Your LulzBot Mini auto leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
@@ -459,7 +466,7 @@ This will determine how far your Dual Extruders will overlap when laying down ma
 
 \subsection{Travel Speed}
 \index{Travel Speed}
-This setting will determine how fast your print head moves while not extruding filament. A normal travel speed of 125 - 150mm/s is recommended.
+This setting will determine how fast your print head moves while not extruding filament. A normal travel speed of 125 - 175mm/s is recommended.
 
 \subsection{Bottom Layer Speed}
 \index{Bottom Layer Speed}
