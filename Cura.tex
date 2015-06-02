@@ -17,7 +17,7 @@
 
 \subsection{Setup Cura}
 \index{Installation}
-Cura is available for download on our website at \texttt{https://www.lulzbot.com/cura}. When installing, it is recommended to uninstall any previous versions of Cura you may have been using. 
+Cura is available for download on our website at \texttt{lulzbot.com/cura}. When installing, it is recommended to uninstall any previous versions of Cura you may have been using. 
 When first opening Cura, you will be prompted to go through the \texttt{First run wizard}. This will consist of selecting your printer and then your nozzle size.
 
 \textcolor{red}{It is important to select the correct printer and nozzle size, as Cura uses custom profiles and machine settings based upon which printer and nozzle you are running.}
@@ -212,52 +212,42 @@ To view the toolpath of your print head and to ensure no skipped layers or gaps 
 \index{First Print}
 Once you have your model, profile, and filament loaded, it is time for your first print! 
 
-\begin{comment} %%%% Turn the following on for standalone Cura manual %%%%
-\subsection{Mini}
 
-Select the \texttt{Print/Control} option in the top left hand corner of your build volume. This will bring up your Pronterface user interface. Please wait for the window to state \texttt{operational} before sending any commands to the printer..
+%\subsection{Mini}
+
+%Select the \texttt{Print/Control} option in the top left hand corner of your build volume. This will bring up your Pronterface user interface. Please wait for the window to state \texttt{operational} before sending any commands to the printer..
 
 %\pageref{fig:Print Control}).
-\begin{figure}[hbt]
-\centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{print_control.png}
-\caption{Print Control Screen}
-\label{fig:Print Control}
-\end{figure}
+%\begin{figure}[hbt]
+%\centering
+%\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{print_control.png}
+%\caption{Print Control Screen}
+%\label{fig:Print Control}
+%\end{figure}
 
-\subsection{TAZ}
+%\subsection{TAZ}
 
-TAZ users will need to decide if they want to print directly from their computer using the USB cable, or if they would like to print from their SD card.
+The TAZ has the ability to print directly from their computer using the USB cable, or if they would like to print from their SD card.
 
 %%%% SD Printing %%%%
-\subsubsection{Printing from SD Card}
+\subsection{Printing from SD Card}
 \index{Printing from SD}
 
 Save your Gcode file to your SD card. Select \texttt{File} > \texttt{Save Gcode} and choose the SD card location. Insert the SD Card into the Graphical LCD Controller.
 
 \subsection{Set Temperature}
 
-Turn on the heated bed and hot end by using the Graphical LCD controller and navigating to: \texttt{Prepare} > \texttt{Preheat ABS or PLA}. If you are using other materials you can set your desired temperatures by going to \texttt{Control} > \texttt{Temperature} > \texttt{Nozzle/Bed}. Wait for your 3D printer to reach specified temperatures.
+Turn on the heated bed and hot end by using the Graphical LCD controller and navigating to: \texttt{Temperature} > \texttt{Select Filament type}. If you are using other materials you can set your desired temperatures by going to \texttt{Temperature} > \texttt{Custome Temp} > \texttt{Nozzle/Bed}. Wait for your 3D printer to reach specified temperatures.
 
 \subsection{Start Print}
 \index{printing}
-Once at the desired printing temperature begin your print through your Graphical LCD controller by navigating to: \texttt{Print From SD} > and select the desired file.
+Once at the desired printing temperature begin your print through your Graphical LCD controller by navigating to: \texttt{Print From SD} > \texttt{Desired File}.
 
 %%%% Tethered printing %%%%
 
 \subsubsection{Printing from USB Cable}
 \index{Printing from USB}
 
-Connect your 3D printer using a USB cable and select the \texttt{Print/Control} button. This will bring up the Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. 
-
-\subsubsection{Set Temperature}
-
-Set your temperatures for the hot end and the bed. You will see two boxes, one labeled “Temperature” and one labeled “Bed Temp”. Temperature will set your hot end, and bed temp will set your bed. Once your hot end and bed have reached temperature, you will just need to select print.
-
-\end{comment} 
-
-\subsection{Control}
-\index{Control}
 Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button at the top of the 3d viewing window. This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. Once it is operational, you will need to set your filament specific temperatures. The temperature box heats the hot end, while the bed temp sets the bed temperature. Your current temperatures will be listed in the top of the control box. Once your hot end and bed are heated, select \texttt{Print}. This will start the printing process.
 
 \begin{figure}[H]
@@ -269,9 +259,11 @@ Connect your 3D printer to a computer using a USB cable, power it on and select 
 
 \subsection{Pausing Midprint}
 \index{Pause}
-You will notice after starting your print, the print button has changed to a pause button. This will pause your print after it has run through its Gcode buffer. Cura will remember the location of your printheads X and Y coordinates. This allows you to move the printhead away from your print and change filaments, colors, etc. When you hit resume, Cura will bring the printhead back to the original (X,Y) before resuming. \texttt{Cura will NOT remember any Z movements}. If you would like to move in the Z direction, be sure to make the opposite movement before resuming.
+You will notice after starting your print, the print button has changed to a pause button. This will pause your print after it has run through its Gcode buffer. Cura will remember the location of your printheads X and Y coordinates if moved through Cura This allows you to move the printhead away from your print and change filaments, colors, etc. When you hit resume, Cura will bring the printhead back to the original (X,Y) before resuming. Disabling the motors, and manually moving the printhead will cause Cura to lose the (X,Y) positioning. \texttt{Cura will NOT remember any Z movements}. If you would like to move in the Z direction, be sure to make the opposite movement before resuming.
+
 \subsection{Recommended Temperatures}
 \index{Temperatures}
+When preparing your printer for operation, please be sure to set your temperatures to the specific filament you are using. 
 \begin{center}
  \begin{tabular}{||c c c c c||} 
  \hline
@@ -295,7 +287,7 @@ You will notice after starting your print, the print button has changed to a pau
  \hline
  PolyCarbonate & Gluestick & 260-300 & 110 & 50 \\ 
  \hline
- N-Vent & Gluestick & 230-260 & 110 & 50 \\ [1ex]
+ N-Vent & Gluestick & 220-260 & 110 & 50 \\ [1ex]
  \hline
 \end{tabular}
 \end{center}
@@ -694,7 +686,7 @@ This causes Cura to automatically add triangle meshes in an attempt to fix manif
 
 \section{Dual Extrusion}
 \index{Dual Extrusion}
-We recommend the Dual Extruder for advanced users. Installation and operation of the dual extruder will require you to flash your firmware, calibrate your extruders, level two heads to a single plane, define extruder offsets, and fine tune your slicing profile. This can be a little overwhelming for new users, and is recommended to get a couple months of single extruder printining experience before making the switch.
+The LulzBot TAZ has the ability to add dual extrusion functionality with the Dual Extruder tool head add-on. We only recommend the Dual Extruder tool head for advanced users. Installation and operation of the dual extruder will require you to flash your firmware, calibrate your extruders, level two heads to a single plane, define extruder offsets, and fine tune your slicing profile. This can be a little overwhelming for new users, and is recommended to get a couple months of single extruder printining experience before making the switch.
 
 \subsection{Updating Firmware}
 \index{Updating Firmware}

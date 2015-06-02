@@ -33,121 +33,124 @@
 \contentsline {subsection}{Xray}{22}
 \contentsline {subsection}{Layers}{23}
 \contentsline {section}{\numberline {1.7}Starting Your First Print}{24}
-\contentsline {subsection}{Control}{24}
-\contentsline {subsection}{Pausing Midprint}{25}
+\contentsline {subsection}{Printing from SD Card}{24}
+\contentsline {subsection}{Set Temperature}{24}
+\contentsline {subsection}{Start Print}{25}
+\contentsline {subsubsection}{Printing from USB Cable}{25}
+\contentsline {subsection}{Pausing Midprint}{26}
 \contentsline {subsection}{Recommended Temperatures}{26}
 \contentsline {section}{\numberline {1.8}Removing Your First Print}{26}
-\contentsline {section}{\numberline {1.9}Full Settings}{26}
-\contentsline {subsection}{View in Full Settings}{27}
+\contentsline {section}{\numberline {1.9}Full Settings}{27}
+\contentsline {subsection}{View in Full Settings}{28}
 \contentsline {section}{\numberline {1.10}Basic Tab Options}{28}
 \contentsline {subsubsection}{Layer Height}{28}
-\contentsline {subsubsection}{Shell Thickness}{28}
-\contentsline {subsubsection}{Enable Retraction}{28}
+\contentsline {subsubsection}{Shell Thickness}{29}
+\contentsline {subsubsection}{Enable Retraction}{29}
 \contentsline {subsubsection}{Bottom/Top Thickness (mm)}{29}
-\contentsline {subsubsection}{Fill Density}{29}
-\contentsline {subsubsection}{Perimeters Before Infill}{29}
-\contentsline {subsubsection}{Print Speed (mm/s)}{29}
-\contentsline {subsubsection}{Printing Temperature}{29}
-\contentsline {subsubsection}{Bed Temperature}{29}
+\contentsline {subsubsection}{Fill Density}{30}
+\contentsline {subsubsection}{Perimeters Before Infill}{30}
+\contentsline {subsubsection}{Print Speed (mm/s)}{30}
+\contentsline {subsubsection}{Printing Temperature}{30}
+\contentsline {subsubsection}{Bed Temperature}{30}
 \contentsline {subsection}{Support Type}{30}
-\contentsline {subsubsection}{Touching Buildplate}{30}
-\contentsline {subsubsection}{Everywhere}{30}
-\contentsline {subsection}{Platform Adhesion Type}{30}
+\contentsline {subsubsection}{Touching Buildplate}{31}
+\contentsline {subsubsection}{Everywhere}{31}
+\contentsline {subsection}{Platform Adhesion Type}{31}
 \contentsline {subsubsection}{Brim}{31}
-\contentsline {subsubsection}{Raft}{31}
-\contentsline {subsection}{Filament Diameter}{31}
-\contentsline {subsection}{Filament Flow \%}{31}
-\contentsline {section}{\numberline {1.11}Advanced Tab Options}{31}
-\contentsline {subsection}{Nozzle Size (mm)}{31}
+\contentsline {subsubsection}{Raft}{32}
+\contentsline {subsection}{Filament Diameter}{32}
+\contentsline {subsection}{Filament Flow \%}{32}
+\contentsline {section}{\numberline {1.11}Advanced Tab Options}{32}
+\contentsline {subsection}{Nozzle Size (mm)}{32}
 \contentsline {subsection}{Retraction Speed (mm/s)}{32}
-\contentsline {subsection}{Retraction Distance}{32}
-\contentsline {subsection}{Initial Layer Thickness}{32}
-\contentsline {subsection}{Initial Layer Line Width}{32}
-\contentsline {subsection}{Cut Off Object Bottom (mm)}{32}
-\contentsline {subsection}{Dual Extrusion Overlap}{33}
-\contentsline {subsection}{Travel Speed}{33}
-\contentsline {subsection}{Bottom Layer Speed}{33}
-\contentsline {subsection}{Infill Speed}{34}
-\contentsline {subsection}{Outer Shell Speed}{34}
-\contentsline {subsection}{Inner Shell Speed}{34}
-\contentsline {subsection}{Minimal Layer Time}{34}
-\contentsline {subsection}{Enable Cooling Fan}{34}
-\contentsline {section}{\numberline {1.12}Plugins}{34}
-\contentsline {subsection}{Tweak at Z}{35}
-\contentsline {subsection}{Pause at Z Height}{35}
-\contentsline {section}{\numberline {1.13}Start and End Gcode Settings}{36}
-\contentsline {section}{\numberline {1.14}Expert Settings}{36}
-\contentsline {section}{\numberline {1.15}Retraction}{37}
-\contentsline {subsection}{Minimum Travel}{37}
-\contentsline {subsection}{Combing}{37}
-\contentsline {subsection}{Minimal Extrusion Before Retracting}{37}
-\contentsline {subsection}{Z Hop When Retracting}{37}
-\contentsline {section}{\numberline {1.16}Skirt}{37}
-\contentsline {subsection}{Line Count}{38}
-\contentsline {subsection}{Start Distance}{38}
-\contentsline {subsection}{Minimal Length}{38}
-\contentsline {section}{\numberline {1.17}Cool}{38}
-\contentsline {subsection}{Fan on at Full Height}{38}
-\contentsline {subsection}{Fan Speed Min}{38}
-\contentsline {subsection}{Fan Speed Max}{39}
-\contentsline {section}{\numberline {1.18}Support}{39}
-\contentsline {subsection}{Structure Type}{39}
-\contentsline {subsection}{Overhang Angle for Support}{39}
-\contentsline {subsection}{Fill Amount}{39}
-\contentsline {subsection}{Distance X/Y}{39}
-\contentsline {subsection}{Distance Z}{40}
-\contentsline {section}{\numberline {1.19}Black Magic}{40}
-\contentsline {subsection}{Spiralize the Outer Contour}{40}
-\contentsline {subsection}{Only Follow Mesh Surface}{40}
-\contentsline {section}{\numberline {1.20}Brim}{40}
-\contentsline {subsection}{Brim Line Amount}{40}
-\contentsline {section}{\numberline {1.21}Raft}{41}
-\contentsline {subsection}{Extra Margin}{41}
-\contentsline {subsection}{Line Spacing}{41}
-\contentsline {subsection}{Base Thickness}{41}
-\contentsline {subsection}{Base Line Width}{41}
-\contentsline {subsection}{Interface Thickness}{41}
-\contentsline {subsection}{Interface Line Width}{41}
-\contentsline {subsection}{Airgap}{42}
-\contentsline {subsection}{Surface Layers}{42}
-\contentsline {section}{\numberline {1.22}Fix Horrible}{42}
-\contentsline {subsection}{Combine Everything (Type-A)}{42}
-\contentsline {subsection}{Combine Everything (Type-B)}{42}
-\contentsline {subsection}{Keep Open Faces}{42}
-\contentsline {subsection}{Extensive Stiching}{43}
-\contentsline {section}{\numberline {1.23}Dual Extrusion}{43}
-\contentsline {subsection}{Updating Firmware}{43}
-\contentsline {subsection}{Preparing Cura}{44}
-\contentsline {subsection}{Calibrating Extruders}{44}
-\contentsline {subsection}{Defining Second Extruder Offset}{45}
-\contentsline {subsection}{First Dual Print}{45}
+\contentsline {subsection}{Retraction Distance}{33}
+\contentsline {subsection}{Initial Layer Thickness}{33}
+\contentsline {subsection}{Initial Layer Line Width}{33}
+\contentsline {subsection}{Cut Off Object Bottom (mm)}{33}
+\contentsline {subsection}{Dual Extrusion Overlap}{34}
+\contentsline {subsection}{Travel Speed}{34}
+\contentsline {subsection}{Bottom Layer Speed}{34}
+\contentsline {subsection}{Infill Speed}{35}
+\contentsline {subsection}{Outer Shell Speed}{35}
+\contentsline {subsection}{Inner Shell Speed}{35}
+\contentsline {subsection}{Minimal Layer Time}{35}
+\contentsline {subsection}{Enable Cooling Fan}{35}
+\contentsline {section}{\numberline {1.12}Plugins}{35}
+\contentsline {subsection}{Tweak at Z}{36}
+\contentsline {subsection}{Pause at Z Height}{36}
+\contentsline {section}{\numberline {1.13}Start and End Gcode Settings}{37}
+\contentsline {section}{\numberline {1.14}Expert Settings}{37}
+\contentsline {section}{\numberline {1.15}Retraction}{38}
+\contentsline {subsection}{Minimum Travel}{38}
+\contentsline {subsection}{Combing}{38}
+\contentsline {subsection}{Minimal Extrusion Before Retracting}{38}
+\contentsline {subsection}{Z Hop When Retracting}{38}
+\contentsline {section}{\numberline {1.16}Skirt}{38}
+\contentsline {subsection}{Line Count}{39}
+\contentsline {subsection}{Start Distance}{39}
+\contentsline {subsection}{Minimal Length}{39}
+\contentsline {section}{\numberline {1.17}Cool}{39}
+\contentsline {subsection}{Fan on at Full Height}{39}
+\contentsline {subsection}{Fan Speed Min}{39}
+\contentsline {subsection}{Fan Speed Max}{40}
+\contentsline {section}{\numberline {1.18}Support}{40}
+\contentsline {subsection}{Structure Type}{40}
+\contentsline {subsection}{Overhang Angle for Support}{40}
+\contentsline {subsection}{Fill Amount}{40}
+\contentsline {subsection}{Distance X/Y}{40}
+\contentsline {subsection}{Distance Z}{41}
+\contentsline {section}{\numberline {1.19}Black Magic}{41}
+\contentsline {subsection}{Spiralize the Outer Contour}{41}
+\contentsline {subsection}{Only Follow Mesh Surface}{41}
+\contentsline {section}{\numberline {1.20}Brim}{41}
+\contentsline {subsection}{Brim Line Amount}{41}
+\contentsline {section}{\numberline {1.21}Raft}{42}
+\contentsline {subsection}{Extra Margin}{42}
+\contentsline {subsection}{Line Spacing}{42}
+\contentsline {subsection}{Base Thickness}{42}
+\contentsline {subsection}{Base Line Width}{42}
+\contentsline {subsection}{Interface Thickness}{42}
+\contentsline {subsection}{Interface Line Width}{42}
+\contentsline {subsection}{Airgap}{43}
+\contentsline {subsection}{Surface Layers}{43}
+\contentsline {section}{\numberline {1.22}Fix Horrible}{43}
+\contentsline {subsection}{Combine Everything (Type-A)}{43}
+\contentsline {subsection}{Combine Everything (Type-B)}{43}
+\contentsline {subsection}{Keep Open Faces}{43}
+\contentsline {subsection}{Extensive Stiching}{44}
+\contentsline {section}{\numberline {1.23}Dual Extrusion}{44}
+\contentsline {subsection}{Updating Firmware}{44}
+\contentsline {subsection}{Preparing Cura}{45}
+\contentsline {subsection}{Calibrating Extruders}{45}
+\contentsline {subsection}{Defining Second Extruder Offset}{46}
+\contentsline {subsection}{First Dual Print}{46}
 \contentsline {subsection}{Setting Dual Temps}{47}
 \contentsline {section}{\numberline {1.24}Printrun}{48}
 \contentsline {subsection}{Installing Printrun}{48}
 \contentsline {subsection}{Windows Instructions}{49}
 \contentsline {subsection}{Mac OSX Instructions}{49}
-\contentsline {subsection}{Linux Instructions}{49}
-\contentsline {subsubsection}{Debian|Ubuntu}{49}
-\contentsline {subsubsection}{Recommended Installation}{49}
-\contentsline {subsubsection}{Installing from source}{49}
+\contentsline {subsection}{Linux Instructions}{50}
+\contentsline {subsubsection}{Debian|Ubuntu}{50}
+\contentsline {subsubsection}{Recommended Installation}{50}
+\contentsline {subsubsection}{Installing from source}{50}
 \contentsline {subsubsection}{Fedora}{50}
 \contentsline {subsubsection}{Archlinux}{50}
-\contentsline {section}{\numberline {1.25}Using Printrun}{50}
+\contentsline {section}{\numberline {1.25}Using Printrun}{51}
 \contentsline {subsection}{Connecting to the TAZ 3D Printer}{51}
-\contentsline {subsection}{Movement}{52}
+\contentsline {subsection}{Movement}{53}
 \contentsline {subsubsection}{Motors off}{53}
 \contentsline {subsubsection}{mm/min XY:/ Z:}{53}
-\contentsline {subsubsection}{Homing}{53}
-\contentsline {subsubsection}{X/Y/Z Axes Movement Controls}{53}
+\contentsline {subsubsection}{Homing}{54}
+\contentsline {subsubsection}{X/Y/Z Axes Movement Controls}{54}
 \contentsline {section}{\numberline {1.26}CAD and 3D Modeling Software}{54}
-\contentsline {subsection}{FreeCAD}{54}
-\contentsline {subsection}{OpenSCAD}{54}
+\contentsline {subsection}{FreeCAD}{55}
+\contentsline {subsection}{OpenSCAD}{55}
 \contentsline {subsection}{Blender}{55}
 \contentsline {subsection}{Shapesmith}{55}
-\contentsline {section}{\numberline {1.27}Alternative Printer Host Software}{55}
-\contentsline {subsection}{OctoPrint}{55}
-\contentsline {subsection}{BotQueue}{55}
-\contentsline {subsection}{MatterControl}{55}
+\contentsline {section}{\numberline {1.27}Alternative Printer Host Software}{56}
+\contentsline {subsection}{OctoPrint}{56}
+\contentsline {subsection}{BotQueue}{56}
+\contentsline {subsection}{MatterControl}{56}
 \contentsline {chapter}{\chapternumberline {2}\emph {Slic3r}}{57}
 \contentsline {section}{\numberline {2.1}Introduction}{58}
 \contentsline {subsection}{Overview}{58}
