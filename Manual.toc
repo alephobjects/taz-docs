@@ -282,10 +282,9 @@
 \contentsline {section}{\numberline {4.3}Lead Screw Drive Rods}{146}
 \contentsline {section}{\numberline {4.4}PEI Surface}{146}
 \contentsline {section}{\numberline {4.5}Hobbed Bolt}{147}
-\contentsline {section}{\numberline {4.6}Software}{147}
-\contentsline {section}{\numberline {4.7}Belts}{147}
-\contentsline {section}{\numberline {4.8}Hot End}{147}
-\contentsline {section}{\numberline {4.9}Electronics}{148}
+\contentsline {section}{\numberline {4.6}Belts}{147}
+\contentsline {section}{\numberline {4.7}Hot End}{147}
+\contentsline {section}{\numberline {4.8}Electronics}{147}
 \contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{149}
 \contentsline {section}{\numberline {5.1}Intro}{150}
 \contentsline {section}{\numberline {5.2}Changing nozzles}{150}
