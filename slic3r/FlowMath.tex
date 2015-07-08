@@ -105,10 +105,10 @@ Path spacing is thus:
 \index{Sane Defaults}
 
 Slic3r allows users to define extrusion width manually for each kind of extrusion (perimeters, infill, support material etc.) but will calculate sane defaults if no custom values are entered.
-For the outermost loop of perimeters (aka external perimeters) Slic3r will default to a thin extrusion width, equal to 
+For the outermost loop of perimeters (aka external perimeters) Slic3r will default to a thin extrusion width, equal to
 \par \verb| nozzle diameter * 1.05|.
 
 This is considered the thinnest safe extrusion width. A thin extrusion width provides better accuracy to the object shape and minimizes the flow errors caused by irregular filament.
 
-Extrusion width for other things is calculated by getting the cross-sectional area of the configured nozzle diameter and then calculating the extrusion width produced by extruding that amount of material. In other words, by matching flow speed and head speed. The purpose of this logic is to find the "native" flow that minimizes side forces during extrusion. Such calculated extrusion with is capped to max value equal to:
+Extrusion width for other things is calculated by getting the cross-sectional area of the configured nozzle diameter and then calculating the extrusion width produced by extruding that amount of material. In other words, by matching flow speed and head speed. The purpose of this logic is to find the ``native'' flow that minimizes side forces during extrusion. Such calculated extrusion with is capped to max value equal to:
 \verb| nozzle diameter * 1.7|, except for internal sparse infill where the full native flow is used.
