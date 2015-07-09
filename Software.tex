@@ -13,7 +13,7 @@
 \index{software}
 
 Aleph Objects, Inc., the maker of the LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ, completely supports free/libre hardware and software. Along with the TAZ being a free/libre hardware design, it has been tested to work with 100\% free/libre software. Our source code and design files are hosted on our development server found at \texttt{http://devel.lulzbot.com}.
-\glossary{free/libre}{Free/Libre hardware and software can be thought of as "free as in free speech, not just free as in free beer", although most free/libre software is available for no cost. Libre hardware designs can be copied, modified and are usually available for download. Free/Libre software can be used in a similar fashion.}
+\glossary{free/libre}{Free/Libre hardware and software can be thought of as ``free as in free speech, not just free as in free beer'', although most free/libre software is available for no cost. Libre hardware designs can be copied, modified and are usually available for download. Free/Libre software can be used in a similar fashion.}
 To operate your desktop 3D printer you will need to install a few software packages onto your PC. You will need a 3D printer host, an \texttt{.STL} to \texttt{.gcode} generator, and optional CAD or 3D modeling software.
 \glossary{.gcode}{The file extension for G-Code files}
 \glossary{GCODE}{The common name for the most widely used CNC programming language.}
@@ -68,7 +68,7 @@ Linux and Mac OSX users will not need to install a driver to communicate with th
 %%%% Change the following section when Cura.tex can be replaced by the standalone version. %%%%
 
 \index{Cura}
-\input{Cura}   
+\input{Cura}
 %%%% End Cura Section %%%%
 
 \index{pronterface}
@@ -114,7 +114,7 @@ Printrun contains several different applications that can be used to control the
 
 \subsubsection{Installing from source}
 \item Using Git, in a terminal issue the following command: \texttt{git clone https://github.com/kliment/printrun.git}
-\item Once downloaded, change to the Printrun directory. You will need to ensure that the following dependencies are met. They are listed in the README.md file. You can use this command to install the dependencies: 
+\item Once downloaded, change to the Printrun directory. You will need to ensure that the following dependencies are met. They are listed in the README.md file. You can use this command to install the dependencies:
 \texttt{sudo apt-get install python-serial python-wxgtk2.8 python-pyglet python-tornado python-setuptools python-libxml2 python-gobject python-pip avahi-daemon libavahi-compat-libdnssd1}
 followed by:
 \texttt{pip install -r requirements.txt}
@@ -153,7 +153,7 @@ The movement controls are on the left hand side, with the G-code preview window 
 \index{port}
 \index{baud rate}
 \glossary{Baud Rate}{Refers to the speed at which the host controller communicates with the 3d Printer electronics.}
-To start up the printer, first you will need to connect to the printer with Printrun. Make sure you have connected the USB cable from your PC to the printer before launching Printrun. If not, close Printrun, connect the USB cable, and relaunch Printrun. To connect to the printer, select the correct port by using the drop down arrow and selecting the active port, generally \texttt{/dev/ttyACM0}). On other operating systems the port may be named such as \texttt{COM1} or \texttt{tty.usbserial-USB-ID}. The \texttt{Port} button will refresh the Port listing. Once selected choose the default \texttt{115200} buad rate and press \texttt{Connect}. Pronterface will open a connection to the printer and display firmware information in the Log window. 
+To start up the printer, first you will need to connect to the printer with Printrun. Make sure you have connected the USB cable from your PC to the printer before launching Printrun. If not, close Printrun, connect the USB cable, and relaunch Printrun. To connect to the printer, select the correct port by using the drop down arrow and selecting the active port, generally \texttt{/dev/ttyACM0}). On other operating systems the port may be named such as \texttt{COM1} or \texttt{tty.usbserial-USB-ID}. The \texttt{Port} button will refresh the Port listing. Once selected choose the default \texttt{115200} buad rate and press \texttt{Connect}. Pronterface will open a connection to the printer and display firmware information in the Log window.
 
 In the text output window you will see multiple return lines. If you see \texttt{Printer is now online} you have successfully connected to the printer. The printer control buttons on the left will also darken and become click-able after connecting. If nothing is displayed in the Log window verify you have the correct port and connection speed selected. When you need to disconnect the printer simply press the \texttt{Disconnect} button.
 
@@ -165,7 +165,7 @@ In the text output window you will see multiple return lines. If you see \texttt
 \label{fig:Printrun-labels}
 \end{figure}
 
-\subsection{Movement} 
+\subsection{Movement}
 %\begin{figure}[hbt]
 \begin{figure}[H]
 \centering
@@ -175,21 +175,21 @@ In the text output window you will see multiple return lines. If you see \texttt
 \end{figure}
 
 \subsubsection{Motors off}
-The TAZ 3D printer can be moved on all three axes independently. If you would like to do so by hand, use the \texttt{Motors off} button to unlock all the stepper motors. Once unlocked they can be moved by hand. Keep in mind that there is no positional feedback, so if you move an axis you will need to re-home in order to re-establish the hot end's position. 
+The TAZ 3D printer can be moved on all three axes independently. If you would like to do so by hand, use the \texttt{Motors off} button to unlock all the stepper motors. Once unlocked they can be moved by hand. Keep in mind that there is no positional feedback, so if you move an axis you will need to re-home in order to re-establish the hot end's position.
 
 \subsubsection{mm/min XY:/ Z:}
 These settings control the manual jog speeds when driven with Pronterface. Use caution when changing these figures. Moving the axes too fast can cause the printer to miss steps. If that occurs with the Z axis, it can potentially cause the Z axis to become out of square.
 
 \subsubsection{Homing}
 \index{end stops}
-Caution: when homing, the axis will continue to move in the negative direction until the end stop switch is activated. If the printer is ever transported make sure the end stop switches are clear before resuming printing. If an axis has missed an end stop and is continuing to try to move in the negative direction, immediately turn the power switch to the off position. 
+Caution: when homing, the axis will continue to move in the negative direction until the end stop switch is activated. If the printer is ever transported make sure the end stop switches are clear before resuming printing. If an axis has missed an end stop and is continuing to try to move in the negative direction, immediately turn the power switch to the off position.
 
-Each axes can be homed either individually or together. Press the \texttt{Home X} button to move the X axis to the left until it activates the end stop. Once the X axis end stop is activated, the X axis carriage will 'bounce'- it will move over and move back to the home position more slowly. Press the \texttt{Home Y} button to home the Y axis. The Y axis platform will move away from you towards the rear of the printer. The Z home button functions the same, but the Z trigger cannot be adjusted manually on the printer and uses the automatic bed-compensating routine at the beginning of each print.
+Each axes can be homed either individually or together. Press the \texttt{Home X} button to move the X axis to the left until it activates the end stop. Once the X axis end stop is activated, the X axis carriage will `bounce'- it will move over and move back to the home position more slowly. Press the \texttt{Home Y} button to home the Y axis. The Y axis platform will move away from you towards the rear of the printer. The Z home button functions the same, but the Z trigger cannot be adjusted manually on the printer and uses the automatic bed-compensating routine at the beginning of each print.
 
 \subsubsection{X/Y/Z Axes Movement Controls}
 Prior to moving the X, Y, or Z axis, make sure that you home each axis. The X, Y and Z axes can be moved utilizing the circular movement controls. Each axis can be moved in either fine moves or large moves, ranging from 0.1mm to 100mm.  For example, to move the \texttt{Y Axis} towards you, move your mouse to the \texttt{+y} section until both the \texttt{+y} and the \texttt{100} are highlighted then select that ring section. To move the \texttt{Y axis} away from you, move your mouse to the \texttt{-y} section until both the \texttt{-y} and the \texttt{100} are highlighted then select that ring section. The X axis can be moved in a similar fashion.
 
-The Z axis movement control operates similarly, but the movement scale is different. The Z axis will move in 0.1mm, 1mm and 10mm increments. The top half of the movement bar will move the Z axis up, by the selected units, while the lower half will move the Z axis down, by the selected units. 
+The Z axis movement control operates similarly, but the movement scale is different. The Z axis will move in 0.1mm, 1mm and 10mm increments. The top half of the movement bar will move the Z axis up, by the selected units, while the lower half will move the Z axis down, by the selected units.
 
 
 
@@ -222,7 +222,7 @@ Slic3r includes very simple settings that allow you to easily refine prints. You
 
 \index{configuration}
 \subsection{Loading Configurations}
-To load configurations, press the \texttt{Load Config...} button. In the file browser that opens, locate the downloaded configuration files. Select the configuration file that matches the nozzle size currently installed on the printer (0.5-mm nozzle is installed by default). Press \texttt{Open} and the pre-defined configuration will load into Slic3r. You can also save custom configurations for yourself by pressing the \texttt{Export Config...} button. A file browser will open that allows you to define a name and save your custom configuration. 
+To load configurations, press the \texttt{Load Config...} button. In the file browser that opens, locate the downloaded configuration files. Select the configuration file that matches the nozzle size currently installed on the printer (0.5-mm nozzle is installed by default). Press \texttt{Open} and the pre-defined configuration will load into Slic3r. You can also save custom configurations for yourself by pressing the \texttt{Export Config...} button. A file browser will open that allows you to define a name and save your custom configuration.
 
 \index{STL}
 \index{plater}
@@ -246,7 +246,7 @@ Once you have finished setting your part(s) in Plater you can generate the .gcod
 \index{Printrun}
 Website: \texttt{http://www.github.com/kliment/Printrun}
 
-The host software, Printrun, can be used to start up and control your 3D printer 
+The host software, Printrun, can be used to start up and control your 3D printer
 (Figure \ref{fig:Printrun}, page \pageref{fig:Printrun}).
 \begin{figure}[hbt]
 \centering
@@ -285,7 +285,7 @@ All of the printer controls can be found on the left side of the Printrun interf
 To set the hot end and print surface temperature, first click the \texttt{Monitor Printer} check box on. This will enable the printer temperature bars and graph. The hot end and print surface controls are labeled \texttt{Heater} and \texttt{Bed}. Select the temperature setting by using the pull-down menu for pre-defined temperature settings. You can also set custom temperature settings by typing into the temperature box.
 
 \index{temperature}
-To turn on the hot end and/or printer surface, click the respective \texttt{Set} button. The \texttt{Set} button will highlight orange when the temperature is set to "On" for that component. When the hot end or print surface is set to "On" you will see the temperature bar and graph display the set temperature and the current temperature. When both components have reached the correct temperature, the printer is ready for printing. Clicking the \texttt{Off} button will turn off that component and highlight the \texttt{Off} button blue.
+To turn on the hot end and/or printer surface, click the respective \texttt{Set} button. The \texttt{Set} button will highlight orange when the temperature is set to ``On'' for that component. When the hot end or print surface is set to ``On'' you will see the temperature bar and graph display the set temperature and the current temperature. When both components have reached the correct temperature, the printer is ready for printing. Clicking the \texttt{Off} button will turn off that component and highlight the \texttt{Off} button blue.
 
 \index{extrude}
 \index{hot end}
@@ -303,7 +303,7 @@ Each quadrant is split into four sections that control the length of movement by
 The linear control bar to the right controls the Z axis. The Z axis is also separated into multiple movement lengths: 0.1mm, 1mm, and 10mm. The upper three buttons move the Z axis up and away from the printer surface; the three lower buttons move the Z axis closer to the print surface.
 
 \index{home}
-The four triangular buttons around the circular pattern are the axes home buttons. Each home button will move that axis in the negative direction until the end stop is activated. There is a home button for the X, Y, and Z axes. There is also a white "Home ALL" button that homes all of the axes at once.
+The four triangular buttons around the circular pattern are the axes home buttons. Each home button will move that axis in the negative direction until the end stop is activated. There is a home button for the X, Y, and Z axes. There is also a white ``Home ALL'' button that homes all of the axes at once.
 \end{comment}
 
 
@@ -380,7 +380,7 @@ Shapesmith is a web-based 3D modeling software. This means there is no required 
 \index{Apple OS X}
 Website: \texttt{http://octoprint.org/}
 
-Octoprint is a printer host that uses a web-based interface to access and control the 3D printer. Added web-cam functionality allows for time-lapse videos and a live stream. Octoprint will run on Windows, Apple and Linux based computers and can even run well on a Beagle Bone Black or a RaspberryPi (inexpensive business-card sized computers). 
+Octoprint is a printer host that uses a web-based interface to access and control the 3D printer. Added web-cam functionality allows for time-lapse videos and a live stream. Octoprint will run on Windows, Apple and Linux based computers and can even run well on a Beagle Bone Black or a RaspberryPi (inexpensive business-card sized computers).
 
 \subsection{BotQueue}
 \index{BotQueue}
@@ -399,4 +399,3 @@ Botqueue works well for those users wanting to have a web-based multiple 3D prin
 Website: \texttt{http://www.mattercontrol.com/}
 
 MatterControl is another printer host that currently runs on Windows and Apple computers. It features 2D and 3D model viewing, a print queue and print file organization and searching.
-
