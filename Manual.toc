@@ -41,7 +41,7 @@
 \contentsline {subsection}{Recommended Temperatures}{26}
 \contentsline {section}{\numberline {1.8}Removing Your First Print}{26}
 \contentsline {section}{\numberline {1.9}Full Settings}{27}
-\contentsline {subsection}{View in Full Settings}{28}
+\contentsline {subsection}{View in Full Settings}{27}
 \contentsline {section}{\numberline {1.10}Basic Tab Options}{28}
 \contentsline {subsubsection}{Layer Height}{28}
 \contentsline {subsubsection}{Shell Thickness}{29}
