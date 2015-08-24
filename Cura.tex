@@ -18,18 +18,21 @@
 \subsection{Setup Cura}
 \index{Installation}
 Cura is available for download on our website at \texttt{lulzbot.com/cura}. When installing, it is recommended to uninstall any previous versions of Cura you may have been using. 
-When first opening Cura, you will be prompted to go through the \texttt{First run wizard}. This will consist of selecting your printer and then your nozzle size.
+When first opening Cura, you will be prompted to go through the \texttt{First run wizard}. This will consist of selecting your printer, hotend type, extruder type, and then your nozzle size.
 
-\textcolor{red}{It is important to select the correct printer and nozzle size, as Cura uses custom profiles and machine settings based upon which printer and nozzle you are running.}
+\textcolor{red}{It is important to select the correct printer, hotend, toolhead, and nozzle size as Cura uses custom profiles and machine settings based upon which printer, hotend, toolhead, and nozzle you are running.}
 
 \begin{itemize}
 \item Download the appropriate installer for your computer operating system. Instructions on installation for each operating system is available at \texttt{http://LulzBot.com/cura}.
 \item Install Cura by double clicking on the installer.
 %\item Once your language has been selected, select \texttt{Next}.
 %\item Select \texttt{Lulzbot Mini}.
-\item Select \texttt{LulzBot TAZ}.  
-\item Once the proper printer is selected, select \texttt{Next}.
-\item Choose the appropriate nozzle size for your TAZ, select \texttt{Next}. 
+\item Select \texttt{LulzBot TAZ 5}. Once the proper printer is selected, select \texttt{Next}.
+\item Choose the correct hotend, and select \texttt{Next}
+\item Select the appropriate toolhead for your TAZ, select \texttt{Next}.
+\item Choose the correct nozzle size for your machine. If you are not sure what size your printer has, contact us at \texttt{Support@lulzbot.com}
+\item The final step will be a firmware update. \textcolor{red}{Skip this step if you are not switching to different toolheads.} If you are adding on a different toolhead, please be sure to update the firmware.
+\item Slecect finish, and you are ready for your first print!
 \end{itemize}
 
 
@@ -237,7 +240,7 @@ Your TAZ 3D printer has the ability to print directly from a computer using the 
 \index{SD card}
 \index{SD}
 
-Save your Gcode file to your SD card. Select \texttt{File} > \texttt{Save Gcode} and choose the SD card location. Insert the SD Card into the Graphical LCD Controller.
+Save your Gcode file to your SD card. Select \texttt{File} > \texttt{Save Gcode} and choose the SD card location. Insert the SD Card into the Graphical LCD Controller. 
 
 \subsection{Set Temperature}
 
@@ -263,7 +266,7 @@ Connect your 3D printer to a computer using a USB cable, power it on and select 
 
 \subsection{Pausing Midprint}
 \index{Pause}
-You will notice after starting your print, the print button has changed to a pause button. This will pause your print after it has run through its Gcode buffer. Cura will remember the location of your printheads X and Y coordinates if moved through Cura. This allows you to move the printhead away from your print and change filaments, colors, etc. When you hit resume, Cura will bring the printhead back to the original (X,Y) before resuming. Disabling the motors, and manually moving the printhead will cause Cura to lose the (X,Y) positioning. \texttt{Cura will NOT remember any Z movements}. If you would like to move in the Z direction, be sure to make the opposite movement before resuming.
+You will notice after starting your print, the print button has changed to a pause button. This will pause your print after it has run through its Gcode buffer. Cura will remember the location of your printheads X and Y coordinates if moved through Cura. This allows you to move the printhead away from your print and change filaments, colors, etc. When you hit resume, Cura will bring the printhead back to the original (X,Y) before resuming. Disabling the motors, and manually moving the printhead will cause Cura to lose the (X,Y) positioning. \textcolor{red}{Cura will NOT remember any Z movements}. If you would like to move in the Z direction, be sure to make the opposite movement before resuming.
 
 \subsection{Recommended Temperatures}
 \index{Temperatures}
