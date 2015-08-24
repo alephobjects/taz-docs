@@ -227,11 +227,15 @@ Once you have your model, profile, and filament loaded, it is time for your firs
 
 %\subsection{TAZ}
 
-The TAZ has the ability to print directly from their computer using the USB cable, or if they would like to print from their SD card.
+Your TAZ 3D printer has the ability to print directly from a computer using the included USB cable, or directly from the SD card by using teh Graphical LCD controller.
 
 %%%% SD Printing %%%%
 \subsection{Printing from SD Card}
 \index{Printing from SD}
+\index{Graphical LCD controller}
+\index{GLCD}
+\index{SD card}
+\index{SD}
 
 Save your Gcode file to your SD card. Select \texttt{File} > \texttt{Save Gcode} and choose the SD card location. Insert the SD Card into the Graphical LCD Controller.
 
@@ -259,7 +263,7 @@ Connect your 3D printer to a computer using a USB cable, power it on and select 
 
 \subsection{Pausing Midprint}
 \index{Pause}
-You will notice after starting your print, the print button has changed to a pause button. This will pause your print after it has run through its Gcode buffer. Cura will remember the location of your printheads X and Y coordinates if moved through Cura This allows you to move the printhead away from your print and change filaments, colors, etc. When you hit resume, Cura will bring the printhead back to the original (X,Y) before resuming. Disabling the motors, and manually moving the printhead will cause Cura to lose the (X,Y) positioning. \texttt{Cura will NOT remember any Z movements}. If you would like to move in the Z direction, be sure to make the opposite movement before resuming.
+You will notice after starting your print, the print button has changed to a pause button. This will pause your print after it has run through its Gcode buffer. Cura will remember the location of your printheads X and Y coordinates if moved through Cura. This allows you to move the printhead away from your print and change filaments, colors, etc. When you hit resume, Cura will bring the printhead back to the original (X,Y) before resuming. Disabling the motors, and manually moving the printhead will cause Cura to lose the (X,Y) positioning. \texttt{Cura will NOT remember any Z movements}. If you would like to move in the Z direction, be sure to make the opposite movement before resuming.
 
 \subsection{Recommended Temperatures}
 \index{Temperatures}
@@ -275,13 +279,13 @@ When preparing your printer for operation, please be sure to set your temperatur
  \hline
  HIPS & Clean PEI & 240-260 & 110 & 50\\
  \hline
- Laywood & Clean PEI & 175-195 & 60 & 45 \\
+ Laywoo-D3 & Clean PEI & 175-195 & 60 & 45 \\
  \hline
  Laybrick & Clean PEI & 175-195 & 60 & 45 \\
  \hline 
- Magnetic Iron & Clean PEI & 220-230 & 60 & 45 \\
+ Magnetic Iron PLA & Clean PEI & 220-230 & 60 & 45 \\
  \hline
- Stanless Steel & Clean PEI & 220-230 & 60 & 45 \\
+ Stanless Steel PLA & Clean PEI & 220-230 & 60 & 45 \\
  \hline
  T-Glase & Gluestick & 240-260 & 60 & 45 \\
  \hline
@@ -291,8 +295,10 @@ When preparing your printer for operation, please be sure to set your temperatur
  \hline
  PolyCarbonate & Gluestick & 260-300 & 110 & 50 \\ 
  \hline
- PolyCarbone + ABS & Gluestick & 260-280 & 110 & 50 \\
+ PolyCarbonate + ABS & Gluestick & 260-280 & 110 & 50 \\
  \hline 
+ Conductive PLA & Clean PEI & 215-230 & 60 & 50 \\
+ \hline
  N-Vent & Gluestick & 220-260 & 110 & 50 \\ [1ex]
  \hline
  
@@ -685,7 +691,7 @@ This will ignore all internal holes of the model and only focus on the external 
 
 \subsection{Keep Open Faces}
 \index{Open Faces}
-This will ignore all manifold errors in the object. It can create issues generating the Gcode as Cura does not know how to interpret the open holes. This option should only be used if you are sure that the holes in the mesh are intended. In general, you should not use this option. %Really. Don't.
+This will ignore all manifold errors in the object. It can create issues generating the Gcode as Cura does not know how to interpret the open holes. This option should only be used if you are sure that the holes in the mesh are intended. In general, you should not use this option.
 
 \subsection{Extensive Stiching}
 \index{Extensive Stiching}
@@ -707,6 +713,7 @@ In order to use the Dual Extruder you will need to update your firmware to activ
 \item Once the progress bar has completed, you will be done!  
 \item You can verify this by looking at the LCD screen. You should now see three temperature readings. 
 \end{itemize} 
+You can revert the firmware back to the stock configuration for your LulzBot\textsuperscript{\miniscule{\texttrademark} 3D printer by selecting \texttt{Machine > Install default firmware}. Doing so will overwrite any of your current firmware settings.
 
 \subsection{Preparing Cura}
 In order to slice for a second toolhead, you will need to let Cura know that you have added a second toolhead. To do this, please go to \texttt{Machine > Machine Settings > Extruder Count > 2.} Select Ok to close out the screen. Next you will need to open the Machine settings again. You will now notice a new section labeled \texttt{Extruder 2.} Within it you will see an \texttt{X offset and Y offset.} Please set the \texttt{X offset to 0} and the \texttt{Y offset to -50}. 
