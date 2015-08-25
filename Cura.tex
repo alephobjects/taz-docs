@@ -739,12 +739,12 @@ In order to slice for a second tool head, you will need to let Cura know that yo
 Each individual extruder will have its own unique set of Esteps. To determine this, you will need to tell the extruder to take in 100mm of filament.
 \begin{itemize}
 \item Load the outer and inner calibrations squares into Cura \texttt{https://www.lulzbot.com/support/downloads}
-\item Open the Printer Interface window and set temperatures for both heads. Switch between hot ends by entering \texttt{T0} for the rear extruder into the command line terminal. Press \texttt{enter}.
-\item Type \texttt[T1} for the front extruder into the command line terminal. Press \texttt{enter}.
+\item Open the Printer Interface window and set temperatures for both heads. Switch between hot ends by entering ``\texttt{T0}'' for the rear extruder into the command line terminal. Press \texttt{enter}.
+\item Type ``\texttt{T1}'' for the front extruder into the command line terminal. Press \texttt{enter}.
 \item Make two marks at 100mm and 120mm on the filament from the top surface of each extruder.
 \item Once at the correct extrusion temperature type into the command line ``\texttt{G92}'' and press \texttt{enter}. Then ``\texttt{G1 E100 F60}'' and press \texttt{enter}.
 \item Switch to the other tool head by entering ``\texttt{T0}'' for the rear or ``\texttt{T1}'' for the front. 
-\item Type into the command line ``\texttt{G92'' and press \texttt{enter}.
+\item Type into the command line ``\texttt{G92}'' and press \texttt{enter}.
 \item Type ``\texttt{G1 E100 F60}'' and press \texttt{enter}.
 \item Measure the distance that the tool head over or under extruded. You will need to adjust your Esteps by 8 up or down for each mm it under or over extruded.
 \item Update your Esteps for the rear extruder and E1steps for the front extruder through your LCD screen. \texttt{Configuration > Advanced Settings > E/E1 Steps > New Number}. Push in on the knob to exit out of the Esteps entry.
