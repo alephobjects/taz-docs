@@ -709,11 +709,15 @@ The LulzBot TAZ has the ability to add dual extrusion functionality with the Dua
 In order to use the Dual Extruder you will need to update your firmware to activate the second hot end.
 
 \begin{itemize}
-\item Download the printer appropriate firmware from \texttt{https://www.lulzbot.com/support/firmware-flashing-through-cura} Be sure it is saved as a .hex file.
-\item Have the printer turned on and connected to your computer through USB.
-\item Open Cura and select \texttt{Machine > Install Custom Firmware}
-\item Select the appropriate hex file
-\item Once the progress bar has completed, you will be done!  
+\item Power on your 3D printer and connect it to your computer through USB.
+\item Open Cura and select \texttt{Machine > Install Custom Firmware}.
+\item Select \texttt{Machine > Add New Machine}.
+\item The next window that opens will display several different LulzBot 3D printers. Select your model, the \texttt{TAZ 5}.
+\item Choose the correct hot end and select \texttt{Next}.
+\item Select the appropriate tool head for your TAZ and select \texttt{Next}.
+\item Choose the correct nozzle size for your machine. If you are not sure what size your printer has use your serial number to determine the nozzle size with the information found at \texttt{https://www.lulzbot.com/printer-identification}.
+\item The final step will be a firmware update. Choose \texttt{Flash the firmware} to continue with the update.
+\item Once the progress bar has completed select \texttt{Finish}.  
 \item You can verify this by looking at the LCD screen. You should now see three temperature readings. 
 \end{itemize} 
 You can revert the firmware back to the stock configuration for your LulzBot\textsuperscript{\miniscule{\texttrademark}} 3D printer by selecting \texttt{Machine > Install default firmware}. Doing so will overwrite any of your current firmware settings.
