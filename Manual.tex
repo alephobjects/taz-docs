@@ -94,11 +94,12 @@
 \newif\iftroubleshooting\troubleshootingfalse %false 
 \newif\ifsource\sourcetrue %true
 \newif\ifsupport\supporttrue %true
+\newif\ifwarranty\warrantytrue %true
 \newif\ifcontact\contacttrue %true
 \newif\ifcolophon\colophontrue %true
 %% or just render everything:
 \newif\ifrendereverything\rendereverythingfalse
-\ifrendereverything \titletrue \copyrighttrue \warningstrue \setuptrue \slicertrue \softwaretrue \filamenttrue \firstprinttrue \maintenancetrue \advancedtrue \faqtrue \troubleshootingtrue \colophontrue \fi
+\ifrendereverything \titletrue \copyrighttrue \warningstrue \setuptrue \slicertrue \softwaretrue \filamenttrue \firstprinttrue \maintenancetrue \advancedtrue \faqtrue \troubleshootingtrue \sourcetrue \supporttrue \warrantytrue \colophontrue \fi
 %%% END INCLUDED FILES %%%
 
 \setcounter{secnumdepth}{3}
@@ -375,6 +376,15 @@
 \thispagestyle{empty}
 \markboth{3D Printer Support}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
 {\include{Support}}
+\fi
+%%% END SUPPORT %%%
+
+%%% WARRANTY %%%
+\ifwarranty
+\chapter{\emph{Warranty Information}}
+\thispagestyle{empty}
+\markboth{Warranty Information}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+{\include{Warranty}}
 \fi
 %%% END SUPPORT %%%
 
