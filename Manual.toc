@@ -42,15 +42,15 @@
 \contentsline {section}{\numberline {1.8}Removing Your First Print}{27}
 \contentsline {section}{\numberline {1.9}Full Settings}{28}
 \contentsline {subsection}{View in Full Settings}{28}
-\contentsline {section}{\numberline {1.10}Basic Tab Options}{29}
-\contentsline {subsubsection}{Layer Height}{29}
-\contentsline {subsubsection}{Shell Thickness}{29}
+\contentsline {section}{\numberline {1.10}Basic Tab Options}{28}
+\contentsline {subsubsection}{Layer Height}{28}
+\contentsline {subsubsection}{Shell Thickness}{30}
 \contentsline {subsubsection}{Enable Retraction}{30}
 \contentsline {subsubsection}{Bottom/Top Thickness (mm)}{30}
 \contentsline {subsubsection}{Fill Density}{30}
 \contentsline {subsubsection}{Perimeters Before Infill}{30}
 \contentsline {subsubsection}{Print Speed (mm/s)}{30}
-\contentsline {subsubsection}{Printing Temperature}{30}
+\contentsline {subsubsection}{Printing Temperature}{31}
 \contentsline {subsubsection}{Bed Temperature}{31}
 \contentsline {subsection}{Support Type}{31}
 \contentsline {subsubsection}{Touching Buildplate}{31}
@@ -70,7 +70,7 @@
 \contentsline {subsection}{Dual Extrusion Overlap}{35}
 \contentsline {subsection}{Travel Speed}{35}
 \contentsline {subsection}{Bottom Layer Speed}{35}
-\contentsline {subsection}{Infill Speed}{36}
+\contentsline {subsection}{Infill Speed}{35}
 \contentsline {subsection}{Outer Shell Speed}{36}
 \contentsline {subsection}{Inner Shell Speed}{36}
 \contentsline {subsection}{Minimal Layer Time}{36}
