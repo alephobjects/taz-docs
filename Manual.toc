@@ -8,6 +8,7 @@
 \contentsline {subsection}{\leavevmode {\color {red}Pinch Hazard}}{x}
 \contentsline {subsection}{\leavevmode {\color {red}Static Charge}}{xi}
 \contentsline {subsection}{\leavevmode {\color {red}Age Warning}}{xi}
+\contentsline {subsection}{\leavevmode {\color {red}Modifications and Repairs Warning}}{xi}
 \contentsline {subsection}{Federal Communications Commission Statement}{xi}
 \contentsline {chapter}{\chapternumberline {1}\emph {3D Printer Software}}{13}
 \contentsline {section}{\numberline {1.1}Software Overview}{14}
