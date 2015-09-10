@@ -27,11 +27,10 @@ When first opening Cura, you will be prompted to go through the \texttt{First ru
 \item Install Cura by double clicking on the installer.
 %\item Once your language has been selected, select \texttt{Next}.
 %\item Select \texttt{LulzBot Mini}.
-\item Select \texttt{LulzBot TAZ 5}. Once the proper printer is selected, select \texttt{Next}.
-\item Choose the correct hot end, and select \texttt{Next}.
-\item Select the appropriate tool head for your TAZ, select \texttt{Next}.
-\item Choose the correct nozzle size for your machine. If you are not sure what size your printer has use your serial number to determine the nozzle size with the information found at \texttt{https://www.lulzbot.com/printer-identification}.
-\item The final step will be a firmware update. \textcolor{red}{Skip this step if you are not switching to different tool heads.} If you are adding on a different tool head, please be sure to update the firmware.
+\item Select \texttt{LulzBot TAZ 4 or 5}, then select \texttt{Next}.
+\item The TAZ 5 comes with PEI and a Hex V2. Choose this and select \texttt{Next}.
+\item Choose the correct nozzle size for your machine. The TAZ 5 comes with a \texttt{0.5mm nozzle} standard.
+%\item The final step will be a firmware update. \textcolor{red}{Skip this step if you are not switching to different tool heads.} If you are adding on a different tool head, please be sure to update the firmware.
 \item Select finish.
 \end{itemize}
 
@@ -44,7 +43,7 @@ Once the installation wizard finishes you can move forward with your first print
 \index{Quick Print Settings}
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Quick_Settings_TAZ.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{quickprintfirstrun.png}
 \caption{Quick Print Settings}
 \label{fig:Cura}
 \end{figure} 
@@ -60,15 +59,15 @@ The print quality settings can be found in the top left-hand corner of the windo
 \begin{description}
 \item[High Detail] \hfill \\
 Designed to give greater detail and finer objects. This will have a smaller layer height, which will make each layer thinner, so that curves seem more natural and walls seem less noticeable. This setting will also require more layers to be laid down, increasing overall print time.
-\index{High Quality}
+\index{High Detail}
 
 \item[Standard] \hfill \\
 Designed to give a medium resolution, by increasing the layer height and print speeds. This will make the organic curves slightly more step-like than the fine setting, but will reduce printing time.
-\index{Medium Quality}
+\index{Standard Quality}
 
 \item[High Speed] \hfill \\
 Designed for the fast prints, where overall model finish is not of concern. Most commonly used for quick iteration of designs found in rapid prototyping.
-\index{Fast Quality}
+\index{High Speed}
 \end{description}
 
 \subsection{Material Selection}
@@ -98,7 +97,7 @@ Select the STL model you would like to print. Either use the \texttt{Load Model}
 Move your model to change where it is printed on the build plate. Do this by left clicking on the model and dragging it to the desired location. The \texttt{black} outlined corner of the 3D print bed view represents the front left hand corner of the build plate on your printer. By holding down the right mouse button and dragging, you can view your model from different angles. %Not sure if this last sentence should be reworked or put in a separate section.
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Options_TAZ.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{optionsTAZ.png}
 \caption{Options after selecting model}
 \label{fig:Orientation}
 \end{figure}
@@ -111,7 +110,7 @@ Move your model to change where it is printed on the build plate. Do this by lef
 The \texttt{Rotate} button will give you the ability to orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red circle} will allow you to rotate around the \textcolor{red}{Z axis}. The \textcolor{yellow1}{Yellow circle} will rotate around the \textcolor{yellow1}{Y axis}. The \textcolor{green1}{Green circle} will rotate around the \textcolor{green}{X axis}. Cura defaults to 15 degree increments. Hold \texttt{Shift} to rotate by \texttt{One Degree Increments}.
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Rotate_TAZ.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{rotateTAZ.png}
 \caption{Rotating your Model}
 \label{fig:Rotating your Model}
 \end{figure}
@@ -138,7 +137,7 @@ The \texttt{Reset} button will return your model to the original orientation as 
 The \texttt{Scale} button displays the model dimensions, along with the ability to scale along the X Y or Z axes. Anything \texttt{below} the number \texttt{1.0} will reduce the objects size, while anything \texttt{above} the number \texttt{1.0} will increase the objects size. As a default, it will be set to uniform scaling. This will cause the X Y and Z axes to be scaled by the same amount when you make a change to any of them. To disable this, select the lock in the lower section of the scaling window. 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Scale_TAZ.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{scaleTAZ.png}
 \caption{Scaling your Model}
 \label{fig:Scaling your Model}
 \end{figure}
@@ -152,7 +151,7 @@ This is the standard view and shows the solid outer surfaces of the model. (Fig.
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{View_TAZ.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{viewTAZ.png}
 \caption{View in Normal Mode}
 \label{fig:Normal View}
 \end{figure}
@@ -162,7 +161,7 @@ This is the standard view and shows the solid outer surfaces of the model. (Fig.
 Overhang mode shows where your model may need support material. In Fig. \ref{fig:Overhang_View}, page \pageref{fig:Overhang_View} the red highlighted areas show overhangs and more severe angles and areas where support material is recommended. The overhang threshold can be defined in Expert Settings.
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{overhang.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{overhangTAZ.png}
 \caption{View in Overhang}
 \label{fig:Overhang_View}
 \end{figure}
@@ -172,7 +171,7 @@ Overhang mode shows where your model may need support material. In Fig. \ref{fig
 Ghost view mode makes the model translucent to allow you to see what is behind it.
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{Ghost.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{ghostTAZ.png}
 \caption{View in Ghost}
 \label{fig:Ghost View}
 \end{figure}
@@ -182,7 +181,7 @@ Ghost view mode makes the model translucent to allow you to see what is behind i
 Xray is very similar to Ghost mode. It will allow you to see into objects, ensuring that inner details are correct.
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{Xray2.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{xrayTAZ.png}
 \caption{View in Xray}
 \label{fig:Xray View}
 \end{figure}
@@ -192,21 +191,21 @@ Xray is very similar to Ghost mode. It will allow you to see into objects, ensur
 To view the tool path of your print head and to ensure no skipped layers or gaps use this option. Use the slide bar on the right hand side of the window to move up and down through the tool path layers. Click the icon below it to view an individual layer at a time. If there is support activated in your model, it will be shown in blue.
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{NewLayer_TAZ.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{layersTAZ.png}
 \caption{View in Layers}
 \label{fig:Layers View}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{MidLayers2_TAZ.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{cumulativeTAZ.png}
 \caption{Viewing Cumulative Layers}
 \label{fig:Mid Layers View}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{IndividualLayer_TAZ.png}
+\includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{individualTAZ.png}
 \caption{Viewing Specific Layers}
 \label{fig:Viewing Specific Layer}
 \end{figure}
