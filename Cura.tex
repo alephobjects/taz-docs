@@ -714,28 +714,28 @@ In order to use the Dual Extruder you will need to update your firmware to activ
 
 \begin{itemize}
 \item Power on your 3D printer and connect it to your computer through USB.
-\item Select \texttt{Machine > Add New Machine}.
-\item The next window that opens will display several different LulzBot 3D printers. Select your model, the \texttt{TAZ 4 or 5 > Modified TAZ 5}.
-\item Choose the correct bed surface and select \texttt{Next}.
-\item Choose the correct hot end and select \texttt{Next}.
+\item Select \texttt{Machine > Machine Settings}.
+\item In the top righthand corner you will see a \textt{Change Toolhead} button, select this. 
+\item Next you will need to select the proper hotend type. Please compare photos with your existing toolhead. Choose the correct hot end and select \texttt{Next}.
+\item Select the photo that corresponds with your toolhead and press \texttt{Next}.
 %\item Select the appropriate tool head for your TAZ and select \texttt{Next}.
 %\item Choose the correct nozzle size for your machine. If you are not sure what size your printer has use your serial number to determine the nozzle size with the information found at \texttt{https://www.lulzbot.com/printer-identification}.
-\item The final step will be a firmware update. Choose \texttt{Flash the firmware} to continue with the update.
+\item The final step will be \texttt{flashing the firmware}. Choose \texttt{Flash the firmware} to be sure to update the printers firmware to the proper settings. \textcolor{red}{This must be done to allow your printer to operate properly.}
 \item Once the progress bar has completed select \texttt{OK > Next > Finish}.  
 \item You can verify this by looking at the LCD screen. You should now see three temperature readings. 
 \end{itemize} 
-You can revert the firmware back to the stock configuration for your LulzBot\textsuperscript{\miniscule{\texttrademark}} 3D printer by selecting \texttt{Machine > Install default firmware}. Doing so will overwrite any of your current firmware settings.
+You can revert the firmware back to the stock configuration for your LulzBot\textsuperscript{\miniscule{\texttrademark}} 3D printer by selecting \texttt{Machine > Machine Settings > Change Toolhead}. Doing so will overwrite any of your current firmware settings.
 
-\subsection{Preparing Cura}
-In order to slice for a second tool head, you will need to let Cura know that you have added a second tool head. 
-\begin{itemize} 
-\item Select \texttt{Machine > Machine Settings > Extruder Count > 2}.
-\item Select \texttt{Ok} to close out the screen.
-\item Select \texttt{Machine > Machine Settings} to open the Machine settings again. 
-\item A new section labeled \texttt{Extruder 2} is now present. Within it you will see an \texttt{X offset and Y offset}.
-\item Set the \texttt{X offset to 0} and the \texttt{Y offset to -50}.
-\item Select \texttt{Ok} to save your changes. The Machine settings window will close.
-\end{itemize} 
+%\subsection{Preparing Cura}
+%In order to slice for a second tool head, you will need to let Cura know that you have added a second tool head. 
+%\begin{itemize} 
+%\item Select \texttt{Machine > Machine Settings > Extruder Count > 2}.
+%\item Select \texttt{Ok} to close out the screen.
+%\item Select \texttt{Machine > Machine Settings} to open the Machine settings again. 
+%\item A new section labeled \texttt{Extruder 2} is now present. Within it you will see an \texttt{X offset and Y offset}.
+%\item Set the \texttt{X offset to 0} and the \texttt{Y offset to -50}.
+%\item Select \texttt{Ok} to save your changes. The Machine settings window will close.
+%\end{itemize} 
 
 
 \subsection{Calibrating Extruders}
@@ -780,6 +780,6 @@ When you are ready to produce your first dual extrusion print, you will need to 
 
 \subsection{Setting Dual Temps}
 \index{Setting Dual Temps}
-After your object has been merged as intended, you will need to set the individual temperatures for each print head. Open the Control Box as normal a normal print. In order to switch between which hot end you are heating, you will need to manually enter \texttt{T0} to set temps for the rear hot end, and \texttt{T1} to set temps for the front hot end. \texttt{The Bed temp can be set from either T0 or T1}. Once both print heads and the bed has reached temperature, go ahead and hit \texttt{Print.}
+After your object has been merged as intended, you will need to set the individual temperatures for each print head. In order to switch between which hot end you are heating, you will need to manually enter \texttt{T0} to set temps for the rear hot end, and \texttt{T1} to set temps for the front hot end. \texttt{The Bed temp can be set from either T0 or T1}. Once both print heads and the bed has reached temperature, go ahead and hit \texttt{Print.}
 
 If you have any questions or would like some tips using your dual extruder, reach out to your fellow forum users at \texttt{http://Forum.LulzBot.com}.
