@@ -44,7 +44,7 @@ If you'd like to translate the manual, please feel free to do so! Fork the proje
 Generating the manual:
 
 At the root directory of the manual, (../taz-docs/) in a terminal run:
-$: ./make-Manual-multiple.sh
+$: ./make-Manual.sh
 
 If you encounter any errors, look for the file name/line entry.
 
