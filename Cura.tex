@@ -29,8 +29,8 @@ When first opening Cura, you will be prompted to go through the \texttt{First ru
 \item Start Cura by launching it from your list of installed applications. If this is the first time that Cura has been used the ``Configuration Wizard'' window will open.
 %\item Once your language has been selected, select \texttt{Next}.
 %\item Select \texttt{LulzBot Mini}.
-\item Select \texttt{LulzBot TAZ 4 or 5}, then select \texttt{Next}.
-\item Select \texttt{Stock TAZ 5 (PEI and Hex V2)}. Press \texttt{Next}.
+\item Select \texttt{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ 4 or 5}, then select \texttt{Next}.
+\item Select \texttt{Stock TAZ 5 (PEI and V2)}. Press \texttt{Next}.
 \item Choose the correct nozzle size for your machine. Your TAZ 5 comes with a \texttt{0.5mm nozzle} standard.
 %\item The final step will be a firmware update. \textcolor{red}{Skip this step if you are not switching to different tool heads.} If you are adding on a different tool head, please be sure to update the firmware.
 \item Select finish.
@@ -54,7 +54,7 @@ After setting up Cura for the first time, you will be shown the main interface s
 \index{Quick Print Profile}
 \index{Resolution}
 \glossary{Resolution}{In general terms, the resolution you print at can be determined by the layer height you use. The LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ can print at a layer height of 0.05mm to 0.50mm.}
-The print quality settings can be found in the top left-hand corner of the window. For most filaments, there will be Standard, High Speed, and High Detail options. Some of the more exotic filaments may only have a Normal/Standard profile.
+The print quality settings can be found in the top left-hand corner of the window. For most filaments, there will be Standard, High Speed, and High Detail options. Some of the more exotic filaments may only have a Standard profile.
 
 \begin{description}
 \item[High Detail] \hfill \\
@@ -62,7 +62,7 @@ Designed to give greater detail and finer objects. This will have a smaller laye
 \index{High Detail}
 
 \item[Standard] \hfill \\
-Designed to give a medium resolution, by increasing the layer height and print speeds. This will make the organic curves slightly more step-like than the fine setting, but will reduce printing time.
+Designed to give a medium resolution by increasing the layer height and print speeds. This will make the organic curves slightly more step-like than the fine setting, but it will reduce printing time.
 \index{Standard Quality}
 
 \item[High Speed] \hfill \\
@@ -81,11 +81,11 @@ Choose your desired filament. The TAZ ships with a 1 meter sample of ABS, that s
 %%%% Saved for standalone Cura Manual %%%%
 %The TAZ and Mini are able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model could benefit from support material.
 %MINI% The Mini 3D printer is able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model could benefit from support material.
-The TAZ 3D printer is able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model could benefit from support material.
+The LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ 3D printer is able to print models that have angles and overhangs, even without support material. This will depend on the overhang distance and angle of your particular model file. Turn this option on if your model could benefit from support material.
 
 \subsection{Brim}
 \index{Brim}
-Brim is used to increase surface area of the part you're printing, thereby ensuring proper part adhesion. This will print a single layer high edge around the outside of the part, helping first layer adhesion and minimizing warping.
+Brim is used to increase surface area of the part you're printing, thereby ensuring proper part adhesion. This will print a single layer high edge around the base of the part, helping first layer adhesion and minimizing warping.
 
 \subsection{Load Model File}
 \index{Load Model}
@@ -103,11 +103,12 @@ Move your model to change where it is printed on the build plate. Do this by lef
 \end{figure}
 
 \subsubsection{Rotate}
+\index{Rotating Object}
 %%%% Alternate explanation %%%%
 %The \texttt{Rotate} button will give you the ability orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The red circle will allow you to rotate in the XY plane. The Yellow circle will rotate in the XZ plane. The Green circle will rotate in the YZ plane.
 \definecolor{yellow1}{cmyk}{0,0,1,0.30}
 \definecolor{green1}{rgb}{0.30,1,0.30}
-The \texttt{Rotate} button will give you the ability to orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red circle} will allow you to rotate around the \textcolor{red}{Z axis}. The \textcolor{yellow1}{Yellow circle} will rotate around the \textcolor{yellow1}{Y axis}. The \textcolor{green1}{Green circle} will rotate around the \textcolor{green}{X axis}. Cura defaults to 15 degree increments. Hold \texttt{Shift} to rotate by \texttt{One Degree Increments}.
+The \texttt{Rotate} button will give you the ability to orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red circle} will allow you to rotate around the \textcolor{red}{Z axis}. The \textcolor{yellow1}{Yellow circle} will rotate around the \textcolor{yellow1}{Y axis}. The \textcolor{green}{Green circle} will rotate around the \textcolor{green}{X axis}. Cura defaults to 15 degree increments. Hold \texttt{Shift} to rotate by \texttt{One Degree Increments}.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{rotateTAZ.png}
@@ -146,7 +147,9 @@ The \texttt{Scale} button displays the model dimensions, along with the ability 
 \index{View Options}
 This mode allows you to view your model in a variety of different ways. This can be helpful for spotting issues before the print even starts. 
 
-\subsection{Normal}
+\begin{description}
+\item[\texttt{Normal}] \hfill \\
+\index{Normal View}
 This is the standard view and shows the solid outer surfaces of the model. (Fig. \ref{fig:Normal View}, page \pageref{fig:Normal View}): 
 
 \begin{figure}[H]
@@ -156,8 +159,8 @@ This is the standard view and shows the solid outer surfaces of the model. (Fig.
 \label{fig:Normal View}
 \end{figure}
 
-\subsection{Overhang}
-\index{Overhang} 
+\item[\texttt{Overhang}] \hfill \\
+\index{Overhang View} 
 Overhang mode shows where your model may need support material. In Fig. \ref{fig:Overhang_View}, page \pageref{fig:Overhang_View} the red highlighted areas show overhangs and more severe angles and areas where support material is recommended. The overhang threshold can be defined in Expert Settings.
 \begin{figure}[H]
 \centering
@@ -166,8 +169,8 @@ Overhang mode shows where your model may need support material. In Fig. \ref{fig
 \label{fig:Overhang_View}
 \end{figure}
 
-\subsection{Ghost}
-\index{Ghost}
+\item[\texttt{Ghost}] \hfill \\
+\index{Ghost View}
 Ghost view mode makes the model translucent to allow you to see what is behind it.
 \begin{figure}[H]
 \centering
@@ -176,7 +179,7 @@ Ghost view mode makes the model translucent to allow you to see what is behind i
 \label{fig:Ghost View}
 \end{figure}
 
-\subsection{Xray}
+\item[\texttt{Xray}] \hfill \\
 \index{Xray}
 Xray is very similar to Ghost mode. It will allow you to see into objects, ensuring that inner details are correct.
 \begin{figure}[H]
@@ -186,8 +189,8 @@ Xray is very similar to Ghost mode. It will allow you to see into objects, ensur
 \label{fig:Xray View}
 \end{figure}
 
-\subsection{Layers}
-\index{Layers}
+\item[\texttt{Layers}] \hfill \\
+\index{Layers View}
 To view the tool path of your print head and to ensure no skipped layers or gaps use this option. Use the slide bar on the right hand side of the window to move up and down through the tool path layers. Click the icon below it to view an individual layer at a time. If there is support activated in your model, it will be shown in blue.
 \begin{figure}[H]
 \centering
@@ -209,6 +212,7 @@ To view the tool path of your print head and to ensure no skipped layers or gaps
 \caption{Viewing Specific Layers}
 \label{fig:Viewing Specific Layer}
 \end{figure}
+\end{description}
 
 \section{Starting Your First Print}
 \index{First Print}
@@ -231,6 +235,8 @@ Once you have your model, profile, and filament loaded, it is time for your firs
 
 Your TAZ 3D printer has the ability to print directly from a computer using the included USB cable, or directly from the SD card by using the Graphical LCD controller.
 
+
+
 %%%% SD Printing %%%%
 \subsection{Printing from SD Card}
 \index{Printing from SD}
@@ -239,11 +245,11 @@ Your TAZ 3D printer has the ability to print directly from a computer using the 
 \index{SD card}
 \index{SD}
 
-Insert the included SD card into your computer. Select \texttt{File} > \texttt{Save Gcode} and choose the SD card location to save your Gcode file to your SD card. Insert the SD Card into the Graphical LCD Controller. 
+Insert the included SD card into your computer. Select \texttt{File} > \texttt{Save Gcode} and choose the SD card location to save your Gcode file to your SD card. Safely eject the card from the computer, and insert it into the Graphical LCD Controller. 
 
 \subsection{Set Temperature}
 
-Turn on the heated bed and hot end by using the Graphical LCD controller and navigating to: \texttt{Temperature} > \texttt{Select Filament type}. If you are using other materials you can set your desired temperatures by going to \texttt{Temperature} > \texttt{Custom Temp} > \texttt{Nozzle/Bed}. Wait for your 3D printer to reach specified temperatures.
+Turn on the heated bed and hot end by using the Graphical LCD controller and navigating to: \texttt{Temperature} > \texttt{Select Filament type}. If you are using other than a preset material, you can set your desired temperatures by going to \texttt{Temperature} > \texttt{Custom Temp} > \texttt{Nozzle/Bed}. Wait for your 3D printer to reach specified temperatures.
 
 \subsection{Start Print}
 \index{printing}
@@ -251,10 +257,10 @@ Once at the desired printing temperature begin your print through your Graphical
 
 %%%% Tethered printing %%%%
 
-\subsubsection{Printing from USB Cable}
+\subsection{Printing from USB Cable}
 \index{Printing from USB}
 
-Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button at the top of the 3D viewing window. This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. Once it is operational, you will need to set your filament specific temperatures. The temperature box heats the hot end, while the bed temp sets the bed temperature. Your current temperatures will be listed in the top of the control box. Once your hot end and bed are heated, select \texttt{Print}. This will start the printing process.
+Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button at the top of the 3D viewing window. This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. Once it is operational, you will need to set your filament specific temperatures. The temperature box heats the hot end, while the bed temp sets the bed temperature. Your current temperatures will be listed in the top of the control box. Once your hot end and bed are heated, select \texttt{Print}. This will start the printing process. For recommended temperatures 
 
 \begin{figure}[H]
 \centering
@@ -269,7 +275,8 @@ Connect your 3D printer to a computer using a USB cable, power it on and select 
 
 \subsection{Recommended Temperatures}
 \index{Temperatures}
-When preparing your printer for operation, please be sure to set your temperatures, in Celsius, to the specific filament you are using. 
+When preparing your printer for operation, please be sure to set your temperatures, in Celsius, to the specific filament you are using.
+
 \begin{center}
  \hspace*{-1.5cm}\begin{tabular}{||c c c c c||} 
  \hline
@@ -348,7 +355,7 @@ The first time Cura is launched it will default to the \texttt{Quick Print} inte
 
 \subsection{View in Full Settings}
 \index{Full Settings}
-When you first switch to Full Settings, Cura will need to know what filament and quality you wish to use. It will automatically transfer our quickprint settings over to allow adjustments if one is selected. \textcolor{red}{IF A QUICKPRINT PROFILE IS NOT AVAILABLE, YOU WILL NEED TO MANUALLY LOAD ONE.} We recommend using our tested profiles that are available here: \texttt{https://www.lulzbot.com/cura}. You will want to choose the profile that matches your filament and quality needs. Once downloaded, you can load the file into Cura by selecting \texttt{File} > \texttt{Open Profile}. Choose your desired profile. This will automatically update all of your settings for use with your printer.
+When you first switch to Full Settings, Cura will need to know what filament and quality you wish to use. It will automatically transfer our quickprint settings over to allow adjustments if one is selected. \textcolor{red}{IF A QUICKPRINT PROFILE IS NOT AVAILABLE, YOU WILL NEED TO MANUALLY LOAD ONE IN.} We recommend using our tested profiles that are available here: \texttt{https://www.lulzbot.com/cura}. You will want to choose the profile that matches your filament and quality needs. Once downloaded, you can load the file into Cura by selecting \texttt{File} > \texttt{Open Profile}. Choose your desired profile. This will automatically update all of your Cura settings for use with your specific filament.
 %\begin{figure}[hbt]
 %\centering
 %\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}

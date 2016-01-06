@@ -28,16 +28,11 @@
 \contentsline {subsubsection}{Reset}{20}
 \contentsline {subsubsection}{Scale}{20}
 \contentsline {section}{\numberline {1.6}View Options}{21}
-\contentsline {subsection}{Normal}{21}
-\contentsline {subsection}{Overhang}{22}
-\contentsline {subsection}{Ghost}{23}
-\contentsline {subsection}{Xray}{23}
-\contentsline {subsection}{Layers}{24}
 \contentsline {section}{\numberline {1.7}Starting Your First Print}{25}
 \contentsline {subsection}{Printing from SD Card}{25}
 \contentsline {subsection}{Set Temperature}{25}
 \contentsline {subsection}{Start Print}{26}
-\contentsline {subsubsection}{Printing from USB Cable}{26}
+\contentsline {subsection}{Printing from USB Cable}{26}
 \contentsline {subsection}{Recommended Temperatures}{27}
 \contentsline {section}{\numberline {1.8}Removing Your First Print}{27}
 \contentsline {section}{\numberline {1.9}Full Settings}{28}
