@@ -42,29 +42,28 @@
 \contentsline {section}{\numberline {1.8}Removing Your First Print}{27}
 \contentsline {section}{\numberline {1.9}Full Settings}{28}
 \contentsline {subsection}{View in Full Settings}{28}
-\contentsline {subsection}{View in Full Settings}{28}
 \contentsline {section}{\numberline {1.10}Basic Tab Options}{29}
 \contentsline {subsubsection}{Layer Height}{29}
-\contentsline {subsubsection}{Shell Thickness}{30}
+\contentsline {subsubsection}{Shell Thickness}{29}
 \contentsline {subsubsection}{Enable Retraction}{30}
 \contentsline {subsubsection}{Bottom/Top Thickness (mm)}{30}
-\contentsline {subsubsection}{Fill Density}{31}
-\contentsline {subsubsection}{Perimeters Before Infill}{31}
-\contentsline {subsubsection}{Print Speed (mm/s)}{31}
-\contentsline {subsubsection}{Printing Temperature}{31}
+\contentsline {subsubsection}{Fill Density}{30}
+\contentsline {subsubsection}{Perimeters Before Infill}{30}
+\contentsline {subsubsection}{Print Speed (mm/s)}{30}
+\contentsline {subsubsection}{Printing Temperature}{30}
 \contentsline {subsubsection}{Bed Temperature}{31}
 \contentsline {subsection}{Support Type}{31}
-\contentsline {subsubsection}{Touching Buildplate}{32}
-\contentsline {subsubsection}{Everywhere}{32}
+\contentsline {subsubsection}{Touching Buildplate}{31}
+\contentsline {subsubsection}{Everywhere}{31}
 \contentsline {subsection}{Platform Adhesion Type}{32}
 \contentsline {subsubsection}{Brim}{32}
-\contentsline {subsubsection}{Raft}{33}
+\contentsline {subsubsection}{Raft}{32}
 \contentsline {subsection}{Filament Diameter}{33}
 \contentsline {subsection}{Filament Flow \%}{33}
 \contentsline {section}{\numberline {1.11}Advanced Tab Options}{33}
 \contentsline {subsection}{Nozzle Size (mm)}{33}
 \contentsline {subsection}{Retraction Speed (mm/s)}{33}
-\contentsline {subsection}{Retraction Distance}{34}
+\contentsline {subsection}{Retraction Distance}{33}
 \contentsline {subsection}{Initial Layer Thickness}{34}
 \contentsline {subsection}{Initial Layer Line Width}{34}
 \contentsline {subsection}{Cut Off Object Bottom (mm)}{34}
@@ -124,7 +123,7 @@
 \contentsline {subsection}{Calibrating Extruders}{46}
 \contentsline {subsection}{Defining Second Extruder Offset}{47}
 \contentsline {subsection}{First Dual Print}{48}
-\contentsline {subsection}{Setting Dual Temps}{48}
+\contentsline {subsection}{Setting Dual Temps}{49}
 \contentsline {section}{\numberline {1.24}Printrun}{50}
 \contentsline {subsection}{Installing Printrun}{50}
 \contentsline {subsection}{Windows Instructions}{51}
