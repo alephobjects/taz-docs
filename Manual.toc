@@ -33,7 +33,7 @@
 \contentsline {subsection}{\texttt {Ghost}}{23}
 \contentsline {subsection}{\texttt {Xray}}{23}
 \contentsline {subsection}{\texttt {Layers}}{24}
-\contentsline {section}{\numberline {1.7}Starting Your First Print}{25}
+\contentsline {section}{\numberline {1.7}\texttt {Starting Your First Print}}{25}
 \contentsline {subsection}{\texttt {Printing from SD Card}}{25}
 \contentsline {subsection}{\texttt {Set Temperature}}{25}
 \contentsline {subsection}{\texttt {Start Print}}{26}
