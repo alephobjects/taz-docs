@@ -38,32 +38,33 @@
 \contentsline {subsection}{\texttt {Set Temperature}}{25}
 \contentsline {subsection}{\texttt {Start Print}}{26}
 \contentsline {subsection}{\texttt {Printing from USB Cable}}{26}
+\contentsline {subsection}{\texttt {Pausing Mid-Print}}{27}
 \contentsline {subsection}{\texttt {Recommended Temperatures}}{27}
 \contentsline {section}{\numberline {1.8}\texttt {Removing Your First Print}}{27}
 \contentsline {section}{\numberline {1.9}\texttt {Full Settings}}{28}
-\contentsline {subsection}{\texttt {View in Full Settings}}{28}
+\contentsline {subsection}{\texttt {View in Full Settings}}{29}
 \contentsline {section}{\numberline {1.10}\texttt {Basic Tab Options}}{29}
 \contentsline {subsubsection}{\texttt {Layer Height}}{29}
-\contentsline {subsubsection}{\texttt {Shell Thickness}}{29}
+\contentsline {subsubsection}{\texttt {Shell Thickness}}{30}
 \contentsline {subsubsection}{\texttt {Enable Retraction}}{30}
 \contentsline {subsubsection}{\texttt {Bottom/Top Thickness (mm)}}{30}
-\contentsline {subsubsection}{\texttt {Fill Density}}{30}
-\contentsline {subsubsection}{\texttt {Perimeters Before Infill}}{30}
-\contentsline {subsubsection}{\texttt {Print Speed (mm/s)}}{30}
-\contentsline {subsubsection}{\texttt {Printing Temperature}}{30}
+\contentsline {subsubsection}{\texttt {Fill Density}}{31}
+\contentsline {subsubsection}{\texttt {Perimeters Before Infill}}{31}
+\contentsline {subsubsection}{\texttt {Print Speed (mm/s)}}{31}
+\contentsline {subsubsection}{\texttt {Printing Temperature}}{31}
 \contentsline {subsubsection}{\texttt {Bed Temperature}}{31}
 \contentsline {subsection}{\texttt {Support Type}}{31}
-\contentsline {subsubsection}{\texttt {Touching Buildplate}}{31}
-\contentsline {subsubsection}{\texttt {Everywhere}}{31}
+\contentsline {subsubsection}{\texttt {Touching Buildplate}}{32}
+\contentsline {subsubsection}{\texttt {Everywhere}}{32}
 \contentsline {subsection}{\texttt {Platform Adhesion Type}}{32}
 \contentsline {subsubsection}{\texttt {Brim}}{32}
-\contentsline {subsubsection}{\texttt {Raft}}{32}
+\contentsline {subsubsection}{\texttt {Raft}}{33}
 \contentsline {subsection}{\texttt {Filament Diameter}}{33}
 \contentsline {subsection}{\texttt {Filament Flow \%}}{33}
 \contentsline {section}{\numberline {1.11}\texttt {Advanced Tab Options}}{33}
 \contentsline {subsection}{\texttt {Nozzle Size (mm)}}{33}
 \contentsline {subsection}{\texttt {Retraction Speed (mm/s)}}{33}
-\contentsline {subsection}{\texttt {Retraction Distance}}{33}
+\contentsline {subsection}{\texttt {Retraction Distance}}{34}
 \contentsline {subsection}{\texttt {Initial Layer Thickness}}{34}
 \contentsline {subsection}{\texttt {Initial Layer Line Width}}{34}
 \contentsline {subsection}{\texttt {Cut Off Object Bottom (mm)}}{34}
