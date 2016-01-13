@@ -125,32 +125,32 @@
 \contentsline {subsection}{\texttt {Defining Second Extruder Offset}}{47}
 \contentsline {subsection}{\texttt {First Dual Print}}{47}
 \contentsline {subsection}{\texttt {Setting Dual Temps}}{49}
-\contentsline {section}{\numberline {1.24}Printrun}{50}
-\contentsline {subsection}{Installing Printrun}{50}
-\contentsline {subsection}{Windows Instructions}{51}
-\contentsline {subsection}{Mac OSX Instructions}{51}
-\contentsline {subsection}{Linux Instructions}{51}
-\contentsline {subsubsection}{Debian|Ubuntu}{51}
-\contentsline {subsubsection}{Recommended Installation}{51}
-\contentsline {subsubsection}{Installing from source}{51}
-\contentsline {subsubsection}{Fedora}{52}
-\contentsline {subsubsection}{Archlinux}{52}
-\contentsline {section}{\numberline {1.25}Using Printrun}{52}
-\contentsline {subsection}{Connecting to the your 3D Printer}{53}
-\contentsline {subsection}{Movement}{54}
-\contentsline {subsubsection}{Motors off}{55}
-\contentsline {subsubsection}{mm/min XY:/ Z:}{55}
-\contentsline {subsubsection}{Homing}{55}
-\contentsline {subsubsection}{X/Y/Z Axes Movement Controls}{55}
-\contentsline {section}{\numberline {1.26}CAD and 3D Modeling Software}{56}
-\contentsline {subsection}{FreeCAD}{56}
-\contentsline {subsection}{OpenSCAD}{56}
-\contentsline {subsection}{Blender}{57}
-\contentsline {subsection}{Shapesmith}{57}
-\contentsline {section}{\numberline {1.27}Alternative Printer Host Software}{57}
-\contentsline {subsection}{OctoPrint}{57}
-\contentsline {subsection}{BotQueue}{57}
-\contentsline {subsection}{MatterControl}{57}
+\contentsline {section}{\numberline {1.24}\texttt {Printrun}}{50}
+\contentsline {subsection}{\texttt {Installing Printrun}}{50}
+\contentsline {subsection}{\texttt {Windows Instructions}}{51}
+\contentsline {subsection}{\texttt {Mac OSX Instructions}}{51}
+\contentsline {subsection}{\texttt {Linux Instructions}}{51}
+\contentsline {subsubsection}{\texttt {Debian|Ubuntu}}{51}
+\contentsline {subsubsection}{\texttt {Recommended Installation}}{51}
+\contentsline {subsubsection}{\texttt {Installing from source}}{51}
+\contentsline {subsubsection}{\texttt {Fedora}}{52}
+\contentsline {subsubsection}{\texttt {Archlinux}}{52}
+\contentsline {section}{\numberline {1.25}\texttt {Using Printrun}}{52}
+\contentsline {subsection}{\texttt {Connecting to the your 3D Printer}}{53}
+\contentsline {subsection}{\texttt {Movement}}{54}
+\contentsline {subsubsection}{\texttt {Motors off}}{55}
+\contentsline {subsubsection}{\texttt {mm/min XY:/ Z:}}{55}
+\contentsline {subsubsection}{\texttt {Homing}}{55}
+\contentsline {subsubsection}{\texttt {X/Y/Z Axes Movement Controls}}{55}
+\contentsline {section}{\numberline {1.26}\texttt {CAD and 3D Modeling Software}}{56}
+\contentsline {subsection}{\texttt {FreeCAD}}{56}
+\contentsline {subsection}{\texttt {OpenSCAD}}{56}
+\contentsline {subsection}{\texttt {Blender}}{57}
+\contentsline {subsection}{\texttt {Shapesmith}}{57}
+\contentsline {section}{\numberline {1.27}\texttt {Alternative Printer Host Software}}{57}
+\contentsline {subsection}{\texttt {OctoPrint}}{57}
+\contentsline {subsection}{\texttt {BotQueue}}{57}
+\contentsline {subsection}{\texttt {MatterControl}}{57}
 \contentsline {chapter}{\chapternumberline {2}\emph {Slic3r}}{59}
 \contentsline {section}{\numberline {2.1}\texttt {Introduction}}{60}
 \contentsline {subsection}{\texttt {Overview}}{60}
