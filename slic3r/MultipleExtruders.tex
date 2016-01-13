@@ -1,6 +1,6 @@
 %!TEX root = Slic3r-Manual.tex
 
-\subsection{Multiple Extruders} % (fold)
+\subsection{\texttt{Multiple Extruders}} % (fold)
 \label{sec:multiple_extruders}
 \index{extruders!multiple}
 
@@ -9,7 +9,7 @@ A printer with more than one extruder can be used in different ways: The additio
 Multi-material printing requires a suitably designed object usually written in AMF format as this can handle multiple materials (see Model Formats in §\ref{sub:model_formats}).  Details on how to create such a file are given below.
 
 
-\subsubsection{Configuring Extruders} % (fold)
+\subsubsection{\texttt{Configuring Extruders}} % (fold)
 \label{sub:configuring_extruders}
 \index{Printer Settings!General!Capabilities!Extruders}
 
@@ -40,7 +40,7 @@ Because the secondary extruder will be dormant whilst the first is working, and 
 
 % subsubsection configuring_extruders (end)
 
-\subsubsection{Assigning Filaments} % (fold)
+\subsubsection{\texttt{Assigning Filaments}} % (fold)
 \label{sub:assigning_filaments}
 \index{Plater}
 When a printer profile with multiple extruders has been selected the \texttt{Plater} tab allows the selection of a different filament for each extruder.
@@ -54,7 +54,7 @@ When a printer profile with multiple extruders has been selected the \texttt{Pla
 
 % subsubsection assigning_filaments (end)
 
-\subsubsection{Assigning Extruders for Single-material Objects} % (fold)
+\subsubsection{\texttt{Assigning Extruders for Single-material Objects}} % (fold)
 \label{sub:assigning_extruders}
 \index{Print Settings!Multiple Extruders}
 
@@ -69,7 +69,7 @@ For single material prints, where the secondary extruder is to be tasked with a 
 
 % subsubsection assigning_extruders (end)
 
-\subsubsection{Configuring Tool Changes} % (fold)
+\subsubsection{\texttt{Configuring Tool Changes}} % (fold)
 \label{sub:configuring_tool_changes}
 
 \index{Printer Settings!Custom G-code!Tool change G-code}
@@ -86,7 +86,7 @@ The \texttt{Custom G-code} subsection of the \texttt{Printer Settings} tab has a
 % subsubsection configuring_tool_changes (end)
 
 
-\subsubsection{Printing Multi-material Objects} % (fold)
+\subsubsection{\texttt{Printing Multi-material Objects}} % (fold)
 \label{sub:printing_multi_material_objects}
 
 If a multi-material AMF file already exists, because the CAD program can export such a format, then this can be loaded into Slic3r in the usual way.  The mapping between object materials and extruders is sequential, i.e. the first material is assigned to the first extruder, etc.
@@ -94,7 +94,7 @@ If a multi-material AMF file already exists, because the CAD program can export 
 % subsubsection printing_multi_material_objects (end)
 
 
-\subsubsection{Generating multi-material AMF files} % (fold)
+\subsubsection{\texttt{Generating multi-material AMF files}} % (fold)
 \label{sub:generating_multi_material_amf_files}
 
 Slic3r has the feature to combine multiple STL files into a multi-material AMF file.

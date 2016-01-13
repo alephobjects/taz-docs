@@ -1,6 +1,6 @@
 %!TEX root = Slic3r-Manual.tex
 
-\subsection{SVG Output} % (fold)
+\subsection{\texttt{SVG Output}} % (fold)
 \label{sec:svg_output}
 \index{SVG}
 \index{DLP resin printer}
@@ -37,14 +37,14 @@ For this reason a small web application was written to allow each slice to be di
 \label{fig:svg_slic3rsvg_viewer}
 \end{figure}
 
-\subsubsection{SVG Settings} % (fold)
+\subsubsection{\texttt{SVG Settings}} % (fold)
 \label{sub:svg_settings}
 
 The majority of options in Slic3r are not required when generating SVG, however the \texttt{Layer height} setting will dictate the number of layers.  Note that Slic3r restricts the layer height to be smaller than the nozzle diameter, so this may also have to increased if higher layers are desired.
 
 % subsubsection svg_settings (end)
 
-\subsubsection{Printing with SVG} % (fold)
+\subsubsection{\texttt{Printing with SVG}} % (fold)
 \label{sub:printing_with_svg}
 
 Whilst SVG output can be used in a range of printers, the following example shows how the file can be used with a DLP resin printer.  Using a modified version of Kliment's Printrun\footnote{\	exttt{http://garyhodgson.com/reprap/projectlayer}} the SVG file can be loaded directly and sent to a DLP projector.  The Z axis is controlled via G-Code commands sent through the printcore component, which means that standard RepRap electronics, such as RAMPS, can be used.

@@ -1,6 +1,6 @@
 %!TEX root = Slic3r-Manual.tex
 
-\subsection{Cooling} % (fold)
+\subsection{\texttt{Cooling}} % (fold)
 \label{sec:cooling}
 \index{cooling}
 \index{temperature}
@@ -18,7 +18,7 @@ There are two main techniques for cooling: adding a fan and slowing down the pri
 
 Figure \ref{fig:cooling_chart} shows the strategy adopted by Slic3r.  Reading from right to left, when the minimum fan threshold (\#2) is reached the fan is turned on.  This increases in intensity as the layer time decreases.  The print speed remains constant until the estimated print time drops below a certain threshold (\#1), this is when the print speed is reduced until it reaches it's minimum value.
 
-\subsubsection{Fans} % (fold)
+\subsubsection{\texttt{Fans}} % (fold)
 \label{sub:fans}
 \index{cooling!fans}
 Most electronics and firmware allow the addition of a fan via a spare connector.  These can then be instructed with G-code, from Slic3r, to turn on or off as the model requires, and to rotate at different speeds.
@@ -29,7 +29,7 @@ A duct may help in guiding the flow correctly, and there are several designs ava
 
 % subsubsection fans (end)
 
-\subsubsection{Slowing Down} % (fold)
+\subsubsection{\texttt{Slowing Down}} % (fold)
 \label{sub:slowing_down}
 \index{cooling!slowing down}
 Slic3r can tell the printer to slow down if the estimated layer time is above a certain threshold.
@@ -37,7 +37,7 @@ Slic3r can tell the printer to slow down if the estimated layer time is above a 
 Care must be taken as the intended effect could be mitigated by the nozzle not moving far enough away from the fresh extrusion, a problem with small, detailed layers.  For this reason it is usually recommended to use a fan where possible.
 % subsubsection slowing_down (end)
 
-\subsubsection{Configuring} % (fold)
+\subsubsection{\texttt{Configuring}} % (fold)
 \label{sub:configuring_cooling}
 
 In simple mode Slic3r will attempt to choose the optimal settings for both fans and speed.  Expert mode gives more granular options.
