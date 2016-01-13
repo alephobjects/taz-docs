@@ -11,9 +11,9 @@
 \contentsline {subsection}{\leavevmode {\color {red}Modifications and Repairs Warning}}{xi}
 \contentsline {subsection}{Federal Communications Commission Statement}{xi}
 \contentsline {chapter}{\chapternumberline {1}\emph {3D Printer Software}}{13}
-\contentsline {section}{\numberline {1.1}Software Overview}{14}
-\contentsline {section}{\numberline {1.2}Software Types}{14}
-\contentsline {section}{\numberline {1.3}Installing Drivers}{15}
+\contentsline {section}{\numberline {1.1}\texttt {Software Overview}}{14}
+\contentsline {section}{\numberline {1.2}\texttt {Software Types}}{14}
+\contentsline {section}{\numberline {1.3}\texttt {Installing Drivers}}{15}
 \contentsline {section}{\numberline {1.4}\texttt {Cura}}{15}
 \contentsline {subsection}{\texttt {Setup Cura}}{15}
 \contentsline {section}{\numberline {1.5}\texttt {Quick Print Settings}}{17}
@@ -39,8 +39,8 @@
 \contentsline {subsection}{\texttt {Start Print}}{26}
 \contentsline {subsection}{\texttt {Printing from USB Cable}}{26}
 \contentsline {subsection}{\texttt {Pausing Mid-Print}}{27}
-\contentsline {subsection}{\texttt {Recommended Temperatures}}{27}
-\contentsline {section}{\numberline {1.8}\texttt {Removing Your First Print}}{27}
+\contentsline {subsection}{\texttt {Recommended Temperatures and Bed Preperation}}{27}
+\contentsline {section}{\numberline {1.8}\texttt {Removing Your First Print}}{28}
 \contentsline {section}{\numberline {1.9}\texttt {Full Settings}}{28}
 \contentsline {subsection}{\texttt {View in Full Settings}}{29}
 \contentsline {section}{\numberline {1.10}\texttt {Basic Tab Options}}{29}
