@@ -26,7 +26,7 @@ The \texttt{Print Settings} tab provides the opportunity to change settings rela
 \label{fig:simple_mode_print_settings}
 \end{figure}
 
-\paragraph{General.} % (fold)
+\paragraph{\texttt{General.}} % (fold)
 \label{par:simple_general}
 \index{Print Settings!Layer height}
 
@@ -61,7 +61,7 @@ Another tip to consider: Setting the top solid layer to zero, and setting the in
 
 % paragraph general (end)
 
-\paragraph{Infill.} % (fold)
+\paragraph{\texttt{Infill.}} % (fold)
 \label{par:simple_infill}
 \index{Print Settings!Infill}
 \index{Print Settings!Infill!Fill density}
@@ -74,7 +74,7 @@ Slic3r offers several fill patterns which will be discussed in more depth in sub
 
 % paragraph infill (end)
 
-\paragraph{Support material.} % (fold)
+\paragraph{\texttt{Support material.}} % (fold)
 \label{par:simple_support_material}
 \index{Print Settings!Support material}
 \index{Print Settings!Support material!Generate support material}
@@ -94,7 +94,7 @@ Tip: It is sometimes worth considering altering the orientation of the model in 
 \texttt{Raft layers} will add additional layers underneath the model and stems from the early days of 3D printing.  It can help with prints without a heated bed, or where the bed is not very flat, but it is usually not required and is not recommended.  The raft also requires post-processing to remove it.
 % paragraph support_material (end)
 
-\paragraph{Speed.} % (fold)
+\paragraph{\texttt{Speed.}} % (fold)
 \label{par:simple_speed}
 \index{Print Settings!Speed}
 In simple mode there are only three speed settings to consider:
@@ -108,7 +108,7 @@ In simple mode there are only three speed settings to consider:
 \end{itemize}
 % paragraph speed (end)
 
-\paragraph{Brim.} % (fold)
+\paragraph{\texttt{Brim.}} % (fold)
 \label{par:simple_brim}
 \index{Print Settings!Brim}
 \index{Print Settings!Brim!Brim width}
@@ -123,7 +123,7 @@ In simple mode there are only three speed settings to consider:
 
 % paragraph brim (end)
 
-\paragraph{Sequential Printing.} % (fold)
+\paragraph{\texttt{Sequential Printing.}} % (fold)
 \label{par:sequential_printing}
 This feature allows to compose a plate of objects but have the printer complete each one individually before going back to Z = 0 and starting with the next one. See the subsection about Sequential Printing in the Advanced Topics chapter.
 
@@ -150,7 +150,7 @@ The \texttt{Diameter} setting will already have been filled from the value given
 The \texttt{Extrusion multiplier} setting allows the fine tuning of the extrusion flow rate, and is is given as a factor, e.g. 1 means 100\%, 1.5 would mean 150\%.  Whilst the value should ideally be set in the firmware it can be useful to test slight changes to the rate by altering this value.  It varies the amount of plastic proportionally and should be changed in very small steps (e.g. +/- 0.05) as the effects are very visible.
 % paragraph filament (end)
 
-\paragraph{Temperature.} % (fold)
+\paragraph{\texttt{Temperature.}} % (fold)
 \label{par:temperature}
 \index{Filament Settings!Temperature!Extruder}
 \index{Filament Settings!Temperature!Bed}
@@ -170,7 +170,7 @@ The \texttt{Printer Settings} will be updated the least, unless Slic3r is going 
 \label{fig:simple_mode_printer_settings}
 \end{figure}
 
-\paragraph{Size and coordinates.} % (fold)
+\paragraph{\texttt{Size and coordinates.}} % (fold)
 \label{par:size_and_coordinates}
 \index{Printer Settings!Size and coordinates}
 \index{Printer Settings!Size and coordinates!Bed size}
@@ -185,20 +185,20 @@ The \texttt{Print center} is the point around which the print will be centered. 
 The optimal Z end stop position is where the nozzle tip barely touches the surface of the bed when homed.  A sheet of paper makes a good gauge for this very small distance.  It is not recommended to use this setting to try and improve layer adhesion, by ``squashing'' the bottom layer into the bed, instead look at the suggestions in subsection \ref{sec:the_important_first_layer}.
 % paragraph size_and_coordinates (end)
 
-\paragraph{Firmware.} % (fold)
+\paragraph{\texttt{Firmware.}} % (fold)
 \label{par:firmware}
 \index{Printer Settings!Firmware!G-code flavour}
 As selected in the wizard (see p.\pageref{sub:1_firmware_type}), \texttt{G-code flavour} defines the dialect of G-code generated.
 % paragraph firmware (end)
 
 
-\paragraph{Extruder.} % (fold)
+\paragraph{\texttt{Extruder.}} % (fold)
 \label{par:extruder}
 \index{Printer Settings!Extruder!Nozzle diameter}
 \texttt{Nozzle diameter} was defined in the wizard (see p.\pageref{sub:3_nozzle_diameter}).
 % paragraph extruder (end)
 
-\paragraph{Retraction.} % (fold)
+\paragraph{\texttt{Retraction.}} % (fold)
 \label{par:retraction}
 \index{Printer Settings!Extruder!Retraction!Length}
 Unless the material being extruded has a very high viscosity it may ooze between extrusions due to gravity.  This can be remedied by actively retracting the filament between extrusions.  Setting the \texttt{Length} parameter to a positive value will cause the filament to be reversed by that many millimeters before travel.  The retraction will then be compensated for by the same amount after the travel move, before starting the new extrusion path.
@@ -208,7 +208,7 @@ A value of between 1 and 2mm is usually recommended. Bowden extruders may need u
 Setting the \texttt{Lift Z} parameter to a positive value will raise the entire extruder on the Z axis by that many millimeters during each travel.  This can be useful to ensure the nozzle will not catch on any already laid filament, however it is usually not necessary and will slow the print speed.  A value of 0.1mm is usually sufficient.
 % paragraph retraction (end)
 
-\paragraph{Start, End and Layer Chance G-codes.} % (fold)
+\paragraph{\texttt{Start, End and Layer Chance G-codes.}} % (fold)
 \label{par:start_end_g_code}
 \index{Printer Settings!Custom G-code!Start G-code}
 \index{Printer Settings!Custom G-code!End G-code}

@@ -14,7 +14,7 @@ The Graphic LCD allows you to print with the LulzBot\textsuperscript{\miniscule{
 
 In the following sections you will find general information on using the Graphic LCD, how to transfer .gcode files to the included SD card, heat up the printer, start a print, and make configuration adjustments.
 
-\section{GLCD Controller, Cura or Printrun Host?}
+\section{\texttt{GLCD Controller, Cura or Printrun Host?}}
 \label{sec:Graphic LCD, Cura or Printrun Host?}
 The Graphical LCD Controller is perfect for normal day to day printing and will be used in the majority of your print jobs. However, in some instances- you will want to use Cura or Printrun instead of the GLCD Controller. A few examples of when you would want to plug the USB cable back in and use Cura:
 \begin{itemize}
@@ -23,13 +23,13 @@ The Graphical LCD Controller is perfect for normal day to day printing and will 
 	\item Cura is the preferred printer host software, as the inclusion of quick print profiles, the combination of slicing engine, and printer host communications allows for easy all-in-one use.
 \end{itemize}
 
-\section{Multiple Connections}
+\section{\texttt{Multiple Connections}}
 Because the LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ 3D printer can be controlled by the Graphic LCD and by host software, caution is advised when connecting to the printer through USB as the print can be interrupted when connecting or disconnecting the USB cable. A general rule is: once you have started a print with either the Graphic LCD, Cura, or Printrun, for the rest of the print use only that controller. When printing with the Graphic LCD, never try to connect through USB in the Cura host software; wait until the print is complete, and then connect in Cura.
 
-\section{Putting Print Files on the SD Card}
+\section{\texttt{Putting Print Files on the SD Card}}
 To print from the Graphic LCD, you will need to transfer .gcode print files onto the SD card. Follow the normal steps, as explained in the Slic3r chapter, to create .gcode print files on your computer. Insert the SD card into your computer using a SD reader slot or USB SD card reader. Open a file browser- / -manager and locate the created .gcode files; drag and drop or paste the .gcode files to the SD card. Once the files have transferred, eject the SD card from your computer and insert it back into the SD card slot on the left side of the Graphic LCD case.
 
-\section{Printing With the Graphic LCD}
+\section{\texttt{Printing With the Graphic LCD}}
 \begin{figure}[b]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{LCD_main_screen.jpg}
@@ -37,7 +37,7 @@ To print from the Graphic LCD, you will need to transfer .gcode print files onto
 \label{fig:info_screen}
 \end{figure}
 
-\subsection{The Graphic LCD Status Screen}
+\subsection{\texttt{The Graphic LCD Status Screen}}
 The GLCD screen will turn on you power up your LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ 3D printer. The start-up screen will display the Status screen (fig. \ref{fig:info_screen}, page \pageref{fig:info_screen}). The Status screen is the default screen for the GLCD, presenting the current status of the printer. There are a number of live statuses shown on the Status screen; these will give you current temperatures, tool head coordinates, print status, and more. The different numbered sections of the status screen are shown in Figure \ref{fig:info_screen} above. Follow the key below for more information on each section.
 
 \begin{enumerate}
@@ -52,7 +52,7 @@ The GLCD screen will turn on you power up your LulzBot\textsuperscript{\miniscul
 \end{enumerate}
 
 
-\subsection{Using the Selection Knob}
+\subsection{\texttt{Using the Selection Knob}}
 To navigate through the LCD menu use the selection knob by rotating to scroll through selections and pressing the knob to make a selection. From the main Status screen, press the knob to move into the menu screen (Figure \ref{fig:main_menu}, page \pageref{fig:main_menu}). To move backwards in the menu tree, select the top most menu selection on the current screen. Selections that will move you backwards through the menu tree are noted by an upwards-facing arrow. Note that if the menu is left idle it will automatically move back to the main Status screen.
 
 \begin{figure}[h]
@@ -62,20 +62,20 @@ To navigate through the LCD menu use the selection knob by rotating to scroll th
 \label{fig:main_menu}
 \end{figure}
 
-\subsection{Preparing for a Print}
+\subsection{\texttt{Preparing for a Print}}
 Before starting a print you will need to set the hot end and heat bed to the appropriate temperatures for the filament type you are using. To quickly set the printer to preheat, click the selection knob to bring up the menu and select \texttt{Temperature}. Select \texttt{Filament Type} to automatically set the hot end and bed temperature for that specific filament.
 
 If you need to set the extrusion and/or bed temperature to a setting different than the preheat temperature you can manually set the temperature. To do so, from the main menu navigate through: Temperature \texttt{->} Custom Temp \texttt{->} Nozzle or Bed. Clicking on either of these settings will give you a menu to set and select the desired temperature setting.
 
-\subsection{Selecting a File From the SD and Starting a Print}
+\subsection{\texttt{Selecting a File From the SD and Starting a Print}}
 Once the hot end and heat bed have reached the desired temperature the printer is ready to print. From the main menu select the \texttt{Print from SD} option. You will now see a selection of the directories and .gcode files on the SD card. Navigate through the menu to locate the file you would like to print. Select the desired file to begin the print.
 
-\subsection{Making Manual Movements With the Graphic LCD}
+\subsection{\texttt{Making Manual Movements With the Graphic LCD}}
 As noted previously (page \pageref{sec:Graphic LCD, Cura or Printrun Host?}), making numerous manual movements is easier done using Cura/Printrun. However, you can make manual movements with the GLCD. Navigate to Movement \texttt{->} Move Axis. You will select the length of the movement and then which axis to move. Note; that only 1-mm and 0.1-mm movements are allowed for the Z axis and extruder.
 
 When at the move screen; turn the selection knob clockwise to move the axis in millimeters in the positive direction and counter-clockwise for the negative direction. 
 
-\subsection{Configuration Settings}
+\subsection{\texttt{Configuration Settings}}
 
 %\begin{figure}[H]
 %\centering

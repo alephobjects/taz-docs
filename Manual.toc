@@ -1,7 +1,7 @@
 \select@language {english}
 \contentsline {chapter}{\emph {WARNINGS}\\ {Safety Information}}{ix}
-\contentsline {section}{Read Me First!}{x}
-\contentsline {section}{Hazards and Warnings}{x}
+\contentsline {section}{\texttt {Read Me First!}}{x}
+\contentsline {section}{\texttt {Hazards and Warnings}}{x}
 \contentsline {subsection}{\leavevmode {\color {red}Electric Shock Hazard}}{x}
 \contentsline {subsection}{\leavevmode {\color {red}Burn Hazard}}{x}
 \contentsline {subsection}{\leavevmode {\color {red}Fire Hazard}}{x}
@@ -9,7 +9,7 @@
 \contentsline {subsection}{\leavevmode {\color {red}Static Charge}}{xi}
 \contentsline {subsection}{\leavevmode {\color {red}Age Warning}}{xi}
 \contentsline {subsection}{\leavevmode {\color {red}Modifications and Repairs Warning}}{xi}
-\contentsline {subsection}{Federal Communications Commission Statement}{xi}
+\contentsline {subsection}{\texttt {Federal Communications Commission Statement}}{xi}
 \contentsline {chapter}{\chapternumberline {1}\emph {3D Printer Software}}{13}
 \contentsline {section}{\numberline {1.1}\texttt {Software Overview}}{14}
 \contentsline {section}{\numberline {1.2}\texttt {Software Types}}{14}
@@ -177,14 +177,14 @@
 \contentsline {subsubsection}{\texttt {5. Extrusion Temperature}}{69}
 \contentsline {subsubsection}{\texttt {6. Bed Temperature}}{70}
 \contentsline {subsection}{\texttt {The Important First Layer}}{72}
-\contentsline {paragraph}{Level bed.}{72}
-\contentsline {paragraph}{Higher temperature.}{72}
-\contentsline {paragraph}{Lower speeds.}{72}
-\contentsline {paragraph}{Correctly calibrated extrusion rates.}{72}
-\contentsline {paragraph}{First layer height.}{72}
-\contentsline {paragraph}{Fatter extrusion width.}{73}
-\contentsline {paragraph}{Bed material.}{73}
-\contentsline {paragraph}{No cooling.}{73}
+\contentsline {paragraph}{\texttt {Level bed.}}{72}
+\contentsline {paragraph}{\texttt {Higher temperature.}}{72}
+\contentsline {paragraph}{\texttt {Lower speeds.}}{72}
+\contentsline {paragraph}{\texttt {Correctly calibrated extrusion rates.}}{72}
+\contentsline {paragraph}{\texttt {First layer height.}}{72}
+\contentsline {paragraph}{\texttt {Fatter extrusion width.}}{73}
+\contentsline {paragraph}{\texttt {Bed material.}}{73}
+\contentsline {paragraph}{\texttt {No cooling.}}{73}
 \contentsline {subsection}{\texttt {Working with Models}}{74}
 \contentsline {subsubsection}{\texttt {Model Formats}}{74}
 \contentsline {subsubsection}{\texttt {Finding Models}}{74}
@@ -194,21 +194,21 @@
 \contentsline {section}{\numberline {2.4}\texttt {Simple Mode}}{79}
 \contentsline {subsection}{\texttt {Simple Mode}}{79}
 \contentsline {subsubsection}{\texttt {Print Settings}}{79}
-\contentsline {paragraph}{General.}{80}
-\contentsline {paragraph}{Infill.}{82}
-\contentsline {paragraph}{Support material.}{83}
-\contentsline {paragraph}{Speed.}{83}
-\contentsline {paragraph}{Brim.}{84}
-\contentsline {paragraph}{Sequential Printing.}{84}
-\contentsline {subsubsection}{\texttt {Filament Settings}}{84}
+\contentsline {paragraph}{\texttt {General.}}{80}
+\contentsline {paragraph}{\texttt {Infill.}}{82}
+\contentsline {paragraph}{\texttt {Support material.}}{83}
+\contentsline {paragraph}{\texttt {Speed.}}{83}
+\contentsline {paragraph}{\texttt {Brim.}}{84}
+\contentsline {paragraph}{\texttt {Sequential Printing.}}{84}
+\contentsline {subsubsection}{\texttt {Filament Settings}}{85}
 \contentsline {paragraph}{Filament.}{85}
-\contentsline {paragraph}{Temperature.}{85}
-\contentsline {subsubsection}{\texttt {Printer Settings}}{85}
-\contentsline {paragraph}{Size and coordinates.}{86}
-\contentsline {paragraph}{Firmware.}{87}
-\contentsline {paragraph}{Extruder.}{87}
-\contentsline {paragraph}{Retraction.}{87}
-\contentsline {paragraph}{Start, End and Layer Chance G-codes.}{87}
+\contentsline {paragraph}{\texttt {Temperature.}}{85}
+\contentsline {subsubsection}{\texttt {Printer Settings}}{86}
+\contentsline {paragraph}{\texttt {Size and coordinates.}}{86}
+\contentsline {paragraph}{\texttt {Firmware.}}{87}
+\contentsline {paragraph}{\texttt {Extruder.}}{87}
+\contentsline {paragraph}{\texttt {Retraction.}}{87}
+\contentsline {paragraph}{\texttt {Start, End and Layer Chance G-codes.}}{87}
 \contentsline {section}{\numberline {2.5}\texttt {Expert Mode}}{88}
 \contentsline {subsection}{\texttt {Speed}}{88}
 \contentsline {subsection}{\texttt {Infill Patterns and Density}}{92}
@@ -266,42 +266,42 @@
 \contentsline {subsubsection}{\texttt {RepRap.org Forum}}{138}
 \contentsline {subsubsection}{\texttt {Issue Tracker}}{139}
 \contentsline {chapter}{\chapternumberline {3}\emph {Printing with the Graphic LCD}}{141}
-\contentsline {section}{\numberline {3.1}GLCD Controller, Cura or Printrun Host?}{142}
-\contentsline {section}{\numberline {3.2}Multiple Connections}{142}
-\contentsline {section}{\numberline {3.3}Putting Print Files on the SD Card}{143}
-\contentsline {section}{\numberline {3.4}Printing With the Graphic LCD}{144}
-\contentsline {subsection}{The Graphic LCD Status Screen}{144}
-\contentsline {subsection}{Using the Selection Knob}{145}
-\contentsline {subsection}{Preparing for a Print}{145}
-\contentsline {subsection}{Selecting a File From the SD and Starting a Print}{146}
-\contentsline {subsection}{Making Manual Movements With the Graphic LCD}{146}
-\contentsline {subsection}{Configuration Settings}{146}
+\contentsline {section}{\numberline {3.1}\texttt {GLCD Controller, Cura or Printrun Host?}}{142}
+\contentsline {section}{\numberline {3.2}\texttt {Multiple Connections}}{142}
+\contentsline {section}{\numberline {3.3}\texttt {Putting Print Files on the SD Card}}{143}
+\contentsline {section}{\numberline {3.4}\texttt {Printing With the Graphic LCD}}{144}
+\contentsline {subsection}{\texttt {The Graphic LCD Status Screen}}{144}
+\contentsline {subsection}{\texttt {Using the Selection Knob}}{145}
+\contentsline {subsection}{\texttt {Preparing for a Print}}{145}
+\contentsline {subsection}{\texttt {Selecting a File From the SD and Starting a Print}}{146}
+\contentsline {subsection}{\texttt {Making Manual Movements With the Graphic LCD}}{146}
+\contentsline {subsection}{\texttt {Configuration Settings}}{146}
 \contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{147}
-\contentsline {section}{\numberline {4.1}Overview}{148}
-\contentsline {section}{\numberline {4.2}Smooth Rods}{148}
-\contentsline {section}{\numberline {4.3}Lead Screw Drive Rods}{148}
-\contentsline {section}{\numberline {4.4}PEI Surface}{148}
-\contentsline {section}{\numberline {4.5}Hobbed Bolt}{149}
-\contentsline {section}{\numberline {4.6}Belts}{149}
-\contentsline {section}{\numberline {4.7}Hot End}{149}
-\contentsline {section}{\numberline {4.8}Electronics}{149}
+\contentsline {section}{\numberline {4.1}\texttt {Overview}}{148}
+\contentsline {section}{\numberline {4.2}\texttt {Smooth Rods}}{148}
+\contentsline {section}{\numberline {4.3}\texttt {Lead Screw Drive Rods}}{148}
+\contentsline {section}{\numberline {4.4}\texttt {PEI Surface}}{148}
+\contentsline {section}{\numberline {4.5}\texttt {Hobbed Bolt}}{149}
+\contentsline {section}{\numberline {4.6}\texttt {Belts}}{149}
+\contentsline {section}{\numberline {4.7}\texttt {Hot End}}{149}
+\contentsline {section}{\numberline {4.8}\texttt {Electronics}}{149}
 \contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{151}
-\contentsline {section}{\numberline {5.1}Intro}{152}
-\contentsline {section}{\numberline {5.2}Changing nozzles}{152}
-\contentsline {section}{\numberline {5.3}Bed Adhesion}{152}
-\contentsline {subsection}{ABS/Acetone Glue}{153}
-\contentsline {subsection}{Gluestick/PVA Glue solution}{153}
-\contentsline {section}{\numberline {5.4}Using 1.75mm filament}{153}
+\contentsline {section}{\numberline {5.1}\texttt {Intro}}{152}
+\contentsline {section}{\numberline {5.2}\texttt {Changing nozzles}}{152}
+\contentsline {section}{\numberline {5.3}\texttt {Bed Adhesion}}{152}
+\contentsline {subsection}{\texttt {ABS/Acetone Glue}}{153}
+\contentsline {subsection}{\texttt {Gluestick/PVA Glue solution}}{153}
+\contentsline {section}{\numberline {5.4}\texttt {Using 1.75mm filament}}{153}
 \contentsline {chapter}{\chapternumberline {6}\emph {Hardware and Software Source Code}}{155}
 \contentsline {chapter}{\chapternumberline {7}\emph {3D Printer Support}}{157}
-\contentsline {section}{\numberline {7.1}LulzBot}{158}
-\contentsline {section}{\numberline {7.2}Community}{158}
+\contentsline {section}{\numberline {7.1}\texttt {LulzBot}}{158}
+\contentsline {section}{\numberline {7.2}\texttt {Community}}{158}
 \contentsline {chapter}{\chapternumberline {8}\emph {Warranty Information}}{159}
-\contentsline {section}{\numberline {8.1}Warranty}{160}
-\contentsline {subsection}{Extended Warranty}{160}
+\contentsline {section}{\numberline {8.1}\texttt {Warranty}}{160}
+\contentsline {subsection}{\texttt {Extended Warranty}}{160}
 \contentsline {chapter}{\chapternumberline {9}\emph {Contact Information}}{161}
-\contentsline {section}{\numberline {9.1}Support}{162}
-\contentsline {section}{\numberline {9.2}Sales}{162}
-\contentsline {section}{\numberline {9.3}Websites}{162}
+\contentsline {section}{\numberline {9.1}\texttt {Support}}{162}
+\contentsline {section}{\numberline {9.2}\texttt {Sales}}{162}
+\contentsline {section}{\numberline {9.3}\texttt {Websites}}{162}
 \contentsline {chapter}{Index}{163}
 \contentsline {chapter}{Glossary}{169}
