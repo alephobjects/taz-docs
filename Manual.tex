@@ -85,7 +85,7 @@
 \newif\ifsetup\setupfalse %false Replaced with Quick Start Guide
 \newif\ifsoftware\softwaretrue %true
 \newif\ifcura\curatrue %true
-\newif\ifcura\printrunfalse %false
+\newif\ifprintrun\printrunfalse %false
 \newif\ifslicer\slicerfalse %false
 \newif\iffilament\filamentfalse %false Replaced with Quick Start Guide
 \newif\iffirstprint\firstprintfalse %false Replaced with Quick Start Guide
@@ -297,7 +297,7 @@
 %%% END CURA %%%
 
 %%% Pronterface %%%
-\ifpronterface
+\ifprintrun
 \chapter{\emph{Printrun}}
 \thispagestyle{empty}
 \markboth{Printrun}{LulzBot TAZ User Manual}
@@ -316,7 +316,7 @@
 %%% END FIRSTPRINT %%%
 
 %%% SLIC3R %%%
-\ifsoftware
+\ifslicer
 \chapter{\emph{Slic3r}}
 \thispagestyle{empty}
 \markboth{Slic3r}{LulzBot TAZ User Manual}
