@@ -85,22 +85,24 @@
 \newif\ifsetup\setupfalse %false Replaced with Quick Start Guide
 \newif\ifsoftware\softwaretrue %true
 \newif\ifcura\curatrue %true
+\newif\ifcura\printrunfalse %false
 \newif\ifslicer\slicerfalse %false
 \newif\iffilament\filamentfalse %false Replaced with Quick Start Guide
 \newif\iffirstprint\firstprintfalse %false Replaced with Quick Start Guide
 \newif\ifglcd\glcdtrue %true
 \newif\ifmaintenance\maintenancetrue %true
 \newif\ifadvanced\advancedtrue %true
-\newif\iffaq\faqfalse %false - testing - available online
-\newif\iftroubleshooting\troubleshootingfalse %false 
+\newif\iffaq\faqfalse %false available online
+\newif\iftroubleshooting\troubleshootingfalse %false online
 \newif\ifsource\sourcetrue %true
 \newif\ifsupport\supporttrue %true
 \newif\ifwarranty\warrantytrue %true
 \newif\ifcontact\contacttrue %true
 \newif\ifcolophon\colophontrue %true
 %% or just render everything:
+%false
 \newif\ifrendereverything\rendereverythingfalse
-\ifrendereverything \titletrue \copyrighttrue \warningstrue \setuptrue  \softwaretrue \curatrue \slicertrue \filamenttrue \firstprinttrue \maintenancetrue \advancedtrue \faqtrue \troubleshootingtrue \sourcetrue \supporttrue \warrantytrue \colophontrue \fi
+\ifrendereverything \titletrue \copyrighttrue \warningstrue \setuptrue  \softwaretrue \curatrue \printruntrue \slicertrue \filamenttrue \firstprinttrue \maintenancetrue \advancedtrue \faqtrue \troubleshootingtrue \sourcetrue \supporttrue \warrantytrue \colophontrue \fi
 %%% END INCLUDED FILES %%%
 
 \setcounter{secnumdepth}{3}
@@ -284,18 +286,24 @@
 \fi
 %%% END SOFTWARE %%%
 
-\begin{comment}
-%%% Moving Slic3r to allow for more linear reading/setup. Slic3r will not be needed until after first test print %%%%
-%%% SLIC3R %%%
-\ifsoftware
-\chapter{\emph{Slic3r}}
-\thispagestyle{empty}
-\markboth{Slic3r}{LulzBot TAZ User Manual}
-{\include{Slicer}}
-\fi
-%%% END SLIC3R %%%
-\end{comment}
 
+%%% CURA %%%
+\ifcura
+\chapter{\emph{Cura LulzBot Edition}}
+\thispagestyle{empty}
+\markboth{Cura LulzBot Edition}{LulzBot TAZ User Manual}
+{\include{Cura}}
+\fi
+%%% END CURA %%%
+
+%%% Pronterface %%%
+\ifpronterface
+\chapter{\emph{Printrun}}
+\thispagestyle{empty}
+\markboth{Printrun}{LulzBot TAZ User Manual}
+{\include{printrun}}
+\fi
+%%% END PRONTERFACE %%%
 
 %%% FIRSTPRINT %%%
 \iffirstprint
