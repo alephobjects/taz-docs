@@ -2,9 +2,9 @@
 % Manual.tex
 % TAZ Manual main document formatting
 %
-% LulzBot™ TAZ User Manual
+% LulzBot® TAZ User Manual
 %
-% Copyright (C) 2015 Aleph Objects, Inc.
+% Copyright (C) 2014 Aleph Objects, Inc.
 %
 % This document is licensed under the Creative Commons Attribution 4.0
 % International Public License (CC BY-SA 4.0) by Aleph Objects, Inc.
@@ -85,7 +85,7 @@
 \newif\ifsetup\setupfalse %false Replaced with Quick Start Guide
 \newif\ifsoftware\softwaretrue %true
 \newif\ifcura\curatrue %true
-\newif\ifslicer\slicertrue %true
+\newif\ifslicer\slicerfalse %false
 \newif\iffilament\filamentfalse %false Replaced with Quick Start Guide
 \newif\iffirstprint\firstprintfalse %false Replaced with Quick Start Guide
 \newif\ifglcd\glcdtrue %true
@@ -261,7 +261,7 @@
 \ifsetup
 \chapter{\emph{Setup Your Printer}}
 \thispagestyle{empty}
-\markboth{Setup Your Printer}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{Setup Your Printer}{LulzBot TAZ User Manual}
 {\include{Setup}}
 \fi
 %%% END SETUP %%%
@@ -270,7 +270,7 @@
 \iffilament
 \chapter{\emph{Loading Filament}}
 \thispagestyle{empty}
-\markboth{Loading Filament}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{Loading Filament}{LulzBot TAZ User Manual}
 {\include{Filament}}
 \fi
 %%% END FILAMENT %%%
@@ -279,7 +279,7 @@
 \ifsoftware
 \chapter{\emph{3D Printer Software}}
 \thispagestyle{empty}
-\markboth{3D Printer Software}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{3D Printer Software}{LulzBot TAZ User Manual}
 {\include{Software}}
 \fi
 %%% END SOFTWARE %%%
@@ -290,7 +290,7 @@
 \ifsoftware
 \chapter{\emph{Slic3r}}
 \thispagestyle{empty}
-\markboth{Slic3r}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{Slic3r}{LulzBot TAZ User Manual}
 {\include{Slicer}}
 \fi
 %%% END SLIC3R %%%
@@ -302,7 +302,7 @@
 \chapter{\emph{Your First 3D Print}}
 \label{firstprint}
 \thispagestyle{empty}
-\markboth{Your First 3D Print}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{Your First 3D Print}{LulzBot TAZ User Manual}
 {\include{Firstprint}
 \fi
 %%% END FIRSTPRINT %%%
@@ -311,7 +311,7 @@
 \ifsoftware
 \chapter{\emph{Slic3r}}
 \thispagestyle{empty}
-\markboth{Slic3r}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{Slic3r}{LulzBot TAZ User Manual}
 {\include{Slicer}}
 \fi
 %%% END SLIC3R %%%
@@ -321,7 +321,7 @@
 \chapter{\emph{Printing with the Graphic LCD}}
 \label{glcd}
 \thispagestyle{empty}
-\markboth{Printing with the Graphic LCD}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{Printing with the Graphic LCD}{LulzBot TAZ User Manual}
 {\include{glcd}
 \fi
 %%% END GLCD %%%
@@ -330,7 +330,7 @@
 \ifmaintenance
 \chapter{\emph{Maintaining Your 3D Printer}}
 \thispagestyle{empty}
-\markboth{Maintaining Your 3D Printer}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{Maintaining Your 3D Printer}{LulzBot TAZ User Manual}
 {\include{Maintenance}}
 \fi
 %%% END MAINTENANCE %%%
@@ -339,7 +339,7 @@
 \ifmaintenance
 \chapter{\emph{Advanced Usage}}
 \thispagestyle{empty}
-\markboth{Advanced Usage}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{Advanced Usage}{LulzBot TAZ User Manual}
 {\include{Advanced}}
 \fi
 %%% END ADVANCED %%%
@@ -348,7 +348,7 @@
 \iffaq
 \chapter{\emph{FAQ}}
 \thispagestyle{empty}
-\markboth{FAQ}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{FAQ}{LulzBot TAZ User Manual}
 {\include{FAQ}}
 \fi
 %%% END FAQ %%%
@@ -357,7 +357,7 @@
 \iftroubleshooting
 \chapter{\emph{Troubleshooting}}
 \thispagestyle{empty}
-\markboth{Troubleshooting}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{Troubleshooting}{LulzBot TAZ User Manual}
 {\include{Troubleshooting}}
 \fi
 %%% END TROUBLESHOOTING %%%
@@ -366,7 +366,7 @@
 \ifsource
 \chapter{\emph{Hardware and Software Source Code}}
 \thispagestyle{empty}
-\markboth{Hardware and Software Source Code}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{Hardware and Software Source Code}{LulzBot TAZ User Manual}
 {\include{Source}}
 \fi
 %%% END SOURCE %%%
@@ -375,7 +375,7 @@
 \ifsupport
 \chapter{\emph{3D Printer Support}}
 \thispagestyle{empty}
-\markboth{3D Printer Support}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{3D Printer Support}{LulzBot TAZ User Manual}
 {\include{Support}}
 \fi
 %%% END SUPPORT %%%
@@ -384,7 +384,7 @@
 \ifwarranty
 \chapter{\emph{Warranty Information}}
 \thispagestyle{empty}
-\markboth{Warranty Information}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{Warranty Information}{LulzBot TAZ User Manual}
 {\include{Warranty}}
 \fi
 %%% END SUPPORT %%%
@@ -393,7 +393,7 @@
 \ifcontact
 \chapter{\emph{Contact Information}}
 \thispagestyle{empty}
-\markboth{Contact Information}{LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ User Manual}
+\markboth{Contact Information}{LulzBot TAZ User Manual}
 {\include{Contact}}
 \fi
 %%% END CONTACT %%%
