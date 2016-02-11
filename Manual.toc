@@ -134,7 +134,7 @@
 \contentsline {subsection}{\texttt {Calibrating Extruders}}{48}
 \contentsline {subsection}{\texttt {Defining Second Extruder Offset}}{49}
 \contentsline {subsection}{\texttt {First Dual Print}}{50}
-\contentsline {subsection}{\texttt {Setting Dual Temps}}{51}
+\contentsline {subsection}{\texttt {First Print}}{51}
 \contentsline {chapter}{\chapternumberline {3}\emph {Printing with the Graphic LCD}}{53}
 \contentsline {section}{\numberline {3.1}\texttt {GLCD Controller, Cura or Printrun Host?}}{54}
 \contentsline {section}{\numberline {3.2}\texttt {Multiple Connections}}{54}

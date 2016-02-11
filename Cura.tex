@@ -740,7 +740,7 @@ In order to use the Dual Extruder you will need to update your firmware to activ
 %\item Choose the correct nozzle size for your machine. If you are not sure what size your printer has use your serial number to determine the nozzle size with the information found at \texttt{https://www.lulzbot.com/printer-identification}.
 \item The final step will be \texttt{flashing the firmware}. Choose \texttt{Flash the firmware} to be sure to update the printers firmware to the proper settings. \textcolor{red}{This must be done to allow your printer to operate properly.}
 \item Once the progress bar has completed select \texttt{OK > Next > Finish}.  
-\item You can verify this by looking at the LCD screen. You should now see three temperature readings. 
+\item You can verify a proper firmware update by looking at the LCD screen. You should now see three separate temperature readings. 
 \end{itemize} 
 You can revert the firmware back to the stock configuration for your LulzBot\textsuperscript{\miniscule{\textregistered}} 3D printer by selecting \texttt{Machine > Machine Settings > Change Tool Head}. Doing so will overwrite any of your current firmware settings.
 %\subsection{Preparing Cura}
@@ -794,7 +794,7 @@ When you are ready to produce your first dual extrusion print, you will need to 
 \label{fig:After Merge}
 \end{figure}
 
-\subsection{\texttt{Setting Dual Temps}}
-\index{Setting Dual Temps}
-After your object has been merged as intended, you will need to set the individual temperatures for each print head. In order to switch between which hot end you are heating, you will need to manually enter \texttt{T0} to set temps for the rear hot end, and \texttt{T1} to set temps for the front hot end. \texttt{The Bed temp can be set from either T0 or T1}. Once both print heads and the print surface have reached the desired printing temperature select \texttt{Print}.
+\subsection{\texttt{First Print}}
+\index{First Dual Print}
+After your object has been merged as intended, you will be ready to start the print. After selecting print from your SD card or the control panel, your printer will start the probing and cleaning process. It will clean both nozzles, but only probe with the rear. If you are getting contact with your printer nozzles on previous printed parts, you will need to level the front hot end to the rear.
 
