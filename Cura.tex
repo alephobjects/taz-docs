@@ -413,7 +413,7 @@ Your overall printing speed can be adjusted here. If no other speeds are determi
 
 \subsubsection{\texttt{Printing Temperature}}
 \index{Printing Temperature}
-When using different filament materials you'll need to update the desired hot end and heated bed temperature. Any temperatures specified here will be used to automatically set both the hot end and heated bed. Your print will not begin until these temperatures are met. These will be automatically set in our quick print profiles, but can be adjusted. See Recommended Temperatures Table: page \pageref{tab:a}
+This is where you will set the hot end temperature for your specific material. It will be pre-set when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help layer adhesion or stringing. See Recommended Temperatures Table: page \pageref{tab:a}.
 
 %The Mini 3D printer needs to have the temperature specified in order to run through the automatic bed-leveling routine.
 %%%% Since the Mini needs to have Gcode temps set in order to run through auto bed leveling, the following statement is only applicable to the TAZ 4 or earlier. %%%%
@@ -421,7 +421,7 @@ When using different filament materials you'll need to update the desired hot en
 
 \subsubsection{\texttt{Bed Temperature}}
 \index{Bed Temperature}
-We recommend leaving this temperature setting to “0”. If you set your temperature in this section your printer will not begin printing until it reaches the EXACT temperature. We recommend setting your bed temperatures through the Printer Interface, or through your LCD.
+This is where you will set the heat bed temperature for your specific material. These will be pre-set when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help adhesion or release. See Recommended Temperatures Table: page \pageref{tab:a}.
 
 \subsection{\texttt{Support Type}}
 \index{Support Type}
@@ -462,7 +462,7 @@ The filament diameter setting is one of the more important settings. Make sure t
 
 \subsection{\texttt{Filament Flow \%}}
 \index{Flow Rate}
-This controls how much filament your printer is extruding in relation to speed. This setting is mainly used to adjust for filament density variations. Leave this value at 100\% as changing it can lead to surface quality issues.
+This controls how much filament your printer is extruding in relation to speed. This setting is mainly used to adjust for filament density variations. This may need to be adjusted when switching between different manufacturers or types of filament to adjust for die swell. It is recommended to make small adjustments between prints for fine tuning.
 
 \section{\texttt{Advanced Tab Options}}
 \index{Advanced Options}
@@ -470,13 +470,13 @@ This controls how much filament your printer is extruding in relation to speed. 
 \subsection{\texttt{Nozzle Size (mm)}}
 \index{Nozzle Size}
 %%%% standalone version line %%%%
-This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end. The TAZ ships with a 0.5mm nozzle. 
+This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end. The TAZ ships with a 0.5mm nozzle standard. 
 
 %This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end. The Mini ships with a 0.5mm nozzle.
 
 \subsection{\texttt{Retraction Speed (mm/s)}}
 \index{Retraction Speed}
-Retraction Speed determines the speed at which your filament is reversed out of the hot end for travel moves and when changing direction during printing. We recommend keeping this set to 25mm/s or lower.
+Retraction Speed determines the speed at which your filament is reversed out of the hot end for travel moves and when changing direction during printing. We recommend keeping this set to less than 25mm/s to help protect the gears.
 
 \subsection{\texttt{Retraction Distance}}
 \index{Retraction Distance}
@@ -485,10 +485,10 @@ Retraction Distance determines how much filament is pulled out of your hot end o
 
 \subsection{\texttt{Initial Layer Thickness}}
 \index{Initial Layer}
-This will control how thick your first printed layer height is printed onto the heated bed. Having a larger initial layer height will help prevent your part from popping off the plate. All of our standard profiles have a 0.3mm initial layer height. This eliminates the need for adjustments when switching between filaments.  %\textcolor{red}{Your LulzBot\textsuperscript{\miniscule{\textregistered}} Mini auto leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
+This will control how thick your first printed layer height is printed onto the heated bed. Having a larger initial layer height will help prevent your part from popping off the plate. All of our standard profiles have a 0.425mm initial layer height. This eliminates the need for adjustments when switching between filaments.  \textcolor{red}{Your LulzBot\textsuperscript{\miniscule{\textregistered}} TAZ 6 auto leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
 \subsection{\texttt{Initial Layer Line Width}}
 \index{Initial Layer Width}
-This will control how wide your first extruded filament path is for the initial layer. A wider line width will help with bed adhesion. We have found 125\% to be a good starting place. For models with moving printed in place parts, a smaller initial layer line width is recommended. %\textcolor{red}{Your LulzBot Mini auto leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
+This will control how wide your first extruded filament path is for the initial layer. A wider line width will help with bed adhesion. We have found 125\% to be a good starting place. For models with moving printed in place parts, a smaller initial layer line width is recommended. \textcolor{red}{Your LulzBot TAZ 6 auto leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
 
 \subsection{\texttt{Cut Off Object Bottom (mm)}}
 \index{Cut Off Object}
@@ -534,7 +534,7 @@ Enables operation of your extruder active cooling fan. The fan settings can be a
 
 \section{\texttt{Plugins}}
 \index{Plugins}
-Plugins are custom settings which will alter your print at specific points. The two that come preloaded with Cura are \texttt{Tweak at Z}, and \texttt{Pause at Height}. More plugins and information can be found here: \texttt{http://wiki.ultimaker.com/Category:CuraPlugin} To activate one of these highlight the desired plugin and click the drop-down arrow directly below the Plugins box. 
+Plugins are custom settings which will alter your print at specific points. The two that come preloaded with Cura are \texttt{Tweak at Z}, and \texttt{Pause at Height}. More plugins and information can be found here: \texttt{http://wiki.ultimaker.com/Category:CuraPlugin} To activate one of these highlight the desired plugin and click the drop-down arrow directly below the Plugins box. \texttt{These plugins affect how Gcode is generated. Use at your own risk.}
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Plugins.png}
@@ -557,8 +557,8 @@ Pause your print at a specified height. You can also specify where to move the p
 Custom Gcode allows for complex automatic printer movements and operations. By adding custom Gcode into the start or end of your file, you can alter how it prints. A comprehensive list of Gcode commands can be found here: \texttt{http://reprap.org/wiki/G-code} We recommend new users to leave this as provided in the profiles at \texttt{https://www.lulzbot.com/cura}
 
 %mini
-%\subsection{Mini Specific Considerations}
-%Please be cautious when changing any of these start and end Gcode settings. \textcolor{red}{This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer automatically compensate for the heated bed position and can even potentially damage components on the printer.} If you are uncertain of the change you are trying to make, please contact us at \texttt{Support@LulzBot.com} before hand.
+\subsection{\texttt{TAZ 6 Specific Considerations}}
+Please be cautious when changing any of these start and end Gcode settings. \textcolor{red}{This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer automatically compensate for the heated bed position and can even potentially damage components on the printer.} If you are uncertain of the change you are trying to make to start/end gcode, please contact us at \texttt{Support@LulzBot.com} before hand.
 
 \section{\texttt{Expert Settings}}
 \index{Expert Settings}
@@ -608,7 +608,7 @@ This will define the minimum extruded line length for the skirt. This will over 
 
 \section{\texttt{Cool}}
 \index{Cooling}
-This section will define how your extruder cooling fan will operate during the print. \textcolor{red}{Your fan will not start until it has reached 25\% or higher for speed settings.} If your print speeds are slowed down due to minimal layer time, the fan will run between minimum and maximum speed based upon how much the layer is slowed down.
+This section will define how your extruder cooling fan will operate during the print. If your print speeds are slowed down due to minimal layer time, the fan will run between minimum and maximum speed based upon how much the layer is slowed down.
 
 \subsection{\texttt{Fan on at Full Height}}
 \index{Fan Settings}

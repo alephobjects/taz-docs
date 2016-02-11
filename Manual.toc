@@ -88,51 +88,52 @@
 \contentsline {section}{\numberline {2.9}\texttt {Plugins}}{38}
 \contentsline {subsection}{\texttt {Tweak at Z}}{39}
 \contentsline {subsection}{\texttt {Pause at Z Height}}{39}
-\contentsline {section}{\numberline {2.10}\texttt {Start and End Gcode Settings}}{39}
+\contentsline {section}{\numberline {2.10}\texttt {Start and End Gcode Settings}}{40}
+\contentsline {subsection}{\texttt {TAZ 6 Specific Considerations}}{40}
 \contentsline {section}{\numberline {2.11}\texttt {Expert Settings}}{40}
-\contentsline {section}{\numberline {2.12}\texttt {Retraction}}{40}
+\contentsline {section}{\numberline {2.12}\texttt {Retraction}}{41}
 \contentsline {subsection}{\texttt {Minimum Travel}}{41}
 \contentsline {subsection}{\texttt {Combing}}{41}
-\contentsline {subsection}{\texttt {Minimal Extrusion Before Retracting}}{41}
-\contentsline {subsection}{\texttt {Z Hop When Retracting}}{41}
-\contentsline {section}{\numberline {2.13}\texttt {Skirt}}{41}
-\contentsline {subsection}{\texttt {Line Count}}{41}
+\contentsline {subsection}{\texttt {Minimal Extrusion Before Retracting}}{42}
+\contentsline {subsection}{\texttt {Z Hop When Retracting}}{42}
+\contentsline {section}{\numberline {2.13}\texttt {Skirt}}{42}
+\contentsline {subsection}{\texttt {Line Count}}{42}
 \contentsline {subsection}{\texttt {Start Distance}}{42}
 \contentsline {subsection}{\texttt {Minimal Length}}{42}
 \contentsline {section}{\numberline {2.14}\texttt {Cool}}{42}
-\contentsline {subsection}{\texttt {Fan on at Full Height}}{42}
-\contentsline {subsection}{\texttt {Fan Speed Min}}{42}
-\contentsline {subsection}{\texttt {Fan Speed Max}}{42}
+\contentsline {subsection}{\texttt {Fan on at Full Height}}{43}
+\contentsline {subsection}{\texttt {Fan Speed Min}}{43}
+\contentsline {subsection}{\texttt {Fan Speed Max}}{43}
 \contentsline {section}{\numberline {2.15}\texttt {Support}}{43}
 \contentsline {subsection}{\texttt {Structure Type}}{43}
-\contentsline {subsection}{\texttt {Overhang Angle for Support}}{43}
-\contentsline {subsection}{\texttt {Fill Amount}}{43}
-\contentsline {subsection}{\texttt {Distance X/Y}}{43}
-\contentsline {subsection}{\texttt {Distance Z}}{43}
+\contentsline {subsection}{\texttt {Overhang Angle for Support}}{44}
+\contentsline {subsection}{\texttt {Fill Amount}}{44}
+\contentsline {subsection}{\texttt {Distance X/Y}}{44}
+\contentsline {subsection}{\texttt {Distance Z}}{44}
 \contentsline {section}{\numberline {2.16}\texttt {Black Magic}}{44}
 \contentsline {subsection}{\texttt {Spiralize the Outer Contour}}{44}
-\contentsline {subsection}{\texttt {Only Follow Mesh Surface}}{44}
-\contentsline {section}{\numberline {2.17}\texttt {Brim}}{44}
-\contentsline {subsection}{\texttt {Brim Line Amount}}{44}
-\contentsline {section}{\numberline {2.18}\texttt {Raft}}{44}
+\contentsline {subsection}{\texttt {Only Follow Mesh Surface}}{45}
+\contentsline {section}{\numberline {2.17}\texttt {Brim}}{45}
+\contentsline {subsection}{\texttt {Brim Line Amount}}{45}
+\contentsline {section}{\numberline {2.18}\texttt {Raft}}{45}
 \contentsline {subsection}{\texttt {Extra Margin}}{45}
 \contentsline {subsection}{\texttt {Line Spacing}}{45}
-\contentsline {subsection}{\texttt {Base Thickness}}{45}
-\contentsline {subsection}{\texttt {Base Line Width}}{45}
-\contentsline {subsection}{\texttt {Interface Thickness}}{45}
-\contentsline {subsection}{\texttt {Interface Line Width}}{45}
-\contentsline {subsection}{\texttt {Airgap}}{45}
+\contentsline {subsection}{\texttt {Base Thickness}}{46}
+\contentsline {subsection}{\texttt {Base Line Width}}{46}
+\contentsline {subsection}{\texttt {Interface Thickness}}{46}
+\contentsline {subsection}{\texttt {Interface Line Width}}{46}
+\contentsline {subsection}{\texttt {Airgap}}{46}
 \contentsline {subsection}{\texttt {Surface Layers}}{46}
 \contentsline {section}{\numberline {2.19}\texttt {Fix Horrible}}{46}
-\contentsline {subsection}{\texttt {Combine Everything (Type-A)}}{46}
-\contentsline {subsection}{\texttt {Combine Everything (Type-B)}}{46}
-\contentsline {subsection}{\texttt {Keep Open Faces}}{46}
-\contentsline {subsection}{\texttt {Extensive Stitching}}{46}
+\contentsline {subsection}{\texttt {Combine Everything (Type-A)}}{47}
+\contentsline {subsection}{\texttt {Combine Everything (Type-B)}}{47}
+\contentsline {subsection}{\texttt {Keep Open Faces}}{47}
+\contentsline {subsection}{\texttt {Extensive Stitching}}{47}
 \contentsline {section}{\numberline {2.20}\texttt {Dual Extrusion}}{47}
-\contentsline {subsection}{\texttt {Updating Firmware}}{47}
+\contentsline {subsection}{\texttt {Updating Firmware}}{48}
 \contentsline {subsection}{\texttt {Calibrating Extruders}}{48}
 \contentsline {subsection}{\texttt {Defining Second Extruder Offset}}{49}
-\contentsline {subsection}{\texttt {First Dual Print}}{49}
+\contentsline {subsection}{\texttt {First Dual Print}}{50}
 \contentsline {subsection}{\texttt {Setting Dual Temps}}{51}
 \contentsline {chapter}{\chapternumberline {3}\emph {Printing with the Graphic LCD}}{53}
 \contentsline {section}{\numberline {3.1}\texttt {GLCD Controller, Cura or Printrun Host?}}{54}
