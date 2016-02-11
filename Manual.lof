@@ -1,104 +1,30 @@
 \select@language {english}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Quick Print Settings}}{17}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Options after selecting model}}{19}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Rotating your Model}}{20}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Scaling your Model}}{21}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces View in Normal Mode}}{22}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces View in Overhang}}{22}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces View in Ghost}}{23}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces View in Xray}}{23}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces View in Layers}}{24}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Viewing Cumulative Layers}}{24}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Viewing Specific Layers}}{25}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Control Screen}}{26}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces View in Full Settings}}{29}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Differences in Layer Height}}{30}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Support Types}}{32}
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Cutoff Example}}{35}
-\contentsline {figure}{\numberline {1.17}{\ignorespaces View of Plugins}}{37}
-\contentsline {figure}{\numberline {1.18}{\ignorespaces View Expert Settings}}{38}
-\contentsline {figure}{\numberline {1.19}{\ignorespaces Before Merge}}{48}
-\contentsline {figure}{\numberline {1.20}{\ignorespaces After Merge}}{49}
-\contentsline {figure}{\numberline {1.21}{\ignorespaces Printrun application for 3D printer control}}{50}
-\contentsline {figure}{\numberline {1.22}{\ignorespaces Printrun}}{52}
-\contentsline {figure}{\numberline {1.23}{\ignorespaces Printrun Functions}}{54}
-\contentsline {figure}{\numberline {1.24}{\ignorespaces Movement Controls}}{54}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Configuration Wizard: Welcome Screen}}{64}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Configuration Wizard: Firmware Type}}{65}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Configuration Wizard: Bed Size}}{66}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Configuration Wizard: Nozzle Diameter}}{67}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Configuration Wizard: Filament Diameter}}{68}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Configuration Wizard: Extrusion Temperature}}{69}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Configuration Wizard: Bed Temperature}}{70}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Configuration Wizard: End}}{71}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Shapesmith online CAD tool.}}{75}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Plater}}{76}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Minimug model.}}{77}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces STL file loaded.}}{77}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Preferences.}}{79}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Simple Mode: Print Settings.}}{80}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces An example of insufficient top layers.}}{81}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Creating a vase from a solid model.}}{82}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces An example of an object printed with support material.}}{83}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces An example of brim.}}{84}
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Simple Mode: Filament Settings.}}{85}
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Simple Mode: Printer Settings.}}{86}
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Expert mode speed options.}}{89}
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Infill pattern settings.}}{92}
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Infill pattern: Line (344.51mm / 5m:20s)}}{92}
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Infill pattern: Rectilinear (350.57mm / 5m:23s)}}{92}
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Infill pattern: Concentric (351.80mm / 5m:30s)}}{93}
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Infill pattern: Honeycomb (362.73mm / 5m:39s)}}{93}
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Infill pattern: Hilbert Curve (332.82mm / 5m:28s)}}{93}
-\contentsline {figure}{\numberline {2.28}{\ignorespaces Infill pattern: Archimedean Chords (333.66mm / 5m:27s)}}{93}
-\contentsline {figure}{\numberline {2.29}{\ignorespaces Infill pattern: Octagram Spiral (318.63mm / 5m:15s)}}{94}
-\contentsline {figure}{\numberline {2.30}{\ignorespaces Infill pattern comparison in a complex object. Left to Right: honeycomb, line}}{94}
-\contentsline {figure}{\numberline {2.31}{\ignorespaces Infill patterns at varying densities. Left to Right: 20\%,40\%,60\%,80\%. Top to Bottom: Honeycomb, Concentric, Line, Rectilinear, Hilbert Curve, Archimedean Chords, Octagram Spiral}}{95}
-\contentsline {figure}{\numberline {2.32}{\ignorespaces Infill advanced settings.}}{96}
-\contentsline {figure}{\numberline {2.33}{\ignorespaces Retraction settings.}}{97}
-\contentsline {figure}{\numberline {2.34}{\ignorespaces Skirt settings.}}{99}
-\contentsline {figure}{\numberline {2.35}{\ignorespaces Cooling strategy.}}{101}
-\contentsline {figure}{\numberline {2.36}{\ignorespaces Cooling advanced settings.}}{102}
-\contentsline {figure}{\numberline {2.37}{\ignorespaces Support structure options.}}{104}
-\contentsline {figure}{\numberline {2.38}{\ignorespaces Minimug model, tilted 45°.}}{105}
-\contentsline {figure}{\numberline {2.39}{\ignorespaces Support infill pattern: Rectilinear}}{105}
-\contentsline {figure}{\numberline {2.40}{\ignorespaces Support infill pattern: Rectilinear Grid}}{105}
-\contentsline {figure}{\numberline {2.41}{\ignorespaces Support infill pattern: Honeycomb}}{106}
-\contentsline {figure}{\numberline {2.42}{\ignorespaces Example of pattern angle rotated 45°.}}{106}
-\contentsline {figure}{\numberline {2.43}{\ignorespaces Multiple extruder options - Printer Settings Tab (General). Note the two extruders defined in the left-hand pane.}}{107}
-\contentsline {figure}{\numberline {2.44}{\ignorespaces Multiple extruder options - Printer Settings Tab (Extruder).}}{107}
-\contentsline {figure}{\numberline {2.45}{\ignorespaces Plater with multiple filament options.}}{108}
-\contentsline {figure}{\numberline {2.46}{\ignorespaces Multiple extruder options - Print Settings Tab.}}{109}
-\contentsline {figure}{\numberline {2.47}{\ignorespaces Multiple extruder options - Tool change G-code.}}{110}
-\contentsline {figure}{\numberline {2.48}{\ignorespaces Extrusion widths options.}}{111}
-\contentsline {figure}{\numberline {2.49}{\ignorespaces Example model highlighting use case for variable layer heights.}}{112}
-\contentsline {figure}{\numberline {2.50}{\ignorespaces Example with normal layer height.}}{113}
-\contentsline {figure}{\numberline {2.51}{\ignorespaces Variable layer height options - Info.}}{114}
-\contentsline {figure}{\numberline {2.52}{\ignorespaces Variable layer height options - Layers.}}{115}
-\contentsline {figure}{\numberline {2.53}{\ignorespaces Example with variable layer height.}}{115}
-\contentsline {figure}{\numberline {2.54}{\ignorespaces Example print with variable layer height.}}{116}
-\contentsline {figure}{\numberline {2.55}{\ignorespaces Example with skipped layers.}}{116}
-\contentsline {figure}{\numberline {2.56}{\ignorespaces Saving a profile.}}{118}
-\contentsline {figure}{\numberline {2.57}{\ignorespaces Deleting a profile.}}{118}
-\contentsline {figure}{\numberline {2.58}{\ignorespaces FreeCAD part repair.}}{119}
-\contentsline {figure}{\numberline {2.59}{\ignorespaces Sequential printing options.}}{120}
-\contentsline {figure}{\numberline {2.60}{\ignorespaces The clearance cylinder around an extruder.}}{121}
-\contentsline {figure}{\numberline {2.61}{\ignorespaces Post-processing script option.}}{127}
-\contentsline {figure}{\numberline {2.62}{\ignorespaces Example post-processing script to display Slic3r environment variables.}}{127}
-\contentsline {figure}{\numberline {2.63}{\ignorespaces Example post-processing script to print each line to output.}}{128}
-\contentsline {figure}{\numberline {2.64}{\ignorespaces Extrusion Width.}}{129}
-\contentsline {figure}{\numberline {2.65}{\ignorespaces Bridging filament shape.}}{130}
-\contentsline {figure}{\numberline {2.66}{\ignorespaces Extrusion shape.}}{131}
-\contentsline {figure}{\numberline {2.67}{\ignorespaces No path overlap}}{131}
-\contentsline {figure}{\numberline {2.68}{\ignorespaces Holes made through polygonal segments.}}{134}
-\contentsline {figure}{\numberline {2.69}{\ignorespaces Z wobble changing layer stacking.}}{135}
-\contentsline {figure}{\numberline {2.70}{\ignorespaces Variable filament diameter changing layer stacking.}}{135}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Quick Print Settings}}{19}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Options after selecting model}}{21}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Rotating your Model}}{22}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Scaling your Model}}{23}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces View in Normal Mode}}{24}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces View in Overhang}}{24}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces View in Ghost}}{25}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces View in Xray}}{25}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces View in Layers}}{26}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Viewing Cumulative Layers}}{26}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Viewing Specific Layers}}{27}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Control Screen}}{28}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces View in Full Settings}}{30}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Differences in Layer Height}}{32}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Support Types}}{34}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Cutoff Example}}{37}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces View of Plugins}}{39}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces View Expert Settings}}{40}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Before Merge}}{50}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces After Merge}}{51}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces GLCD Info Screen}}{143}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Main Menu}}{145}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces GLCD Info Screen}}{55}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Main Menu}}{57}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
