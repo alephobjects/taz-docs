@@ -218,7 +218,10 @@ To view the tool path of your print head and to ensure no skipped layers or gaps
 \index{First Print}
 Once you have your model, profile, and filament loaded, it is time for your first print! 
 
-
+\subsection{\texttt{Automatic Bed Leveling}}
+\index{Automatic Bed Leveling}
+\index{ABL}
+Before each print your, TAZ 6 will go through a wiping and a probing procedure in order to determine the slope/tilt of your bed. If your nozzle is dirty or not cleaned properly, this will prevent the printer from being able to create an electrical contact with the corners. Your TAZ 6 will automatically retry the wiping and probing procedure if this happens, up to a maximum of three times. If three consecutive wipes and probes have failed, the printer will stop and a warning will sound. If this is happening consistently, you may need to replace the wiping pad and/or adjust your wiping and probing temps for that specific filament. REFERENCE CHANGING WIPES
 %\subsection{Mini}
 
 %Select the \texttt{Print/Control} option in the top left hand corner of your build volume. This will bring up your Printer Interface. Please wait for the window title to display \texttt{operational} before sending any commands to the printer..
@@ -233,7 +236,7 @@ Once you have your model, profile, and filament loaded, it is time for your firs
 
 %\subsection{TAZ}
 
-Your TAZ 3D printer has the ability to print directly from a computer using the included USB cable, or directly from the SD card by using the Graphical LCD controller.
+%Your TAZ 3D printer has the ability to print directly from a computer using the included USB cable, or directly from the SD card by using the Graphical LCD controller.
 
 
 
@@ -558,7 +561,21 @@ Custom Gcode allows for complex automatic printer movements and operations. By a
 
 %mini
 \subsection{\texttt{TAZ 6 Specific Considerations}}
-Please be cautious when changing any of these start and end Gcode settings. \textcolor{red}{This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer automatically compensate for the heated bed position and can even potentially damage components on the printer.} If you are uncertain of the change you are trying to make to start/end gcode, please contact us at \texttt{Support@LulzBot.com} before hand.
+Please be cautious when changing any of these start and end Gcode settings. \textcolor{red}{This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer automatically compensate for the heated bed position and can potentially damage components on the printer.} If you are uncertain of the change you are trying to make to start/end gcode, please contact us at \texttt{Support@LulzBot.com} before hand.
+
+\definecolor{green2}{rgb}{0.00,0.375,0.0}
+
+\subsection{\texttt{Changing Wiping and Probing Temperatures}}
+\index{Wiping Temperature}
+\index{Probing Temperature}
+We have set wiping and probing temperatures that we have found work well with specific types of filament and filament manufacturers. If you are using a type and/or manufacturer of filament not listed in the quickprint settings, you may need to adjust these temperatures for optimal leveling. In the start Gcode section, there will be three separate temperatures you can adjust. What these gcode lines do will be described in the \textcolor{green2}{green text} to the right of the command. The ones you will want to adjust are:
+\begin{itemize}
+\item M109 SXXX                    \textcolor{green2}{; soften filament for z homing}
+\item M104 SYYY                    \textcolor{green2}{; wipe temp}
+\item M109 SZZZ                    \textcolor{green2}{; heat to probe temp}
+\end{itemize}
+
+By changing the variables \texttt{(XXX, YYY, ZZZ),} you can change what temperature your printer will soften, wipe, and probe. Our temperatures for softening, wiping, and probing will be a good starting point for other manufacturer's filament. When making adjustments, we recommend +/- 5c changes at a time. \texttt{Be sure to watch the probing sequence when experimenting with new temperatures.}
 
 \section{\texttt{Expert Settings}}
 \index{Expert Settings}
