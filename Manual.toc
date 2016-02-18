@@ -144,10 +144,11 @@
 \contentsline {section}{\numberline {3.4}\texttt {Printing With the Graphic LCD}}{56}
 \contentsline {subsection}{\texttt {The Graphic LCD Status Screen}}{56}
 \contentsline {subsection}{\texttt {Using the Selection Knob}}{57}
-\contentsline {subsection}{\texttt {Preparing for a Print}}{57}
-\contentsline {subsection}{\texttt {Selecting a File From the SD and Starting a Print}}{58}
+\contentsline {subsection}{\texttt {Selecting a File From the SD and Starting a Print}}{57}
 \contentsline {subsection}{\texttt {Making Manual Movements With the Graphic LCD}}{58}
 \contentsline {subsection}{\texttt {Configuration Settings}}{58}
+\contentsline {subsection}{\texttt {Z Offset}}{58}
+\contentsline {subsection}{\texttt {Changing EEPROM Settings}}{59}
 \contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{61}
 \contentsline {section}{\numberline {4.1}\texttt {Overview}}{62}
 \contentsline {section}{\numberline {4.2}\texttt {Smooth Rods}}{62}
