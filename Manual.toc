@@ -148,6 +148,7 @@
 \contentsline {subsection}{\texttt {Making Manual Movements With the Graphic LCD}}{58}
 \contentsline {subsection}{\texttt {Configuration Settings}}{58}
 \contentsline {subsection}{\texttt {Z Offset}}{58}
+\contentsline {subsection}{\texttt {Change Filament}}{59}
 \contentsline {subsection}{\texttt {Changing EEPROM Settings}}{59}
 \contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{61}
 \contentsline {section}{\numberline {4.1}\texttt {Overview}}{62}
