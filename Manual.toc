@@ -150,6 +150,7 @@
 \contentsline {subsection}{\texttt {Z Offset}}{58}
 \contentsline {subsection}{\texttt {Change Filament}}{59}
 \contentsline {subsection}{\texttt {Changing EEPROM Settings}}{59}
+\contentsline {subsection}{\texttt {GLCD Controller Menu Map}}{60}
 \contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{61}
 \contentsline {section}{\numberline {4.1}\texttt {Overview}}{62}
 \contentsline {section}{\numberline {4.2}\texttt {Smooth Rods}}{62}
