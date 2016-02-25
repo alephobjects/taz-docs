@@ -155,7 +155,10 @@
 \contentsline {subsection}{\texttt {Vmax}}{60}
 \contentsline {subsection}{\texttt {Vmin}}{60}
 \contentsline {subsection}{\texttt {VTrav Min}}{60}
-\contentsline {subsection}{\texttt {GLCD Controller Menu Map}}{61}
+\contentsline {subsection}{\texttt {Amax}}{60}
+\contentsline {subsection}{\texttt {A-Retract}}{60}
+\contentsline {subsection}{\texttt {Steps/mm}}{61}
+\contentsline {subsection}{\texttt {GLCD Controller Menu Map}}{62}
 \contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{63}
 \contentsline {section}{\numberline {4.1}\texttt {Overview}}{64}
 \contentsline {section}{\numberline {4.2}\texttt {Smooth Rods}}{64}

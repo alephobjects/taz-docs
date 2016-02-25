@@ -122,12 +122,19 @@ Jerk is the derivative of accleration and will determine the maximum speed chang
 The Vmax settings will determine the maximum speed that your printer can move on any specific motor(s). We recommend leaving these settings as is. Increasing these speeds too much can lead to skipped steps and/or binding. There will be an individual section for \texttt{X, Y, Z, and Extruder} motors. 
 
 \subsection{\texttt{Vmin}}
-This sets the minimum travel speed, and we have this set to 0 by default. 
+This sets the minimum overall speeds. We have this set to 0 by default to allow greater control through your preferred slicing program. 
 
 \subsection{\texttt{VTrav Min}}
-This will set the minimum travel speed when the print head is not extruding. We have this set to 0 by default.
+This will set the minimum travel speed when the tool head is not extruding. We have this set to 0 by default to allow greater control through your preferred slicing program. 
 
+\subsection{\texttt{Amax}}
+The \texttt{Amax} settings will allow you to define a maximum acceleration limit for each motor. Increasing these may reduce print time, but can result in in shadowing and resonance issues.
 
+\subsection{\texttt{A-Retract}} 
+This sets the maximum acceleration for retraction moves of the extruder. Going too high can lead to stripping, and going too low can lead to dripping. We have this set to 3000mm/s\textsuperscript{\miniscule{2}} by default.
+
+\subsection{\texttt{Steps/mm}}
+Your TAZ 6 printer will come pre calibrated on all axis for accurate movement. These settings control that movement, and if adjusted your objects will not come out at the proper dimensions. \textcolor{red}{\texttt{We only recommend adjusting your Esteps/mm}} as this can be fine tuned for individual tool heads and filaments. 
 
 \subsection{\texttt{GLCD Controller Menu Map}}
 \begin{figure}[H]
