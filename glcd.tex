@@ -112,6 +112,19 @@ Your TAZ 6 has the ability to change the first layer height (Z offset) directly 
 
 %To find the configuration settings, navigate to the main menu and then select \texttt{Control} (Figure \ref{fig:configuration_menu}, page \pageref{fig:configuration_menu}). In the Control configuration settings you will find temperature and motion settings. Among others, these settings include default temperature settings and axis steps per millimeter.
 
+\subsection{\texttt{Acceleration}}
+Acceleration is the derivative of speed, and determines how quickly your print head and bed will reach defined speeds. We have this set to 500mm/s^2 to help prevent resonance and shadowing. This can be increased for sharper corners and faster turns, however it can lead backlash issues.
+
+\subsection{\texttt{Jerk Settings}}
+Jerk is the derivative of accleration and will determine the maximum speed change allowed at any given time. \texttt{VXY- Jerk} will control jerk setting for your X and Y axis. \texttt{VZ - Jerk} will control the jerk setting for your Z axis. \texttt{VE - Jerk} will control the jerk settings for your extruder.
+
+\subsection{\texttt{Vmax}}
+The Vmax settings will determine the maximum speed that your printer can move on any specific motor(s). We recommend leaving these settings as is. Increasing these speeds too much can lead to skipped steps and/or binding. There will be an individual section for \texttt{X, Y, Z, and Extruder} motors. 
+
+\subsection{\texttt{Vmin}}
+This sets the minimum travel speed, and we have this set to 0 by default. 
+
+\subsection{\texttt{VTrav Min}}
 
 
 \subsection{\texttt{GLCD Controller Menu Map}}
