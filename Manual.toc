@@ -150,36 +150,41 @@
 \contentsline {subsection}{\texttt {Changing EEPROM Settings}}{58}
 \contentsline {section}{\numberline {3.6}\texttt {Advanced Settings}}{58}
 \contentsline {subsection}{\texttt {Z Offset}}{59}
-\contentsline {subsection}{\texttt {GLCD Controller Menu Map}}{60}
-\contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{61}
-\contentsline {section}{\numberline {4.1}\texttt {Overview}}{62}
-\contentsline {section}{\numberline {4.2}\texttt {Smooth Rods}}{62}
-\contentsline {section}{\numberline {4.3}\texttt {Lead Screw Drive Rods}}{62}
-\contentsline {section}{\numberline {4.4}\texttt {PEI Surface}}{62}
-\contentsline {section}{\numberline {4.5}\texttt {Hobbed Bolt}}{63}
-\contentsline {section}{\numberline {4.6}\texttt {Belts}}{63}
-\contentsline {section}{\numberline {4.7}\texttt {Hot End}}{63}
-\contentsline {section}{\numberline {4.8}\texttt {Nozzle Wiping Pad}}{63}
-\contentsline {section}{\numberline {4.9}\texttt {Bed Leveling Washers}}{64}
-\contentsline {section}{\numberline {4.10}\texttt {Cooling Fans}}{64}
-\contentsline {section}{\numberline {4.11}\texttt {Electronics}}{64}
-\contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{65}
-\contentsline {section}{\numberline {5.1}\texttt {Intro}}{66}
-\contentsline {section}{\numberline {5.2}\texttt {Changing nozzles}}{66}
-\contentsline {section}{\numberline {5.3}\texttt {Bed Adhesion}}{66}
-\contentsline {subsection}{\texttt {ABS/Acetone Glue}}{66}
-\contentsline {subsection}{\texttt {Glue stick/PVA Glue solution}}{67}
-\contentsline {section}{\numberline {5.4}\texttt {Using 1.75mm filament}}{67}
-\contentsline {chapter}{\chapternumberline {6}\emph {Hardware and Software Source Code}}{69}
-\contentsline {chapter}{\chapternumberline {7}\emph {3D Printer Support}}{71}
-\contentsline {section}{\numberline {7.1}\texttt {LulzBot}}{72}
-\contentsline {section}{\numberline {7.2}\texttt {Community}}{72}
-\contentsline {chapter}{\chapternumberline {8}\emph {Warranty Information}}{73}
-\contentsline {section}{\numberline {8.1}\texttt {Warranty}}{74}
-\contentsline {subsection}{\texttt {Extended Warranty}}{74}
-\contentsline {chapter}{\chapternumberline {9}\emph {Contact Information}}{75}
-\contentsline {section}{\numberline {9.1}\texttt {Support}}{76}
-\contentsline {section}{\numberline {9.2}\texttt {Sales}}{76}
-\contentsline {section}{\numberline {9.3}\texttt {Websites}}{76}
-\contentsline {chapter}{Index}{77}
-\contentsline {chapter}{Glossary}{81}
+\contentsline {subsection}{\texttt {Acceleration}}{59}
+\contentsline {subsection}{\texttt {Jerk Settings}}{60}
+\contentsline {subsection}{\texttt {Vmax}}{60}
+\contentsline {subsection}{\texttt {Vmin}}{60}
+\contentsline {subsection}{\texttt {VTrav Min}}{60}
+\contentsline {subsection}{\texttt {GLCD Controller Menu Map}}{61}
+\contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{63}
+\contentsline {section}{\numberline {4.1}\texttt {Overview}}{64}
+\contentsline {section}{\numberline {4.2}\texttt {Smooth Rods}}{64}
+\contentsline {section}{\numberline {4.3}\texttt {Lead Screw Drive Rods}}{64}
+\contentsline {section}{\numberline {4.4}\texttt {PEI Surface}}{64}
+\contentsline {section}{\numberline {4.5}\texttt {Hobbed Bolt}}{65}
+\contentsline {section}{\numberline {4.6}\texttt {Belts}}{65}
+\contentsline {section}{\numberline {4.7}\texttt {Hot End}}{65}
+\contentsline {section}{\numberline {4.8}\texttt {Nozzle Wiping Pad}}{65}
+\contentsline {section}{\numberline {4.9}\texttt {Bed Leveling Washers}}{66}
+\contentsline {section}{\numberline {4.10}\texttt {Cooling Fans}}{66}
+\contentsline {section}{\numberline {4.11}\texttt {Electronics}}{66}
+\contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{67}
+\contentsline {section}{\numberline {5.1}\texttt {Intro}}{68}
+\contentsline {section}{\numberline {5.2}\texttt {Changing nozzles}}{68}
+\contentsline {section}{\numberline {5.3}\texttt {Bed Adhesion}}{68}
+\contentsline {subsection}{\texttt {ABS/Acetone Glue}}{68}
+\contentsline {subsection}{\texttt {Glue stick/PVA Glue solution}}{69}
+\contentsline {section}{\numberline {5.4}\texttt {Using 1.75mm filament}}{69}
+\contentsline {chapter}{\chapternumberline {6}\emph {Hardware and Software Source Code}}{71}
+\contentsline {chapter}{\chapternumberline {7}\emph {3D Printer Support}}{73}
+\contentsline {section}{\numberline {7.1}\texttt {LulzBot}}{74}
+\contentsline {section}{\numberline {7.2}\texttt {Community}}{74}
+\contentsline {chapter}{\chapternumberline {8}\emph {Warranty Information}}{75}
+\contentsline {section}{\numberline {8.1}\texttt {Warranty}}{76}
+\contentsline {subsection}{\texttt {Extended Warranty}}{76}
+\contentsline {chapter}{\chapternumberline {9}\emph {Contact Information}}{77}
+\contentsline {section}{\numberline {9.1}\texttt {Support}}{78}
+\contentsline {section}{\numberline {9.2}\texttt {Sales}}{78}
+\contentsline {section}{\numberline {9.3}\texttt {Websites}}{78}
+\contentsline {chapter}{Index}{79}
+\contentsline {chapter}{Glossary}{83}
