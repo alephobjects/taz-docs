@@ -62,20 +62,21 @@ To navigate through the LCD menu use the selection knob by rotating to scroll th
 \label{fig:main_menu}
 \end{figure}
 
-\subsection{\texttt{Preparing for a Print}}
-Before starting a print you will need to set the hot end and heat bed to the appropriate temperatures for the filament type you are using. To quickly set the printer to preheat, click the selection knob to bring up the menu and select \texttt{Temperature}. Select \texttt{Filament Type} to automatically set the hot end and bed temperature for that specific filament.
+%\subsection{\texttt{Preparing for a Print}}
+%Before starting a print you will need to set the hot end and heat bed to the appropriate temperatures for the filament type you are using. To quickly set the printer to preheat, click the selection knob to bring up the menu and select \texttt{Temperature}. Select \texttt{Filament Type} to automatically set the hot end and bed temperature for that specific filament.
 
-If you need to set the extrusion and/or bed temperature to a setting different than the preheat temperature you can manually set the temperature. To do so, from the main menu navigate through: Temperature \texttt{->} Custom Temp \texttt{->} Nozzle or Bed. Clicking on either of these settings will give you a menu to set and select the desired temperature setting.
+%If you need to set the extrusion and/or bed temperature to a setting different than the preheat temperature you can manually set the temperature. To do so, from the main menu navigate through: Temperature \texttt{->} Custom Temp \texttt{->} Nozzle or Bed. Clicking on either of these settings will give you a menu to set and select the desired temperature setting.
 
 \subsection{\texttt{Selecting a File From the SD and Starting a Print}}
-Once the hot end and heat bed have reached the desired temperature the printer is ready to print. From the main menu select the \texttt{Print from SD} option. You will now see a selection of the directories and .gcode files on the SD card. Navigate through the menu to locate the file you would like to print. Select the desired file to begin the print.
+Once the SD card has the desired Gcode file loaded onto it, you can begin your first print. From the main menu select the \texttt{Print from SD} option. You will now see a selection of the directories and .gcode files on the SD card. Navigate through the menu to locate the file you would like to print. Select the desired file to begin the print.
+
 
 \subsection{\texttt{Making Manual Movements With the Graphic LCD}}
-As noted previously (page \pageref{sec:Graphic LCD, Cura or Printrun Host?}), making numerous manual movements is easier done using Cura/Printrun. However, you can make manual movements with the GLCD. Navigate to Movement \texttt{->} Move Axis. You will select the length of the movement and then which axis to move. Note; that only 1-mm and 0.1-mm movements are allowed for the Z axis and extruder.
+As noted previously (page \pageref{sec:Graphic LCD, Cura or Printrun Host?}), making numerous manual movements is easier done using Cura/Printrun. However, you can make manual movements with the GLCD. Navigate to \texttt{Movement -> Move Axis}. You will select the length of the movement and then which axis to move. \texttt{Note; that only 1-mm and 0.1-mm movements are allowed for the Z axis and extruder.}
 
 When at the move screen; turn the selection knob clockwise to move the axis in millimeters in the positive direction and counter-clockwise for the negative direction. 
 
-\subsection{\texttt{Configuration Settings}}
+\section{\texttt{Configuration Options}} 
 
 %\begin{figure}[H]
 %\centering
@@ -84,21 +85,64 @@ When at the move screen; turn the selection knob clockwise to move the axis in m
 %\label{fig:main_menu}
 %\end{figure}
 
-Out of the box, the LulzBot TAZ 3D printer is already calibrated for printing. However, the GLCD does allow tuning of the more advanced configuration settings. \textcolor{red}{We highly suggest you not modify the configuration settings unless you are certain it is necessary}. These settings control how your printer operates.
+Out of the box, the LulzBot TAZ 3D printer is already calibrated for printing. However, the GLCD does allow tuning of the more advanced configuration settings. \textcolor{red}{We highly suggest you not modify the configuration settings unless you are certain it is necessary}. The configuration section contains settings that control how your printer operates.
 
-%To find the configuration settings, navigate to the main menu and then select \texttt{Control} (Figure \ref{fig:configuration_menu}, page \pageref{fig:configuration_menu}). In the Control configuration settings you will find temperature and motion settings. Among others, these settings include default temperature settings and axis steps per millimeter.
-
-The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the GLCD Controller. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered on. If you ever need to revert to the original factory settings navigate to \texttt{Control} \texttt{->} \texttt{Restore Failsafe}. Clicking \texttt{Restore Failsafe} will set all configuration settings back to the original factory settings in the firmware.
+\subsection{\texttt{Changing EEPROM Settings}}
+\index{eeprom settings}
+The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the GLCD Controller. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered on. If you ever need to revert to the original factory settings navigate to \texttt{Control} \texttt{->} \texttt{Restore Failsafe}. Clicking \texttt{Restore to Factory} will set all configuration settings back to the original factory settings in the firmware.
 
 For more information on the configuration settings please see the LulzBot TAZ support page at \texttt{LulzBot.com/support}.
 
-%\subsection{GLCD Controller Menu Diagram}
-%\begin{figure}[H]
-%\centering
-%\includegraphics[keepaspectratio=true,angle=0,height=1.0\textheight,width=1.0\textwidth]{GLCD/glcd_menu.JPG}
-%\caption{Control Menu}
-%\label{fig:configuration_menu}
-%\end{figure}
+\section{\texttt{Advanced Settings}}
+In the advanced settings, you can control/modify your Z offset, maximum velocity, acceleration, jerk, and esteps/mm. Once again \textcolor{red}{we highly suggest you not modify the configuration settings unless you are certain it is necessary}. Making incorrect adjustments of these settings can have adverse affects on your prints, and potentially damage your machine.
+
+\subsection{\texttt{Z Offset}}
+\index{Z Offset}
+Your TAZ 6 has the ability to change the first layer height (Z offset) directly through the GLCD, even while printing the first layer. Using the GLCD, navigate to \texttt{Configuration -> Advanced Settings -> Z Offset}. While in this screen you can rotate the LCD knob counter-clockwise to bring your nozzle closer to the print surface, and rotate it clockwise to bring it farther away from the bed. Push in the LCD knob to save your settings.
+
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{z-offset.JPG}
+\caption{Z Offset Screen}
+\label{fig:Z_offset_screen}
+\end{figure}
+
+%\subsection{\texttt{Change Filament}}
+%While printing from SD card, you can change filament by going to \texttt{Tune -> Change Filament}. This will park your print head in the front left corner, and eject the filament from the hot end. Once you have swapped filament, go to \texttt{Tune -> Resume Print}. In order to get a crisp, clean color change you will need to manually push filament through the head until the previous color has been purged. 
+
+%To find the configuration settings, navigate to the main menu and then select \texttt{Control} (Figure \ref{fig:configuration_menu}, page \pageref{fig:configuration_menu}). In the Control configuration settings you will find temperature and motion settings. Among others, these settings include default temperature settings and axis steps per millimeter.
+
+\subsection{\texttt{Acceleration}}
+Acceleration is the derivative of speed, and determines how quickly your print head and bed will reach defined speeds. We have this set to 500mm/s\textsuperscript{\miniscule{2}} to help prevent resonance and shadowing. This can be increased for sharper corners and faster turns, however it can lead backlash issues.
+
+\subsection{\texttt{Jerk Settings}}
+Jerk is the derivative of accleration and will determine the maximum speed change allowed at any given time. \texttt{VXY- Jerk} will control jerk setting for your X and Y axis. \texttt{VZ - Jerk} will control the jerk setting for your Z axis. \texttt{VE - Jerk} will control the jerk settings for your extruder.
+
+\subsection{\texttt{Vmax}}
+The Vmax settings will determine the maximum speed that your printer can move on any specific motor(s). We recommend leaving these settings as is. Increasing these speeds too much can lead to skipped steps and/or binding. There will be an individual section for \texttt{X, Y, Z, and Extruder} motors. 
+
+\subsection{\texttt{Vmin}}
+This sets the minimum overall speeds. We have this set to 0 by default to allow greater control through your preferred slicing program. 
+
+\subsection{\texttt{VTrav Min}}
+This will set the minimum travel speed when the tool head is not extruding. We have this set to 0 by default to allow greater control through your preferred slicing program. 
+
+\subsection{\texttt{Amax}}
+The \texttt{Amax} settings will allow you to define a maximum acceleration limit for each motor. Increasing these may reduce print time, but can result in in shadowing and resonance issues.
+
+\subsection{\texttt{A-Retract}} 
+This sets the maximum acceleration for retraction moves of the extruder. Going too high can lead to stripping, and going too low can lead to dripping. We have this set to 3000mm/s\textsuperscript{\miniscule{2}} by default.
+
+\subsection{\texttt{Steps/mm}}
+Your TAZ 6 printer will come pre calibrated on all axis for accurate movement. These settings control that movement, and if adjusted your objects will not come out at the proper dimensions. \textcolor{red}{\texttt{We only recommend adjusting your Esteps/mm}} as this can be fine tuned for individual tool heads and filaments. 
+
+\subsection{\texttt{GLCD Controller Menu Map}}
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=1.0\textheight,width=1.0\textwidth]{tree.jpg}
+\caption{GLCD Map}
+\label{fig:GLCD_Map}
+\end{figure}
 
 
 
