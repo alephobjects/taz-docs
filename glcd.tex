@@ -10,24 +10,24 @@
 % International Public License (CC BY-SA 4.0) by Aleph Objects, Inc.
 %
 
-The Graphic LCD allows you to print with the LulzBot\textsuperscript{\miniscule{\textregistered}} TAZ 3D printer without needing to have a computer connected or using host software such as Cura. This will allow for more efficient space in the workspace and free up a computer for other tasks.
+The Graphic LCD Controller, Graphic LCD, or GLCD, allows you to print with the LulzBot TAZ 3D printer without needing to have a computer connected or using host software such as Cura LulzBot Edition. This will allow for more efficient space in the workspace and free up a computer for other tasks.
 
 In the following sections you will find general information on using the Graphic LCD, how to transfer .gcode files to the included SD card, heat up the printer, start a print, and make configuration adjustments.
 
-\section{\texttt{GLCD Controller, Cura or Printrun Host?}}
-\label{sec:Graphic LCD, Cura or Printrun Host?}
-The Graphical LCD Controller is perfect for normal day to day printing and will be used in the majority of your print jobs. However, in some instances- you will want to use Cura or Printrun instead of the GLCD Controller. A few examples of when you would want to plug the USB cable back in and use Cura:
+\section{\texttt{GLCD Controller, Cura or Other Host?}}
+\label{sec:Graphic LCD, Cura or Other Host?}
+The Graphical LCD Controller is perfect for normal day to day printing and will be used in the majority of your print jobs. However, in some instances- you will want to use Cura instead of the GLCD. A few examples of when you would want to plug the USB cable back in and use Cura:
 \begin{itemize}
-	\item A number of manual movements are required to perform calibration checks. Because of this it is easier and faster to make the required manual movements within Cura. Calibration checks can be done with the Graphic LCD, but require a number of repetitive menu selections.
-	\item Printrun offers a number of extra options for advanced users, including custom gcode input, output display, and pronsole. Pronsole is the command line portion of Printrun that can be used in scripts for automation or controlling a printer through remote access, for example, SSH.
+	\item A number of manual movements are required to perform calibration checks. Because of this it is easier and faster to make the required manual movements within Cura. Calibration checks can be done with the Graphic LCD, but require a number of repetitive menu selections. 
+%%%%%	\item Printrun offers a number of extra options for advanced users, including custom gcode input, output display, and pronsole. Pronsole is the command line portion of Printrun that can be used in scripts for automation or controlling a printer through remote access, for example, SSH.
 	\item Cura is the preferred printer host software, as the inclusion of quick print profiles, the combination of slicing engine, and printer host communications allows for easy all-in-one use.
 \end{itemize}
 
 \section{\texttt{Multiple Connections}}
-Because the LulzBot TAZ 3D printer can be controlled by the Graphic LCD and by host software, caution is advised when connecting to the printer through USB as the print can be interrupted when connecting or disconnecting the USB cable. A general rule is: once you have started a print with either the Graphic LCD, Cura, or Printrun, for the rest of the print use only that controller. When printing with the Graphic LCD, never try to connect through USB in the Cura host software; wait until the print is complete, and then connect in Cura.
+Because the LulzBot TAZ 3D printer can be controlled by the Graphic LCD and by host software, caution is advised when connecting to the printer through USB as the print can be interrupted when connecting or disconnecting the USB cable. A general rule is: once you have started a print with either the Graphic LCD, Cura, or another printer host, for the rest of the print use only that controller. When printing with the Graphic LCD, never try to connect through USB in the Cura host software; wait until the print is complete, and then connect in Cura.
 
 \section{\texttt{Putting Print Files on the SD Card}}
-To print from the Graphic LCD, you will need to transfer .gcode print files onto the SD card. Follow the normal steps, as explained in the Slic3r chapter, to create .gcode print files on your computer. Insert the SD card into your computer using a SD reader slot or USB SD card reader. Open a file browser- / -manager and locate the created .gcode files; drag and drop or paste the .gcode files to the SD card. Once the files have transferred, eject the SD card from your computer and insert it back into the SD card slot on the left side of the Graphic LCD case.
+To print from the Graphic LCD, transfer .gcode print files onto the SD card. Follow the normal steps, as explained in the Cura chapter, to create .gcode print files on your computer. Insert the SD card into your computer using a SD reader slot or USB SD card reader. Open a file browser- / -manager and locate the created .gcode files; drag and drop or paste the .gcode files to the SD card. Once the files have transferred, eject the SD card from your computer and insert it back into the SD card slot on the left side of the printer, at the top near the Graphic LCD.
 
 \section{\texttt{Printing With the Graphic LCD}}
 \begin{figure}[b]
@@ -38,7 +38,7 @@ To print from the Graphic LCD, you will need to transfer .gcode print files onto
 \end{figure}
 
 \subsection{\texttt{The Graphic LCD Status Screen}}
-The GLCD screen will turn on you power up your LulzBot TAZ 3D printer. The start-up screen will display the Status screen (fig. \ref{fig:info_screen}, page \pageref{fig:info_screen}). The Status screen is the default screen for the GLCD, presenting the current status of the printer. There are a number of live statuses shown on the Status screen; these will give you current temperatures, tool head coordinates, print status, and more. The different numbered sections of the status screen are shown in Figure \ref{fig:info_screen} above. Follow the key below for more information on each section.
+The Graphic LCD screen will turn on you power up your LulzBot TAZ 3D printer. The start-up screen will display the Status screen (fig. \ref{fig:info_screen}, page \pageref{fig:info_screen}). The Status screen is the default screen for the Graphic LCD, presenting the current status of the printer. There are a number of live statuses shown on the Status screen; these will give you current temperatures, tool head coordinates, print status, and more. The different numbered sections of the status screen are shown in Figure \ref{fig:info_screen} above. Follow the key below for more information on each section.
 
 \begin{enumerate}
 \item Hot end temperatures: represents the current temperature (bottom) and set temperature (top) of up to three nozzles. The RAMBo control electronics currently only supports two hot ends.
@@ -53,7 +53,7 @@ The GLCD screen will turn on you power up your LulzBot TAZ 3D printer. The start
 
 
 \subsection{\texttt{Using the Selection Knob}}
-To navigate through the LCD menu use the selection knob by rotating to scroll through selections and pressing the knob to make a selection. From the main Status screen, press the knob to move into the menu screen (Figure \ref{fig:main_menu}, page \pageref{fig:main_menu}). To move backwards in the menu tree, select the top most menu selection on the current screen. Selections that will move you backwards through the menu tree are noted by an upwards-facing arrow. Note that if the menu is left idle it will automatically move back to the main Status screen.
+To navigate through the Graphic LCD menu use the selection knob by rotating to scroll through selections and pressing the knob to make a selection. From the main status screen, press the knob to move into the menu screen (Figure \ref{fig:main_menu}, page \pageref{fig:main_menu}). To move backwards in the menu tree, select the top most menu selection on the current screen. Selections that will move you backwards through the menu tree are noted by an upwards-facing arrow. Note that if the menu is left idle it will automatically move back to the main status screen.
 
 \begin{figure}[h]
 \centering
@@ -68,11 +68,11 @@ To navigate through the LCD menu use the selection knob by rotating to scroll th
 %If you need to set the extrusion and/or bed temperature to a setting different than the preheat temperature you can manually set the temperature. To do so, from the main menu navigate through: Temperature \texttt{->} Custom Temp \texttt{->} Nozzle or Bed. Clicking on either of these settings will give you a menu to set and select the desired temperature setting.
 
 \subsection{\texttt{Selecting a File From the SD and Starting a Print}}
-Once the SD card has the desired Gcode file loaded onto it, you can begin your first print. From the main menu select the \texttt{Print from SD} option. You will now see a selection of the directories and .gcode files on the SD card. Navigate through the menu to locate the file you would like to print. Select the desired file to begin the print.
+Once the SD card has the desired GCODE file loaded onto it, you can begin your first print. From the main menu select the \texttt{Print from SD} option. You will now see a selection of the directories and .gcode files on the SD card. Navigate through the menu to locate the file you would like to print. Select the desired file to begin the print.
 
 
 \subsection{\texttt{Making Manual Movements With the Graphic LCD}}
-As noted previously (page \pageref{sec:Graphic LCD, Cura or Printrun Host?}), making numerous manual movements is easier done using Cura/Printrun. However, you can make manual movements with the GLCD. Navigate to \texttt{Movement -> Move Axis}. You will select the length of the movement and then which axis to move. \texttt{Note; that only 1-mm and 0.1-mm movements are allowed for the Z axis and extruder.}
+As noted previously (page \pageref{sec:Graphic LCD, Cura or Other Host?}), making numerous manual movements is easier done using Cura. However, you can make manual movements with the Graphic LCD. Navigate to \texttt{Movement -> Move Axis}. You will select the length of the movement and then which axis to move. \texttt{Note; that only 1-mm and 0.1-mm movements are allowed for the Z axis and extruder.}
 
 When at the move screen; turn the selection knob clockwise to move the axis in millimeters in the positive direction and counter-clockwise for the negative direction. 
 
@@ -85,11 +85,11 @@ When at the move screen; turn the selection knob clockwise to move the axis in m
 %\label{fig:main_menu}
 %\end{figure}
 
-Out of the box, the LulzBot TAZ 3D printer is already calibrated for printing. However, the GLCD does allow tuning of the more advanced configuration settings. \textcolor{red}{We highly suggest you not modify the configuration settings unless you are certain it is necessary}. The configuration section contains settings that control how your printer operates.
+Out of the box, the LulzBot TAZ 3D printer is already calibrated for printing. However, the Graphic LCD does allow tuning of the more advanced configuration settings. \textcolor{red}{We highly suggest you not modify the configuration settings unless you are certain it is necessary}. The configuration section contains settings that control how your printer operates.
 
 \subsection{\texttt{Changing EEPROM Settings}}
 \index{eeprom settings}
-The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the GLCD Controller. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered on. If you ever need to revert to the original factory settings navigate to \texttt{Control} \texttt{->} \texttt{Restore Failsafe}. Clicking \texttt{Restore to Factory} will set all configuration settings back to the original factory settings in the firmware.
+The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the Graphic LCD. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered on. If you ever need to revert to the original factory settings navigate to \texttt{Control} \texttt{->} \texttt{Restore Failsafe}. Clicking \texttt{Restore to Factory} will set all configuration settings back to the original factory settings in the firmware.
 
 For more information on the configuration settings please see the LulzBot TAZ support page at \texttt{LulzBot.com/support}.
 
@@ -98,7 +98,7 @@ In the advanced settings, you can control/modify your Z offset, maximum velocity
 
 \subsection{\texttt{Z Offset}}
 \index{Z Offset}
-Your TAZ 6 has the ability to change the first layer height (Z offset) directly through the GLCD, even while printing the first layer. Using the GLCD, navigate to \texttt{Configuration -> Advanced Settings -> Z Offset}. While in this screen you can rotate the LCD knob counter-clockwise to bring your nozzle closer to the print surface, and rotate it clockwise to bring it farther away from the bed. Push in the LCD knob to save your settings.
+Your TAZ 3D printer has the ability to change the first layer height (Z offset) directly through the Graphic LCD, even while printing the first layer. Using the Graphic LCD, navigate to \texttt{Configuration -> Advanced Settings -> Z Offset}. While in this screen you can rotate the Graphic LCD knob counter-clockwise to bring your nozzle closer to the print surface, and rotate it clockwise to bring it farther away from the bed. Push in the LCD knob to save your settings.
 
 \begin{figure}[H]
 \centering
@@ -134,7 +134,7 @@ The \texttt{Amax} settings will allow you to define a maximum acceleration limit
 This sets the maximum acceleration for retraction moves of the extruder. Going too high can lead to stripping, and going too low can lead to dripping. We have this set to 3000mm/s\textsuperscript{\miniscule{2}} by default.
 
 \subsection{\texttt{Steps/mm}}
-Your TAZ 6 printer will come pre calibrated on all axis for accurate movement. These settings control that movement, and if adjusted your objects will not come out at the proper dimensions. \textcolor{red}{\texttt{We only recommend adjusting your Esteps/mm}} as this can be fine tuned for individual tool heads and filaments. 
+Your TAZ 3D printer is factory calibrated on all axis for accurate movement. These settings control that movement, and if adjusted your objects will not come out at the proper dimensions. \textcolor{red}{\texttt{We only recommend adjusting your Esteps/mm}} as this can be fine tuned for individual tool heads and filaments. 
 
 \subsection{\texttt{GLCD Controller Menu Map}}
 \begin{figure}[H]
