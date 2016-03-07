@@ -13,7 +13,7 @@
 \index{Cura}
 \label{Cura}
 \glossary{Cura}{Cura is a cross-platform software package that combines a slicing engine with a printer host interface.}
-\glossary{Slic3r}{Slic3r is a cross-platform 3D model slicing engine. It's used to process the 3 dimensional model into the Gcode (tool path) needed to physically generate the print.}
+\glossary{Slic3r}{Slic3r is a cross-platform 3D model slicing engine. It's used to process the 3 dimensional model into the GCODE (tool path) needed to physically generate the print.}
 
 \subsection{\texttt{Setup Cura}}
 \index{Installation}
@@ -248,7 +248,7 @@ Before each print your, TAZ 6 will go through a wiping and a probing procedure i
 \index{SD card}
 \index{SD}
 
-Load your model into Cura with the proper filament and profile selected. Next, insert the included SD card into your computer. Select \texttt{File} > \texttt{Save Gcode} and choose the SD card location to save your Gcode file to your SD card. Safely eject the card from the computer, and insert it into the Graphical LCD Controller. 
+Load your model into Cura with the proper filament and profile selected. Next, insert the included SD card into your computer. Select \texttt{File} > \texttt{Save GCODE} and choose the SD card location to save your GCODE file to your SD card. Safely eject the card from the computer, and insert it into the Graphical LCD Controller. 
 
 %\subsection{\texttt{Set Temperature}}
 
@@ -281,7 +281,7 @@ You will notice after you click the print button through Cura, it will change to
 \subsection{\texttt{Recommended Temperatures and Bed Preperation}}
 \index{Temperatures}
 \index{Glue stick}
-When generating Gcode, it may be beneficial to adjust temperatures depending on your specific model file or filament. We have also found that for certain materials a glue stick is required for successful bed adhesion and/or part release. Glue stick can also be added to help first layer adhesion on any material, and may be helpful for objects with a larger surface area. You can find our recommended temperature ranges and adhesion techniques below.
+When generating GCODE, it may be beneficial to adjust temperatures depending on your specific model file or filament. We have also found that for certain materials a glue stick is required for successful bed adhesion and/or part release. Glue stick can also be added to help first layer adhesion on any material, and may be helpful for objects with a larger surface area. You can find our recommended temperature ranges and adhesion techniques below.
 
 \begin{table}[H]
 	\begin{center}
@@ -347,7 +347,7 @@ Once your heated bed has cooled, use the blue handled knife that was included wi
 \section{\texttt{Full Settings}}
 \index{Full Settings}
 \textcolor{red}{Full settings should not be used until enough experience with 3D printing has been gained to feel comfortable with all aspects of the printer and its operation.} The Quickprint Mode will provide good results for most models.
-The first time Cura is launched it will default to the \texttt{Quick Print} interface. In order to have more control of your slicing and Gcode generation, switch to \texttt{Full Settings}. Choose your desired Quick Print profile, as you can copy over the current settings when changing to ``Full Settings'' mode. This will automatically update the settings for that filament. Select \texttt{Expert} > \texttt{Switch to Full Settings}. The following tabs will now be available: Basic, Advanced, Plugins, and Start/End-Gcode. You will also have access to the Expert Settings. 
+The first time Cura is launched it will default to the \texttt{Quick Print} interface. In order to have more control of your slicing and GCODE generation, switch to \texttt{Full Settings}. Choose your desired Quick Print profile, as you can copy over the current settings when changing to ``Full Settings'' mode. This will automatically update the settings for that filament. Select \texttt{Expert} > \texttt{Switch to Full Settings}. The following tabs will now be available: Basic, Advanced, Plugins, and Start/End-GCODE. You will also have access to the Expert Settings. 
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}
@@ -419,7 +419,7 @@ Your overall printing speed can be adjusted here. If no other speeds are determi
 This is where you will set the hot end temperature for your specific material. It will be pre-set when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help layer adhesion or stringing. See Recommended Temperatures Table: page \pageref{tab:a}. Your hot end is capable of reaching a maximum temperature of 300c.
 
 %The Mini 3D printer needs to have the temperature specified in order to run through the automatic bed-leveling routine.
-%%%% Since the Mini needs to have Gcode temps set in order to run through auto bed leveling, the following statement is only applicable to the TAZ 4 or earlier. %%%%
+%%%% Since the Mini needs to have GCODE temps set in order to run through auto bed leveling, the following statement is only applicable to the TAZ 4 or earlier. %%%%
 %We recommend leaving this temperature setting to “0”. If you set your temperature in this section your printer will not begin printing until it reaches the EXACT temperature. We recommend setting your printing temperatures through the Printer Interface, or through your LCD.
 
 \subsubsection{\texttt{Bed Temperature}}
@@ -537,7 +537,7 @@ Enables operation of your extruder active cooling fan. The fan settings can be a
 
 \section{\texttt{Plugins}}
 \index{Plugins}
-Plugins are custom settings which will alter your print at specific points. The two that come preloaded with Cura are \texttt{Tweak at Z}, and \texttt{Pause at Height}. More plugins and information can be found here: \texttt{http://wiki.ultimaker.com/Category:CuraPlugin} To activate one of these highlight the desired plugin and click the drop-down arrow directly below the Plugins box. \texttt{These plugins affect how Gcode is generated. Use at your own risk.}
+Plugins are custom settings which will alter your print at specific points. The two that come preloaded with Cura are \texttt{Tweak at Z}, and \texttt{Pause at Height}. More plugins and information can be found here: \texttt{http://wiki.ultimaker.com/Category:CuraPlugin} To activate one of these highlight the desired plugin and click the drop-down arrow directly below the Plugins box. \texttt{These plugins affect how GCODE is generated. Use at your own risk.}
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Plugins.png}
@@ -553,22 +553,22 @@ Make basic changes at specified Z heights. You can define the Z height or layer 
 \index{Pause at Z Height}
 Pause your print at a specified height. You can also specify where to move the print head and how much filament to retract. This will prevent “blobs” from accumulating on your print while paused. This setting is most commonly used when switching colors of filaments in the middle of a print.
 
-\section{\texttt{Start and End Gcode Settings}}
-\index{Custom Gcode}
-\index{Start Gcode}
-\index{End Gcode}
-Custom Gcode allows for complex automatic printer movements and operations. By adding custom Gcode into the start or end of your file, you can alter how it prints. A comprehensive list of Gcode commands can be found here: \texttt{http://reprap.org/wiki/G-code} We recommend new users to leave this as provided in the profiles at \texttt{https://www.lulzbot.com/cura}
+\section{\texttt{Start and End GCODE Settings}}
+\index{Custom GCODE}
+\index{Start GCODE}
+\index{End GCODE}
+Custom GCODE allows for complex automatic printer movements and operations. By adding custom GCODE into the start or end of your file, you can alter how it prints. A comprehensive list of GCODE commands can be found here: \texttt{http://reprap.org/wiki/G-code} We recommend new users to leave this as provided in the profiles at \texttt{https://www.lulzbot.com/cura}
 
 %mini
 \subsection{\texttt{TAZ 6 Specific Considerations}}
-Please be cautious when changing any of these start and end Gcode settings. \textcolor{red}{This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer automatically compensate for the heated bed position and can potentially damage components on the printer.} If you are uncertain of the change you are trying to make to start/end gcode, please contact us at \texttt{Support@LulzBot.com} before hand.
+Please be cautious when changing any of these start and end GCODE settings. \textcolor{red}{This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer automatically compensate for the heated bed position and can potentially damage components on the printer.} If you are uncertain of the change you are trying to make to start/end GCODE, please contact us at \texttt{Support@LulzBot.com} before hand.
 
 \definecolor{green2}{rgb}{0.00,0.375,0.0}
 
 \subsection{\texttt{Changing Wiping and Probing Temperatures}} \label{sssec:num1}
 \index{Wiping Temperature}
 \index{Probing Temperature}
-We have set wiping and probing temperatures that we have found work well with specific types of filament and filament manufacturers. If you are using a type and/or manufacturer of filament not listed in the quickprint settings, you may need to adjust these temperatures for optimal leveling. In the start Gcode section, there will be three separate temperatures you can adjust. What these gcode lines do will be described in the \textcolor{green2}{green text} to the right of the command. The ones you will want to adjust are:
+We have set wiping and probing temperatures that we have found work well with specific types of filament and filament manufacturers. If you are using a type and/or manufacturer of filament not listed in the quickprint settings, you may need to adjust these temperatures for optimal leveling. In the start GCODE section, there will be three separate temperatures you can adjust. What these GCODE lines do will be described in the \textcolor{green2}{green text} to the right of the command. The ones you will want to adjust are:
 \begin{itemize}
 \item \texttt{M109 SXXX}                    \textcolor{green2}{; soften filament for z homing}
 \item \texttt{M104 SYYY}                    \textcolor{green2}{; wipe temp}
@@ -733,11 +733,11 @@ This will ignore all internal holes of the model and only focus on the external 
 
 \subsection{\texttt{Keep Open Faces}}
 \index{Open Faces}
-This will ignore all manifold errors in the object. It can create issues generating the Gcode as Cura does not know how to interpret the open holes. This option should only be used if you are sure that the holes in the mesh are intended. In general, you should not use this option.
+This will ignore all manifold errors in the object. It can create issues generating the GCODE as Cura does not know how to interpret the open holes. This option should only be used if you are sure that the holes in the mesh are intended. In general, you should not use this option.
 
 \subsection{\texttt{Extensive Stitching}}
 \index{Extensive Stitching}
-This causes Cura to automatically add triangle meshes in an attempt to fix manifold errors. This algorithm will greatly increase Gcode generation time and may end up adding in un-intended meshes. It is recommended that you repair your model through MeshLab, FreeCAD or your preferred CAD program before attempting this option.
+This causes Cura to automatically add triangle meshes in an attempt to fix manifold errors. This algorithm will greatly increase GCODE generation time and may end up adding in un-intended meshes. It is recommended that you repair your model through MeshLab, FreeCAD or your preferred CAD program before attempting this option.
 
 \section{\texttt{Dual Extrusion}}
 \index{Dual Extrusion}

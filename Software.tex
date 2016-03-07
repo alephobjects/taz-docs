@@ -14,8 +14,8 @@
 
 Aleph Objects, Inc., the maker of the LulzBot\textsuperscript{\miniscule{\textregistered}} TAZ 3D printer, completely supports Free/Libre software and hardware. Along with the LulzBot TAZ 3D printer being a Free/Libre hardware design, it has been tested to work with 100\% Free/Libre software. Our source code and design files are hosted on our development server found at \texttt{http://devel.lulzbot.com}.
 \glossary{free/libre}{Free/Libre hardware and software can be thought of as ``free as in free speech, not just free as in free beer'', although most Free/Libre software is available for no cost. Libre hardware designs can be copied, modified and are usually available for download. Free/Libre software can be used in a similar fashion.}
-To operate your desktop 3D printer you will need to install a few software packages onto your PC. You will need a 3D printer host, an \texttt{.STL} to \texttt{.gcode} generator, and optional CAD or 3D modeling software.
-\glossary{.gcode}{The file extension for G-Code files}
+To operate your desktop 3D printer you will need to install a few software packages onto your PC. You will need a 3D printer host, an \texttt{.STL} to \texttt{.GCODE} generator, and optional CAD or 3D modeling software.
+\glossary{.GCODE}{The file extension for G-Code files}
 \glossary{GCODE}{The common name for the most widely used CNC programming language.}
 \glossary{CAD}{Computer Aided Design}
 
@@ -23,7 +23,7 @@ To operate your desktop 3D printer you will need to install a few software packa
 \index{Printer Host}
 \index{Slicing}
 \index{Slicers}
-\index{gcode}
+\index{GCODE}
 \index{g-code}
 
 \begin{description}
@@ -40,11 +40,11 @@ Common Printer Hosts:
 \end{itemize}
 
 \item{\texttt{Slicers}} \hfill \\
-These programs take the 3-Dimensional model (typically STL/OBJ/etc) and determine the 3D printer toolpath based on the options selected. The slicing engine uses the nozzle diameter, movement speeds, layer height, and other variables to determine the coordinates where it needs to move, and the rates at which it will do so. This information is exported out of the program as a gcode file. The gcode file is a plain-text file with a series of text-based codes and a list of the complete X,Y, and Z axis coordinates used for printing the 3D model. We recommend that new users start with Cura as it includes the printer host as well.
+These programs take the 3-Dimensional model (typically STL/OBJ/etc) and determine the 3D printer toolpath based on the options selected. The slicing engine uses the nozzle diameter, movement speeds, layer height, and other variables to determine the coordinates where it needs to move, and the rates at which it will do so. This information is exported out of the program as a GCODE file. The GCODE file is a plain-text file with a series of text-based codes and a list of the complete X,Y, and Z axis coordinates used for printing the 3D model. We recommend that new users start with Cura as it includes the printer host as well.
 
 Recommended Slicers:
 \begin{itemize}
-\item Cura
+\item Cura LulzBot Edition
 \item Slic3r
 %\item Skeinforge
 %\item Sfact
@@ -59,11 +59,11 @@ Recommended Slicers:
 All of the following Free/Libre software packages are available for GNU/Linux, Windows, and Apple OS X. However, we highly recommend using these programs on GNU/Linux.
 
 \index{download}
-The required software can be found in the Support/Downloads section at \texttt{LulzBot.com/support/downloads}. You will also find instructions there for installing each program onto your PC. You can also find downloads specific to the LulzBot TAZ 3D printer on the LulzBot TAZ product page.
+The required software can be found in the Downloads section at \texttt{LulzBot.com/downloads}. You will also find instructions there for installing each program onto your PC. You can also find downloads specific to the LulzBot TAZ 3D printer on the LulzBot TAZ product page.
 
 \index{driver}
 \section{\texttt{Installing Drivers}}
-Linux and Mac OSX users will not need to install a driver to communicate with the LulzBot TAZ 3D printer. Windows users will need to install the drivers. Using Cura as your printer host and slicing software is recommended, as the drivers will automatically be installed during the Cura installation process. The drivers can also be downloaded from \texttt{LulzBot.com/downloads}. A visual guide showing the driver installation process can be found in our download section as well.
+Linux and Mac OSX users will not need to install a driver to communicate with the LulzBot TAZ 3D printer. Windows users will need to install the drivers. Using Cura LulzBot Edition as your printer host and slicing software is recommended, as the drivers will automatically be installed during the Cura installation process. Download Cura LulzBot Edition by visiting\texttt{LulzBot.com/Cura}. The drivers can also be downloaded from \texttt{LulzBot.com/downloads}. A visual guide showing the driver installation process can be found in our download section as well.
 
 
 \section{\texttt{CAD and 3D Modeling Software}}
