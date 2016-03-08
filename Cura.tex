@@ -12,13 +12,13 @@
 \section{\texttt{Cura}}
 \index{Cura}
 \label{Cura}
-\glossary{Cura}{Cura is a cross-platform software package that combines a slicing engine with a printer host interface.}
-\glossary{Slic3r}{Slic3r is a cross-platform 3D model slicing engine. It's used to process the 3 dimensional model into the Gcode (tool path) needed to physically generate the print.}
+\glossary{Cura}{Cura LulzBot Edition is a cross-platform software package that combines a slicing engine with a printer host interface.}
+\glossary{Slic3r}{Slic3r is a cross-platform 3D model slicing engine. It's used to process the 3 dimensional model into the GCODE (tool path) needed to physically generate the print.}
 
 \subsection{\texttt{Setup Cura}}
 \index{Installation}
-Cura is available for download on our website at \texttt{http://LulzBot.com/cura}. When installing, it is recommended to uninstall any previous versions of Cura you may have been using. 
-When first opening Cura, you will be prompted to go through the \texttt{First run wizard}. This will consist of selecting your printer, hot end type, extruder type, and finally your nozzle diameter.
+Cura LulzBot Edition is available for download on our website at \texttt{http://LulzBot.com/cura}. When installing, it is recommended to uninstall any previous versions of Cura you may have been using. 
+When first opening Cura, you will be prompted to go through the \texttt{First run wizard}. This will consist of selecting your printer, hot end type, tool head type, and finally your nozzle diameter.
 
 \textcolor{red}{It is important to select the correct printer, hot end, tool head, and nozzle diameter as Cura uses custom profiles and machine settings based upon which printer, hot end, tool head, and nozzle you have.}
 
@@ -31,7 +31,7 @@ When first opening Cura, you will be prompted to go through the \texttt{First ru
 %\item Select \texttt{LulzBot Mini}.
 %\item Select \texttt{LulzBot\textsuperscript{\miniscule{\textregistered}} TAZ 4 or 5}, then select \texttt{Next}.
 \item Select \texttt{Stock TAZ 6 (PEI and V2)}. Press \texttt{Next}.
-\item Choose the correct nozzle size for your machine. Your TAZ 6 comes with a \texttt{0.5mm nozzle} standard.
+\item Choose the correct nozzle size for your machine. Your TAZ comes with a \texttt{0.5mm nozzle} standard.
 %\item The final step will be a firmware update. \textcolor{red}{Skip this step if you are not switching to different tool heads.} If you are adding on a different tool head, please be sure to update the firmware.
 \item Select finish.
 \end{itemize}
@@ -53,8 +53,8 @@ After setting up Cura for the first time, you will be shown the main interface s
 \subsection{\texttt{Selecting a Quick Print Profile}}
 \index{Quick Print Profile}
 \index{Resolution}
-\glossary{Resolution}{In general terms, the resolution you print at can be determined by the layer height you use. The LulzBot\textsuperscript{\miniscule{\textregistered}} TAZ can print at a layer height of 0.05mm to 0.50mm.}
-The print quality settings can be found in the top left-hand corner of the window. For most filaments, there will be Standard, High Speed, and High Detail options. Some of the more exotic filaments may only have a single profile.
+\glossary{Resolution}{In general terms, the resolution you print at can be determined by the layer height you use. The LulzBot TAZ can print at a layer height of 0.05mm to 0.50mm.}
+The print quality settings can be found in the top left-hand corner of the window. For most filaments, there will be \texttt{Standard}, \texttt{High Speed}, and \texttt{High Detail} options. Some of the more exotic filaments may only have a single profile.
 
 \begin{description}
 \item[\texttt{High Detail}] \hfill \\
@@ -62,18 +62,18 @@ Designed to give greater detail and finer objects. This will have a smaller laye
 \index{High Detail}
 
 \item[\texttt{Standard}] \hfill \\
-Designed to give a medium resolution by increasing the layer height and print speeds. This will make the organic curves slightly more step-like than the fine setting, but it will reduce printing time.
+Designed to give a balanced resolution by increasing the layer height and print speeds. This will make the organic curves slightly more step-like than the fine setting, but it will reduce printing time.
 \index{Standard Quality}
 
 \item[\texttt{High Speed}] \hfill \\
-Designed for the fast prints, where overall model finish is not of concern. Most commonly used for quick iteration of designs found in rapid prototyping.
+Designed for the fast prints, where the overall model finish is not of concern. Most commonly used for quick iteration of designs when rapid prototyping.
 \index{High Speed}
 \end{description}
 
 \subsection{\texttt{Material Selection}}
 \index{Material Selection}
 \index{filament}
-We have the different filaments separated by \texttt{ease of use.} From the ease of use drop down, select \texttt{"all"} to have access to all our pre-loaded filament profiles. The TAZ ships with a 1 meter sample of nGen, that should be used in your first print.
+We have the different filaments separated by \texttt{Material ease of use.} From the \texttt{Material ease of use} drop down, select \texttt{"All"} to view all our pre-loaded filament slicing profiles. The TAZ ships with a 1 meter sample of nGen for the first print.
 %If you are not using LulzBot supplied filament, update your filament diameter to your specific average filament diameter. Do this by taking 10 to 12 filament diameter measurements from different parts of the reel and averaging them. Update your filament diameter. You may also want to adjust the temperature, as different manufacturers have different recommended temperatures. % This could be better served in the Full Settings explanation.
 
 \subsection{\texttt{Printing Support Material}}
@@ -81,7 +81,7 @@ We have the different filaments separated by \texttt{ease of use.} From the ease
 %%%% Saved for standalone Cura Manual %%%%
 %The TAZ and Mini are able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model could benefit from support material.
 %MINI% The Mini 3D printer is able to print models that have angles and overhangs, even without support material depending on the overhang distance and angle. Turn this option on if your model could benefit from support material.
-The LulzBot\textsuperscript{\miniscule{\textregistered}} TAZ 3D printer is able to print models that have angles and overhangs, even without support material. This will depend on the overhang distance and angle of your particular model file. Turn this option on if your model could benefit from support material.
+The LulzBot TAZ 3D printer is able to print models that have angles and overhangs, even without support material. This will depend on the overhang distance and angle of your particular model file. Turn this option on if your model could benefit from support material.
 
 \subsection{\texttt{Brim}}
 \index{Brim}
@@ -117,7 +117,7 @@ The \texttt{Rotate} button will give you the ability to orient your model in alo
 \end{figure}
 
 \subsubsection{\texttt{Lay Flat}}
-The \texttt{Lay Flat} button will ensure that the flat portion of your print is securely attached to the bed. It is highly recommended to use this option after rotating your model in the Z direction, as it will help prevent adhesion issues during the print.
+The \texttt{Lay Flat} button will ensure that the flat portion of your print is securely attached to the bed. It is highly recommended to use this option after rotating your model in the Z direction, as it will help prevent potential adhesion issues during the print.
 %\begin{figure}[hbt]
 %\centering
 %\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Rotate.png}
@@ -191,7 +191,7 @@ Xray is very similar to Ghost mode. It will allow you to see into objects, ensur
 
 \subsection{\texttt{Layers}}
 \index{Layers View}
-To view the tool path of your print head and to ensure no skipped layers or gaps use this option. Use the slide bar on the right hand side of the window to move up and down through the tool path layers. Click the icon below it to view an individual layer at a time. If there is support activated in your model, it will be shown in blue.
+To view the tool path of your print head and to ensure no skipped layers or gaps use this option. Use the slide bar on the right hand side of the window to move up and down through the tool path layers. Click the icon below it to view an individual layer at a time. If the \texttt{Print support structure} option is activated in Cura, it will be shown in blue.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{layersTAZ.png}
@@ -216,12 +216,12 @@ To view the tool path of your print head and to ensure no skipped layers or gaps
 
 \section{\texttt{Starting Your First Print}}
 \index{First Print}
-Once you have your model, profile, and filament loaded, it is time for your first print! 
+Once you have your model, profile, and filament loaded, it is time for your first print! Refer to the \texttt{Quick Start Guide} included with your 3D printer. A PDF version is available at \texttt{LulzBot.com/downloads}.
 
 \subsection{\texttt{Automatic Bed Leveling}}
 \index{Automatic Bed Leveling}
 \index{ABL}
-Before each print your, TAZ 6 will go through a wiping and a probing procedure in order to determine the slope/tilt of your bed. If your nozzle is dirty or not cleaned properly, this will prevent the printer from being able to create an electrical contact with the corners. Your TAZ 6 will automatically retry the wiping and probing procedure if this happens, up to a maximum of three times. If three consecutive wipes and probes have failed, the printer will stop and a warning will sound. If this is happening consistently, you may need to replace the wiping pad and/or adjust your wiping and probing temps for that specific filament. See section \ref{sssec:num1} on page \pageref{sssec:num1} for details on changing these temps.
+Before each print your, TAZ will go through a wiping and a probing procedure in order to determine the slope/tilt of your bed. If your nozzle is dirty or not cleaned properly, this will prevent the printer from being able to create an electrical contact with the corners. Your TAZ will automatically retry the wiping and probing procedure if this happens, up to a maximum of three times. If three consecutive wipes and probes have failed, the printer will stop and a warning will sound. If this is happening consistently, you should replace the wiping pad and/or adjust your wiping and probing temps for that specific filament. See section \ref{sssec:num1} on page \pageref{sssec:num1} for details on changing these temps.
 %\subsection{Mini}
 
 %Select the \texttt{Print/Control} option in the top left hand corner of your build volume. This will bring up your Printer Interface. Please wait for the window title to display \texttt{operational} before sending any commands to the printer..
@@ -248,7 +248,7 @@ Before each print your, TAZ 6 will go through a wiping and a probing procedure i
 \index{SD card}
 \index{SD}
 
-Load your model into Cura with the proper filament and profile selected. Next, insert the included SD card into your computer. Select \texttt{File} > \texttt{Save Gcode} and choose the SD card location to save your Gcode file to your SD card. Safely eject the card from the computer, and insert it into the Graphical LCD Controller. 
+Load your model into Cura with the proper filament and profile selected. Next, insert the included SD card into your computer. Select \texttt{File} > \texttt{Save GCODE} and choose the SD card location to save your GCODE file to your SD card. Safely eject the card from the computer, and insert it into the Graphical LCD Controller. 
 
 %\subsection{\texttt{Set Temperature}}
 
@@ -256,14 +256,14 @@ Load your model into Cura with the proper filament and profile selected. Next, i
 
 \subsection{\texttt{Start Print}}
 \index{printing}
-With your printer's automatic bed leveling, it is now time to kick off the print! Through the LCD screen go to: \texttt{Print From SD} > \texttt{Desired File}. Your TAZ 6 will then go through it's automatic cleaning and wiping process before starting the print. This should take approximately 5 minutes.
+Thanks to the TAZ automatic bed leveling system, it is now time to kick off the print! Through the LCD screen go to: \texttt{Print From SD} > \texttt{Desired File}. Your TAZ will then go through it's automatic cleaning and wiping process before starting the print. This should take approximately 5 minutes.
 
 %%%% Tethered printing %%%%
 
 \subsection{\texttt{Printing from USB Cable}}
 \index{Printing from USB}
 
-Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button at the top of the 3D viewing window. \texttt{If the control button is not present, be sure you have a model file loaded into Cura.} This will bring up your Pronterface user interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. Once it is operational, you can start off your first print. Your TAZ 6 will then go through it's automatic cleaning and wiping process before starting the print. This should take approximately 5 minutes.
+Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button at the top of the 3D viewing window. \texttt{If the control button is not present, be sure you have a model file loaded into Cura.} If a model is loaded but the Control button is still not present use a different USB cable, reinstall Cura, or contact our Support Team. This will bring up your Printer Interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. Once operational, you can start your first print. Your TAZ will then go through it's automatic cleaning and wiping process before starting the print. This should take approximately 5 minutes.
 
 
 
@@ -281,7 +281,7 @@ You will notice after you click the print button through Cura, it will change to
 \subsection{\texttt{Recommended Temperatures and Bed Preperation}}
 \index{Temperatures}
 \index{Glue stick}
-When generating Gcode, it may be beneficial to adjust temperatures depending on your specific model file or filament. We have also found that for certain materials a glue stick is required for successful bed adhesion and/or part release. Glue stick can also be added to help first layer adhesion on any material, and may be helpful for objects with a larger surface area. You can find our recommended temperature ranges and adhesion techniques below.
+When generating GCODE, it may be beneficial to adjust temperatures depending on your specific model file or filament. We have also found that for certain materials applying unscented glue stick to the print surface is required for successful bed adhesion and/or part release. Glue stick can also be added to help first layer adhesion on any material, and may be helpful for objects with a larger surface area. You can find our recommended temperature ranges and adhesion techniques below.
 
 \begin{table}[H]
 	\begin{center}
@@ -297,13 +297,23 @@ When generating Gcode, it may be beneficial to adjust temperatures depending on 
  		\hline
  		Laywoo-D3 & Clean PEI & 175-195 & 60 & 45 \\
  		\hline
- 		Laybrick & Clean PEI & 175-195 & 60 & 45 \\
- 		\hline 
- 		Magnetic Iron PLA & Clean PEI & 220-230 & 60 & 45 \\
+		bambooFill & Clean PEI & 185-195 & 60 & 50 \\ 
  		\hline
- 		Stainless Steel PLA & Clean PEI & 220-230 & 60 & 45 \\
+		woodFill & Clean PEI & 185-195 & 60 & 50 \\
+ 		\hline
+ 		Laybrick & Clean PEI & 175-195 & 60 & 45 \\
+		\hline
+		bronzeFill & Clean PEI & 225-235 & 60 & 50 \\
+		\hline
+		copperFill & Clean PEI & 225-235 & 60 & 50 \\
+ 		\hline 
+ 		Magnetic Iron PLA & Clean PEI & 220-230 & 60 & 50 \\
+ 		\hline
+ 		Stainless Steel PLA & Clean PEI & 220-230 & 60 & 50 \\
  		\hline
  		Conductive PLA & Clean PEI & 215-230 & 60 & 50 \\
+		\hline
+		Coffee PLA & Clean PEI & 220-230 & 60 & 40 \\
  		\hline
  		nGen & Clean PEI & 220-240 & 85 & 60 \\
  		\hline
@@ -319,7 +329,7 @@ When generating Gcode, it may be beneficial to adjust temperatures depending on 
  		\hline
  		INOVA 1800 & Glue stick & 235-255 & 75 & 50 \\
  		\hline
- 		n-vent & Glue stick & 220-260 & 110 & 50 \\ [1ex]
+ 		n-vent & Glue stick & 220-260 & 60 & 50 \\ [1ex]
  		\hline
  
 		\end{tabular}
@@ -333,7 +343,7 @@ When generating Gcode, it may be beneficial to adjust temperatures depending on 
 
 \section{\texttt{Removing Your First Print}}
 \index{Removing a Print}
-After your first print has finished, you need to wait for the part to cool down.  Your parts will be easier to remove if you allow your heated bed to cool down to optimal temperature. This will allow the plastic to contract, making it easier to remove. 
+After your first print has finished, wait for the print surface to cool to the recommended print removal temperature.  Your parts will be easier to remove if you allow your heated bed to cool down to optimal temperature. This will allow the plastic to contract, making it easier to remove. 
 %\texttt{Your print bed will move forward once it is ready to be removed.}
 
 Once your heated bed has cooled, use the blue handled knife that was included with your toolkit to remove the item. Carefully insert the blade of the knife between your print and heated bed. Once underneath the part rotate the blade lifting with the sharp edge into the part, to gently pop the piece off your plate.
@@ -346,8 +356,8 @@ Once your heated bed has cooled, use the blue handled knife that was included wi
 
 \section{\texttt{Full Settings}}
 \index{Full Settings}
-\textcolor{red}{Full settings should not be used until enough experience with 3D printing has been gained to feel comfortable with all aspects of the printer and its operation.} The Quickprint Mode will provide good results for most models.
-The first time Cura is launched it will default to the \texttt{Quick Print} interface. In order to have more control of your slicing and Gcode generation, switch to \texttt{Full Settings}. Choose your desired Quick Print profile, as you can copy over the current settings when changing to ``Full Settings'' mode. This will automatically update the settings for that filament. Select \texttt{Expert} > \texttt{Switch to Full Settings}. The following tabs will now be available: Basic, Advanced, Plugins, and Start/End-Gcode. You will also have access to the Expert Settings. 
+\textcolor{red}{Full settings should not be used until enough experience with 3D printing has been gained to feel comfortable with all aspects of the printer and its operation.} Quickprint Mode will provide good results for most models.
+The first time Cura is launched it will default to the \texttt{Quick Print} interface. In order to have more control of your slicing and GCODE generation, switch to \texttt{Full Settings}. Choose your desired Quick Print profile, as you can copy over the current settings when changing to \texttt{Full Settings} mode. This will automatically update the settings for that filament. Select \texttt{Expert} > \texttt{Switch to Full Settings}. The following tabs will now be available: Basic, Advanced, Plugins, and Start/End-GCODE. You will also have access to the Expert Settings menu entry. 
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}
@@ -409,22 +419,22 @@ Also known as ``Surface Layers'' this will determine how thick the top and botto
 This number is expressed as a percentage. 0\% will give a completely hollow print, while 100\% will give you a completely solid object. We have found that 20\% to 40\% fill density is functional for most prints.
 
 \subsubsection{\texttt{Perimeters Before Infill}}
-This option will toggle in what order the infill and perimeters are printed. We recommend leaving this toggled.
+This option will toggle the order in which the infill and perimeters will be printed. We recommend leaving this on.
 \subsubsection{\texttt{Print Speed (mm/s)}}
 \index{Print Speed}
 Your overall printing speed can be adjusted here. If no other speeds are determined in the later sections your printer will automatically default to this speed. This speed will be different, depending on what type of filament you are using.
 
 \subsubsection{\texttt{Printing Temperature}}
 \index{Printing Temperature}
-This is where you will set the hot end temperature for your specific material. It will be pre-set when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help layer adhesion or stringing. See Recommended Temperatures Table: page \pageref{tab:a}. Your hot end is capable of reaching a maximum temperature of 300c.
+This is where you will set the hot end temperature for your specific material. It will be preset when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help layer adhesion or stringing. See Recommended Temperatures Table: page \pageref{tab:a}. Your hot end is capable of reaching a maximum temperature of \texttt{300°C}.
 
 %The Mini 3D printer needs to have the temperature specified in order to run through the automatic bed-leveling routine.
-%%%% Since the Mini needs to have Gcode temps set in order to run through auto bed leveling, the following statement is only applicable to the TAZ 4 or earlier. %%%%
+%%%% Since the Mini needs to have GCODE temps set in order to run through auto bed leveling, the following statement is only applicable to the TAZ 4 or earlier. %%%%
 %We recommend leaving this temperature setting to “0”. If you set your temperature in this section your printer will not begin printing until it reaches the EXACT temperature. We recommend setting your printing temperatures through the Printer Interface, or through your LCD.
 
 \subsubsection{\texttt{Bed Temperature}}
 \index{Bed Temperature}
-This is where you will set the heat bed temperature for your specific material. These will be pre-set when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help adhesion or release. See Recommended Temperatures Table: page \pageref{tab:a}. Your bed is capable of reaching a maximum temperature of 135c. 
+This is where you will set the print surface temperature for your specific material. These will be preset when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help adhesion or release. See Recommended Temperatures Table: page \pageref{tab:a}. Your print surface is capable of reaching a maximum temperature of \texttt{125°C}. 
 
 \subsection{\texttt{Support Type}}
 \index{Support Type}
@@ -488,10 +498,10 @@ Retraction Distance determines how much filament is pulled out of your hot end o
 
 \subsection{\texttt{Initial Layer Thickness}}
 \index{Initial Layer}
-This will control how thick your first printed layer height is printed onto the heated bed. Having a larger initial layer height will help prevent your part from popping off the plate. All of our standard profiles have a 0.425mm initial layer height. This eliminates the need for adjustments when switching between filaments.  \textcolor{red}{Your LulzBot\textsuperscript{\miniscule{\textregistered}} TAZ 6 auto leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
+This will control how thick your first printed layer height is printed onto the heated bed. Having a larger initial layer height will help prevent your part from popping off the plate. All of our standard profiles have a 0.425mm initial layer height. This eliminates the need for adjustments when switching between filaments.  \textcolor{red}{Your LulzBot TAZ auto leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
 \subsection{\texttt{Initial Layer Line Width}}
 \index{Initial Layer Width}
-This will control how wide your first extruded filament path is for the initial layer. A wider line width will help with bed adhesion. We have found 125\% to be a good starting place. For models with moving printed in place parts, a smaller initial layer line width is recommended. \textcolor{red}{Your LulzBot TAZ 6 auto leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
+This will control how wide your first extruded filament path is for the initial layer. A wider line width will help with bed adhesion. We have found 125\% to be a good starting place. For models with moving printed in place parts, a smaller initial layer line width is recommended. \textcolor{red}{Your LulzBot TAZ auto leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
 
 \subsection{\texttt{Cut Off Object Bottom (mm)}}
 \index{Cut Off Object}
@@ -517,7 +527,7 @@ This will control your initial layer speed. In general, a slower initial layer s
 
 \subsection{\texttt{Infill Speed}}
 \index{Infill Speed}
-This is how fast your print head speed will be while laying down the interior portion of your model. Faster speeds are usually tolerable here, as none of the infill will be visible from the outside of your object. If you go too fast compared to your inner and outer shells, you can have adhesion issues or globs of filament left behind from the print head.
+This is how fast your print head speed will be while laying down the interior portion of your model. Faster speeds are usually tolerable here, as none of the infill will be visible from the outside of your object. If you go too fast compared to your inner and outer shells, you can have adhesion issues or blobs of filament left behind from the print head.
 
 \subsection{\texttt{Outer Shell Speed}}
 \index{Outer Shell Speed}
@@ -537,7 +547,7 @@ Enables operation of your extruder active cooling fan. The fan settings can be a
 
 \section{\texttt{Plugins}}
 \index{Plugins}
-Plugins are custom settings which will alter your print at specific points. The two that come preloaded with Cura are \texttt{Tweak at Z}, and \texttt{Pause at Height}. More plugins and information can be found here: \texttt{http://wiki.ultimaker.com/Category:CuraPlugin} To activate one of these highlight the desired plugin and click the drop-down arrow directly below the Plugins box. \texttt{These plugins affect how Gcode is generated. Use at your own risk.}
+Plugins are custom settings which will alter your print at specific points. The two that come preloaded with Cura are \texttt{Tweak at Z}, and \texttt{Pause at Height}. More plugins and information can be found here: \texttt{http://wiki.ultimaker.com/Category:CuraPlugin} To activate one of these highlight the desired plugin and click the drop-down arrow directly below the Plugins box. \texttt{These plugins affect how GCODE is generated. Use at your own risk.}
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Plugins.png}
@@ -553,29 +563,29 @@ Make basic changes at specified Z heights. You can define the Z height or layer 
 \index{Pause at Z Height}
 Pause your print at a specified height. You can also specify where to move the print head and how much filament to retract. This will prevent “blobs” from accumulating on your print while paused. This setting is most commonly used when switching colors of filaments in the middle of a print.
 
-\section{\texttt{Start and End Gcode Settings}}
-\index{Custom Gcode}
-\index{Start Gcode}
-\index{End Gcode}
-Custom Gcode allows for complex automatic printer movements and operations. By adding custom Gcode into the start or end of your file, you can alter how it prints. A comprehensive list of Gcode commands can be found here: \texttt{http://reprap.org/wiki/G-code} We recommend new users to leave this as provided in the profiles at \texttt{https://www.lulzbot.com/cura}
+\section{\texttt{Start and End GCODE Settings}}
+\index{Custom GCODE}
+\index{Start GCODE}
+\index{End GCODE}
+Custom GCODE allows for complex automatic printer movements and operations. By adding custom GCODE into the start or end of your file, you can alter how it prints. A comprehensive list of GCODE commands can be found here: \texttt{http://reprap.org/wiki/G-code} We recommend new users to leave this as provided in the profiles at \texttt{https://www.lulzbot.com/cura}
 
 %mini
 \subsection{\texttt{TAZ 6 Specific Considerations}}
-Please be cautious when changing any of these start and end Gcode settings. \textcolor{red}{This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer automatically compensate for the heated bed position and can potentially damage components on the printer.} If you are uncertain of the change you are trying to make to start/end gcode, please contact us at \texttt{Support@LulzBot.com} before hand.
+Please be cautious when changing any of these start and end GCODE settings. \textcolor{red}{This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer automatically compensate for the heated bed position and can potentially damage components on the printer.} If you are uncertain of the change you are trying to make to start/end GCODE, please contact us at \texttt{Support@LulzBot.com} before hand.
 
 \definecolor{green2}{rgb}{0.00,0.375,0.0}
 
 \subsection{\texttt{Changing Wiping and Probing Temperatures}} \label{sssec:num1}
 \index{Wiping Temperature}
 \index{Probing Temperature}
-We have set wiping and probing temperatures that we have found work well with specific types of filament and filament manufacturers. If you are using a type and/or manufacturer of filament not listed in the quickprint settings, you may need to adjust these temperatures for optimal leveling. In the start Gcode section, there will be three separate temperatures you can adjust. What these gcode lines do will be described in the \textcolor{green2}{green text} to the right of the command. The ones you will want to adjust are:
+We have set wiping and probing temperatures that we have found work well with specific types of filament and filament manufacturers. If you are using a type and/or manufacturer of filament not listed in the quickprint settings, you may need to adjust these temperatures for optimal leveling. In the start GCODE section, there will be three separate temperatures you can adjust. What these GCODE lines do will be described in the \textcolor{green2}{green text} to the right of the command. The ones you will want to adjust are:
 \begin{itemize}
 \item \texttt{M109 SXXX}                    \textcolor{green2}{; soften filament for z homing}
 \item \texttt{M104 SYYY}                    \textcolor{green2}{; wipe temp}
 \item \texttt{M109 SZZZ}                    \textcolor{green2}{; heat to probe temp}
 \end{itemize}
 
-By changing the variables \texttt{(XXX, YYY, ZZZ),} you can change what temperature your printer will soften, wipe, and probe. Our temperatures for softening, wiping, and probing will be a good starting point for other manufacturer's filament. When making adjustments, we recommend +/- 5c changes at a time. \texttt{Be sure to watch the probing sequence when experimenting with new temperatures.}
+By changing the variables \texttt{(XXX, YYY, ZZZ),} you can change what temperature your printer will soften, wipe, and probe. Our temperatures for softening, wiping, and probing will be a good starting point for other manufacturer's filament. When making adjustments, we recommend \texttt{+/- 5°C} changes at a time. \texttt{Be sure to watch the probing sequence when experimenting with new temperatures.} Be prepared to power off the 3D printer if the probing sequence fails.
 
 \section{\texttt{Expert Settings}}
 \index{Expert Settings}
@@ -609,7 +619,7 @@ This will raise your print head Xmm while retracting. This setting helps prevent
 
 \section{\texttt{Skirt}}
 \index{Skirt}
-Skirt creates a line around the outside of your object. Most commonly used to prime the extruder, in order to prevent missed filament at the beginning of a print. Leave this setting on.
+Skirt creates a line around the outside of your object. Most commonly used to prime the extruder, in order to prevent missed filament at the beginning of a print. Leave this setting on. Turning this setting off will allow for utilizing the full build volume.
 
 \subsection{\texttt{Line Count}}
 \index{Line Count}
@@ -674,7 +684,7 @@ This causes your Z axis to be constantly moving upward as printing your single o
 
 \subsection{\texttt{Only Follow Mesh Surface}}
 \index{Black Magic}
-This will cause your print to follow the outside of your model, building it completely hollow with a single wall outer shell. The only difference between this and Spiralize, is that the Z axis moves regularly. That is, it prints a layer and then moves up to the next one.
+This will cause your print to follow the outside of your model, building it completely hollow with a single wall outer shell. The only difference between this and Spiralize, is that the Z axis moves regularly. That is, it prints a layer and then moves up vertically to the next one.
 
 \section{\texttt{Brim}}
 \index{Brim}
@@ -733,15 +743,18 @@ This will ignore all internal holes of the model and only focus on the external 
 
 \subsection{\texttt{Keep Open Faces}}
 \index{Open Faces}
-This will ignore all manifold errors in the object. It can create issues generating the Gcode as Cura does not know how to interpret the open holes. This option should only be used if you are sure that the holes in the mesh are intended. In general, you should not use this option.
+This will ignore all manifold errors in the object. It can create issues generating the GCODE as Cura does not know how to interpret the open holes. This option should only be used if you are sure that the holes in the mesh are intended. In general, you should not use this option.
 
 \subsection{\texttt{Extensive Stitching}}
 \index{Extensive Stitching}
-This causes Cura to automatically add triangle meshes in an attempt to fix manifold errors. This algorithm will greatly increase Gcode generation time and may end up adding in un-intended meshes. It is recommended that you repair your model through MeshLab, FreeCAD or your preferred CAD program before attempting this option.
+This causes Cura to automatically add triangle meshes in an attempt to fix manifold errors. This algorithm will greatly increase GCODE generation time and may end up adding in un-intended meshes. It is recommended that you repair your model through MeshLab, FreeCAD or your preferred CAD program before attempting this option.
 
 \section{\texttt{Dual Extrusion}}
 \index{Dual Extrusion}
-The LulzBot TAZ has the ability to add dual extrusion functionality with the Dual Extruder tool head add-on. We only recommend the Dual Extruder tool head for advanced users. Installation and operation of the dual extruder will require you to flash your firmware, calibrate your extruders, level two heads to a single plane, define extruder offsets, and fine tune your slicing profile. This can be a little overwhelming for new users. We recommended that you have a couple of months of single extruder printing experience before making the switch.
+The LulzBot TAZ has the ability to add dual extrusion functionality with the Dual Extruder Tool Head. We only recommend the Dual Extruder Tool Head for advanced users. Installation and operation of the dual extruder will require you to flash your firmware, calibrate your extruders, level two heads to a single plane, define extruder offsets, and fine tune your slicing profile. This can be a little overwhelming for new users. We recommended that you have a couple of months of single extruder printing experience before making the switch. 
+
+\subsection{\texttt{Tool Head Installation Instructions}}
+\textcolor{red}{Refer to appropriate Dual Extruder Tool Head Quick Start Guide for the specific steps required to install and operate your new tool head. Failure to follow the proper steps may result in damage to the tool head or 3D printer.} Installation and operating instructions are available at \texttt{OHAI.LulzBot.com/accessories}. The following steps are only meant to be an overview of the typical process.
 
 \subsection{\texttt{Updating Firmware}}
 \index{Updating Firmware}
@@ -759,7 +772,7 @@ In order to use the Dual Extruder you will need to update your firmware to activ
 \item Once the progress bar has completed select \texttt{OK > Next > Finish}.  
 \item You can verify a proper firmware update by looking at the LCD screen. You should now see three separate temperature readings. 
 \end{itemize} 
-You can revert the firmware back to the stock configuration for your LulzBot\textsuperscript{\miniscule{\textregistered}} 3D printer by selecting \texttt{Machine > Machine Settings > Change Tool Head}. Doing so will overwrite any of your current firmware settings.
+You can revert the firmware back to the stock configuration for your LulzBot 3D printer by selecting \texttt{Machine > Machine Settings > Change Tool Head}. Doing so will overwrite any of your current firmware settings.
 %\subsection{Preparing Cura}
 %In order to slice for a second tool head, you will need to let Cura know that you have added a second tool head. 
 %\begin{itemize} 
@@ -772,9 +785,9 @@ You can revert the firmware back to the stock configuration for your LulzBot\tex
 %\end{itemize} 
 \subsection{\texttt{Calibrating Extruders}}
 \index{Calibrating Extruders}
-Each individual extruder will have its own unique set of Esteps. To determine this, you will need to tell the extruder to take in 100mm of filament.
+Each individual extruder will have its own unique set of Extruder steps per unit, or Esteps. To determine this, you will need to tell the extruder to take in 100mm of filament.
 \begin{itemize}
-\item Load the outer and inner calibrations squares into Cura \texttt{https://www.lulzbot.com/support/downloads}
+\item Load the outer and inner calibrations squares into Cura \texttt{https://www.lulzbot.com/downloads}
 \item Open the Printer Interface window and set temperatures for both heads. Switch between hot ends by entering ``\texttt{T0}'' for the rear extruder into the command line terminal. Press \texttt{enter}.
 \item Type ``\texttt{T1}'' for the front extruder into the command line terminal. Press \texttt{enter}.
 \item Make two marks at 100mm and 120mm on the filament from the top surface of each extruder.
@@ -789,7 +802,7 @@ Each individual extruder will have its own unique set of Esteps. To determine th
 
 \subsection{\texttt{Defining Second Extruder Offset}}
 \index{Second Extruder Offset}
-To get crisper looking prints, you will want to really dial in your offsets. With the outer and inner square on your build platform, right click and select \texttt{Dual Extrusion Merge}. The red square will be printed with your front extruder, and the yellow square will be printed with the rear extruder.
+To get crisper looking prints, you will want to really dial in your offsets. With the outer and inner square on your build platform, \texttt{left-click}, then \texttt{right-click} on the inner square and select \texttt{Dual Extrusion Merge}. The red square will be printed with your front extruder, and the yellow square will be printed with the rear extruder.
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{CalSquares1.png}
 After printing the squares, you will want to measure Top, Bottom, Left, and Right gap. Enter these numbers into our offset calculator found here: \texttt{https://www.lulzbot.com/dual-extruder-calibration-calculator} This will produce new offsets, that will need to be updated in the Machine Settings menu. Repeat as many times as desired to truly fine tune the offset. 
 
