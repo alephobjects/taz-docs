@@ -289,11 +289,11 @@ When generating GCODE, it may be beneficial to adjust temperatures depending on 
  		\hline
  		Filament Type & Bed Preparation & Nozzle Temp & Bed Temp & Removal Temp \\ [0.5ex] 
  		\hline\hline
- 		ABS & Clean PEI & 240-260 & 110 & 50 \\ 
+ 		ABS & Clean PEI & 230-250 & 110 & 50 \\ 
  		\hline
  		PLA & Clean PEI & 195-215 & 60 & 45\\
  		\hline
- 		HIPS & Clean PEI & 240-260 & 110 & 50 \\
+ 		HIPS & Clean PEI & 230-250 & 110 & 50 \\
  		\hline
  		Laywoo-D3 & Clean PEI & 175-195 & 60 & 45 \\
  		\hline
@@ -785,17 +785,17 @@ You can revert the firmware back to the stock configuration for your LulzBot 3D 
 %\end{itemize} 
 \subsection{\texttt{Calibrating Extruders}}
 \index{Calibrating Extruders}
-Each individual extruder will have its own unique set of Extruder steps per unit, or Esteps. To determine this, you will need to tell the extruder to take in 100mm of filament.
+Each individual extruder will have its own unique set of Extruder steps per unit, or Esteps. Your V2 Dual Extruder was calibrated before leaving the production floor. The number for each extruder will be located on the back of the tool head. This will need to be updated within your printer's firmware.
 \begin{itemize}
-\item Load the outer and inner calibrations squares into Cura \texttt{https://www.lulzbot.com/downloads}
-\item Open the Printer Interface window and set temperatures for both heads. Switch between hot ends by entering ``\texttt{T0}'' for the rear extruder into the command line terminal. Press \texttt{enter}.
-\item Type ``\texttt{T1}'' for the front extruder into the command line terminal. Press \texttt{enter}.
-\item Make two marks at 100mm and 120mm on the filament from the top surface of each extruder.
-\item Once at the correct extrusion temperature type into the command line ``\texttt{G92}'' and press \texttt{enter}. Then ``\texttt{G1 E100 F60}'' and press \texttt{enter}.
-\item Switch to the other tool head by entering ``\texttt{T0}'' for the rear or ``\texttt{T1}'' for the front. 
-\item Type into the command line ``\texttt{G92}'' and press \texttt{enter}.
-\item Type ``\texttt{G1 E100 F60}'' and press \texttt{enter}.
-\item Measure the distance that the tool head over or under extruded. You will need to adjust your Esteps by 8 up or down for each mm it under or over extruded.
+%\item Load the outer and inner calibrations squares into Cura \texttt{https://www.lulzbot.com/downloads}
+%\item Open the Printer Interface window and set temperatures for both heads. Switch between hot ends by entering ``\texttt{T0}'' for the rear extruder into the command line terminal. Press \texttt{enter}.
+%\item Type ``\texttt{T1}'' for the front extruder into the command line terminal. Press \texttt{enter}.
+%\item Make two marks at 100mm and 120mm on the filament from the top surface of each extruder.
+%\item Once at the correct extrusion temperature type into the command line ``\texttt{G92}'' and press \texttt{enter}. Then ``\texttt{G1 E100 F60}'' and press \texttt{enter}.
+%\item Switch to the other tool head by entering ``\texttt{T0}'' for the rear or ``\texttt{T1}'' for the front. 
+%\item Type into the command line ``\texttt{G92}'' and press \texttt{enter}.
+%\item Type ``\texttt{G1 E100 F60}'' and press \texttt{enter}.
+%\item Measure the distance that the tool head over or under extruded. You will need to adjust your Esteps by 8 up or down for each mm it under or over extruded.
 \item Update your Esteps for the rear extruder and E1steps for the front extruder through your LCD screen. \texttt{Configuration > Advanced Settings > E/E1 Steps > New Number}. Push in on the knob to exit out of the Esteps entry.
 \item Store your new Esteps \texttt{Configuration > Store Memory}.
 \end{itemize}
