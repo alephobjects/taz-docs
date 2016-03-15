@@ -122,7 +122,7 @@
 \usepackage{eledmac}
 %% Use eledmac for compiling on Ubuntu AND Debian.
 %% Use ledmac for compiling on Debian FYI "As of Jun 2014: Using package `ledmac' is deprecated. We suggest using `eledmac' instead." 
-%\usepackage{ledmac}
+%\usepackage[noeledmac]{ledmac} %glossary bold testing
 
 %%% PAGE STYLE %%%
 \makepagestyle{jebstyle}
@@ -330,7 +330,7 @@
 \label{glcd}
 \thispagestyle{empty}
 \markboth{Printing with the Graphic LCD}{LulzBot TAZ User Manual}
-{\include{glcd}
+{\include{glcd}}
 \fi
 %%% END GLCD %%%
 
@@ -416,7 +416,7 @@
 %%% END INDEX %%%
 
 %%% GLOSSARY %%%
-\renewcommand{\memgloterm}[1]{\textbf{#1}}
+\renewcommand{\memgloterm}[1]{\textsf{#1}}
 \renewcommand{\memglodesc}[1]{\textit{#1}}
 \renewcommand{\memglonum}[1]{}
 
