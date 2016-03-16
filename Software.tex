@@ -12,22 +12,20 @@
 \section{\texttt{Software Overview}}
 \index{software}
 
-Aleph Objects, Inc., the maker of the LulzBot\textsuperscript{\miniscule{\textregistered}} TAZ 3D printer, completely supports Free Software, Libre Innovation, and Open Source Hardware. Along with the LulzBot TAZ 3D printer being a Free Software and Open Source Hardware design, it has been tested to work with 100\% Free Software. Our source code and design files are hosted on:
-
-\begin{description}
-\item [LulzBot Download Server] \texttt{http://download.lulzbot.com}
-\item [LulzBot Development Server] \texttt{http://devel.lulzbot.com}
-\item [Aleph Objects Code Repository] \texttt{http://code.alephobjects.com}
-\item [Aleph Objects Download Server] \texttt{http://download.alephobjects.com}
-\item [Aleph Objects Development Server] \texttt{http://devel.alephobjects.com}
-\end{description}
-
-% our development server found at \texttt{}, our download server found at \texttt{http://download.lulzbot.com}.
-\glossary{free/libre}{Free/Libre hardware and software can be thought of as ``free as in free speech, not just free as in free beer'', although most Free/Libre software is available for no cost. Libre hardware designs can be copied, modified and are usually available for download. Free/Libre software can be used in a similar fashion.}
 To operate your desktop 3D printer you will need to install a few software packages onto your PC. You will need a 3D printer host, an \texttt{.STL} to \texttt{.GCODE} generator, and optional CAD or 3D modeling software.
+
+\texttt{Cura LulzBot\textsuperscript{\miniscule{\textregistered}} Edition is the recommended software for your LulzBot 3D printer.} Download Cura LulzBot Edition by visiting \texttt{LulzBot.com/Cura}.
+
+
 \glossary{.GCODE}{The file extension for G-Code files}
 \glossary{GCODE}{The common name for the most widely used CNC programming language.}
 \glossary{CAD}{Computer Aided Design}
+
+\index{GNU/Linux}
+\index{OS X}
+\index{Windows}
+\index{operating system}
+All of the following Free/Libre Software packages are available for GNU/Linux, Windows, and OS X. We highly recommend using these programs on GNU/Linux.
 
 \section{\texttt{Software Types}}
 \index{Printer Host}
@@ -38,42 +36,25 @@ To operate your desktop 3D printer you will need to install a few software packa
 
 \begin{description}
 \item{Printer Hosts} \hfill \\
-Printer Host software is used to control the 3D printer. The program not only allows you to manually move the printer along all the axes, but set temperatures manually, send commands, and receive feedback/error messages from the onboard electronics. We recommend that new users start with Cura as it includes a slicing engine as well.
-
-Common Printer Hosts:
-\begin{itemize}
-\item Cura
-\item Printrun (Pronterface)
-\item MatterControl
-\item OctoPrint
-\item BotQueue
-\end{itemize}
+Printer Host software is used to control the 3D printer. The program not only allows you to manually move the printer along all the axes, but set temperatures manually, send commands, and receive feedback/error messages from the onboard electronics. We recommend that new users start with Cura LulzBot\textsuperscript{\miniscule{\textregistered}} Edition as it includes a slicing engine as well.
 
 \item{\texttt{Slicers}} \hfill \\
-These programs take the 3-Dimensional model (typically STL/OBJ/etc) and determine the 3D printer toolpath based on the options selected. The slicing engine uses the nozzle diameter, movement speeds, layer height, and other variables to determine the coordinates where it needs to move, and the rates at which it will do so. This information is exported out of the program as a GCODE file. The GCODE file is a plain-text file with a series of text-based codes and a list of the complete X,Y, and Z axis coordinates used for printing the 3D model. We recommend that new users start with Cura as it includes the printer host as well.
+These programs take the 3-Dimensional model (typically STL/OBJ/etc) and determine the 3D printer toolpath based on the options selected. The slicing engine uses the nozzle diameter, movement speeds, layer height, and other variables to determine the coordinates where it needs to move, and the rates at which it will do so. This information is exported out of the program as a GCODE file. The GCODE file is a plain-text file with a series of text-based codes and a list of the complete X,Y, and Z axis coordinates used for printing the 3D model. We recommend that new users start with Cura LulzBot Edition as it includes the printer host as well.
 
-Recommended Slicers:
-\begin{itemize}
-\item Cura LulzBot Edition
-\item Slic3r
+%Recommended Slicers:
+%\begin{itemize}
+%\item Cura LulzBot Edition
+%\item Slic3r
 %\item Skeinforge
 %\item Sfact
-\end{itemize}
+%\end{itemize}
 
 \end{description}
 
-\index{GNU/Linux}
-\index{Apple OS X}
-\index{Windows}
-\index{operating system}
-All of the following Free/Libre software packages are available for GNU/Linux, Windows, and Apple OS X. However, we highly recommend using these programs on GNU/Linux.
-
 \index{download}
-The required software can be found in the Downloads section at \texttt{LulzBot.com/downloads}. You will also find instructions there for installing each program onto your PC. You can also find downloads specific to the LulzBot TAZ 3D printer on the LulzBot TAZ product page.
-
 \index{driver}
 \section{\texttt{Installing Drivers}}
-Linux and Mac OSX users will not need to install a driver to communicate with the LulzBot TAZ 3D printer. Windows users will need to install the drivers. Using Cura LulzBot Edition as your printer host and slicing software is recommended, as the drivers will automatically be installed during the Cura installation process. Download Cura LulzBot Edition by visiting\texttt{LulzBot.com/Cura}. The drivers can also be downloaded from \texttt{LulzBot.com/downloads}. A visual guide showing the driver installation process can be found in our download section as well.
+GNU/Linux and OS X users will not need to install a driver to communicate with the LulzBot TAZ 3D printer. Windows users will need to install the drivers. Using Cura LulzBot Edition as your printer host and slicing software is recommended, as the drivers will automatically be installed during the Cura installation process. Download Cura LulzBot Edition by visiting \texttt{LulzBot.com/Cura}. The drivers can also be downloaded from \texttt{LulzBot.com/downloads}. A visual guide showing the driver installation process can be found in our download section as well.
 
 
 \section{\texttt{CAD and 3D Modeling Software}}
@@ -81,7 +62,7 @@ Linux and Mac OSX users will not need to install a driver to communicate with th
 \index{software}
 \index{STL}
 
-LulzBot is not distributing a CAD or 3D modeling software package. However, multiple free/libre software packages are available. Other common non-free CAD and 3D modeling software are also capable of exporting the required \texttt{.STL} files.
+LulzBot is not distributing a CAD or 3D modeling software package. However, multiple Free/Libre Software packages are available. Other common non-free CAD and 3D modeling software are also capable of exporting the required \texttt{.STL} files.
 
 On some CAD and 3D modeling software you will need to select millimeters as the output unit. If possible it is best to build your 3D design in metric units rather than imperial units. Cura requires .STL files sized in millimeters. If an .STL with inches as units is loaded into Cura, the model will be scaled much smaller than expected. You can scale the model by \texttt{25.40} to compensate. The software listed below outputs millimeters as the unit by default.
 
@@ -89,28 +70,28 @@ On some CAD and 3D modeling software you will need to select millimeters as the 
 \index{FreeCAD}
 \index{GNU/Linux}
 \index{Windows}
-\index{Apple OS X}
+\index{OS X}
 Website: \texttt{http://www.freecadweb.org/}
 
-Although still in development, FreeCAD is a great free/libre CAD application. Containing a full GUI for building CAD models, FreeCAD is capable of creating simple to complex designs. STL files can also easily be exported for use with 3D printing. FreeCAD is available for GNU/Linux, Windows, and Mac. The latest development version is recommended.
+Although still in development, contains a full GUI for building CAD models. FreeCAD is capable of creating simple to complex designs. STL files can also easily be exported for use with 3D printing. FreeCAD is available for GNU/Linux, Windows, and OS X. The latest development version is recommended.
 
 \subsection{\texttt{OpenSCAD}}
 \index{OpenSCAD}
 \index{GNU/Linux}
 \index{Windows}
-\index{Apple OS X}
+\index{OS X}
 Website: \texttt{http://openscad.org}
 
-OpenSCAD is another free/libre CAD software; however, different than FreeCAD, it is script based. Rather than using a GUI to generate CAD designs, OpenSCAD CAD designs are created using script based renderings. Users with programming experience would find this very useful. Also, OpenSCAD uses a simple script language that is easy for users with little or no programming experience to learn.
+OpenSCAD is different than FreeCAD in that it is script based. Rather than using a GUI to generate CAD designs, OpenSCAD CAD designs are created using script based renderings. Users with programming experience would find this useful. Also, OpenSCAD uses a simple script language that is easy for users with little or no programming experience to learn.
 
 \subsection{\texttt{Blender}}
 \index{Blender}
 \index{GNU/Linux}
 \index{Windows}
-\index{Apple OS X}
+\index{OS X}
 Website: \texttt{http://blender.org}
 
-The most widely used free/libre 3D modeling software, Blender is well documented with tutorials available on the Blender.org website as well as found online.
+The most widely used Free/Libre Software 3D modeling software, Blender is well documented with tutorials available on the Blender.org website as well as found online.
 
 \subsection{\texttt{Shapesmith}}
 \index{Shapesmith}
@@ -127,15 +108,15 @@ Shapesmith is a web-based 3D modeling software. This means there is no required 
 \index{OctoPrint}
 \index{GNU/Linux}
 \index{Windows}
-\index{Apple OS X}
+\index{OS X}
 Website: \texttt{http://octoprint.org/}
 
-Octoprint is a printer host that uses a web-based interface to access and control your 3D printer. Added web-cam functionality allows for time-lapse videos and a live stream. Octoprint will run on Windows, Apple, and Linux based computers and can even run well on a Beagle Bone Black or a RaspberryPi (inexpensive business-card sized computers).
+Octoprint is a printer host that uses a web-based interface to access and control your 3D printer. Added web-cam functionality allows for time-lapse videos and a live stream. Octoprint will run on GNU/Linux, Windows, OS X based computers and can even run well on a Beagle Bone Black or a RaspberryPi (inexpensive business-card sized computers).
 
 \subsection{\texttt{BotQueue}}
 \index{BotQueue}
 \index{GNU/Linux}
-\index{Apple OS X}
+\index{OS X}
 Website: \texttt{https://www.botqueue.com/}
 
 BotQueue works well for those users wanting to have a web-based multiple 3D printer operation running off a queuing system.
@@ -145,7 +126,23 @@ BotQueue works well for those users wanting to have a web-based multiple 3D prin
 \index{MatterControl}
 %\index{GNU/Linux}
 \index{Windows}
-\index{Apple OS X}
+\index{OS X}
 Website: \texttt{http://www.mattercontrol.com/}
 
-MatterControl is another printer host that currently runs on GNU/Linux, Windows, and Mac OS X. It features 2D and 3D model viewing, a print queue, and print file organization and searching.
+MatterControl is another printer host that currently runs on GNU/Linux, Windows, and OS X. It features 2D and 3D model viewing, a print queue, and print file organization and searching.
+
+Aleph Objects, Inc., the maker of the LulzBot\textsuperscript{\miniscule{\textregistered}} TAZ 3D printer, completely supports Free Software, Libre Innovation, and Open Source Hardware. Along with the LulzBot TAZ 3D printer being a Free Software and Open Source Hardware design, it has been tested to work with 100\% Free/Libre Software. Our source code and design files are hosted on:
+
+\begin{description}
+\item [LulzBot Download Server] \texttt{http://download.lulzbot.com}
+\item [LulzBot Development Server] \texttt{http://devel.lulzbot.com}
+\item [Aleph Objects Code Repository] \texttt{http://code.alephobjects.com}
+\item [Aleph Objects Download Server] \texttt{http://download.alephobjects.com}
+\item [Aleph Objects Development Server] \texttt{http://devel.alephobjects.com}
+\end{description}
+
+\glossary{Free Software}{Free Software (or Free/Libre Software) can be thought of as ``free as in free speech, not just free as in free beer'', although most Free Software is available for no cost. Free Software can be copied, modified and is freely available for download.}
+\glossary{Libre Innovation}{Aleph Objects uses Free/Libre Software to build and improve Open Source Hardware so that everything we create is free to be viewed, copied, and/or modified by anyone.}
+\glossary{Open Source Hardware}{Open source hardware is hardware whose design is made publicly available so that anyone can study, modify, distribute, make, and sell the design or hardware based on that design. The hardware source, the design from which it is made, is available in the preferred format for making modifications to it. For more information visit \texttt{http://www.oshwa.org/definition/}.}
+
+
