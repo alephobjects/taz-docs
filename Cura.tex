@@ -14,10 +14,11 @@
 \label{Cura}
 \glossary{Cura}{Cura LulzBot Edition is a cross-platform software package that combines a slicing engine with a printer host interface.}
 \glossary{Slic3r}{Slic3r is a cross-platform 3D model slicing engine. It's used to process the 3 dimensional model into the GCODE (tool path) needed to physically generate the print.}
+\glossary{FFF}{Fused Filament Fabrication-- the process of laying down successive layers of extruded filament to create a 3 dimensional object. As each layer of molten plastic is extruded into place, it fuses with the previous layer.}
 
 \subsection{\texttt{Setup Cura}}
 \index{Installation}
-Cura LulzBot Edition is available for download on our website at \texttt{http://LulzBot.com/cura}. When installing, it is recommended to uninstall any previous versions of Cura you may have been using. 
+Cura LulzBot Edition is available for download on our website at \texttt{http://LulzBot.com/cura}. When installing, it is recommended to uninstall any previous versions of Cura you may have been using. Cura is designed for Fused Filament Fabrication (FFF) 3D printers. Fused Filament Fabrication is the term for the process of laying down successive layers of extruded filament to create a 3 dimensional object. As each layer of molten plastic is extruded into place, it fuses with the previous layer.
 When first opening Cura, you will be prompted to go through the \texttt{First run wizard}. This will consist of selecting your printer, hot end type, tool head type, and finally your nozzle diameter.
 
 \textcolor{red}{It is important to select the correct printer, hot end, tool head, and nozzle diameter as Cura uses custom profiles and machine settings based upon which printer, hot end, tool head, and nozzle you have.}
@@ -181,7 +182,7 @@ Ghost view mode makes the model translucent to allow you to see what is behind i
 
 \subsection{\texttt{Xray}}
 \index{Xray}
-Xray is very similar to Ghost mode. It will allow you to see into objects, ensuring that inner details are correct.
+Xray is similar to Ghost mode. It will allow you to see into objects, ensuring that inner details are correct.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{xrayTAZ.png}
@@ -337,7 +338,7 @@ When generating GCODE, it may be beneficial to adjust temperatures depending on 
 	\end{center}
 \end{table}
 %%mini:
-%This will start the printing process: (set the appropriate temperatures, go through the auto-leveling procedure, and start printing your model).
+%This will start the printing process: (set the appropriate temperatures, go through the automatic bed leveling procedure, and start printing your model).
 %\pageref{fig:Print Control}).
 
 
@@ -428,8 +429,8 @@ Your overall printing speed can be adjusted here. If no other speeds are determi
 \index{Printing Temperature}
 This is where you will set the hot end temperature for your specific material. It will be preset when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help layer adhesion or stringing. See Recommended Temperatures Table: page \pageref{tab:a}. Your hot end is capable of reaching a maximum temperature of \texttt{300°C}.
 
-%The Mini 3D printer needs to have the temperature specified in order to run through the automatic bed-leveling routine.
-%%%% Since the Mini needs to have GCODE temps set in order to run through auto bed leveling, the following statement is only applicable to the TAZ 4 or earlier. %%%%
+%The Mini 3D printer needs to have the temperature specified in order to run through the automatic bed leveling routine.
+%%%% Since the Mini needs to have GCODE temps set in order to run through automatic bed leveling, the following statement is only applicable to the TAZ 4 or earlier. %%%%
 %We recommend leaving this temperature setting to “0”. If you set your temperature in this section your printer will not begin printing until it reaches the EXACT temperature. We recommend setting your printing temperatures through the Printer Interface, or through your LCD.
 
 \subsubsection{\texttt{Bed Temperature}}
@@ -498,10 +499,10 @@ Retraction Distance determines how much filament is pulled out of your hot end o
 
 \subsection{\texttt{Initial Layer Thickness}}
 \index{Initial Layer}
-This will control how thick your first printed layer height is printed onto the heated bed. Having a larger initial layer height will help prevent your part from popping off the plate. All of our standard profiles have a 0.425mm initial layer height. This eliminates the need for adjustments when switching between filaments.  \textcolor{red}{Your LulzBot TAZ auto leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
+This will control how thick your first printed layer height is printed onto the heated bed. Having a larger initial layer height will help prevent your part from popping off the plate. All of our standard profiles have a 0.425mm initial layer height. This eliminates the need for adjustments when switching between filaments.  \textcolor{red}{Your LulzBot TAZ automatic bed leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
 \subsection{\texttt{Initial Layer Line Width}}
 \index{Initial Layer Width}
-This will control how wide your first extruded filament path is for the initial layer. A wider line width will help with bed adhesion. We have found 125\% to be a good starting place. For models with moving printed in place parts, a smaller initial layer line width is recommended. \textcolor{red}{Your LulzBot TAZ auto leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
+This will control how wide your first extruded filament path is for the initial layer. A wider line width will help with bed adhesion. We have found 125\% to be a good starting place. For models with moving printed in place parts, a smaller initial layer line width is recommended. \textcolor{red}{Your LulzBot TAZ automatic bed leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
 
 \subsection{\texttt{Cut Off Object Bottom (mm)}}
 \index{Cut Off Object}
@@ -571,14 +572,14 @@ Custom GCODE allows for complex automatic printer movements and operations. By a
 
 %mini
 \subsection{\texttt{TAZ 6 Specific Considerations}}
-Please be cautious when changing any of these start and end GCODE settings. \textcolor{red}{This is where your Auto Bed Leveling commands are stored. If improperly altered, your printer will no longer automatically compensate for the heated bed position and can potentially damage components on the printer.} If you are uncertain of the change you are trying to make to start/end GCODE, please contact us at \texttt{Support@LulzBot.com} before hand.
+Please be cautious when changing any of these start and end GCODE settings. \textcolor{red}{This is where your automatic bed leveling commands are stored. If improperly altered, your printer will no longer automatically compensate for the heated bed position and can potentially damage components on the printer.} If you are uncertain of the change you are trying to make to start/end GCODE, please contact us at \texttt{Support@LulzBot.com} before hand.
 
 \definecolor{green2}{rgb}{0.00,0.375,0.0}
 
 \subsection{\texttt{Changing Wiping and Probing Temperatures}} \label{sssec:num1}
 \index{Wiping Temperature}
 \index{Probing Temperature}
-We have set wiping and probing temperatures that we have found work well with specific types of filament and filament manufacturers. If you are using a type and/or manufacturer of filament not listed in the quickprint settings, you may need to adjust these temperatures for optimal leveling. In the start GCODE section, there will be three separate temperatures you can adjust. What these GCODE lines do will be described in the \textcolor{green2}{green text} to the right of the command. The ones you will want to adjust are:
+We have set wiping and probing temperatures that we have found work well with specific types of filament and filament manufacturers. If you are using a type and/or manufacturer of filament not listed in the quickprint settings, you may need to adjust these temperatures for optimal probing. In the start GCODE section, there will be three separate temperatures you can adjust. What these GCODE lines do will be described in the \textcolor{green2}{green text} to the right of the command. The ones you will want to adjust are:
 \begin{itemize}
 \item \texttt{M109 SXXX}                    \textcolor{green2}{; soften filament for z homing}
 \item \texttt{M104 SYYY}                    \textcolor{green2}{; wipe temp}
@@ -614,7 +615,7 @@ This will prevent a retraction move, if your extruder has not put out Xmm of fil
 
 \subsection{\texttt{Z Hop When Retracting}}
 \index{Z hop}
-This will raise your print head Xmm while retracting. This setting helps prevent ooze, and strings from being deposited on your print. 
+This will raise your print head Xmm while retracting. This setting helps prevent ooze and strings from being deposited on your print. 
 %\textcolor{red}{We do not recommend this setting for TAZ 3 users and earlier. This can cause issues with Z dimensional accuracy.}
 
 \section{\texttt{Skirt}}
