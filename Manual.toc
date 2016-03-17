@@ -6,22 +6,24 @@
 \contentsline {subsection}{\leavevmode {\color {red}Burn Hazard}}{viii}
 \contentsline {subsection}{\leavevmode {\color {red}Fire Hazard}}{viii}
 \contentsline {subsection}{\leavevmode {\color {red}Pinch Hazard}}{viii}
-\contentsline {subsection}{\leavevmode {\color {red}Static Charge}}{ix}
 \contentsline {subsection}{\leavevmode {\color {red}Age Warning}}{ix}
 \contentsline {subsection}{\leavevmode {\color {red}Modifications and Repairs Warning}}{ix}
+\contentsline {section}{\texttt {Regulatory Compliance Statement Class B}}{ix}
 \contentsline {subsection}{\texttt {Federal Communications Commission Statement}}{ix}
+\contentsline {subsection}{\texttt {Canada}}{x}
+\contentsline {subsection}{\texttt {Australian/New Zealand}}{x}
 \contentsline {chapter}{\chapternumberline {1}\emph {3D Printer Software}}{11}
 \contentsline {section}{\numberline {1.1}\texttt {Software Overview}}{12}
 \contentsline {section}{\numberline {1.2}\texttt {Software Types}}{12}
 \contentsline {section}{\numberline {1.3}\texttt {Installing Drivers}}{13}
 \contentsline {section}{\numberline {1.4}\texttt {CAD and 3D Modeling Software}}{13}
-\contentsline {subsection}{\texttt {FreeCAD}}{14}
-\contentsline {subsection}{\texttt {OpenSCAD}}{14}
+\contentsline {subsection}{\texttt {FreeCAD}}{13}
+\contentsline {subsection}{\texttt {OpenSCAD}}{13}
 \contentsline {subsection}{\texttt {Blender}}{14}
 \contentsline {subsection}{\texttt {Shapesmith}}{14}
-\contentsline {section}{\numberline {1.5}\texttt {Alternative Printer Host Software}}{15}
-\contentsline {subsection}{\texttt {OctoPrint}}{15}
-\contentsline {subsection}{\texttt {BotQueue}}{15}
+\contentsline {section}{\numberline {1.5}\texttt {Alternative Printer Host Software}}{14}
+\contentsline {subsection}{\texttt {OctoPrint}}{14}
+\contentsline {subsection}{\texttt {BotQueue}}{14}
 \contentsline {subsection}{\texttt {MatterControl}}{15}
 \contentsline {chapter}{\chapternumberline {2}\emph {Cura LulzBot Edition}}{17}
 \contentsline {section}{\numberline {2.1}\texttt {Cura}}{18}
@@ -139,14 +141,14 @@
 \contentsline {subsection}{\texttt {First Dual Print}}{51}
 \contentsline {subsection}{\texttt {First Print}}{52}
 \contentsline {chapter}{\chapternumberline {3}\emph {Printing with the Graphic LCD}}{55}
-\contentsline {section}{\numberline {3.1}\texttt {GLCD Controller, Cura or Other Host?}}{56}
+\contentsline {section}{\numberline {3.1}\texttt {Graphical LCD Controller, Cura or Other Host?}}{56}
 \contentsline {section}{\numberline {3.2}\texttt {Multiple Connections}}{56}
 \contentsline {section}{\numberline {3.3}\texttt {Putting Print Files on the SD Card}}{57}
-\contentsline {section}{\numberline {3.4}\texttt {Printing With the Graphic LCD}}{57}
-\contentsline {subsection}{\texttt {The Graphic LCD Status Screen}}{57}
+\contentsline {section}{\numberline {3.4}\texttt {Printing With the Graphical LCD Controller}}{57}
+\contentsline {subsection}{\texttt {The Graphical LCD Controller Status Screen}}{57}
 \contentsline {subsection}{\texttt {Using the Selection Knob}}{58}
 \contentsline {subsection}{\texttt {Selecting a File From the SD and Starting a Print}}{59}
-\contentsline {subsection}{\texttt {Making Manual Movements With the Graphic LCD}}{59}
+\contentsline {subsection}{\texttt {Making Manual Movements With the Graphical LCD Controller}}{59}
 \contentsline {subsection}{\texttt {Tune}}{60}
 \contentsline {subsection}{\texttt {Change Filament}}{60}
 \contentsline {section}{\numberline {3.5}\texttt {Configuration Options}}{60}
@@ -161,7 +163,7 @@
 \contentsline {subsection}{\texttt {Amax}}{63}
 \contentsline {subsection}{\texttt {A-Retract}}{63}
 \contentsline {subsection}{\texttt {Steps/mm}}{63}
-\contentsline {subsection}{\texttt {GLCD Controller Menu Map}}{64}
+\contentsline {subsection}{\texttt {Graphical LCD Controller Menu Map}}{64}
 \contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{65}
 \contentsline {section}{\numberline {4.1}\texttt {Overview}}{66}
 \contentsline {section}{\numberline {4.2}\texttt {Smooth Rods}}{66}
@@ -184,7 +186,9 @@
 \contentsline {chapter}{\chapternumberline {6}\emph {Hardware and Software Source Code}}{73}
 \contentsline {chapter}{\chapternumberline {7}\emph {3D Printer Support}}{75}
 \contentsline {section}{\numberline {7.1}\texttt {LulzBot}}{76}
-\contentsline {section}{\numberline {7.2}\texttt {Community}}{76}
+\contentsline {section}{\numberline {7.2}\texttt {Support}}{76}
+\contentsline {section}{\numberline {7.3}\texttt {Regional Phone Numbers}}{76}
+\contentsline {section}{\numberline {7.4}\texttt {Community}}{76}
 \contentsline {chapter}{\chapternumberline {8}\emph {Warranty Information}}{77}
 \contentsline {section}{\numberline {8.1}\texttt {Warranty}}{78}
 \contentsline {subsection}{\texttt {Extended Warranty}}{78}
@@ -192,6 +196,7 @@
 \contentsline {chapter}{\chapternumberline {9}\emph {Contact Information}}{79}
 \contentsline {section}{\numberline {9.1}\texttt {Support}}{80}
 \contentsline {section}{\numberline {9.2}\texttt {Sales}}{80}
-\contentsline {section}{\numberline {9.3}\texttt {Websites}}{80}
+\contentsline {section}{\numberline {9.3}\texttt {Regional Phone Numbers}}{80}
+\contentsline {section}{\numberline {9.4}\texttt {Websites}}{80}
 \contentsline {chapter}{Index}{81}
 \contentsline {chapter}{Glossary}{85}
