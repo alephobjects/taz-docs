@@ -10,8 +10,8 @@
 \contentsline {subsection}{\leavevmode {\color {red}Modifications and Repairs Warning}}{ix}
 \contentsline {section}{\texttt {Regulatory Compliance Statement Class B}}{ix}
 \contentsline {subsection}{\texttt {Federal Communications Commission Statement}}{ix}
-\contentsline {subsection}{\texttt {Canada}}{x}
-\contentsline {subsection}{\texttt {Australia and New Zealand}}{x}
+\contentsline {subsection}{\texttt {Industry Canada Statement}}{x}
+\contentsline {subsection}{\texttt {Australian Communications and Media Authority Statement}}{x}
 \contentsline {chapter}{\chapternumberline {1}\emph {3D Printer Software}}{11}
 \contentsline {section}{\numberline {1.1}\texttt {Software Overview}}{12}
 \contentsline {section}{\numberline {1.2}\texttt {Software Types}}{12}
