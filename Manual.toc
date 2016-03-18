@@ -25,6 +25,7 @@
 \contentsline {subsection}{\texttt {OctoPrint}}{14}
 \contentsline {subsection}{\texttt {BotQueue}}{14}
 \contentsline {subsection}{\texttt {MatterControl}}{15}
+\contentsline {subsection}{\texttt {Source Files}}{15}
 \contentsline {chapter}{\chapternumberline {2}\emph {Cura LulzBot Edition}}{17}
 \contentsline {section}{\numberline {2.1}\texttt {Cura}}{18}
 \contentsline {subsection}{\texttt {Setup Cura}}{18}
