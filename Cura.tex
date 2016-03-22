@@ -31,8 +31,8 @@ When first opening Cura, you will be prompted to go through the \texttt{First ru
 %\item Once your language has been selected, select \texttt{Next}.
 %\item Select \texttt{LulzBot Mini}.
 %\item Select \texttt{LulzBot\textsuperscript{\miniscule{\textregistered}} TAZ 4 or 5}, then select \texttt{Next}.
-\item Select \texttt{Stock TAZ 6 (PEI and V2)}. Press \texttt{Next}.
-\item Choose the correct nozzle size for your machine. Your TAZ comes with a \texttt{0.5mm nozzle} standard.
+\item Select \texttt{LulzBot TAZ 6}. Press \texttt{Next}.
+\item Select \texttt{Single Extruder v2.1}. Press \texttt{Next}
 %\item The final step will be a firmware update. \textcolor{red}{Skip this step if you are not switching to different tool heads.} If you are adding on a different tool head, please be sure to update the firmware.
 \item Select finish.
 \end{itemize}
@@ -109,7 +109,7 @@ Move your model to change where it is printed on the build plate. Do this by lef
 %The \texttt{Rotate} button will give you the ability orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The red circle will allow you to rotate in the XY plane. The Yellow circle will rotate in the XZ plane. The Green circle will rotate in the YZ plane.
 \definecolor{yellow1}{cmyk}{0,0,1,0.30}
 \definecolor{green1}{rgb}{0.30,1,0.30}
-The \texttt{Rotate} button will give you the ability to orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red circle} will allow you to rotate around the \textcolor{red}{Z axis}. The \textcolor{yellow1}{Yellow circle} will rotate around the \textcolor{yellow1}{Y axis}. The \textcolor{green}{Green circle} will rotate around the \textcolor{green}{X axis}. Cura defaults to 15 degree increments. Hold \texttt{Shift} to rotate by \texttt{One Degree Increments}.
+The \texttt{Rotate} button will give you the ability to orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red circle} will allow you to rotate around the \textcolor{red}{Z-axis}. The \textcolor{yellow1}{Yellow circle} will rotate around the \textcolor{yellow1}{Y-axis}. The \textcolor{green}{Green circle} will rotate around the \textcolor{green}{X-axis}. Cura defaults to 15 degree increments. Hold \texttt{Shift} to rotate by \texttt{One Degree Increments}.
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{rotateTAZ.png}
@@ -657,7 +657,7 @@ You define how your support material is generated here. You must have some form 
 
 \subsection{\texttt{Structure Type}}
 \index{Support Settings}
-You can choose between a Grid or a Line pattern for your support material. The grid will be a checkerboard pattern in the X and Y direction. The line option will produce lines in along the y axis for support. The grid will provide stronger support than the line option, but will be harder to remove.
+You can choose between a Grid or a Line pattern for your support material. The grid will be a checkerboard pattern in the X and Y direction. The line option will produce lines in along the Y-axis for support. The grid will provide stronger support than the line option, but will be harder to remove.
 
 \subsection{\texttt{Overhang Angle for Support}}
 \index{Overhang Angle}
@@ -681,11 +681,11 @@ This section allows you to transform your model into a hollow shell, a single la
 
 \subsection{\texttt{Spiralize the Outer Contour}}
 \index{Spiralize}
-This causes your Z axis to be constantly moving upward as printing your single outer wall shell. The results are no layer change lines, giving a much smoother surface. This setting is typically only used for artistic objects as they will be fragile.
+This causes your Z-axis to be constantly moving upward as printing your single outer wall shell. The results are no layer change lines, giving a much smoother surface. This setting is typically only used for artistic objects as they will be fragile.
 
 \subsection{\texttt{Only Follow Mesh Surface}}
 \index{Black Magic}
-This will cause your print to follow the outside of your model, building it completely hollow with a single wall outer shell. The only difference between this and Spiralize, is that the Z axis moves regularly. That is, it prints a layer and then moves up vertically to the next one.
+This will cause your print to follow the outside of your model, building it completely hollow with a single wall outer shell. The only difference between this and Spiralize, is that the Z-axis moves regularly. That is, it prints a layer and then moves up vertically to the next one.
 
 \section{\texttt{Brim}}
 \index{Brim}
