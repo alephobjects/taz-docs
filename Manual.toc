@@ -175,7 +175,7 @@
 \contentsline {section}{\numberline {4.5}\texttt {Hobbed Bolt}}{67}
 \contentsline {section}{\numberline {4.6}\texttt {Belts}}{67}
 \contentsline {section}{\numberline {4.7}\texttt {Hot End}}{67}
-\contentsline {section}{\numberline {4.8}\texttt {Nozzle Wiping Pad}}{67}
+\contentsline {section}{\numberline {4.8}\texttt {Nozzle Wiping Pad}}{68}
 \contentsline {section}{\numberline {4.9}\texttt {Bed Leveling Washers}}{68}
 \contentsline {section}{\numberline {4.10}\texttt {Cooling Fans}}{68}
 \contentsline {section}{\numberline {4.11}\texttt {Electronics}}{68}
