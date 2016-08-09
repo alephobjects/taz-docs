@@ -405,11 +405,11 @@ The thickness of each printed layer is known as the ``Layer Height''. The smalle
 
 \subsubsection{\texttt{Shell Thickness}}
 \index{Shell Thickness}
-This defines the number of vertical walls that comprise the outside of your model. We recommend keeping this set to multiples of your nozzle width. Your TAZ 3D printer is equipped with a 0.5mm nozzle. %The TAZ ships with a .5mm nozzle standard, while the Mini has a .5mm nozzle standard.
+This defines the number of vertical walls that comprise the outside of your model. We recommend keeping this set to multiples of your nozzle width. Your TAZ 3D printer is equipped with a 0.5mm nozzle. A setting of 1.0mm or 1.5mm is a sufficient for most prints.
 
 \subsubsection{\texttt{Enable Retraction}}
 \index{Retraction}
-Retraction tells your printer to pull filament out of the hot end upon travel moves. Travel moves are when your print head moves from one area of the print, to another without laying down filament. We recommend keeping this on for all filament types, and adjusting the retraction length and speed for the specific filament.
+Retraction tells your printer to pull filament out of the hot end upon travel moves. Travel moves are when your print head moves from one area of the print to another, without laying down filament. We recommend keeping this on for all filament types, and adjusting the retraction length and speed for the specific filament.
 %(Details given in advanced tab section. ((Reference?))
 
 \subsubsection{\texttt{Bottom/Top Thickness (mm)}}
@@ -423,13 +423,14 @@ This number is expressed as a percentage. 0\% will give a completely hollow prin
 
 \subsubsection{\texttt{Perimeters Before Infill}}
 This option will toggle the order in which the infill and perimeters will be printed. We recommend leaving this on.
+
 \subsubsection{\texttt{Print Speed (mm/s)}}
 \index{Print Speed}
-Your overall printing speed can be adjusted here. If no other speeds are determined in the later sections your printer will automatically default to this speed. This speed will be different, depending on what type of filament you are using.
+Your overall printing speed can be adjusted here. This setting will be overridden in certain parts of the print based upon your Advanced Speed Settings. If no speeds are determined in the advanced settings tab, your printer will default to this setting.
 
 \subsubsection{\texttt{Printing Temperature}}
 \index{Printing Temperature}
-This is where you will set the hot end temperature for your specific material. It will be preset when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help layer adhesion or stringing. See Recommended Temperatures Table: page \pageref{tab:a}. Your hot end is capable of reaching a maximum temperature of \texttt{300°C}.
+This is where you will set the hot end temperature for your specific material and manufacturer. It will be preset when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help layer adhesion or stringing. See Recommended Temperatures Table: page \pageref{tab:a}. Your hot end is capable of reaching a maximum temperature of \texttt{300°C}.
 
 %The Mini 3D printer needs to have the temperature specified in order to run through the automatic bed leveling routine.
 %%%% Since the Mini needs to have GCODE temps set in order to run through automatic bed leveling, the following statement is only applicable to the TAZ 4 or earlier. %%%%
@@ -437,18 +438,18 @@ This is where you will set the hot end temperature for your specific material. I
 
 \subsubsection{\texttt{Bed Temperature}}
 \index{Bed Temperature}
-This is where you will set the print surface temperature for your specific material. These will be preset when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help adhesion or release. See Recommended Temperatures Table: page \pageref{tab:a}. Your print surface is capable of reaching a maximum temperature of \texttt{125°C}. 
+This is where you will set the print surface temperature for your specific material. These will be preset when using the recommended quickprint profiles. This can be adjusted for fine tuning of different filament manufacturers to help adhesion or release. See Recommended Temperatures Table: page \pageref{tab:a}. Your print surface is capable of reaching a maximum temperature of \texttt{135°C}. 
 
 \subsection{\texttt{Support Type}}
 \index{Support Type}
-Some models will require support material in order to print properly. This will usually occur when an object has an angle in relation to the build plate between 0 to 45 degrees. It is highly recommended to orient your object so that it minimizes or eliminates the need for support.
+Some models will require support material in order to print properly. This will usually occur when an object has an angle in relation to the build plate between 0 to 45 degrees. It is highly recommended to orient or design your object so that it minimizes or eliminates the need for support.
 
 \subsubsection{\texttt{Touching Buildplate}}
-This causes the support material to build up between the heated bed and the object. The red example is Touching Buildplate.
+This causes the support material to build up between the heated bed and the object. The red example is Touching Buildplate. (Fig. \ref{fig:Different Types of Support}, page \pageref{fig:Different Types of Support}) 
 % (Photo of Circle inside a square, that is printed vertically. Have samples on photo table. Reference photo below?)
 
 \subsubsection{\texttt{Everywhere}}
-This prints support material between the heated bed and object as well as between the object and itself. The green example is Support Everywhere.
+This prints support material between the heated bed and object as well as between the object and itself. The green example is Support Everywhere. (Fig. \ref{fig:Different Types of Support}, page \pageref{fig:Different Types of Support})
 % (Photo of Circle inside a square, that is printed vertically, sample on photo table. Reference Photo Below?)
 % (Support Comparison Photo)
 \begin{figure}[H]
@@ -470,15 +471,15 @@ Brim will create a single layer of filament, contacting and surrounding your mod
 \subsubsection{\texttt{Raft}}
 \index{Raft}
 %% Raft is rarely used these days %%
-Raft will generate a layer of material underneath your object. Raft was more often used before the addition of heated plates to increase surface area. Raft settings can be adjusted in the \texttt{Expert Settings} options.
+Raft will generate a layer (or more) of material underneath your object. Raft was more often used before the addition of heated plates to increase surface area and reduce warp. Raft settings can be adjusted in the \texttt{Expert Settings} options.
 
 \subsection{\texttt{Filament Diameter}}
 \index{Filament Diameter}
-The filament diameter setting is one of the more important settings. Make sure that you update this value periodically with your average filament diameter. While your filament may be referred to as 3mm, it is more likely going to be near 2.9mm +/- 0.1mm. You will want this to be an accurate average, as it will allow your printer to correctly calculate how much filament it is pulling into the hot end. The default value should be set to 2.85mm.
+The filament diameter setting is one of the more important settings. Make sure that you update this value periodically with your average filament diameter. While your filament may be referred to as 3mm, it is more likely going to be near 2.85mm +/- 0.1mm. You will want this to be an accurate average, as it will allow your printer to correctly calculate how much filament it is pulling into the hot end. The default value should be set to 2.85mm.
 
 \subsection{\texttt{Filament Flow \%}}
 \index{Flow Rate}
-This controls how much filament your printer is extruding in relation to speed. This setting is mainly used to adjust for filament density variations. This may need to be adjusted when switching between different manufacturers or types of filament to adjust for die swell. It is recommended to make small adjustments between prints for fine tuning.
+This controls how much filament your printer is extruding in relation to speed. This setting is mainly used to adjust for filament density variations. This may need to be changed when switching between different manufacturers or types of filament to adjust for die swell. It is recommended to make small adjustments between prints for fine tuning.
 
 \section{\texttt{Advanced Tab Options}}
 \index{Advanced Options}
