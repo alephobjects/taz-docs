@@ -397,7 +397,7 @@ The thickness of each printed layer is known as the ``Layer Height''. The smalle
 % (Layer height comparison photos)
 \begin{figure}[H]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Layer_Height.jpg}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{ManualLayerHeight.jpg}
 \caption{Differences in Layer Height}
 \label{fig:Differences in Layer Height}
 \end{figure}
@@ -487,7 +487,7 @@ This controls how much filament your printer is extruding in relation to speed. 
 \subsection{\texttt{Nozzle Size (mm)}}
 \index{Nozzle Size}
 %%%% standalone version line %%%%
-This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end. The TAZ ships with a 0.5mm nozzle standard. 
+This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end, and how to generate the tool path. The TAZ ships with a 0.5mm nozzle standard. 
 
 %This defines your nozzle size. The slicing engine uses this value combined with your other settings to determine how quickly to feed filament into your hot end. The Mini ships with a 0.5mm nozzle.
 
@@ -502,14 +502,15 @@ Retraction Distance determines how much filament is pulled out of your hot end o
 
 \subsection{\texttt{Initial Layer Thickness}}
 \index{Initial Layer}
-This will control how thick your first printed layer height is printed onto the heated bed. A larger initial layer height is more forgiving and will help first layer adhesion. All of our standard profiles have a 0.425mm initial layer height. This eliminates the need for adjustments when switching between filaments.  \textcolor{red}{Your LulzBot TAZ automatic bed leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
+This will control how thick your first printed layer height is printed onto the heated bed. A larger initial layer height is more forgiving and will help first layer adhesion. All of our standard profiles have a 0.425mm initial layer height. This eliminates the need for adjustments when switching between filaments.  \textcolor{red}{Your LulzBot TAZ automatic bed leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.} If you want to change first layer "squish" see Z Offset \ref{sssec:Z Offset}, page \pageref{sssec:Z Offset} 
+
 \subsection{\texttt{Initial Layer Line Width}}
 \index{Initial Layer Width}
-This will control how wide your first extruded filament path is for the initial layer. A wider line width will help with bed adhesion. We have found 125\% to be a good starting place. For models with moving, printed in place parts, a smaller initial layer line width is recommended. \textcolor{red}{Your LulzBot TAZ automatic bed leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.}
+This will control how wide your first extruded filament path is for the initial layer. A wider line width will help with bed adhesion. We have found 125\% to be a good starting place. For models with moving, printed in place parts, a smaller initial layer line width is recommended. \textcolor{red}{Your LulzBot TAZ automatic bed leveling system could be affected if you change this from the standard profiles. Adjust at your own risk.} If you want to change how much your first few layers "squish" to the sides, see Z Offset \ref{sssec:Z Offset}, page \pageref{sssec:Z Offset} 
 
 \subsection{\texttt{Cut Off Object Bottom (mm)}}
 \index{Cut Off Object}
-This setting is used to help print models that were not specifically designed for FFF printing. In particular, it is for models that do not have a flat surface to adhere to the plate. It will sink your object Xmm into the build plate, creating a nice flat surface to begin your print. You can also use this option to remove the lower portion of your model, or if carefully measured, cut your part in half for printing object as two halves.
+This setting is used to help print models that were not specifically designed for FFF printing. In particular, it is for models that do not have a flat surface to adhere to the plate. It will sink your object Xmm into the build plate, creating a nice flat surface to begin your print. You can also use this option to remove the lower portion of your model, or if carefully measured, cut your part in half for printing one object as two (or more) pieces. (Fig. \ref{fig:Cutoff Example}, page \pageref{fig:Cutoff Example})
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{cutoff.png}
@@ -543,11 +544,11 @@ This affects vertical walls that are in between the outer shell and infill. This
 
 \subsection{\texttt{Minimal Layer Time}}
 \index{Minimal Layer Time}
-This will determine a minimum amount of time your printer will spend laying down each layer. If your layer print time falls below this your printer will automatically slow down to reach this time before moving onto the next layer. Tweaking this can help get cleaner, crisper prints.
+This will determine a minimum amount of time your printer will spend laying down each layer. If your layer print time falls below this your printer will automatically slow down to reach this time before moving onto the next layer. Tweaking this can help get cleaner, crisper prints. If you have the print head slow down too much, it can cause blobby or melty looking prints.
 
 \subsection{\texttt{Enable Cooling Fan}}
 \index{Enabling Cooling Fan}
-Enables operation of your extruder active cooling fan. The fan settings can be adjusted in the \texttt{Expert Settings} options.
+Enables operation of your extruder active cooling fan. The fan settings can be adjusted in the \texttt{Expert Settings} options. In general, smaller parts will require more cooling for proper results. 
 
 \section{\texttt{Plugins}}
 \index{Plugins}
@@ -582,14 +583,14 @@ Please be cautious when changing any of these start and end GCODE settings. \tex
 \subsection{\texttt{Changing Wiping and Probing Temperatures}} \label{sssec:num1}
 \index{Wiping Temperature}
 \index{Probing Temperature}
-We have set wiping and probing temperatures that we have found work well with specific types of filament and filament manufacturers. If you are using a type and/or manufacturer of filament not listed in the quickprint settings, you may need to adjust these temperatures for optimal probing. In the start GCODE section, there will be three separate temperatures you can adjust. What these GCODE lines do will be described in the \textcolor{green2}{green text} to the right of the command. The ones you will want to adjust are:
+We have set wiping and probing temperatures that we have found work well with specific types of filament and filament manufacturers. \texttt{If you are using a type and/or manufacturer of filament not listed in the quickprint settings, you may need to adjust these temperatures for optimal probing.} In the start GCODE section, there will be three separate temperatures you can adjust. What these GCODE lines do will be described in the \textcolor{green2}{green text} to the right of the command. The ones you will want to adjust are:
 \begin{itemize}
 \item \texttt{M109 SXXX}                    \textcolor{green2}{; soften filament for z homing}
 \item \texttt{M104 SYYY}                    \textcolor{green2}{; wipe temp}
 \item \texttt{M109 SZZZ}                    \textcolor{green2}{; heat to probe temp}
 \end{itemize}
 
-By changing the variables \texttt{(XXX, YYY, ZZZ),} you can change what temperature your printer will soften, wipe, and probe. Our temperatures for softening, wiping, and probing will be a good starting point for other manufacturer's filament. When making adjustments, we recommend \texttt{+/- 5°C} changes at a time. \texttt{Be sure to watch the probing sequence when experimenting with new temperatures.} Be prepared to power off the 3D printer if the probing sequence fails.
+By changing the variables \texttt{(XXX, YYY, ZZZ),} you can change what temperature your printer will soften, wipe, and probe. Our temperatures for softening, wiping, and probing will be a good starting point for other manufacturer's filament. When making adjustments, we recommend \texttt{+/- 5°C} changes at a time. \texttt{Be sure to watch the probing sequence when experimenting with new temperatures.}
 
 \section{\texttt{Expert Settings}}
 \index{Expert Settings}
@@ -607,7 +608,7 @@ Retraction pulls filament out of your nozzle when it is not extruding to prevent
 
 \subsection{\texttt{Minimum Travel}}
 \index{Minimum Travel}
-This sets the minimum travel distance of your print head in order to retract. If your print head is not moving this far during travel moves, it will not retract.
+This sets the minimum travel distance of your print head in order to retract. If your print head is not moving at least this far during travel moves, it will not retract.
 
 \subsection{\texttt{Combing}}
 \index{Combing}
