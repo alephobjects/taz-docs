@@ -112,7 +112,7 @@ Move your model to change where it is printed on the build plate. Do this by lef
 %The \texttt{Rotate} button will give you the ability orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The red circle will allow you to rotate in the XY plane. The Yellow circle will rotate in the XZ plane. The Green circle will rotate in the YZ plane.
 \definecolor{yellow1}{cmyk}{0,0,1,0.30}
 \definecolor{green1}{rgb}{0.30,1,0.30}
-The \texttt{Rotate} button will give you the ability to orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red circle} will allow you to rotate around the \textcolor{red}{Z-axis}. The \textcolor{yellow1}{Yellow circle} will rotate around the \textcolor{yellow1}{Y-axis}. The \textcolor{green}{Green circle} will rotate around the \textcolor{green}{X-axis}. Cura defaults to 15 degree increments. Hold \texttt{Shift} to rotate by \texttt{One Degree Increments}.
+The \texttt{Rotate} button will give you the ability to orient your model in along all three axes. Once you click the rotate button, three circles will surround your model. The \textcolor{red}{red circle} will allow you to rotate around the \textcolor{red}{Z-axis}. The \textcolor{yellow1}{Yellow circle} will rotate around the \textcolor{yellow1}{Y-axis}. The \textcolor{green}{Green circle} will rotate around the \textcolor{green}{X-axis}. Cura defaults to 15 degree increments. Hold \texttt{Shift} to rotate by \texttt{One Degree Increments}. (Fig. \ref{fig:Rotating your Model}, page \pageref{fig:Rotating your Model}) 
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{rotateTAZ.png}
@@ -130,7 +130,7 @@ The \texttt{Lay Flat} button will ensure that the flat portion of your print is 
 %\end{figure}
 
 \subsubsection{\texttt{Reset}}
-The \texttt{Reset} button will return your model to the original orientation as defined by the CAD program used to create the model.
+The \texttt{Reset} button will return your model to the original orientation as defined by the CAD program when first loaded.
 %\begin{figure}[hbt]
 %\centering
 %\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Rotate.png}
@@ -165,7 +165,7 @@ This is the standard view and shows the solid outer surfaces of the model. (Fig.
 
 \subsection{\texttt{Overhang}}
 \index{Overhang View} 
-Overhang mode shows where your model may need support material. In Fig. \ref{fig:Overhang_View}, page \pageref{fig:Overhang_View} the red highlighted areas show overhangs and more severe angles and areas where support material is recommended. The overhang threshold can be defined in Expert Settings.
+Overhang mode shows where your model may need support material. In Fig. \ref{fig:Overhang_View}, page \pageref{fig:Overhang_View} the red highlighted areas show overhangs and more severe angles and areas where support material is recommended. The overhang threshold can be defined in Expert Settings. 
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{overhangTAZ.png}
@@ -185,7 +185,7 @@ Ghost view mode makes the model translucent to allow you to see what is behind i
 
 \subsection{\texttt{Xray}}
 \index{Xray}
-Xray is similar to Ghost mode. It will allow you to see into objects, ensuring that inner details are correct.
+Xray allows you to look inside of the object. This is helpful for detecting any manifold errors or other possible issues with your model. Problem areas will be highlighted in red. (Fig. \ref{fig:Xray View}, page \pageref{fig:Xray View})
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.3\textheight,width=1.0\textwidth]{xrayTAZ.png}
@@ -222,10 +222,26 @@ To view the tool path of your print head and to ensure no skipped layers or gaps
 \index{First Print}
 Once you have your model, profile, and filament loaded, it is time for your first print! Refer to the \texttt{Quick Start Guide} included with your 3D printer. A PDF version is available at \texttt{LulzBot.com/downloads}.
 
+\subsection{\texttt{Printing from USB Cable}}
+\index{Printing from USB}
+
+Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button at the top of the 3D viewing window. If the control button is not present, be sure you have a model file loaded into Cura. If a model is loaded but the Control button is still not present use a different USB cable, reinstall Cura, or contact our Support Team. This will bring up your Printer Interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. Once operational, you can start your first print. Your TAZ will then go through it's automatic cleaning and wiping process before starting the print. This should take approximately 5 minutes.
+
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Pronterface117.png}
+\caption{Control Screen}
+\label{fig:Control}
+\end{figure}
+
+\subsection{\texttt{Pausing Mid-Print}}
+\index{Pause}
+You will notice after you click the print button through Cura, it will change to a pause button. When activated, it will pause the print and automatically move your print head away from your object. This will allow color changes or material changes mid print.
+
 \subsection{\texttt{Automatic Bed Leveling}}
 \index{Automatic Bed Leveling}
 \index{ABL}
-Before each print your, TAZ will go through a wiping and a probing procedure in order to determine the slope/tilt of your bed. If your nozzle is dirty or not cleaned properly, this will prevent the printer from being able to create an electrical contact with the corners. Your TAZ will automatically retry the wiping and probing procedure if this happens, up to a maximum of three times. If three consecutive wipes and probes have failed, the printer will stop and a warning will sound. If this is happening consistently, you should replace the wiping pad and/or adjust your wiping and probing temps for that specific filament. See section \ref{sssec:num1} on page \pageref{sssec:num1} for details on changing these temps.
+Before each print your TAZ will go through a wiping and a probing procedure in order to determine the slope/tilt of your bed. If your nozzle is dirty or not cleaned properly, this will prevent the printer from being able to create an electrical contact with the corners. Your TAZ will automatically retry the wiping and probing procedure if this happens, up to a maximum of three times. If three consecutive wipes and probes have failed, the printer will stop and a warning will sound. If this is happening consistently, you should replace the wiping pad and/or adjust your wiping and probing temps for that specific filament. See section \ref{sssec:num1} on page \pageref{sssec:num1} for details on changing these temps.
 %\subsection{Mini}
 
 %Select the \texttt{Print/Control} option in the top left hand corner of your build volume. This will bring up your Printer Interface. Please wait for the window title to display \texttt{operational} before sending any commands to the printer..
@@ -264,23 +280,7 @@ Thanks to the TAZ automatic bed leveling system, it is now time to kick off the 
 
 %%%% Tethered printing %%%%
 
-\subsection{\texttt{Printing from USB Cable}}
-\index{Printing from USB}
 
-Connect your 3D printer to a computer using a USB cable, power it on and select the \texttt{Control} button at the top of the 3D viewing window. If the control button is not present, be sure you have a model file loaded into Cura. If a model is loaded but the Control button is still not present use a different USB cable, reinstall Cura, or contact our Support Team. This will bring up your Printer Interface. You will not be able to send any commands until the window title changes to \texttt{Operational}. Once operational, you can start your first print. Your TAZ will then go through it's automatic cleaning and wiping process before starting the print. This should take approximately 5 minutes.
-
-
-
-\begin{figure}[H]
-\centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Pronterface117.png}
-\caption{Control Screen}
-\label{fig:Control}
-\end{figure}
-
-\subsection{\texttt{Pausing Mid-Print}}
-\index{Pause}
-You will notice after you click the print button through Cura, it will change to a pause button. When activated, it will pause the print and automatically move your print head away from your object. This will allow color changes or material changes mid print.
 
 \subsection{\texttt{Recommended Temperatures and Bed Preperation}}
 \index{Temperatures}
@@ -317,7 +317,7 @@ When generating GCODE, it may be beneficial to adjust temperatures depending on 
  		\hline
  		Conductive PLA & Clean PEI & 215-230 & 60 & 50 \\
 		\hline
-		Coffee PLA & Clean PEI & 220-230 & 60 & 40 \\
+		High Temp PLA & Clean PEI & 220-230 & 60 & 40 \\
  		\hline
  		nGen & Clean PEI & 220-240 & 85 & 60 \\
  		\hline
@@ -347,8 +347,7 @@ When generating GCODE, it may be beneficial to adjust temperatures depending on 
 
 \section{\texttt{Removing Your First Print}}
 \index{Removing a Print}
-After your first print has finished, wait for the print surface to cool to the recommended print removal temperature.  Your parts will be easier to remove if you allow your heated bed to cool down to optimal temperature. This will allow the plastic to contract, making it easier to remove. 
-%\texttt{Your print bed will move forward once it is ready to be removed.}
+After your first print has finished, wait for the print surface to cool to the recommended print removal temperature.  Your parts will be easier to remove if you allow your heated bed to cool down to optimal temperature. \texttt{Your print bed will move forward once it is ready to be removed.}
 
 Once your heated bed has cooled, use the blue handled knife that was included with your toolkit to remove the item. Carefully insert the blade of the knife between your print and heated bed. Once underneath the part rotate the blade lifting with the sharp edge into the part, to gently pop the piece off your plate.
 %\begin{figure}[hbt]
@@ -361,7 +360,7 @@ Once your heated bed has cooled, use the blue handled knife that was included wi
 \section{\texttt{Full Settings}}
 \index{Full Settings}
 \textcolor{red}{Full settings should not be used until enough experience with 3D printing has been gained to feel comfortable with all aspects of the printer and its operation.} Quickprint Mode will provide good results for most models.
-The first time Cura is launched it will default to the \texttt{Quick Print} interface. In order to have more control of your slicing and GCODE generation, switch to \texttt{Full Settings}. Choose your desired Quick Print profile, as you can copy over the current settings when changing to \texttt{Full Settings} mode. This will automatically update the settings for that filament. Select \texttt{Expert} > \texttt{Switch to Full Settings}. The following tabs will now be available: Basic, Advanced, Plugins, and Start/End-GCODE. You will also have access to the Expert Settings menu entry. 
+The first time Cura is launched it will default to the \texttt{Quick Print} interface. In order to have more control of your slicing and GCODE generation, switch to \texttt{Full Settings}. Choose your desired Quick Print profile, as you can copy over the current settings when changing to \texttt{Full Settings} mode. This will automatically load the settings for that filament. Select \texttt{Expert} > \texttt{Switch to Full Settings}. The following tabs will now be available: Basic, Advanced, Plugins, and Start/End-GCODE. You will also have access to the Expert Settings menu entry. 
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}
@@ -381,7 +380,7 @@ The first time Cura is launched it will default to the \texttt{Quick Print} inte
 
 \subsection{\texttt{View in Full Settings}}
 \index{Full Settings}
-When you first switch to Full Settings, Cura will need to know what filament and quality you wish to use. It will automatically transfer our quickprint settings over to allow adjustments if one is selected. \textcolor{red}{IF A QUICKPRINT PROFILE IS NOT AVAILABLE, YOU WILL NEED TO MANUALLY LOAD ONE IN.} We recommend using our tested profiles that are available here: \texttt{https://www.lulzbot.com/cura}. You will want to choose the profile that matches your filament and quality needs. Once downloaded, you can load the file into Cura by selecting \texttt{File} > \texttt{Open Profile}. This will automatically update all of your Cura settings for use with your specific filament.
+When you first switch to Full Settings, Cura will need to know what filament, manufacturer, and quality you wish to use. It will automatically transfer our quickprint settings over to allow adjustments if one is selected. \textcolor{red}{IF A QUICKPRINT PROFILE IS NOT AVAILABLE, YOU WILL NEED TO MANUALLY LOAD ONE IN.} We recommend using our tested profiles that are available here: \texttt{https://www.lulzbot.com/cura}. You will want to choose the profile that matches your filament and quality needs. Once downloaded, you can load the file into Cura by selecting \texttt{File} > \texttt{Open Profile}. This will automatically update all of your Cura settings for use with your specific filament.
 %\begin{figure}[hbt]
 %\centering
 %\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}

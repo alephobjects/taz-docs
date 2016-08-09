@@ -48,11 +48,11 @@
 \contentsline {subsection}{\texttt {Xray}}{25}
 \contentsline {subsection}{\texttt {Layers}}{26}
 \contentsline {section}{\numberline {2.4}\texttt {Starting Your First Print}}{27}
-\contentsline {subsection}{\texttt {Automatic Bed Leveling}}{27}
-\contentsline {subsection}{\texttt {Printing from SD Card}}{27}
-\contentsline {subsection}{\texttt {Start Print}}{28}
 \contentsline {subsection}{\texttt {Printing from USB Cable}}{28}
-\contentsline {subsection}{\texttt {Pausing Mid-Print}}{29}
+\contentsline {subsection}{\texttt {Pausing Mid-Print}}{28}
+\contentsline {subsection}{\texttt {Automatic Bed Leveling}}{29}
+\contentsline {subsection}{\texttt {Printing from SD Card}}{29}
+\contentsline {subsection}{\texttt {Start Print}}{29}
 \contentsline {subsection}{\texttt {Recommended Temperatures and Bed Preperation}}{29}
 \contentsline {section}{\numberline {2.5}\texttt {Removing Your First Print}}{30}
 \contentsline {section}{\numberline {2.6}\texttt {Full Settings}}{31}
