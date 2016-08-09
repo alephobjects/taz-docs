@@ -121,27 +121,28 @@
 \contentsline {subsection}{\texttt {Only Follow Mesh Surface}}{46}
 \contentsline {section}{\numberline {2.17}\texttt {Brim}}{46}
 \contentsline {subsection}{\texttt {Brim Line Amount}}{46}
-\contentsline {section}{\numberline {2.18}\texttt {Raft}}{46}
+\contentsline {section}{\numberline {2.18}\texttt {Raft}}{47}
 \contentsline {subsection}{\texttt {Extra Margin}}{47}
 \contentsline {subsection}{\texttt {Line Spacing}}{47}
 \contentsline {subsection}{\texttt {Base Thickness}}{47}
 \contentsline {subsection}{\texttt {Base Line Width}}{47}
 \contentsline {subsection}{\texttt {Interface Thickness}}{47}
 \contentsline {subsection}{\texttt {Interface Line Width}}{47}
-\contentsline {subsection}{\texttt {Airgap}}{47}
+\contentsline {subsection}{\texttt {Airgap}}{48}
 \contentsline {subsection}{\texttt {Surface Layers}}{48}
 \contentsline {section}{\numberline {2.19}\texttt {Fix Horrible}}{48}
 \contentsline {subsection}{\texttt {Combine Everything (Type-A)}}{48}
 \contentsline {subsection}{\texttt {Combine Everything (Type-B)}}{48}
 \contentsline {subsection}{\texttt {Keep Open Faces}}{48}
-\contentsline {subsection}{\texttt {Extensive Stitching}}{48}
+\contentsline {subsection}{\texttt {Extensive Stitching}}{49}
 \contentsline {section}{\numberline {2.20}\texttt {Dual Extrusion}}{49}
 \contentsline {subsection}{\texttt {Tool Head Installation Instructions}}{49}
 \contentsline {subsection}{\texttt {Updating Firmware}}{49}
 \contentsline {subsection}{\texttt {Calibrating Extruders}}{50}
-\contentsline {subsection}{\texttt {Defining Second Extruder Offset}}{50}
-\contentsline {subsection}{\texttt {First Dual Print}}{51}
-\contentsline {subsection}{\texttt {First Print}}{52}
+\contentsline {subsection}{\texttt {Level the Front Tool Head}}{51}
+\contentsline {subsection}{\texttt {Defining Second Extruder Offset}}{51}
+\contentsline {subsection}{\texttt {First Dual Print}}{52}
+\contentsline {subsection}{\texttt {First Print}}{53}
 \contentsline {chapter}{\chapternumberline {3}\emph {Printing with the Graphic LCD}}{55}
 \contentsline {section}{\numberline {3.1}\texttt {Graphical LCD Controller, Cura or Other Host?}}{56}
 \contentsline {section}{\numberline {3.2}\texttt {Multiple Connections}}{56}

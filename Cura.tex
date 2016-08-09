@@ -624,7 +624,7 @@ This will raise your print head Xmm while retracting. This setting helps prevent
 
 \section{\texttt{Skirt}}
 \index{Skirt}
-Skirt creates a line around the outside of your object. Most commonly used to prime the extruder, in order to prevent missed filament at the beginning of a print. Leave this setting on. Turning this setting off will allow for utilizing the full build volume.
+Skirt creates a line around the outside of your object. This is used to prime the extruder, in order to prevent missed filament at the beginning of a print. Leave this setting on. Turning this setting off will allow for utilizing the full build volume.
 
 \subsection{\texttt{Line Count}}
 \index{Line Count}
@@ -632,7 +632,7 @@ This will define the number of loops the Skirt creates around the outside of you
 
 \subsection{\texttt{Start Distance}}
 \index{Start Distance}
-This will define the distance away from your model that the skirt will be created. 
+This will define the distance away from your model that the skirt will be created. The distance from the model will take consume a portion of the maximum build volume in the X/Y plane.
 
 \subsection{\texttt{Minimal Length}}
 \index{Minimal Length}
@@ -665,11 +665,11 @@ You can choose between a Grid or a Line pattern for your support material. The g
 
 \subsection{\texttt{Overhang Angle for Support}}
 \index{Overhang Angle}
-This will determine where support material is generated. In general you will be able to print a model with 45 to 90 degree angles in relation to the bed without support. We recommend leaving this setting at 45 degrees.
+This will determine where support material is generated. In general you will be able to print a model with 45 to 90 degree angles in relation to the bed without support. A conservative setting for this is 45 degrees.
 
 \subsection{\texttt{Fill Amount}}
 \index{Fill Amount}
-This will determine how dense your support material is printed, similar to Infill Percentage. The higher percentage, the better support, but it will be harder to remove the support material, will use more material, and will lead to a larger total printing time.
+This will determine how dense your support material is printed, similar to Infill Percentage. The higher the percentage, the better support, but it will be harder to remove the support material, will use more material, and will lead to a longer total printing time.
 
 \subsection{\texttt{Distance X/Y}}
 \index{Support}
@@ -689,11 +689,11 @@ This causes your Z-axis to be constantly moving upward as printing your single o
 
 \subsection{\texttt{Only Follow Mesh Surface}}
 \index{Black Magic}
-This will cause your print to follow the outside of your model, building it completely hollow with a single wall outer shell. The only difference between this and Spiralize, is that the Z-axis moves regularly. That is, it prints a layer and then moves up vertically to the next one.
+This will cause your print to follow the outside of your model, building it completely hollow with a single wall outer shell. This will also ignore the base layer, and the top layer. The difference between this and Spiralize, is that the Z-axis moves regularly. That is, it prints a layer and then moves up vertically to begin the next one.
 
 \section{\texttt{Brim}}
 \index{Brim}
-Brim circles the base of the print while making contact, helping adhere the print to the heated plate. This is only one layer thick, and easily removed post-print. This section defines how the brim is formed when brim is activated in basic settings.
+Brim circles the base of the print while making contact, helping adhere the print to the heated plate. This is only one layer thick, and easily removed post-print. The distance around the base of the object will consume some of the maximum build volume in the X/Y plane. This section defines how the brim is formed when brim is activated in basic settings.
 
 \subsection{\texttt{Brim Line Amount}}
 This will determine the distance the brim will cover around the outside of your object. The more brim used, the better your part will adhere to the plate. 
@@ -748,7 +748,7 @@ This will ignore all internal holes of the model and only focus on the external 
 
 \subsection{\texttt{Keep Open Faces}}
 \index{Open Faces}
-This will ignore all manifold errors in the object. It can create issues generating the GCODE as Cura does not know how to interpret the open holes. This option should only be used if you are sure that the holes in the mesh are intended. In general, you should not use this option.
+This will ignore all manifold errors in the object. It can create issues generating the GCODE as Cura does not know how to interpret the open holes. This option should only be used if you are sure that the holes in the mesh are intended. \texttt{In general, you should not use this option.}
 
 \subsection{\texttt{Extensive Stitching}}
 \index{Extensive Stitching}
@@ -805,6 +805,19 @@ Each individual extruder will have its own unique set of Extruder steps per unit
 \item Store your new Esteps \texttt{Configuration > Store Memory}.
 \end{itemize}
 
+\subsection{\texttt{Level the Front Tool Head}}
+\index{Level Dual Extruder}
+You will need to manually level the front hot end to the rear. This prevents the hot ends from hitting previously printed sections of your object during normal operation. 
+
+\begin{itemize}
+\item Home printer through the LCD screen. \texttt{Movement > Auto Home}
+\item Move the Y axis back so \texttt{only} the rear hot end is over the bed plate. \texttt{Movement > Move Axis > 1mm > Y Axis}
+\item Move the Tool Head down until the rear hot end is just touching the build plate. \texttt{Movement > Move Axis > 1mm > Z Axis}
+\item Raise your front hot end by adjusting the M4 leveling screw on the front of the Tool Head.
+\item Move your Y axis forward so the front hot end is over the plate. \texttt{Movement > Move Axis > 1mm > Y Axis}
+\item Lower your front tool head using the M4 leveling screw. Your front head should just touch the bed plate as your rear hot end does.
+\end{itemize}
+
 \subsection{\texttt{Defining Second Extruder Offset}}
 \index{Second Extruder Offset}
 To get crisper looking prints, you will want to really dial in your offsets. With the outer and inner square on your build platform, \texttt{left-click} on the outer square, then \texttt{right-click} on the inner square and select \texttt{Dual Extrusion Merge}. The red square will be printed with your front extruder, and the yellow square will be printed with the rear extruder.
@@ -831,5 +844,5 @@ When you are ready to produce your first dual extrusion print, you will need to 
 
 \subsection{\texttt{First Print}}
 \index{First Dual Print}
-After your object has been merged as intended, you will be ready to start the print. After selecting print from your SD card or the control panel, your printer will start the probing and cleaning process. It will clean both nozzles, but only probe with the rear. If you are getting contact with your printer nozzles on previous printed parts, you will need to level the front hot end to the rear.
+After your object has been merged as intended, you will be ready to start the print. After selecting print from your SD card or the control panel, your printer will start the probing and cleaning process. It will clean both nozzles, but only probe with the rear. If you are getting contact with your printer nozzles on previous printed parts, you will need to check the level the front hot end to the rear.
 
