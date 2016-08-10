@@ -38,7 +38,7 @@ To print from the GLCD, transfer .gcode print files onto the SD card. Follow the
 \end{figure}
 
 \subsection{\texttt{The Graphical LCD Controller Status Screen}}
-The GLCD screen will turn on you power up your LulzBot TAZ 3D printer. The start-up screen will display the Status screen (fig. \ref{fig:info_screen}, page \pageref{fig:info_screen}). The Status screen is the default screen for the GLCD, presenting the current status of the printer. There are a number of live statuses shown on the Status screen; these will give you current temperatures, tool head coordinates, print status, and more. The different numbered sections of the status screen are shown in Figure \ref{fig:info_screen} above. Follow the key below for more information on each section.
+The GLCD screen will turn on when you power up your LulzBot TAZ 3D printer. The start-up screen will display the Status screen (fig. \ref{fig:info_screen}, page \pageref{fig:info_screen}). The Status screen is the default screen for the GLCD, presenting the current status of the printer. There are a number of live statuses shown on the Status screen; these will give you current temperatures, tool head coordinates, print status, and more. The different numbered sections of the status screen are shown in Figure \ref{fig:info_screen} above. Follow the key below for more information on each section.
 
 \begin{enumerate}
 \item Hot end temperatures: represents the current temperature (bottom) and set temperature (top) of up to three nozzles. The RAMBo control electronics currently only supports two hot ends.
@@ -120,7 +120,7 @@ Your LulzBot TAZ 3D printer has the ability to change the first layer height (Z 
 %To find the configuration settings, navigate to the main menu and then select \texttt{Control} (Figure \ref{fig:configuration_menu}, page \pageref{fig:configuration_menu}). In the Control configuration settings you will find temperature and motion settings. Among others, these settings include default temperature settings and axis steps per millimeter.
 
 \subsection{\texttt{Acceleration}}
-Acceleration is the derivative of speed, and determines how quickly your print head and bed will reach defined speeds. We have this set to 500mm/s\textsuperscript{\miniscule{2}} to help prevent resonance and shadowing. This can be increased for sharper corners and faster turns, however it can lead backlash issues.
+Acceleration is the derivative of speed, and determines how quickly your print head and bed will reach defined speeds. We have this set to 500mm/s\textsuperscript{\miniscule{2}} to help prevent resonance and shadowing. This can be increased for sharper corners and faster turns, however it can lead to backlash issues.
 
 \subsection{\texttt{Jerk Settings}}
 Jerk is the derivative of accleration and will determine the maximum speed change allowed at any given time. \texttt{VXY- Jerk} will control jerk setting for your X and Y-axis. \texttt{VZ - Jerk} will control the jerk setting for your Z-axis. \texttt{VE - Jerk} will control the jerk settings for your extruder.

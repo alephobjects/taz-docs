@@ -360,7 +360,7 @@ Once your heated bed has cooled, use the blue handled knife that was included wi
 \section{\texttt{Full Settings}}
 \index{Full Settings}
 \textcolor{red}{Full settings should not be used until enough experience with 3D printing has been gained to feel comfortable with all aspects of the printer and its operation.} Quickprint Mode will provide good results for most models.
-The first time Cura is launched it will default to the \texttt{Quick Print} interface. In order to have more control of your slicing and GCODE generation, switch to \texttt{Full Settings}. Choose your desired Quick Print profile, as you can copy over the current settings when changing to \texttt{Full Settings} mode. This will automatically load the settings for that filament. Select \texttt{Expert} > \texttt{Switch to Full Settings}. The following tabs will now be available: Basic, Advanced, Plugins, and Start/End-GCODE. You will also have access to the Expert Settings menu entry. 
+The first time Cura is launched it will default to the \texttt{Quick Print} interface. In order to have more control of your slicing and GCODE generation, switch to \texttt{Full Settings}. First choose your desired Quick Print profile, then you can copy over the current settings when changing to \texttt{Full Settings} mode. This will automatically load the settings for that filament. Select \texttt{Expert} > \texttt{Switch to Full Settings}. The following tabs will now be available: Basic, Advanced, Plugins, and Start/End-GCODE. You will also have access to the Expert Settings menu entry. 
 \begin{figure}[H]
 \centering
 \includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{Expert.png}
@@ -544,7 +544,7 @@ This affects vertical walls that are in between the outer shell and infill. This
 
 \subsection{\texttt{Minimal Layer Time}}
 \index{Minimal Layer Time}
-This will determine a minimum amount of time your printer will spend laying down each layer. If your layer print time falls below this your printer will automatically slow down to reach this time before moving onto the next layer. Tweaking this can help get cleaner, crisper prints. If you have the print head slow down too much, it can cause blobby or melty looking prints.
+This will determine a minimum amount of time your printer will spend laying down each layer. If your layer print time falls below this your printer will automatically slow down to reach this time before moving onto the next layer. Tweaking this can help get cleaner, crisper prints. If the tool head moves too slowly and lingers over the object, it can cause those areas to droop from excess heat, reducing final quality and finish. 
 
 \subsection{\texttt{Enable Cooling Fan}}
 \index{Enabling Cooling Fan}
@@ -812,7 +812,7 @@ You will need to manually level the front hot end to the rear. This prevents the
 \begin{itemize}
 \item Home printer through the LCD screen. \texttt{Movement > Auto Home}
 \item Move the Y axis back so \texttt{only} the rear hot end is over the bed plate. \texttt{Movement > Move Axis > 1mm > Y Axis}
-\item Move the Tool Head down until the rear hot end is just touching the build plate. \texttt{Movement > Move Axis > 1mm > Z Axis}
+\item Move the Tool Head down until the rear hot end is just touching the build plate. \texttt{Movement > Move Axis > 0.1mm > Z Axis}
 \item Raise your front hot end by adjusting the M4 leveling screw on the front of the Tool Head.
 \item Move your Y axis forward so the front hot end is over the plate. \texttt{Movement > Move Axis > 1mm > Y Axis}
 \item Lower your front tool head using the M4 leveling screw. Your front head should just touch the bed plate as your rear hot end does.
@@ -844,5 +844,5 @@ When you are ready to produce your first dual extrusion print, you will need to 
 
 \subsection{\texttt{First Print}}
 \index{First Dual Print}
-After your object has been merged as intended, you will be ready to start the print. After selecting print from your SD card or the control panel, your printer will start the probing and cleaning process. It will clean both nozzles, but only probe with the rear. If you are getting contact with your printer nozzles on previous printed parts, you will need to check the level the front hot end to the rear.
+After your object has been merged as intended, you will be ready to start the print. After selecting print from your SD card or the control panel, your printer will start the probing and cleaning process. It will clean both nozzles, but only probe with the rear. If you are getting contact with your printer nozzles on previous printed parts, you will need to check the level of the front hot end to the rear.
 
