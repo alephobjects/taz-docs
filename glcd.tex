@@ -16,6 +16,10 @@ In the following sections you will find general information on using the GLCD, h
 
 \section{\texttt{Graphical LCD Controller, Cura or Other Host?}}
 \label{sec:Graphic LCD, Cura or Other Host?}
+\index{GLCD}
+\index{graphical LCD controller}
+\index{tetherless printing}
+\index{printer host}
 The Graphical LCD Controller is perfect for normal day to day printing and will be used in the majority of your print jobs. However, in some instances, you will want to use Cura instead of the GLCD. A few examples of when you would want to plug the USB cable back in and use Cura:
 \begin{itemize}
 	\item A number of manual movements are required to perform calibration checks. Because of this it is easier and faster to make the required manual movements within Cura. Calibration checks can be done with the GLCD, but require a number of repetitive menu selections. 
@@ -27,6 +31,7 @@ The Graphical LCD Controller is perfect for normal day to day printing and will 
 Because the LulzBot TAZ 3D printer can be controlled by the GLCD and by host software, caution is advised when connecting to the printer through USB as the print can be interrupted when connecting or disconnecting the USB cable. A general rule is: once you have started a print with either the GLCD, Cura, or another printer host, for the rest of the print use only that controller. When printing with the GLCD, never try to connect through USB in the Cura host software; wait until the print is complete, and then connect in Cura.
 
 \section{\texttt{Putting Print Files on the SD Card}}
+\index{sd card}
 To print from the GLCD, transfer .gcode print files onto the SD card. Follow the normal steps, as explained in the Cura chapter, to create .gcode print files on your computer. Insert the SD card into your computer using a SD reader slot or USB SD card reader. Open a file browser- / -manager and locate the created .gcode files; drag and drop or paste the .gcode files to the SD card. Once the files have transferred, eject the SD card from your computer and insert it back into the SD card slot on the left side of the printer, at the top near the GLCD.
 
 \section{\texttt{Printing With the Graphical LCD Controller}}
@@ -68,6 +73,7 @@ To navigate through the GLCD menu use the selection knob by rotating to scroll t
 %If you need to set the extrusion and/or bed temperature to a setting different than the preheat temperature you can manually set the temperature. To do so, from the main menu navigate through: Temperature \texttt{->} Custom Temp \texttt{->} Nozzle or Bed. Clicking on either of these settings will give you a menu to set and select the desired temperature setting.
 
 \subsection{\texttt{Selecting a File From the SD and Starting a Print}}
+\index{printing from sd card}
 Once the SD card has the desired GCODE file loaded onto it, you can begin your first print. From the main menu select the \texttt{Print from SD} option. You will now see a selection of the directories and .gcode files on the SD card. Navigate through the menu to locate the file you would like to print. Select the desired file to begin the print.
 
 
@@ -80,6 +86,7 @@ When at the move screen; turn the selection knob clockwise to move the axis in m
 Once you begin a print, you will notice your movement option changes to tune. This section will allow you to make changes to individual settings while a print is running. You can adjust overall speed, nozzle temperature, bed temperature, flow \%, check apprx layer height, and even change filament. \texttt{When adjusting these settings, we recommend making small changes at a time.}
 
 \subsection{\texttt{Change Filament}}
+\index{change filament}
 You can change filament through the GLCD mid print by going to \texttt{Tune -> Change Filament}. This will park your print head in the front left corner, and wait for you to resume the print. During this time you can change colors, or even types of filament. Once your filament change has completed, press in your GLCD knob to continue where it left off. \texttt{If you manually move the tool head while changing filament, your printer will lose place of it's position.}
 
 \section{\texttt{Configuration Options}} 
@@ -90,11 +97,12 @@ You can change filament through the GLCD mid print by going to \texttt{Tune -> C
 %\caption{Main Menu}
 %\label{fig:main_menu}
 %\end{figure}
-
+\index{firmware settings}
 Out of the box, the LulzBot TAZ 3D printer is already calibrated for printing. However, the GLCD does allow tuning of the more advanced configuration settings. \textcolor{red}{We highly suggest you not modify the configuration settings unless you are certain it is necessary}. The configuration section contains settings that control how your printer operates.
 
 \subsection{\texttt{Changing EEPROM Settings}}
 \index{EEPROM settings}
+\index{EEPROM}
 The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the GLCD. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered on. If you ever need to revert to the original factory settings navigate to \texttt{Control} \texttt{->} \texttt{Restore Failsafe}. Clicking \texttt{Restore to Factory} will set all configuration settings back to the original factory settings in the firmware.
 
 For more information on the configuration settings please see the LulzBot TAZ support page at \texttt{LulzBot.com/support}.
@@ -104,7 +112,8 @@ In the advanced settings, you can control/modify your Z offset, maximum velocity
 
 \subsection{\texttt{Z Offset}} 
 \label{sssec:Z Offset}
-\index{Z Offset}
+\index{Z offset}
+\index{first layer height}
 Your LulzBot TAZ 3D printer has the ability to change the first layer height (Z offset) directly through the GLCD, even while printing the first layer. Using the GLCD, navigate to \texttt{Configuration -> Advanced Settings -> Z Offset}. While in this screen you can rotate the GLCD knob counter-clockwise to bring your nozzle closer to the print surface, and rotate it clockwise to bring it farther away from the bed. \texttt{Push in the GLCD knob to save your settings.} (Fig. \ref{fig:Z_offset_screen}, page \pageref{fig:Z_offset_screen})
 
 \begin{figure}[H]
