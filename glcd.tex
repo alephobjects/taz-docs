@@ -100,7 +100,7 @@ The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load
 For more information on the configuration settings please see the LulzBot TAZ support page at \texttt{LulzBot.com/support}.
 
 \section{\texttt{Advanced Settings}}
-In the advanced settings, you can control/modify your Z offset, maximum velocity, acceleration, jerk, and esteps/mm. Once again \textcolor{red}{we highly suggest you not modify the configuration settings unless you are certain it is necessary}. Making incorrect adjustments of these settings can have adverse affects on your prints, and potentially damage your machine.
+In the advanced settings, you can control/modify your Z offset, maximum velocity, acceleration, jerk, and esteps/mm. \textcolor{red}{We highly suggest you not modify the configuration settings unless you are certain it is necessary}. Making incorrect adjustments of these settings can have adverse affects on your prints, and potentially damage your machine.
 
 \subsection{\texttt{Z Offset}} 
 \label{sssec:Z Offset}
@@ -138,10 +138,11 @@ This will set the minimum travel speed when the tool head is not extruding. We h
 The \texttt{Amax} settings will allow you to define a maximum acceleration limit for each motor. Increasing these may reduce print time, but can result in in shadowing and resonance issues.
 
 \subsection{\texttt{A-Retract}} 
-This sets the maximum acceleration for retraction moves of the extruder. Going too high can lead to stripping, and going too low can lead to dripping. We have this set to 3000mm/s\textsuperscript{\miniscule{2}} by default.
+This sets the maximum acceleration for retraction moves of the extruder. If this value is set too high it can lead to stripping. Excessively low values can lead to poor print quality. We have this set to 3000mm/s\textsuperscript{\miniscule{2}} by default.
 
 \subsection{\texttt{Steps/mm}}
-Your LulzBot TAZ 3D printer is factory calibrated on all axis for accurate movement. These settings control that movement, and if adjusted your objects will not come out at the proper dimensions. \textcolor{red}{\texttt{We only recommend adjusting your Esteps/mm}} as this can be fine tuned for individual tool heads and filaments. 
+Your LulzBot TAZ 3D printer is factory calibrated on all axis for accurate movement. These settings control that movement, and if adjusted your objects will not come out at the proper dimensions. \textcolor{red}{\texttt{We only recommend adjusting your Esteps/mm}} as this can be fine tuned for individual tool heads and filaments.
+\texttt{Note:} Each tool head has a unique extruder steps per unit. Add-on tool heads will have their specific Esteps noted on the back of the tool head. The standard tool head has the Esteps recorded on the Test Acceptance Record.
 
 \subsection{\texttt{Graphical LCD Controller Menu Map}}
 \begin{figure}[H]
