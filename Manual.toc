@@ -27,8 +27,8 @@
 \contentsline {subsection}{\texttt {MatterControl}}{15}
 \contentsline {subsection}{\texttt {Source Files}}{15}
 \contentsline {chapter}{\chapternumberline {2}\emph {Cura LulzBot Edition}}{17}
-\contentsline {section}{\numberline {2.1}\texttt {Cura}}{18}
-\contentsline {subsection}{\texttt {Setup Cura}}{18}
+\contentsline {section}{\numberline {2.1}\texttt {Cura LulzBot Edition}}{18}
+\contentsline {subsection}{\texttt {Installation and Setup}}{18}
 \contentsline {section}{\numberline {2.2}\texttt {Quick Print Settings}}{19}
 \contentsline {subsection}{\texttt {Selecting a Quick Print Profile}}{19}
 \contentsline {subsection}{\texttt {Material Selection}}{20}
@@ -45,7 +45,7 @@
 \contentsline {subsection}{\texttt {Normal}}{23}
 \contentsline {subsection}{\texttt {Overhang}}{24}
 \contentsline {subsection}{\texttt {Ghost}}{25}
-\contentsline {subsection}{\texttt {Xray}}{25}
+\contentsline {subsection}{\texttt {X-ray}}{25}
 \contentsline {subsection}{\texttt {Layers}}{26}
 \contentsline {section}{\numberline {2.4}\texttt {Starting Your First Print}}{27}
 \contentsline {subsection}{\texttt {Printing from USB Cable}}{28}
@@ -170,15 +170,14 @@
 \contentsline {chapter}{\chapternumberline {4}\emph {Maintaining Your 3D Printer}}{65}
 \contentsline {section}{\numberline {4.1}\texttt {Overview}}{66}
 \contentsline {section}{\numberline {4.2}\texttt {Smooth Rods}}{66}
-\contentsline {section}{\numberline {4.3}\texttt {Lead Screw Drive Rods}}{66}
-\contentsline {section}{\numberline {4.4}\texttt {PEI Print Surface}}{66}
-\contentsline {section}{\numberline {4.5}\texttt {Hobbed Bolt}}{67}
-\contentsline {section}{\numberline {4.6}\texttt {Belts}}{67}
-\contentsline {section}{\numberline {4.7}\texttt {Hot End}}{67}
-\contentsline {section}{\numberline {4.8}\texttt {Nozzle Wiping Pad}}{68}
-\contentsline {section}{\numberline {4.9}\texttt {Bed Leveling Washers}}{68}
-\contentsline {section}{\numberline {4.10}\texttt {Cooling Fans}}{68}
-\contentsline {section}{\numberline {4.11}\texttt {Electronics}}{68}
+\contentsline {section}{\numberline {4.3}\texttt {PEI Print Surface}}{66}
+\contentsline {section}{\numberline {4.4}\texttt {Hobbed Bolt}}{66}
+\contentsline {section}{\numberline {4.5}\texttt {Belts}}{67}
+\contentsline {section}{\numberline {4.6}\texttt {Hot End}}{67}
+\contentsline {section}{\numberline {4.7}\texttt {Nozzle Wiping Pad}}{67}
+\contentsline {section}{\numberline {4.8}\texttt {Bed Leveling Washers}}{67}
+\contentsline {section}{\numberline {4.9}\texttt {Cooling Fans}}{68}
+\contentsline {section}{\numberline {4.10}\texttt {Control Box}}{68}
 \contentsline {chapter}{\chapternumberline {5}\emph {Advanced Usage}}{69}
 \contentsline {section}{\numberline {5.1}\texttt {Intro}}{70}
 \contentsline {section}{\numberline {5.2}\texttt {Changing nozzles}}{70}
