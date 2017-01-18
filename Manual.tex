@@ -98,6 +98,7 @@
 \newif\ifsupport\supporttrue %true
 \newif\ifwarranty\warrantytrue %true
 \newif\ifcontact\contacttrue %true
+\newif\ifnotes\notesfalse %false
 \newif\ifcolophon\colophontrue %true
 %% or just render everything:
 %false
@@ -423,6 +424,20 @@
 \clearpage
 \printglossary
 %%% END GLOSSARY %%%
+
+%%% NOTES %%%
+\ifnotes
+%%% skip a couple pages
+\pagebreak{}
+\thispagestyle{empty}
+\begingroup 
+\vfill\null 
+\endgroup
+\pagebreak{}
+\thispagestyle{empty}
+{\include{Notes}}
+\fi
+%%% END NOTES %%%
 
 %%% COLOPHON %%%
 \ifcolophon

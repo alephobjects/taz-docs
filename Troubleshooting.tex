@@ -1,12 +1,46 @@
 %
 % Troubleshooting.tex
 %
-% LulzBot™ TAZ User Manual
+% LulzBot TAZ User Manual
 %
-% Copyright (C) 2015 Aleph Objects, Inc.
+% Copyright (C) 2014 Aleph Objects, Inc.
 %
 % This document is licensed under the Creative Commons Attribution 4.0
 % International Public License (CC BY-SA 4.0) by Aleph Objects, Inc.
 %
 
-\section{\texttt{Troubleshooting}}
+\section{Troubleshooting}
+\subsection{Error Codes}
+\index{Error Codes}
+The following error codes may be displayed within the Cura LulzBot Edition control window, or displayed on the Graphical LCD controller. 
+
+\subsubsection{MINTEMP}
+\index{MINTEMP}
+The thermistor for one of the hot ends is reading 0°C or below. This is usually the result of a break in the thermistor wiring.
+
+\subsubsection{MAXTEMP}
+\index{MAXTEMP}
+The thermistor reading has gone above the maximum temperature set in the firmware (300°C for the TAZ and Mini and most tool heads). This could be caused by shorted thermistor wires, a failing heater or poorly set PID values causing the hot end to overrun it’s set temp.
+
+\subsubsection{Thermal Error E1}
+\index{Thermal Error E1}
+Triggered by the primary hot end dropping in temperature beyond a threshhold set in the firmware. It can be caused by a failing heater cartridge or excessive fan on the hot end, or in a worst case scenario, by the thermistor coming out of the tool head during printing.
+
+\subsubsection{Thermal Error E2}
+\index{Thermal Error E2}
+Triggered by the secondary hot end dropping in temperature beyond a threshhold set in the firmware. It can be caused by a failing heater cartridge or excessive fan on the hot end, or in a worst case scenario, by the thermistor coming out of the tool head during printing.
+
+\subsubsection{Thermal Error Bed}
+\index{Thermal Error Bed}
+This is triggered by the bed dropping in temperature beyond a threshhold set in the firmware. It can be caused by a failing bed heater or wiring or excessive fan on the bed, or in a worst case scenario, by the thermistor coming out of the bed during printing (unlikely).
+
+\subsubsection{PROBE FAIL CLEAN NOZZLE}
+\index{PROBE FAIL CLEAN NOZZLE}
+This means that the printer has detected a failed wiping routine and has not been able to correct itself with 3 rewipe sequences. This is usually caused by the wiping temps not being correct for the material that’s coating the nozzle.
+Resolution:
+\begin{itemize}
+\item Use the correct Quickprint profile in Cura LulzBot Edition.
+\item If you’ve just switched from a material that is printed at a higher temperature to one that prints at a lower temperature, try heating the hot end to the wipe temperature recommended in that material’s Quickprint profile. 
+
+A printed wiper pad handle can make this much easier: \texttt{http://devel.lulzbot.com/wiper\textunderscore pads/wiper-pad-handle}
+\end{itemize}

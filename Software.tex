@@ -14,7 +14,7 @@
 
 To operate your desktop 3D printer you will need to install a few software packages onto your PC. You will need a 3D printer host, an \texttt{.STL} to \texttt{.GCODE} generator, and optional CAD or 3D modeling software.
 
-\texttt{Cura LulzBot\textsuperscript{\miniscule{\textregistered}} Edition is the recommended software for your LulzBot 3D printer.} Download Cura LulzBot Edition by visiting \texttt{LulzBot.com/Cura}.
+\texttt{Cura LulzBot Edition is the recommended software for your LulzBot 3D printer.} Download Cura LulzBot Edition by visiting \texttt{LulzBot.com/Cura}.
 
 
 \glossary{.GCODE}{The file extension for G-Code files}
@@ -38,7 +38,7 @@ All of the following Free/Libre Software packages are available for GNU/Linux, W
 
 \begin{description}
 \item{Printer Hosts} \hfill \\
-Printer Host software is used to control the 3D printer. The program not only allows you to manually move the printer along all the axes, but set temperatures manually, send commands, and receive feedback/error messages from the onboard electronics. We recommend that new users start with Cura LulzBot\textsuperscript{\miniscule{\textregistered}} Edition as it includes a slicing engine as well.
+Printer Host software is used to control the 3D printer. The program not only allows you to manually move the printer along all the axes, but set temperatures manually, send commands, and receive feedback/error messages from the onboard electronics. We recommend that new users start with Cura LulzBot Edition as it includes a slicing engine as well.
 
 \item{\texttt{Slicers}} \hfill \\
 These programs take the 3-Dimensional model (typically STL/OBJ/etc) and determine the 3D printer toolpath based on the options selected. The slicing engine uses the nozzle diameter, movement speeds, layer height, and other variables to determine the coordinates where it needs to move, and the rates at which it will do so. This information is exported out of the program as a GCODE file. The GCODE file is a plain-text file with a series of text-based codes and a list of the complete X,Y, and Z-axis coordinates used for printing the 3D model. We recommend that new users start with Cura LulzBot Edition as it includes the printer host as well.
@@ -67,7 +67,7 @@ LulzBot is not distributing a CAD or 3D modeling software package. However, mult
 
 On some CAD and 3D modeling software you will need to select millimeters as the output unit. If possible it is best to build your 3D design in metric units rather than imperial units. Cura requires .STL/.OBJ files sized in millimeters. If an .STL/.OBJ with inches as units is loaded into Cura, the model will be scaled much smaller than expected. You can scale the model by \texttt{25.40} to compensate. The software listed below outputs millimeters as the unit by default.
 
-\subsection{\texttt{FreeCAD}}
+\subsection{FreeCAD}
 \index{FreeCAD}
 \index{GNU/Linux}
 \index{Windows}
@@ -76,7 +76,7 @@ Website: \texttt{http://www.freecadweb.org/}
 
 Although still in development, contains a full GUI for building CAD models. FreeCAD is capable of creating simple to complex designs. STL files can also easily be exported for use with 3D printing. FreeCAD is available for GNU/Linux, Windows, and OS X. The latest development version is recommended.
 
-\subsection{\texttt{OpenSCAD}}
+\subsection{OpenSCAD}
 \index{OpenSCAD}
 \index{GNU/Linux}
 \index{Windows}
@@ -85,7 +85,7 @@ Website: \texttt{http://openscad.org}
 
 OpenSCAD is different than FreeCAD in that it is script based. Rather than using a GUI to generate CAD designs, OpenSCAD CAD designs are created using script based renderings. Users with programming experience would find this useful. Also, OpenSCAD uses a simple script language that is easy for users with little or no programming experience to learn.
 
-\subsection{\texttt{Blender}}
+\subsection{Blender}
 \index{Blender}
 \index{GNU/Linux}
 \index{Windows}
@@ -107,7 +107,7 @@ Shapesmith is a web-based 3D modeling software. This means there is no required 
 \index{software}
 \index{STL}
 
-\subsection{\texttt{OctoPrint}}
+\subsection{OctoPrint}
 \index{OctoPrint}
 \index{GNU/Linux}
 \index{Windows}
@@ -116,7 +116,7 @@ Website: \texttt{http://octoprint.org/}
 
 Octoprint is a printer host that uses a web-based interface to access and control your 3D printer. Added web-cam functionality allows for time-lapse videos and a live stream. Octoprint will run on GNU/Linux, Windows, OS X based computers and can even run well on a Beagle Bone Black or a RaspberryPi (inexpensive business-card sized computers).
 
-\subsection{\texttt{BotQueue}}
+\subsection{BotQueue}
 \index{BotQueue}
 \index{GNU/Linux}
 \index{OS X}
@@ -125,7 +125,7 @@ Website: \texttt{https://www.botqueue.com/}
 BotQueue works well for those users wanting to have a web-based multiple 3D printer operation running off a queuing system.
 
 
-\subsection{\texttt{MatterControl}}
+\subsection{MatterControl}
 \index{MatterControl}
 %\index{GNU/Linux}
 \index{Windows}
@@ -134,9 +134,9 @@ Website: \texttt{http://www.mattercontrol.com/}
 
 MatterControl is another printer host that currently runs on GNU/Linux, Windows, and OS X. It features 2D and 3D model viewing, a print queue, and print file organization and searching.
 
-\subsection{\texttt{Source Files}}
+\subsection{Source Files}
 \index{source files}
-Aleph Objects, Inc., the maker of the LulzBot\textsuperscript{\miniscule{\textregistered}} TAZ 3D printer, completely supports Free Software, Libre Innovation, and Open Source Hardware. Along with the LulzBot TAZ 3D printer being a Free Software and Open Source Hardware design, it has been tested to work with 100\% Free/Libre Software. Our source code and design files are hosted on:
+Aleph Objects, Inc., the maker of the LulzBot TAZ 3D printer, completely supports Free Software, Libre Innovation, and Open Source Hardware. Along with the LulzBot TAZ 3D printer being a Free Software and Open Source Hardware design, it has been tested to work with 100\% Free/Libre Software. Our source code and design files are hosted on:
 
 \begin{description}
 \item [LulzBot Download Server] \texttt{http://download.lulzbot.com}
