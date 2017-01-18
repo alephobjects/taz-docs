@@ -2,7 +2,7 @@
 % glcd.tex
 % Graphical LCD.
 %
-% LulzBot™ TAZ User Manual
+% LulzBot® TAZ User Manual
 %
 % Copyright (C) 2015 Aleph Objects, Inc.
 %
@@ -10,40 +10,45 @@
 % International Public License (CC BY-SA 4.0) by Aleph Objects, Inc.
 %
 
-The Graphic LCD allows you to print with the LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ 3D printer without needing to have a computer connected or using host software such as Cura. This will allow for more efficient space in the workspace and free up a computer for other tasks.
+The Graphical LCD Controller, or GLCD, allows you to print with the LulzBot TAZ 3D printer without needing to have a computer connected or using host software such as Cura LulzBot Edition. This will allow for more efficient space in the workspace and free up a computer for other tasks.
 
-In the following sections you will find general information on using the Graphic LCD, how to transfer .gcode files to the included SD card, heat up the printer, start a print, and make configuration adjustments.
+In the following sections you will find general information on using the GLCD, how to transfer .gcode files to the included SD card, heat up the printer, start a print, and make configuration adjustments.
 
-\section{\texttt{GLCD Controller, Cura or Printrun Host?}}
-\label{sec:Graphic LCD, Cura or Printrun Host?}
-The Graphical LCD Controller is perfect for normal day to day printing and will be used in the majority of your print jobs. However, in some instances- you will want to use Cura or Printrun instead of the GLCD Controller. A few examples of when you would want to plug the USB cable back in and use Cura:
+\section{\texttt{Graphical LCD Controller, Cura or Other Host?}}
+\label{sec:Graphic LCD, Cura or Other Host?}
+\index{GLCD}
+\index{graphical LCD controller}
+\index{tetherless printing}
+\index{printer host}
+The Graphical LCD Controller is perfect for normal day to day printing and will be used in the majority of your print jobs. However, in some instances, you will want to use Cura instead of the GLCD. A few examples of when you would want to plug the USB cable back in and use Cura:
 \begin{itemize}
-	\item A number of manual movements are required to perform calibration checks. Because of this it is easier and faster to make the required manual movements within Cura. Calibration checks can be done with the Graphic LCD, but require a number of repetitive menu selections.
-	\item Printrun offers a number of extra options for advanced users, including custom gcode input, output display, and pronsole. Pronsole is the command line portion of Printrun that can be used in scripts for automation or controlling a printer through remote access, for example, SSH.
+	\item A number of manual movements are required to perform calibration checks. Because of this it is easier and faster to make the required manual movements within Cura. Calibration checks can be done with the GLCD, but require a number of repetitive menu selections. 
+%%%%%	\item Printrun offers a number of extra options for advanced users, including custom gcode input, output display, and pronsole. Pronsole is the command line portion of Printrun that can be used in scripts for automation or controlling a printer through remote access, for example, SSH.
 	\item Cura is the preferred printer host software, as the inclusion of quick print profiles, the combination of slicing engine, and printer host communications allows for easy all-in-one use.
 \end{itemize}
 
 \section{\texttt{Multiple Connections}}
-Because the LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ 3D printer can be controlled by the Graphic LCD and by host software, caution is advised when connecting to the printer through USB as the print can be interrupted when connecting or disconnecting the USB cable. A general rule is: once you have started a print with either the Graphic LCD, Cura, or Printrun, for the rest of the print use only that controller. When printing with the Graphic LCD, never try to connect through USB in the Cura host software; wait until the print is complete, and then connect in Cura.
+Because the LulzBot TAZ 3D printer can be controlled by the GLCD and by host software, caution is advised when connecting to the printer through USB as the print can be interrupted when connecting or disconnecting the USB cable. A general rule is: once you have started a print with either the GLCD, Cura, or another printer host, for the rest of the print use only that controller. When printing with the GLCD, never try to connect through USB in the Cura host software; wait until the print is complete, and then connect in Cura.
 
 \section{\texttt{Putting Print Files on the SD Card}}
-To print from the Graphic LCD, you will need to transfer .gcode print files onto the SD card. Follow the normal steps, as explained in the Slic3r chapter, to create .gcode print files on your computer. Insert the SD card into your computer using a SD reader slot or USB SD card reader. Open a file browser- / -manager and locate the created .gcode files; drag and drop or paste the .gcode files to the SD card. Once the files have transferred, eject the SD card from your computer and insert it back into the SD card slot on the left side of the Graphic LCD case.
+\index{sd card}
+To print from the GLCD, transfer .gcode print files onto the SD card. Follow the normal steps, as explained in the Cura chapter, to create .gcode print files on your computer. Insert the SD card into your computer using a SD reader slot or USB SD card reader. Open a file browser- / -manager and locate the created .gcode files; drag and drop or paste the .gcode files to the SD card. Once the files have transferred, eject the SD card from your computer and insert it back into the SD card slot on the left side of the printer, at the top near the GLCD.
 
-\section{\texttt{Printing With the Graphic LCD}}
+\section{\texttt{Printing With the Graphical LCD Controller}}
 \begin{figure}[b]
 \centering
-\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{LCD_main_screen.jpg}
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{GLCD_TAZ6_update.png}
 \caption{GLCD Info Screen}
 \label{fig:info_screen}
 \end{figure}
 
-\subsection{\texttt{The Graphic LCD Status Screen}}
-The GLCD screen will turn on you power up your LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ 3D printer. The start-up screen will display the Status screen (fig. \ref{fig:info_screen}, page \pageref{fig:info_screen}). The Status screen is the default screen for the GLCD, presenting the current status of the printer. There are a number of live statuses shown on the Status screen; these will give you current temperatures, tool head coordinates, print status, and more. The different numbered sections of the status screen are shown in Figure \ref{fig:info_screen} above. Follow the key below for more information on each section.
+\subsection{\texttt{The Graphical LCD Controller Status Screen}}
+The GLCD screen will turn on when you power up your LulzBot TAZ 3D printer. The start-up screen will display the Status screen (fig. \ref{fig:info_screen}, page \pageref{fig:info_screen}). The Status screen is the default screen for the GLCD, presenting the current status of the printer. There are a number of live statuses shown on the Status screen; these will give you current temperatures, tool head coordinates, print status, and more. The different numbered sections of the status screen are shown in Figure \ref{fig:info_screen} above. Follow the key below for more information on each section.
 
 \begin{enumerate}
 \item Hot end temperatures: represents the current temperature (bottom) and set temperature (top) of up to three nozzles. The RAMBo control electronics currently only supports two hot ends.
 \item Heat bed temperature: represents the current temperature (bottom) and set temperature (top) of the heat bed.
-\item Fan speed: represents the current optional extruder fan speed. The fan is set to off (1\%) by default; the fan is not recommended for ABS. If you print with PLA filament, you will want to use the fan. If cooling is turned on in Cura/Slic3r, this portion of the display will change to reflect the .g-code embedded extruder fan control instructions.
+\item Fan speed: represents the current optional extruder fan speed. The fan is set to off (0\%) by default; the fan is not recommended for ABS. If you print with PLA filament, you will want to use the fan. If cooling is turned on in Cura, this portion of the display will change to reflect the .g-code embedded extruder fan control instructions.
 \item Tool head coordinates: represents the current tool head coordinates on the X, Y, and Z axes.
 \item Feed rate: represents the current feed rate setting. The feed rate is set to 100\% by default; this matches the speed set in the gcode generation. When on, the status screen selection knob can be turned to increase or decrease the feed rate during the print. Increasing/decreasing the feed rate will increase/decrease the speed of the print.
 \item Printer status: lists the current status of the printer including: SD card status, current printing file, or completed print time.
@@ -53,7 +58,7 @@ The GLCD screen will turn on you power up your LulzBot\textsuperscript{\miniscul
 
 
 \subsection{\texttt{Using the Selection Knob}}
-To navigate through the LCD menu use the selection knob by rotating to scroll through selections and pressing the knob to make a selection. From the main Status screen, press the knob to move into the menu screen (Figure \ref{fig:main_menu}, page \pageref{fig:main_menu}). To move backwards in the menu tree, select the top most menu selection on the current screen. Selections that will move you backwards through the menu tree are noted by an upwards-facing arrow. Note that if the menu is left idle it will automatically move back to the main Status screen.
+To navigate through the GLCD menu use the selection knob by rotating to scroll through selections and pressing the knob to make a selection. From the main status screen, press the knob to move into the menu screen (Figure \ref{fig:main_menu}, page \pageref{fig:main_menu}). To move backwards in the menu tree, select the top most menu selection on the current screen. Selections that will move you backwards through the menu tree are noted by an upwards-facing arrow. Note that if the menu is left idle it will automatically move back to the main status screen.
 
 \begin{figure}[h]
 \centering
@@ -62,20 +67,29 @@ To navigate through the LCD menu use the selection knob by rotating to scroll th
 \label{fig:main_menu}
 \end{figure}
 
-\subsection{\texttt{Preparing for a Print}}
-Before starting a print you will need to set the hot end and heat bed to the appropriate temperatures for the filament type you are using. To quickly set the printer to preheat, click the selection knob to bring up the menu and select \texttt{Temperature}. Select \texttt{Filament Type} to automatically set the hot end and bed temperature for that specific filament.
+%\subsection{\texttt{Preparing for a Print}}
+%Before starting a print you will need to set the hot end and heat bed to the appropriate temperatures for the filament type you are using. To quickly set the printer to preheat, click the selection knob to bring up the menu and select \texttt{Temperature}. Select \texttt{Filament Type} to automatically set the hot end and bed temperature for that specific filament.
 
-If you need to set the extrusion and/or bed temperature to a setting different than the preheat temperature you can manually set the temperature. To do so, from the main menu navigate through: Temperature \texttt{->} Custom Temp \texttt{->} Nozzle or Bed. Clicking on either of these settings will give you a menu to set and select the desired temperature setting.
+%If you need to set the extrusion and/or bed temperature to a setting different than the preheat temperature you can manually set the temperature. To do so, from the main menu navigate through: Temperature \texttt{->} Custom Temp \texttt{->} Nozzle or Bed. Clicking on either of these settings will give you a menu to set and select the desired temperature setting.
 
 \subsection{\texttt{Selecting a File From the SD and Starting a Print}}
-Once the hot end and heat bed have reached the desired temperature the printer is ready to print. From the main menu select the \texttt{Print from SD} option. You will now see a selection of the directories and .gcode files on the SD card. Navigate through the menu to locate the file you would like to print. Select the desired file to begin the print.
+\index{printing from sd card}
+Once the SD card has the desired GCODE file loaded onto it, you can begin your first print. From the main menu select the \texttt{Print from SD} option. You will now see a selection of the directories and .gcode files on the SD card. Navigate through the menu to locate the file you would like to print. Select the desired file to begin the print.
 
-\subsection{\texttt{Making Manual Movements With the Graphic LCD}}
-As noted previously (page \pageref{sec:Graphic LCD, Cura or Printrun Host?}), making numerous manual movements is easier done using Cura/Printrun. However, you can make manual movements with the GLCD. Navigate to Movement \texttt{->} Move Axis. You will select the length of the movement and then which axis to move. Note; that only 1-mm and 0.1-mm movements are allowed for the Z axis and extruder.
+
+\subsection{\texttt{Making Manual Movements With the Graphical LCD Controller}}
+As noted previously (page \pageref{sec:Graphic LCD, Cura or Other Host?}), making numerous manual movements is easier done using Cura. However, you can make manual movements with the GLCD. Navigate to \texttt{Movement -> Move Axis}. You will select the length of the movement and then which axis to move. %\texttt{Note; that only 1-mm and 0.1-mm movements are allowed for the Z-axis and extruder.}
 
 When at the move screen; turn the selection knob clockwise to move the axis in millimeters in the positive direction and counter-clockwise for the negative direction. 
 
-\subsection{\texttt{Configuration Settings}}
+\subsection{\texttt{Tune}}
+Once you begin a print, you will notice your movement option changes to tune. This section will allow you to make changes to individual settings while a print is running. You can adjust overall speed, nozzle temperature, bed temperature, flow \%, check apprx layer height, and even change filament. \texttt{When adjusting these settings, we recommend making small changes at a time.}
+
+\subsection{\texttt{Change Filament}}
+\index{change filament}
+You can change filament through the GLCD mid print by going to \texttt{Tune -> Change Filament}. This will park your print head in the front left corner, and wait for you to resume the print. During this time you can change colors, or even types of filament. Once your filament change has completed, press in your GLCD knob to continue where it left off. \texttt{If you manually move the tool head while changing filament, your printer will lose place of it's position.}
+
+\section{\texttt{Configuration Options}} 
 
 %\begin{figure}[H]
 %\centering
@@ -83,22 +97,69 @@ When at the move screen; turn the selection knob clockwise to move the axis in m
 %\caption{Main Menu}
 %\label{fig:main_menu}
 %\end{figure}
+\index{firmware settings}
+Out of the box, the LulzBot TAZ 3D printer is already calibrated for printing. However, the GLCD does allow tuning of the more advanced configuration settings. \textcolor{red}{We highly suggest you not modify the configuration settings unless you are certain it is necessary}. The configuration section contains settings that control how your printer operates.
 
-Out of the box, the LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ 3D printer is already calibrated for printing. However, the GLCD does allow tuning of the more advanced configuration settings. \textcolor{red}{We highly suggest you not modify the configuration settings unless you are certain it is necessary}. These settings control how your printer operates.
+\subsection{\texttt{Changing EEPROM Settings}}
+\index{EEPROM settings}
+\index{EEPROM}
+The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the GLCD. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered on. If you ever need to revert to the original factory settings navigate to \texttt{Control} \texttt{->} \texttt{Restore Failsafe}. Clicking \texttt{Restore to Factory} will set all configuration settings back to the original factory settings in the firmware.
+
+For more information on the configuration settings please see the LulzBot TAZ support page at \texttt{LulzBot.com/support}.
+
+\section{\texttt{Advanced Settings}}
+In the advanced settings, you can control/modify your Z offset, maximum velocity, acceleration, jerk, and esteps/mm. \textcolor{red}{We highly suggest you not modify the configuration settings unless you are certain it is necessary}. Making incorrect adjustments of these settings can have adverse affects on your prints, and potentially damage your machine.
+
+\subsection{\texttt{Z Offset}} 
+\label{sssec:Z Offset}
+\index{Z offset}
+\index{first layer height}
+Your LulzBot TAZ 3D printer has the ability to change the first layer height (Z offset) directly through the GLCD, even while printing the first layer. Using the GLCD, navigate to \texttt{Configuration -> Advanced Settings -> Z Offset}. While in this screen you can rotate the GLCD knob counter-clockwise to bring your nozzle closer to the print surface, and rotate it clockwise to bring it farther away from the bed. \texttt{Push in the GLCD knob to save your settings.} (Fig. \ref{fig:Z_offset_screen}, page \pageref{fig:Z_offset_screen})
+
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=0.4\textheight,width=1.0\textwidth]{z-offset.JPG}
+\caption{Z Offset Screen}
+\label{fig:Z_offset_screen}
+\end{figure}
+
+%\subsection{\texttt{Change Filament}}
+%While printing from SD card, you can change filament by going to \texttt{Tune -> Change Filament}. This will park your print head in the front left corner, and eject the filament from the hot end. Once you have swapped filament, go to \texttt{Tune -> Resume Print}. In order to get a crisp, clean color change you will need to manually push filament through the head until the previous color has been purged. 
 
 %To find the configuration settings, navigate to the main menu and then select \texttt{Control} (Figure \ref{fig:configuration_menu}, page \pageref{fig:configuration_menu}). In the Control configuration settings you will find temperature and motion settings. Among others, these settings include default temperature settings and axis steps per millimeter.
 
-The \texttt{Store Memory} and \texttt{Load Memory} functions will store and load the changes you make using the GLCD Controller. You must use the \texttt{Store Memory} function to save the adjusted settings when the printer is powered on. If you ever need to revert to the original factory settings navigate to \texttt{Control} \texttt{->} \texttt{Restore Failsafe}. Clicking \texttt{Restore Failsafe} will set all configuration settings back to the original factory settings in the firmware.
+\subsection{\texttt{Acceleration}}
+Acceleration is the derivative of speed, and determines how quickly your print head and bed will reach defined speeds. We have this set to 500mm/s\textsuperscript{\miniscule{2}} to help prevent resonance and shadowing. This can be increased for sharper corners and faster turns, however it can lead to backlash issues.
 
-For more information on the configuration settings please see the LulzBot\textsuperscript{\miniscule{\texttrademark}} TAZ support page on LulzBot.com.
+\subsection{\texttt{Jerk Settings}}
+Jerk is the derivative of accleration and will determine the maximum speed change allowed at any given time. \texttt{VXY- Jerk} will control jerk setting for your X and Y-axis. \texttt{VZ - Jerk} will control the jerk setting for your Z-axis. \texttt{VE - Jerk} will control the jerk settings for your extruder.
 
-%\subsection{GLCD Controller Menu Diagram}
-%\begin{figure}[H]
-%\centering
-%\includegraphics[keepaspectratio=true,angle=0,height=1.0\textheight,width=1.0\textwidth]{GLCD/glcd_menu.JPG}
-%\caption{Control Menu}
-%\label{fig:configuration_menu}
-%\end{figure}
+\subsection{\texttt{Vmax}}
+The Vmax settings will determine the maximum speed that your printer can move on any specific motor(s). We recommend leaving these settings as is. Increasing these speeds too much can lead to skipped steps and/or binding. There will be an individual section for \texttt{X, Y, Z, and Extruder} motors. 
+
+\subsection{\texttt{Vmin}}
+This sets the minimum overall speeds. We have this set to 0 by default to allow greater control through your preferred slicing program. 
+
+\subsection{\texttt{VTrav Min}}
+This will set the minimum travel speed when the tool head is not extruding. We have this set to 0 by default to allow greater control through your preferred slicing program. 
+
+\subsection{\texttt{Amax}}
+The \texttt{Amax} settings will allow you to define a maximum acceleration limit for each motor. Increasing these may reduce print time, but can result in in shadowing and resonance issues.
+
+\subsection{\texttt{A-Retract}} 
+This sets the maximum acceleration for retraction moves of the extruder. If this value is set too high it can lead to stripping. Excessively low values can lead to poor print quality. We have this set to 3000mm/s\textsuperscript{\miniscule{2}} by default.
+
+\subsection{\texttt{Steps/mm}}
+Your LulzBot TAZ 3D printer is factory calibrated on all axis for accurate movement. These settings control that movement, and if adjusted your objects will not come out at the proper dimensions. \textcolor{red}{\texttt{We only recommend adjusting your Esteps/mm}} as this can be fine tuned for individual tool heads and filaments.
+\texttt{Note:} Each tool head has a unique extruder steps per unit. Add-on tool heads will have their specific Esteps noted on the back of the tool head. The standard tool head has the Esteps recorded on the Test Acceptance Record.
+
+\subsection{\texttt{Graphical LCD Controller Menu Map}}
+\begin{figure}[H]
+\centering
+\includegraphics[keepaspectratio=true,angle=0,height=1.0\textheight,width=1.0\textwidth]{treemain.jpg}
+\caption{GLCD Map}
+\label{fig:GLCD_Map}
+\end{figure}
 
 
 
